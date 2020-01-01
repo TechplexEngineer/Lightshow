@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2019.69</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile></mediaFile>
+    <sequenceDuration>30.000</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_CHECKBOX_Palette1=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect></Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="100ms" visible="1" views="" active="0"/>
+    <Element collapsed="0" type="timing" name="500ms Metronome" visible="1" views="" active="1"/>
+    <Element collapsed="0" type="model" name="6 Office Windows Outside" visible="1"/>
+    <Element collapsed="0" type="model" name="7 Porch" visible="1"/>
+    <Element collapsed="0" type="model" name="12 Great Green" visible="1"/>
+    <Element collapsed="0" type="model" name="11 Great Red" visible="1"/>
+    <Element collapsed="0" type="model" name="10 Icicle Lights" visible="1"/>
+    <Element collapsed="0" type="model" name="9 Candy Canes" visible="1"/>
+    <Element collapsed="0" type="model" name="8 Package" visible="1"/>
+    <Element collapsed="0" type="model" name="7 Tree Lt" visible="1"/>
+    <Element collapsed="0" type="model" name="7 Tree Rt" visible="1"/>
+    <Element collapsed="0" type="model" name="5 Office Windows" visible="1"/>
+    <Element collapsed="0" type="model" name="4 Office Door" visible="1"/>
+    <Element collapsed="0" type="model" name="3 SW Red" visible="1"/>
+    <Element collapsed="0" type="model" name="2 SW Green" visible="1"/>
+    <Element collapsed="0" type="model" name="1 Bedroom" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="100ms" fixed="100">
+      <EffectLayer/>
+    </Element>
+    <Element type="timing" name="500ms Metronome" fixed="500">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="6 Office Windows Outside">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="3000" endTime="3500" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="4000" endTime="4500" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="5000" endTime="5500" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="6000" endTime="6500" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="7000" endTime="7500" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="8000" endTime="8500" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="9000" endTime="9500" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="10000" endTime="10500" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="11000" endTime="11500" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="12000" endTime="12500" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="7 Porch">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="3000" endTime="3500" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="4000" endTime="4500" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="5000" endTime="5500" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="6000" endTime="6500" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="7000" endTime="7500" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="8000" endTime="8500" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="9000" endTime="9500" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="10000" endTime="10500" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="11000" endTime="11500" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="12000" endTime="12500" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="12 Great Green">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="3000" endTime="3500" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="4000" endTime="4500" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="5000" endTime="5500" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="6000" endTime="6500" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="7000" endTime="7500" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="8000" endTime="8500" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="9000" endTime="9500" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="10000" endTime="10500" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="11000" endTime="11500" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="12000" endTime="12500" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="11 Great Red">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="3000" endTime="3500" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="4000" endTime="4500" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="5000" endTime="5500" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="6000" endTime="6500" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="7000" endTime="7500" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="8000" endTime="8500" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="9000" endTime="9500" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="10000" endTime="10500" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="11000" endTime="11500" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="12000" endTime="12500" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="10 Icicle Lights">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="3000" endTime="3500" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="4000" endTime="4500" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="5000" endTime="5500" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="6000" endTime="6500" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="7000" endTime="7500" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="8000" endTime="8500" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="9000" endTime="9500" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="10000" endTime="10500" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="11000" endTime="11500" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="12000" endTime="12500" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="9 Candy Canes">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="3000" endTime="3500" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="4000" endTime="4500" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="5000" endTime="5500" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="6000" endTime="6500" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="7000" endTime="7500" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="8000" endTime="8500" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="9000" endTime="9500" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="10000" endTime="10500" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="11000" endTime="11500" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="12000" endTime="12500" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="8 Package">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="3000" endTime="3500" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="4000" endTime="4500" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="5000" endTime="5500" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="6000" endTime="6500" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="7000" endTime="7500" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="8000" endTime="8500" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="9000" endTime="9500" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="10000" endTime="10500" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="11000" endTime="11500" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="12000" endTime="12500" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="7 Tree Lt">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="3000" endTime="3500" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="4000" endTime="4500" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="5000" endTime="5500" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="6000" endTime="6500" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="7000" endTime="7500" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="8000" endTime="8500" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="9000" endTime="9500" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="10000" endTime="10500" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="11000" endTime="11500" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="12000" endTime="12500" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="7 Tree Rt">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="3000" endTime="3500" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="4000" endTime="4500" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="5000" endTime="5500" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="6000" endTime="6500" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="7000" endTime="7500" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="8000" endTime="8500" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="9000" endTime="9500" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="10000" endTime="10500" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="11000" endTime="11500" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="12000" endTime="12500" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="5 Office Windows">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="3000" endTime="3500" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="4000" endTime="4500" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="5000" endTime="5500" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="6000" endTime="6500" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="7000" endTime="7500" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="8000" endTime="8500" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="9000" endTime="9500" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="10000" endTime="10500" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="11000" endTime="11500" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="12000" endTime="12500" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="4 Office Door">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="3000" endTime="3500" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="4000" endTime="4500" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="5000" endTime="5500" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="6000" endTime="6500" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="7000" endTime="7500" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="8000" endTime="8500" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="9000" endTime="9500" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="10000" endTime="10500" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="11000" endTime="11500" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="12000" endTime="12500" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="3 SW Red">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="3000" endTime="3500" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="4000" endTime="4500" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="5000" endTime="5500" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="6000" endTime="6500" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="7000" endTime="7500" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="8000" endTime="8500" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="9000" endTime="9500" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="10000" endTime="10500" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="11000" endTime="11500" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="12000" endTime="12500" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="2 SW Green">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="3000" endTime="3500" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="4000" endTime="4500" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="5000" endTime="5500" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="6000" endTime="6500" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="7000" endTime="7500" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="8000" endTime="8500" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="9000" endTime="9500" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="10000" endTime="10500" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="11000" endTime="11500" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="12000" endTime="12500" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="1 Bedroom">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="3000" endTime="3500" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="4000" endTime="4500" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="5000" endTime="5500" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="6000" endTime="6500" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="7000" endTime="7500" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="8000" endTime="8500" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="9000" endTime="9500" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="10000" endTime="10500" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="11000" endTime="11500" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="12000" endTime="12500" palette="0"/>
+      </EffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
