@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Networks computer="plexps">
-  <network ComPort="192.168.1.201" BaudRate="1" NetworkType="E131" Description="bedroom" MaxChannels="1" AutoStartChannels="false"/>
-  <network ComPort="192.168.1.202" BaudRate="2" NetworkType="E131" Description="southwest" MaxChannels="2" AutoStartChannels="false"/>
-  <network ComPort="192.168.1.203" BaudRate="3" NetworkType="E131" Description="office" MaxChannels="3" AutoStartChannels="false"/>
-  <network ComPort="192.168.1.204" BaudRate="4" NetworkType="E131" Description="outside" MaxChannels="4" AutoStartChannels="false"/>
-  <network ComPort="192.168.1.205" BaudRate="5" NetworkType="E131" Description="greatroom" MaxChannels="2" AutoStartChannels="false"/>
-</Networks>

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Networks computer="plexps">
-  <network ComPort="MULTICAST" BaudRate="1" NetworkType="E131" MaxChannels="510" AutoStartChannels="false"/>
-</Networks>
