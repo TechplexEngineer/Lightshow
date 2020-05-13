@@ -4189,7 +4189,7 @@
         <Effect ref="4" name="On" id="34" startTime="100000" endTime="100300" palette="0"/>
         <Effect ref="4" name="On" id="35" startTime="108600" endTime="108900" palette="0"/>
         <Effect ref="4" name="On" id="36" startTime="109900" endTime="110550" palette="0"/>
-        <Effect ref="14" name="On" selected="1" id="37" startTime="110550" endTime="110600" palette="0"/>
+        <Effect ref="14" name="On" id="37" startTime="110550" endTime="110600" palette="0"/>
         <Effect ref="4" name="On" id="38" startTime="116300" endTime="116600" palette="0"/>
         <Effect ref="4" name="On" id="39" startTime="117700" endTime="118700" palette="0"/>
         <Effect ref="4" name="On" id="40" startTime="118700" endTime="119650" palette="0"/>

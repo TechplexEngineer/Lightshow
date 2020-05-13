@@ -59,13 +59,13 @@
   </perspectives>
   <settings>
     <storedLayoutGroup value="Default"/>
-    <backgroundImage value="/home/techplex/Documents/xlights/5 Putney 2019.jpg"/>
     <Display2DBoundingBox value="1"/>
     <Display2DCenter0 value="0"/>
     <scaleImage value="0"/>
     <backgroundBrightness value="21"/>
     <previewWidth value="1280"/>
     <previewHeight value="960"/>
+    <backgroundImage value="/home/techplex/Documents/xlights/2019 TSO/5 Putney 2019.jpg"/>
   </settings>
   <colors>
     <EffectDefault Red="192" Green="192" Blue="192"/>
