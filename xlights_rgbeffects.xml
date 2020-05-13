@@ -50,7 +50,11 @@
   <effects version="0006"/>
   <views/>
   <palettes/>
-  <modelGroups/>
+  <modelGroups>
+    <modelGroup selected="0" name="All" LayoutGroup="Default" models="1 Bedroom,10 Icicle Lights,11 Great Red,12 Great Green,2 SW Green,3 SW Red,4 Office Door,5 Office Windows,6 Office Windows Outside,7 Porch,7 Tree Lt,7 Tree Rt,8 Package,9 Candy Canes" GridSize="400" layout="minimalGrid">
+      <ControllerConnection/>
+    </modelGroup>
+  </modelGroups>
   <layoutGroups>
     <layoutGroup name="Windows"/>
   </layoutGroups>
