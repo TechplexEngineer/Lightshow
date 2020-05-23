@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2019.68</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>/home/techplex/Documents/xlights/Shows/2020/music/Toy Story Light Show.mp3</mediaFile>
+    <sequenceDuration>162.037</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette7=1,C_SLIDER_Brightness=0</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#008000,C_BUTTON_Palette3=#000000,C_BUTTON_Palette4=#ADD8E6,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#A52A2A,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_SLIDER_Brightness=400</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#000000,C_BUTTON_Palette4=#ADD8E6,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#A52A2A,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1,C_SLIDER_Brightness=400,C_SLIDER_Contrast=100</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#008000,C_BUTTON_Palette3=#000000,C_BUTTON_Palette4=#ADD8E6,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#A52A2A,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect></Effect>
+    <Effect>E_CHECKBOX_Morph_End_Link=0,E_CHECKBOX_Morph_Start_Link=0,E_CHECKBOX_ShowHeadAtStart=0,E_NOTEBOOK_Morph=Options,E_SLIDER_MorphAccel=0,E_SLIDER_MorphDuration=0,E_SLIDER_MorphEndLength=1,E_SLIDER_MorphStartLength=0,E_SLIDER_Morph_End_X1=0,E_SLIDER_Morph_End_X2=72,E_SLIDER_Morph_End_Y1=0,E_SLIDER_Morph_End_Y2=0,E_SLIDER_Morph_Repeat_Count=0,E_SLIDER_Morph_Repeat_Skip=1,E_SLIDER_Morph_Stagger=-93,E_SLIDER_Morph_Start_X1=0,E_SLIDER_Morph_Start_X2=0,E_SLIDER_Morph_Start_Y1=0,E_SLIDER_Morph_Start_Y2=100</Effect>
+    <Effect>E_CHECKBOX_Bars_3D=0,E_CHECKBOX_Bars_Gradient=0,E_CHECKBOX_Bars_Highlight=0,E_CHOICE_Bars_Direction=down,E_SLIDER_Bars_BarCount=2,E_TEXTCTRL_Bars_Cycles=19.9</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="Empty" visible="1" views="" active="1"/>
+    <Element collapsed="0" type="model" name="Tree" visible="1"/>
+    <Element collapsed="0" type="model" name="Whole House" visible="1"/>
+    <Element collapsed="0" type="model" name="Sphere-3" visible="1"/>
+    <Element collapsed="0" type="model" name="Sphere-2" visible="1"/>
+    <Element collapsed="0" type="model" name="Sphere" visible="1"/>
+    <Element collapsed="0" type="model" name="Single Line-10" visible="1"/>
+    <Element collapsed="0" type="model" name="Single Line-9" visible="1"/>
+    <Element collapsed="0" type="model" name="Single Line-8" visible="1"/>
+    <Element collapsed="0" type="model" name="Single Line-7" visible="1"/>
+    <Element collapsed="0" type="model" name="Single Line-6" visible="1"/>
+    <Element collapsed="0" type="model" name="Single Line-5" visible="1"/>
+    <Element collapsed="0" type="model" name="Single Line-4" visible="1"/>
+    <Element collapsed="0" type="model" name="Single Line-3" visible="1"/>
+    <Element collapsed="0" type="model" name="Single Line-2" visible="1"/>
+    <Element collapsed="0" type="model" name="Window Frame-6" visible="1"/>
+    <Element collapsed="0" type="model" name="Window Frame-4" visible="1"/>
+    <Element collapsed="0" type="model" name="Window Frame-3" visible="1"/>
+    <Element collapsed="0" type="model" name="Window Frame" visible="1"/>
+    <Element collapsed="0" type="model" name="Window Frame-2" visible="1"/>
+    <Element collapsed="0" type="model" name="MBR Front" visible="1"/>
+    <Element collapsed="0" type="model" name="SW Red" visible="1"/>
+    <Element collapsed="0" type="model" name="SW Green" visible="1"/>
+    <Element collapsed="0" type="model" name="Front Door" visible="1"/>
+    <Element collapsed="0" type="model" name="Window Frame-5" visible="1"/>
+    <Element collapsed="0" type="model" name="Poly Line" visible="1"/>
+    <Element collapsed="0" type="model" name="Poly Line-2" visible="1"/>
+    <Element collapsed="0" type="model" name="Poly Line-3" visible="1"/>
+    <Element collapsed="0" type="model" name="Poly Line-4" visible="1"/>
+    <Element collapsed="0" type="model" name="Poly Line-5" visible="1"/>
+    <Element collapsed="0" type="model" name="Single Line" visible="1"/>
+    <Element collapsed="0" type="model" name="Poly Line-6" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="Empty">
+      <EffectLayer>
+        <Effect label="" startTime="0" endTime="13100"></Effect>
+        <Effect label="" startTime="13100" endTime="18900"></Effect>
+        <Effect label="" startTime="18900" endTime="21350"></Effect>
+        <Effect label="" startTime="21350" endTime="22400"></Effect>
+        <Effect label="" startTime="22400" endTime="32550"></Effect>
+        <Effect label="" startTime="32550" endTime="35200"></Effect>
+        <Effect label="" startTime="35200" endTime="45500"></Effect>
+        <Effect label="" startTime="45500" endTime="62700"></Effect>
+        <Effect label="" startTime="62700" endTime="69700"></Effect>
+        <Effect label="" startTime="69700" endTime="131200"></Effect>
+        <Effect label="" startTime="131200" endTime="131400"></Effect>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="19300" palette="0"/>
+      </EffectLayer>
+      <Strand index="0">
+        <Effect ref="1" name="Morph" startTime="25200" endTime="69800" palette="1"/>
+        <Node index="109">
+          <Effect ref="2" name="Bars" startTime="0" endTime="69650" palette="2"/>
+        </Node>
+        <Node index="113">
+          <Effect ref="3" name="SingleStrand" startTime="45500" endTime="62700" palette="3"/>
+        </Node>
+      </Strand>
+    </Element>
+    <Element type="model" name="Whole House">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Sphere-3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Sphere-2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Sphere">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Single Line-10">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Single Line-9">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Single Line-8">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Single Line-7">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Single Line-6">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Single Line-5">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Single Line-4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Single Line-3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Single Line-2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window Frame-6">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window Frame-4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window Frame-3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window Frame">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window Frame-2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="MBR Front">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="SW Red">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="SW Green">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Front Door">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window Frame-5">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Poly Line">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Poly Line-2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Poly Line-3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Poly Line-4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Poly Line-5">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Single Line">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Poly Line-6">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
