@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2019.69</version>
-    <author/>
-    <author-email/>
-    <author-website/>
-    <song/>
-    <artist/>
-    <album/>
-    <MusicURL/>
-    <comment/>
+    <version>2019.68</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song>Carol of the Bells</song>
+    <artist>Trans Siberian Orchestra</artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
     <mediaFile>/home/techplex/Documents/xlights/2019 TSO/Carol of the Bells - Trans-Siberian Orchestra - Higher Quality.mp3</mediaFile>
@@ -4189,7 +4189,7 @@
         <Effect ref="4" name="On" id="34" startTime="100000" endTime="100300" palette="0"/>
         <Effect ref="4" name="On" id="35" startTime="108600" endTime="108900" palette="0"/>
         <Effect ref="4" name="On" id="36" startTime="109900" endTime="110550" palette="0"/>
-        <Effect ref="14" name="On" selected="1" id="37" startTime="110550" endTime="110600" palette="0"/>
+        <Effect ref="14" name="On" id="37" startTime="110550" endTime="110600" palette="0"/>
         <Effect ref="4" name="On" id="38" startTime="116300" endTime="116600" palette="0"/>
         <Effect ref="4" name="On" id="39" startTime="117700" endTime="118700" palette="0"/>
         <Effect ref="4" name="On" id="40" startTime="118700" endTime="119650" palette="0"/>
