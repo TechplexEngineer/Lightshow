@@ -5,7 +5,7 @@
     <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" name="Matrix" DisplayAs="Horiz Matrix" LayoutGroup="Default" parm2="128" parm1="32" WorldPosX="-422.6393" WorldPosY="-52.3822" WorldPosZ="0.0000" ScaleX="2.6133" ScaleY="2.4842" ScaleZ="0.0079" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!matrix:1">
       <ControllerConnection Protocol="ws2811"/>
     </model>
-    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" name="Tree" DisplayAs="Tree 360" LayoutGroup="Default" TreeSpiralRotations="8.000000" parm1="1" parm2="100" StringType="RGB Nodes" WorldPosX="207.5586" WorldPosY="158.3367" WorldPosZ="0.0000" ScaleX="0.2707" ScaleY="0.2644" ScaleZ="0.2707" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!pixels:1">
+    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" name="Tree" DisplayAs="Tree 360" LayoutGroup="Default" TreeSpiralRotations="8.000000" parm1="1" parm2="100" StringType="RGB Nodes" Controller="pixels" WorldPosX="207.5586" WorldPosY="158.3367" WorldPosZ="0.0000" ScaleX="0.2707" ScaleY="0.2644" ScaleZ="0.2707" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!pixels:1">
       <ControllerConnection Protocol="ws2811" Port="1"/>
     </model>
   </models>
