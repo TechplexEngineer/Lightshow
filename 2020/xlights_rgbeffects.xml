@@ -2,6 +2,12 @@
 <!DOCTYPE html>
 <xrgb>
   <models>
+    <model DisplayAs="Window Frame" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" parm1="10" parm2="15" parm3="10" name="Great Room" WorldPosX="97.3233" WorldPosY="199.5133" WorldPosZ="0.0000" ScaleX="2.1768" ScaleY="2.5917" ScaleZ="0.0909" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" Locked="1" versionNumber="5" StartChannel="&gt;Matrix:1">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Window Frame" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" parm1="10" parm2="15" parm3="10" name="Great Room-2" WorldPosX="50.1222" WorldPosY="201.7616" WorldPosZ="0.0000" ScaleX="2.1768" ScaleY="2.5917" ScaleZ="0.0909" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" Locked="1" versionNumber="5" StartChannel="&gt;Great Room:1">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
     <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" name="Matrix" DisplayAs="Horiz Matrix" LayoutGroup="Default" parm2="128" parm1="32" WorldPosX="-422.6393" WorldPosY="-52.3822" WorldPosZ="0.0000" ScaleX="2.6133" ScaleY="2.4842" ScaleZ="0.0079" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!matrix:1">
       <ControllerConnection Protocol="ws2811"/>
     </model>
