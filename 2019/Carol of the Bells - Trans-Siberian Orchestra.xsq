@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2019.68</version>
-    <author></author>
-    <author-email></author-email>
-    <author-website></author-website>
-    <song>Carol of the Bells</song>
-    <artist>Trans Siberian Orchestra</artist>
+    <version>2020.28</version>
+    <author/>
+    <author-email/>
+    <author-website/>
+    <song></song>
+    <artist></artist>
     <album></album>
-    <MusicURL></MusicURL>
-    <comment></comment>
+    <MusicURL/>
+    <comment/>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
-    <mediaFile>/home/techplex/Documents/xlights/2019 TSO/Carol of the Bells - Trans-Siberian Orchestra - Higher Quality.mp3</mediaFile>
+    <mediaFile>/home/techplex/Documents/xlights/Shows/2019/Carol of the Bells - Trans-Siberian Orchestra.mp3</mediaFile>
     <sequenceDuration>205.055</sequenceDuration>
     <imageDir/>
   </head>
