@@ -2,19 +2,19 @@
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
     <version>2020.28</version>
-    <author></author>
-    <author-email></author-email>
-    <author-website></author-website>
+    <author/>
+    <author-email/>
+    <author-website/>
     <song></song>
     <artist></artist>
     <album></album>
     <MusicURL></MusicURL>
-    <comment></comment>
+    <comment/>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Animation</sequenceType>
     <mediaFile></mediaFile>
     <sequenceDuration>30.000</sequenceDuration>
-    <imageDir></imageDir>
+    <imageDir/>
   </head>
   <nextid>1</nextid>
   <Jukebox/>
@@ -62,7 +62,7 @@
     </Element>
     <Element type="model" name="Matrix">
       <EffectLayer>
-        <Effect ref="0" name="Snowflakes" selected="1" startTime="100" endTime="29850" palette="0"/>
+        <Effect ref="0" name="Snowflakes" startTime="100" endTime="29850" palette="0"/>
       </EffectLayer>
       <EffectLayer>
         <Effect ref="1" name="Marquee" startTime="100" endTime="29850" palette="1"/>

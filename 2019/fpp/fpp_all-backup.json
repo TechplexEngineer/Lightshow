@@ -253,6 +253,16 @@
         "Orientation": "custom",
         "StrandsPerString": 1,
         "data": ",,,,,,,,,,,;,,,,,,,,,,,;,,,,,,,,,,,;,,,,,,,,,,,;,,,,,,,,,,,;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1|,,,,,,,,,,,;,,,,,,,,,,,;,,,,,,,,,,,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,,,,,,,,,,,|,,,,,,,,,,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,,,,,,,,,,;,,,,,,,,,,,;,,,,,,,,,,,"
+      },
+      {
+        "StrandsPerString": 1,
+        "StartCorner": "BL",
+        "ChannelCount": 12288,
+        "Name": "Matrix",
+        "StartChannel": 525,
+        "ChannelCountPerNode": 3,
+        "Orientation": "horizontal",
+        "StringCount": 32
       }
     ]
   },
@@ -265,9 +275,29 @@
         "    \"version\": 3,",
         "    \"repeat\": 0,",
         "    \"loopCount\": 0,",
+        "    \"mainPlaylist\": [",
+        "        {",
+        "            \"type\": \"both\",",
+        "            \"enabled\": 1,",
+        "            \"playOnce\": 0,",
+        "            \"sequenceName\": \"Carol of the Bells - Trans-Siberian Orchestra - Higher Quality.fseq\",",
+        "            \"mediaName\": \"Carol of the Bells - Trans-Siberian Orchestra - Higher Quality.mp3\",",
+        "            \"videoOut\": \"--Default--\",",
+        "            \"duration\": 205.05",
+        "        },",
+        "        {",
+        "            \"type\": \"both\",",
+        "            \"enabled\": 1,",
+        "            \"playOnce\": 0,",
+        "            \"sequenceName\": \"Wizards In Winter - Trans-Siberian Orchestra.fseq\",",
+        "            \"mediaName\": \"Wizards In Winter - Trans-Siberian Orchestra.m4a\",",
+        "            \"videoOut\": \"--Default--\",",
+        "            \"duration\": 187.9",
+        "        }",
+        "    ],",
         "    \"playlistInfo\": {",
-        "        \"total_duration\": 0,",
-        "        \"total_items\": 0",
+        "        \"total_duration\": 392.95000000000005,",
+        "        \"total_items\": 2",
         "    }",
         "}"
       ]
@@ -286,7 +316,7 @@
         "LastBlock": "60805120",
         "volume": "55",
         "AudioCard0Type": "unknown",
-        "AudioMixerDevice": "HDMI",
+        "AudioMixerDevice": "Speaker",
         "FalconHardwareDetected": "0",
         "rebootFlag": "0",
         "restartFlag": "0",
@@ -296,7 +326,11 @@
         "uiLevel": "2",
         "MultiSyncAdvancedView": "1",
         "fppMode": "master",
-        "HostDescription": "FPP"
+        "HostDescription": "Master - FM Radio",
+        "EnableRouting": "0",
+        "MultiSyncExtraRemotes": "10.10.0.11",
+        "MultiSyncRemotes": "",
+        "MultiSyncRefreshStatus": "0"
       }
     ],
     "proxies": [
