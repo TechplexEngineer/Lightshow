@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xrgb>
   <models>
-    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" name="Tree" LayoutGroup="Default" DisplayAs="Tree 360" parm1="1" TreeSpiralRotations="8.000000" parm2="100" Controller="pixels" WorldPosX="716.2356" WorldPosY="287.7910" WorldPosZ="0.0000" ScaleX="0.3859" ScaleY="0.4916" ScaleZ="0.3859" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!pixels:1">
-      <ControllerConnection Protocol="ws2811" Port="1" colorOrder="RGB"/>
+    <model DisplayAs="Arches" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="74" name="Arch2" Controller="pixels" ModelChain="&gt;Arch1" WorldPosX="643.4690" WorldPosY="380.3921" WorldPosZ="0.0000" X2="67.985367" Y2="1.000000" Z2="0.000000" RotateX="0.00000000" Height="1.000000" Angle="0" versionNumber="5" StartChannel="!pixels:523">
+      <ControllerConnection Port="2" Protocol="ws2811"/>
     </model>
-    <model DisplayAs="Custom" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" parm2="15" parm1="28" Depth="1" CustomModel="166,,165,,,136,,135,,,106,,105,,,76,,75,,,46,,45,,,16,,15;167,,164,,,137,,134,,,107,,104,,,77,,74,,,47,,44,,,17,,14;168,,163,,,138,,133,,,108,,103,,,78,,73,,,48,,43,,,18,,13;169,,162,,,139,,132,,,109,,102,,,79,,72,,,49,,42,,,19,,12;170,,161,,,140,,131,,,110,,101,,,80,,71,,,50,,41,,,20,,11;171,,160,,,141,,130,,,111,,100,,,81,,70,,,51,,40,,,21,,10;172,,159,,,142,,129,,,112,,99,,,82,,69,,,52,,39,,,22,,9;173,,158,,,143,,128,,,113,,98,,,83,,68,,,53,,38,,,23,,8;174,,157,,,144,,127,,,114,,97,,,84,,67,,,54,,37,,,24,,7;175,,156,,,145,,126,,,115,,96,,,85,,66,,,55,,36,,,25,,6;176,,155,,,146,,125,,,116,,95,,,86,,65,,,56,,35,,,26,,5;177,,154,,,147,,124,,,117,,94,,,87,,64,,,57,,34,,,27,,4;178,,153,,,148,,123,,,118,,93,,,88,,63,,,58,,33,,,28,,3;179,,152,,,149,,122,,,119,,92,,,89,,62,,,59,,32,,,29,,2;180,,151,,,150,,121,,,120,,91,,,90,,61,,,60,,31,,,30,,1" CustomBkgLightness="0" CustomBkgImage="" name="Characters" WorldPosX="421.2170" WorldPosY="287.1857" WorldPosZ="0.0000" ScaleX="8.3416" ScaleY="2.9581" ScaleZ="8.3416" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!characters:1">
-      <ControllerConnection Protocol="ws2811" Port="1"/>
+    <model DisplayAs="Arches" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="74" name="Arch3" Controller="pixels" ModelChain="&gt;Arch2" WorldPosX="806.6173" WorldPosY="379.7830" WorldPosZ="0.0000" X2="68.121765" Y2="-3.454987" Z2="0.000000" RotateX="0.00000000" Height="0.987923" Angle="2" versionNumber="5" StartChannel="!pixels:745">
+      <ControllerConnection Port="2" Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Arches" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="74" name="Arch4" Controller="pixels" ModelChain="&gt;Arch3" WorldPosX="913.3047" WorldPosY="373.9931" WorldPosZ="0.0000" X2="67.568176" Y2="-4.344940" Z2="0.000000" RotateX="0.00000000" Height="1.000000" Angle="0" versionNumber="5" StartChannel="!pixels:967">
+      <ControllerConnection Port="2" Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Arches" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="74" name="Arch1" Controller="pixels" WorldPosX="540.0386" WorldPosY="378.2005" WorldPosZ="0.0000" X2="65.114502" Y2="3.075348" Z2="0.000000" RotateX="0.00000000" Height="1.000000" Angle="0" versionNumber="5" StartChannel="!pixels:301">
+      <ControllerConnection Protocol="ws2811" Port="2"/>
+    </model>
+    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" name="Tree" LayoutGroup="Default" DisplayAs="Tree 360" parm1="1" TreeSpiralRotations="8.000000" parm2="100" Controller="pixels" WorldPosX="485.0305" WorldPosY="422.7990" WorldPosZ="0.0000" ScaleX="0.1875" ScaleY="0.2527" ScaleZ="0.1875" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!pixels:1">
+      <ControllerConnection Protocol="ws2811" colorOrder="RGB" Port="1"/>
+    </model>
+    <model DisplayAs="Custom" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" CustomBkgLightness="0" name="Characters" parm1="28" parm2="15" Depth="1" CustomModel="166,,165,,,136,,135,,,106,,105,,,76,,75,,,46,,45,,,16,,15;167,,164,,,137,,134,,,107,,104,,,77,,74,,,47,,44,,,17,,14;168,,163,,,138,,133,,,108,,103,,,78,,73,,,48,,43,,,18,,13;169,,162,,,139,,132,,,109,,102,,,79,,72,,,49,,42,,,19,,12;170,,161,,,140,,131,,,110,,101,,,80,,71,,,50,,41,,,20,,11;171,,160,,,141,,130,,,111,,100,,,81,,70,,,51,,40,,,21,,10;172,,159,,,142,,129,,,112,,99,,,82,,69,,,52,,39,,,22,,9;173,,158,,,143,,128,,,113,,98,,,83,,68,,,53,,38,,,23,,8;174,,157,,,144,,127,,,114,,97,,,84,,67,,,54,,37,,,24,,7;175,,156,,,145,,126,,,115,,96,,,85,,66,,,55,,36,,,25,,6;176,,155,,,146,,125,,,116,,95,,,86,,65,,,56,,35,,,26,,5;177,,154,,,147,,124,,,117,,94,,,87,,64,,,57,,34,,,27,,4;178,,153,,,148,,123,,,118,,93,,,88,,63,,,58,,33,,,28,,3;179,,152,,,149,,122,,,119,,92,,,89,,62,,,59,,32,,,29,,2;180,,151,,,150,,121,,,120,,91,,,90,,61,,,60,,31,,,30,,1" CustomBkgImage="" WorldPosX="723.6550" WorldPosY="485.0000" WorldPosZ="0.0000" ScaleX="2.1675" ScaleY="0.4000" ScaleZ="2.1675" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!characters:1">
+      <ControllerConnection Protocol="ws2811"/>
       <subModel name="Buzz" layout="horizontal" type="ranges" line0="1-30">
         <ControllerConnection/>
       </subModel>
@@ -25,7 +37,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" name="Matrix" DisplayAs="Horiz Matrix" LayoutGroup="Default" parm1="32" parm2="128" WorldPosX="424.3721" WorldPosY="765.4176" WorldPosZ="0.0000" ScaleX="2.4786" ScaleY="2.2136" ScaleZ="2.4786" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!matrix:1">
+    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" name="Matrix" DisplayAs="Horiz Matrix" LayoutGroup="Default" parm1="32" parm2="128" WorldPosX="272.1924" WorldPosY="848.7617" WorldPosZ="0.0000" ScaleX="3.4922" ScaleY="2.1323" ScaleZ="2.4786" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!matrix:1">
       <ControllerConnection Protocol="ws2811"/>
     </model>
     <model DisplayAs="Custom" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" CustomColor="#ffff00" StringType="Single Color Custom" parm2="19" parm1="44" Depth="1" CustomModel="1,1,1,1,1,1,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,1,1,1,1,1,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1" CustomBkgLightness="0" CustomBkgImage="" name="6 Office Windows Outside" WorldPosX="557.6539" WorldPosY="516.5842" WorldPosZ="0.0000" ScaleX="2.1364" ScaleY="2.3684" ScaleZ="2.1364" RotateX="-0.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="6">
@@ -78,9 +90,11 @@
   <views/>
   <palettes/>
   <modelGroups>
-    <modelGroup selected="0" name="All" LayoutGroup="Default" models="1 Bedroom,10 Icicle Lights,11 Great Red,12 Great Green,2 SW Green,3 SW Red,4 Office Door,5 Office Windows,6 Office Windows Outside,7 Porch,7 Tree Lt,7 Tree Rt,8 Package,9 Candy Canes" GridSize="400" layout="minimalGrid">
+    <modelGroup selected="0" LayoutGroup="Default" models="1 Bedroom,2 SW Green,3 SW Red,4 Office Door,5 Office Windows,6 Office Windows Outside,7 Porch,7 Tree Lt,7 Tree Rt,8 Package,9 Candy Canes,10 Icicle Lights,11 Great Red,12 Great Green" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" name="All AC">
       <ControllerConnection/>
     </modelGroup>
+    <modelGroup selected="0" name="Arches" LayoutGroup="Default" models="Arch1,Arch2,Arch3,Arch4" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
+    <modelGroup selected="0" name="Testing" LayoutGroup="Default" models="Matrix,Arches" GridSize="400" layout="Overlay - Centered"/>
   </modelGroups>
   <layoutGroups>
     <layoutGroup name="Windows" PosX="100" PosY="150" PaneWidth="1280" PaneHeight="960"/>
@@ -92,9 +106,9 @@
     <storedLayoutGroup value="Default"/>
     <backgroundImage value="/home/techplex/Documents/xlights/5 Putney 2019.jpg"/>
     <Display2DBoundingBox value="1"/>
-    <scaleImage value="0"/>
     <backgroundBrightness value="21"/>
     <Display2DCenter0 value="0"/>
+    <scaleImage value="0"/>
     <previewWidth value="1280"/>
     <previewHeight value="960"/>
   </settings>
