@@ -20,7 +20,7 @@
   <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="PLAY"/>
   <keybinding keycode="SPACE" alt="FALSE" control="FALSE" shift="FALSE" type="TOGGLE_PLAY"/>
   <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="STOP"/>
-  <keybinding keycode="PAUSE" alt="FALSE" control="FALSE" shift="FALSE" type="PAUSE"/>
+  <keybinding keycode="f" alt="FALSE" control="FALSE" shift="FALSE" type="PAUSE"/>
   <keybinding keycode="s" alt="FALSE" control="TRUE" shift="FALSE" type="SAVE_CURRENT_TAB"/>
   <keybinding keycode="" alt="FALSE" control="TRUE" shift="FALSE" type="SAVE_SEQUENCE"/>
   <keybinding keycode="" alt="FALSE" control="TRUE" shift="TRUE" type="SAVEAS_SEQUENCE"/>
@@ -83,7 +83,7 @@
   <keybinding keycode="i" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Circles" xLightsVersion="2019.68"></keybinding>
   <keybinding keycode="b" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Bars" xLightsVersion="2019.68"></keybinding>
   <keybinding keycode="y" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Butterfly" xLightsVersion="2019.68"></keybinding>
-  <keybinding keycode="f" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Fire" xLightsVersion="2019.68"></keybinding>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Fire" xLightsVersion="2019.68"></keybinding>
   <keybinding keycode="g" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Garlands" xLightsVersion="2019.68"></keybinding>
   <keybinding keycode="p" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Pinwheel" xLightsVersion="2019.68"></keybinding>
   <keybinding keycode="r" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Ripple" xLightsVersion="2019.68"></keybinding>
