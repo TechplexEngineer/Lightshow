@@ -1,0 +1,401 @@
+{
+  "channelInputs": {
+    "channelInputs": [
+      {
+        "startChannel": 1,
+        "type": "universes",
+        "universes": null,
+        "channelCount": -1,
+        "enabled": 1
+      }
+    ]
+  },
+  "channelOutputs": {
+    "universes": [
+      null
+    ],
+    "falcon_pixelnet_DMX": [
+      [
+        {
+          "active": 1,
+          "type": 0,
+          "startAddress": 1
+        },
+        {
+          "active": 1,
+          "type": 0,
+          "startAddress": 4097
+        },
+        {
+          "active": 1,
+          "type": 0,
+          "startAddress": 8193
+        },
+        {
+          "active": 1,
+          "type": 0,
+          "startAddress": 12289
+        },
+        {
+          "active": 1,
+          "type": 0,
+          "startAddress": 16385
+        },
+        {
+          "active": 1,
+          "type": 0,
+          "startAddress": 20481
+        },
+        {
+          "active": 1,
+          "type": 0,
+          "startAddress": 24577
+        },
+        {
+          "active": 1,
+          "type": 0,
+          "startAddress": 28673
+        },
+        {
+          "active": 1,
+          "type": 1,
+          "startAddress": 1
+        },
+        {
+          "active": 1,
+          "type": 1,
+          "startAddress": 513
+        },
+        {
+          "active": 1,
+          "type": 1,
+          "startAddress": 1025
+        },
+        {
+          "active": 1,
+          "type": 1,
+          "startAddress": 1537
+        }
+      ]
+    ],
+    "pixel_strings": [
+      null
+    ],
+    "led_panels": [
+      {
+        "channelOutputs": [
+          {
+            "type": "LEDPanelMatrix",
+            "subType": "RGBMatrix",
+            "enabled": 1,
+            "cfgVersion": 2,
+            "startChannel": 525,
+            "channelCount": 12288,
+            "colorOrder": "RGB",
+            "gamma": "2.2",
+            "wiringPinout": "regular",
+            "brightness": 100,
+            "gpioSlowdown": 1,
+            "panelColorDepth": 6,
+            "invertedData": 1,
+            "panelWidth": 64,
+            "panelHeight": 32,
+            "panelScan": 16,
+            "panelOutputOrder": false,
+            "panelOutputBlankRow": false,
+            "cpuPWM": false,
+            "panels": [
+              {
+                "outputNumber": 1,
+                "panelNumber": 0,
+                "xOffset": 64,
+                "yOffset": 0,
+                "orientation": "N",
+                "colorOrder": "",
+                "row": 0,
+                "col": 0
+              },
+              {
+                "outputNumber": 0,
+                "panelNumber": 0,
+                "xOffset": 0,
+                "yOffset": 0,
+                "orientation": "N",
+                "colorOrder": "",
+                "row": 0,
+                "col": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "other": [
+      null
+    ]
+  },
+  "model-overlays": {
+    "models": [
+      {
+        "StringCount": 1,
+        "StartCorner": "BL",
+        "ChannelCount": 1,
+        "Name": "1_Bedroom",
+        "StartChannel": 1,
+        "ChannelCountPerNode": 1,
+        "Orientation": "custom",
+        "StrandsPerString": 1,
+        "data": "1,1,1,1,1,1,1,1,1,1,1,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,1,1,1,1,1,1,1,1,1,1,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,1,1,1,1,1,1,1,1,1,1,1"
+      },
+      {
+        "StringCount": 1,
+        "StartCorner": "BL",
+        "ChannelCount": 1,
+        "Name": "10_Icicle_Lights",
+        "StartChannel": 10,
+        "ChannelCountPerNode": 1,
+        "Orientation": "custom",
+        "StrandsPerString": 1,
+        "data": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1;1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1;1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1;1,,,,1,,,,1,,,,1,,,,1,,,,1,,,,1,,,,1,,,,1,,,,1,,,,1,,,,1,,,,1,,,,1,,,,1"
+      },
+      {
+        "StringCount": 1,
+        "StartCorner": "BL",
+        "ChannelCount": 1,
+        "Name": "11_Great_Red",
+        "StartChannel": 11,
+        "ChannelCountPerNode": 1,
+        "Orientation": "custom",
+        "StrandsPerString": 1,
+        "data": "1,1,1,1,1,1,1,1,1,1,1,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,1,1,1,1,1,1,1,1,1,1,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,1,1,1,1,1,1,1,1,1,1,1"
+      },
+      {
+        "StringCount": 1,
+        "StartCorner": "BL",
+        "ChannelCount": 1,
+        "Name": "12_Great_Green",
+        "StartChannel": 12,
+        "ChannelCountPerNode": 1,
+        "Orientation": "custom",
+        "StrandsPerString": 1,
+        "data": "1,1,1,1,1,1,1,1,1,1,1,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,1,1,1,1,1,1,1,1,1,1,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,1,1,1,1,1,1,1,1,1,1,1"
+      },
+      {
+        "StringCount": 1,
+        "StartCorner": "BL",
+        "ChannelCount": 1,
+        "Name": "2_SW_Green",
+        "StartChannel": 2,
+        "ChannelCountPerNode": 1,
+        "Orientation": "custom",
+        "StrandsPerString": 1,
+        "data": "1,1,1,1,1,1,1,1,1,1,1,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,1,1,1,1,1,1,1,1,1,1,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,1,1,1,1,1,1,1,1,1,1,1"
+      },
+      {
+        "StringCount": 1,
+        "StartCorner": "BL",
+        "ChannelCount": 1,
+        "Name": "3_SW_Red",
+        "StartChannel": 3,
+        "ChannelCountPerNode": 1,
+        "Orientation": "custom",
+        "StrandsPerString": 1,
+        "data": "1,1,1,1,1,1,1,1,1,1,1,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,1,1,1,1,1,1,1,1,1,1,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,1,1,1,1,1,1,1,1,1,1,1"
+      },
+      {
+        "StringCount": 1,
+        "StartCorner": "BL",
+        "ChannelCount": 1,
+        "Name": "4_Office_Door",
+        "StartChannel": 4,
+        "ChannelCountPerNode": 1,
+        "Orientation": "custom",
+        "StrandsPerString": 1,
+        "data": "1,1,1,1,1,1,1,1,1,1,1,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,1,1,1,1,1,1,1,1,1,1,1"
+      },
+      {
+        "StringCount": 1,
+        "StartCorner": "BL",
+        "ChannelCount": 1,
+        "Name": "5_Office_Windows",
+        "StartChannel": 5,
+        "ChannelCountPerNode": 1,
+        "Orientation": "custom",
+        "StrandsPerString": 1,
+        "data": ",,,,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,,,,,,,,,"
+      },
+      {
+        "StringCount": 1,
+        "StartCorner": "BL",
+        "ChannelCount": 1,
+        "Name": "6_Office_Windows_Outside",
+        "StartChannel": 6,
+        "ChannelCountPerNode": 1,
+        "Orientation": "custom",
+        "StrandsPerString": 1,
+        "data": "1,1,1,1,1,1,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,1,1,1,1,1,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1"
+      },
+      {
+        "StrandsPerString": 1,
+        "StartCorner": "BL",
+        "ChannelCount": 1,
+        "Name": "7_Porch",
+        "StartChannel": 7,
+        "ChannelCountPerNode": 1,
+        "Orientation": "horizontal",
+        "StringCount": 1
+      },
+      {
+        "StringCount": 1,
+        "StartCorner": "BL",
+        "ChannelCount": 1,
+        "Name": "7_Tree_Lt",
+        "StartChannel": 7,
+        "ChannelCountPerNode": 1,
+        "Orientation": "custom",
+        "StrandsPerString": 1,
+        "data": "1,1,1,1;1,1,1,1;1,1,1,1;1,1,1,1;1,1,1,1"
+      },
+      {
+        "StringCount": 1,
+        "StartCorner": "BL",
+        "ChannelCount": 1,
+        "Name": "7_Tree_Rt",
+        "StartChannel": 7,
+        "ChannelCountPerNode": 1,
+        "Orientation": "custom",
+        "StrandsPerString": 1,
+        "data": "1,1,1,1;1,1,1,1;1,1,1,1;1,1,1,1;1,1,1,1"
+      },
+      {
+        "StringCount": 1,
+        "StartCorner": "BL",
+        "ChannelCount": 1,
+        "Name": "8_Package",
+        "StartChannel": 8,
+        "ChannelCountPerNode": 1,
+        "Orientation": "custom",
+        "StrandsPerString": 1,
+        "data": ",,1,,,1,,;,1,,1,1,,1,;,,1,1,1,1,,;1,1,1,1,1,1,1,1;1,,,,,,,1;1,,,,,,,1;1,,,,,,,1;1,,,,,,,1;1,,,,,,,1;1,,,,,,,1;1,1,1,1,1,1,1,1"
+      },
+      {
+        "StringCount": 1,
+        "StartCorner": "BL",
+        "ChannelCount": 1,
+        "Name": "9_Candy_Canes",
+        "StartChannel": 9,
+        "ChannelCountPerNode": 1,
+        "Orientation": "custom",
+        "StrandsPerString": 1,
+        "data": ",,,,,,,,,,,;,,,,,,,,,,,;,,,,,,,,,,,;,,,,,,,,,,,;,,,,,,,,,,,;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1|,,,,,,,,,,,;,,,,,,,,,,,;,,,,,,,,,,,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,,,,,,,,,,,|,,,,,,,,,,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,,,,,,,,,,;,,,,,,,,,,,;,,,,,,,,,,,"
+      },
+      {
+        "StrandsPerString": 1,
+        "StartCorner": "BL",
+        "ChannelCount": 12288,
+        "Name": "Matrix",
+        "StartChannel": 525,
+        "ChannelCountPerNode": 3,
+        "Orientation": "horizontal",
+        "StringCount": 32
+      }
+    ]
+  },
+  "show_setup": {
+    "events": [],
+    "playlist": {
+      "Sign.json": [
+        "{",
+        "    \"name\": \"Sign\",",
+        "    \"version\": 3,",
+        "    \"repeat\": 0,",
+        "    \"loopCount\": 0,",
+        "    \"desc\": \"\",",
+        "    \"mainPlaylist\": [",
+        "        {",
+        "            \"type\": \"sequence\",",
+        "            \"enabled\": 1,",
+        "            \"playOnce\": 0,",
+        "            \"sequenceName\": \"Sign.fseq\",",
+        "            \"duration\": 30",
+        "        }",
+        "    ],",
+        "    \"playlistInfo\": {",
+        "        \"total_duration\": 30,",
+        "        \"total_items\": 1",
+        "    }",
+        "}"
+      ]
+    },
+    "schedule": [
+      [
+        "[",
+        "    {",
+        "        \"enabled\": 1,",
+        "        \"playlist\": \"Sign\",",
+        "        \"day\": 7,",
+        "        \"startTime\": \"19:30:00\",",
+        "        \"startTimeOffset\": 0,",
+        "        \"endTime\": \"22:00:00\",",
+        "        \"endTimeOffset\": 0,",
+        "        \"repeat\": 1,",
+        "        \"startDate\": \"2020-07-01\",",
+        "        \"endDate\": \"2025-07-31\",",
+        "        \"stopType\": 0",
+        "    }",
+        "]"
+      ]
+    ],
+    "scripts": []
+  },
+  "settings": {
+    "system_settings": [
+      {
+        "storageDevice": "mmcblk0p2",
+        "LastBlock": "60805120",
+        "volume": "70",
+        "AudioCard0Type": "Dumm",
+        "AudioMixerDevice": "Master",
+        "FalconHardwareDetected": "0",
+        "rebootFlag": "0",
+        "restartFlag": "0",
+        "backgroundColor": "0000FF",
+        "TetherSSID": "matrix",
+        "TetherPSK": "techplexlabs",
+        "HostName": "matrix",
+        "LEDPanelsLayout": "2x1",
+        "LEDPanelsSize": "64x32x16",
+        "fppMode": "player",
+        "LEDPanelUIAdvancedLayout": "1",
+        "LEDPanelUIPixelsHigh": "32",
+        "LEDPanelUIPixelsWide": "128",
+        "TimeZone": "America/New_York",
+        "ntp": "1",
+        "ntpServer": "10.0.0.1"
+      }
+    ],
+    "proxies": [
+      [
+        ""
+      ]
+    ],
+    "timezone": [
+      "America/New_York"
+    ]
+  },
+  "network": {
+    "wired_network": [
+      [
+        ""
+      ]
+    ],
+    "wifi_network": [
+      [
+        ""
+      ]
+    ]
+  },
+  "protected": true,
+  "platform": "Raspberry Pi",
+  "fpp_backup_version": "3"
+}
