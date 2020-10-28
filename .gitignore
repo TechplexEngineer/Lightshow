@@ -1,3 +1,5 @@
 *.xbkp
 Backup/
 *.fseq
+~*
+.DS_Store

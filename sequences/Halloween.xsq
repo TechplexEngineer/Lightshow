@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2020.44</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile></mediaFile>
+    <sequenceDuration>30.000</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#390F01,C_BUTTON_Palette2=#320C36,C_BUTTON_Palette3=#3535FF,C_BUTTON_Palette4=#007DFB,C_BUTTON_Palette5=#46A3FF,C_BUTTON_Palette6=#63C9FA,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#AAFFFF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>B_CHOICE_BufferStyle=Per Model Default,E_CHECKBOX_Marquee_PixelOffsets=0,E_CHECKBOX_Marquee_Reverse=0,E_CHECKBOX_Marquee_WrapX=0,E_CHECKBOX_Marquee_WrapY=0,E_NOTEBOOK_Marquee=Settings,E_SLIDER_MarqueeXC=0,E_SLIDER_MarqueeYC=0,E_SLIDER_Marquee_Band_Size=18,E_SLIDER_Marquee_ScaleX=100,E_SLIDER_Marquee_ScaleY=100,E_SLIDER_Marquee_Skip_Size=0,E_SLIDER_Marquee_Speed=3,E_SLIDER_Marquee_Stagger=0,E_SLIDER_Marquee_Start=0,E_SLIDER_Marquee_Thickness=1</Effect>
+    <Effect>E_CHECKBOX_Fire_GrowWithMusic=0,E_CHOICE_Fire_Location=Bottom,E_SLIDER_Fire_Height=50,E_SLIDER_Fire_HueShift=0,E_TEXTCTRL_Fire_GrowthCycles=0.0</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="105" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,Stakes,Whole House,Windows" active="1"/>
+    <Element collapsed="0" type="model" name="Arches" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes (1) Bottom" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes (2)" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes (3)" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes (4)" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes (5) Top" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes - Odd" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes - Even" visible="1"/>
+    <Element collapsed="0" type="model" name="Whole House" visible="1"/>
+    <Element collapsed="0" type="model" name="Windows" visible="1"/>
+    <Element collapsed="0" type="model" name="Master 01" visible="1"/>
+    <Element collapsed="0" type="model" name="South West 01" visible="1"/>
+    <Element collapsed="0" type="model" name="South West 02" visible="1"/>
+    <Element collapsed="0" type="model" name="Great Room 02" visible="1"/>
+    <Element collapsed="0" type="model" name="Great Room 01" visible="1"/>
+    <Element collapsed="0" type="model" name="Matrix" visible="1"/>
+    <Element collapsed="0" type="model" name="Stake 01" visible="1"/>
+    <Element collapsed="0" type="model" name="Arch2" visible="1"/>
+    <Element collapsed="0" type="model" name="Arch3" visible="1"/>
+    <Element collapsed="0" type="model" name="Arch4" visible="1"/>
+    <Element collapsed="0" type="model" name="Arch1" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree" visible="1"/>
+    <Element collapsed="0" type="model" name="Characters" visible="1"/>
+    <Element collapsed="0" type="model" name="Stake 02" visible="1"/>
+    <Element collapsed="0" type="model" name="Stake 03" visible="1"/>
+    <Element collapsed="0" type="model" name="Stake 04" visible="1"/>
+    <Element collapsed="0" type="model" name="Stake 05" visible="1"/>
+    <Element collapsed="0" type="model" name="Stake 06" visible="1"/>
+    <Element collapsed="0" type="model" name="Stake 07" visible="1"/>
+    <Element collapsed="0" type="model" name="Stake 08" visible="1"/>
+    <Element collapsed="0" type="model" name="Stake 09" visible="1"/>
+    <Element collapsed="0" type="model" name="Stake 10" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Arches">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes (1) Bottom">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes (2)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes (3)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes (4)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes (5) Top">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes - Odd">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes - Even">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Whole House">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Windows">
+      <EffectLayer>
+        <Effect ref="0" name="Marquee" selected="1" startTime="100" endTime="13700" palette="0"/>
+        <Effect ref="1" name="Fire" id="1" startTime="14700" endTime="26750" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Master 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="South West 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="South West 02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Great Room 02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Great Room 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Matrix">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Arch2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Arch3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Arch4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Arch1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Characters">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 03">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 04">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 05">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 06">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 07">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 08">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 09">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 10">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>3</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
