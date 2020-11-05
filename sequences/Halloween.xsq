@@ -2,19 +2,19 @@
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
     <version>2020.44</version>
-    <author></author>
-    <author-email></author-email>
-    <author-website></author-website>
-    <song></song>
-    <artist></artist>
-    <album></album>
-    <MusicURL></MusicURL>
-    <comment></comment>
+    <author/>
+    <author-email/>
+    <author-website/>
+    <song/>
+    <artist/>
+    <album/>
+    <MusicURL/>
+    <comment/>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Animation</sequenceType>
-    <mediaFile></mediaFile>
+    <mediaFile/>
     <sequenceDuration>30.000</sequenceDuration>
-    <imageDir></imageDir>
+    <imageDir/>
   </head>
   <nextid>1</nextid>
   <Jukebox/>
@@ -52,7 +52,6 @@
     <Element collapsed="0" type="model" name="Arch3" visible="1"/>
     <Element collapsed="0" type="model" name="Arch4" visible="1"/>
     <Element collapsed="0" type="model" name="Arch1" visible="1"/>
-    <Element collapsed="0" type="model" name="Tree" visible="1"/>
     <Element collapsed="0" type="model" name="Characters" visible="1"/>
     <Element collapsed="0" type="model" name="Stake 02" visible="1"/>
     <Element collapsed="0" type="model" name="Stake 03" visible="1"/>
@@ -100,7 +99,7 @@
     </Element>
     <Element type="model" name="Windows">
       <EffectLayer>
-        <Effect ref="0" name="Marquee" selected="1" startTime="100" endTime="13700" palette="0"/>
+        <Effect ref="0" name="Marquee" startTime="100" endTime="13700" palette="0"/>
         <Effect ref="1" name="Fire" id="1" startTime="14700" endTime="26750" palette="0"/>
       </EffectLayer>
     </Element>
@@ -135,9 +134,6 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Arch1">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Tree">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Characters">

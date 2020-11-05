@@ -530,7 +530,7 @@
     </Element>
     <Element type="model" name="Great Room 01">
       <EffectLayer>
-        <Effect ref="3" name="VU Meter" startTime="15600" endTime="18650" palette="6"/>
+        <Effect ref="4" name="VU Meter" startTime="15450" endTime="18650" palette="6"/>
         <Effect ref="3" name="VU Meter" id="1" startTime="21350" endTime="25100" palette="6"/>
         <Effect ref="3" name="VU Meter" id="2" startTime="25100" endTime="32250" palette="6"/>
         <Effect ref="3" name="VU Meter" id="3" startTime="46600" endTime="49900" palette="6"/>
@@ -577,16 +577,24 @@
       </SubModelEffectLayer>
     </Element>
     <Element type="model" name="Arch1">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="7" name="Butterfly" startTime="150000" endTime="154050" palette="5"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Arch2">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="7" name="Butterfly" startTime="151400" endTime="154050" palette="5"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Arch3">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="7" name="Butterfly" selected="1" startTime="152000" endTime="154050" palette="5"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Arch4">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="7" name="Butterfly" startTime="152450" endTime="154050" palette="5"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Arches Left">
       <EffectLayer>
