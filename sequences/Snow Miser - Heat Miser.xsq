@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2020.44</version>
-    <author/>
-    <author-email/>
-    <author-website/>
+    <version>2020.46</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
     <song>Snow Miser and Heat Miser Remastered Audio </song>
-    <artist>tempest790</artist>
-    <album>YouTube</album>
-    <MusicURL/>
-    <comment/>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
     <sequenceTiming>25 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
-    <mediaFile>/Users/cartermanucy/Documents/Xlights/Tangerine Blossom/2019/Free sequences/3D/Snow Miser and Heat Miser Remastered Audio.mp3</mediaFile>
+    <mediaFile>C:\Users\bbourque\projects\pers\lightshow\sequences\Music\Snow Miser and Heat Miser Remastered Audio.mp3</mediaFile>
     <sequenceDuration>203.807</sequenceDuration>
     <imageDir/>
   </head>
@@ -1394,7 +1394,7 @@
         <Effect label="etc" startTime="35350" endTime="35400"></Effect>
         <Effect label="E" startTime="35400" endTime="35575"></Effect>
         <Effect label="etc" startTime="35575" endTime="35625"></Effect>
-        <Effect label="O" selected="1" startTime="35625" endTime="36275"></Effect>
+        <Effect label="O" startTime="35625" endTime="36275"></Effect>
         <Effect label="etc" startTime="36950" endTime="37000"></Effect>
         <Effect label="E" startTime="37000" endTime="37600"></Effect>
         <Effect label="etc" startTime="37600" endTime="37650"></Effect>
