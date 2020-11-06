@@ -4,22 +4,21 @@ set -euo pipefail
 
 JQ_FILTER='del(.network.wifi_network[]) | .network.wifi_network[0]=[""]'
 
-curl  -X POST \
-   -H "Content-Type:application/x-www-form-urlencoded" \
-   -d "protectSensitive=on" \
-   -d "backuparea=all" \
-   -d "keepExitingNetwork=on" \
-   -d "keepMasterSlave=on" \
-   -d "restorearea=on" \
-   -d "btnDownloadConfig=Download Configuration" \
- 'http://matrix/backup.php' | jq "$JQ_FILTER" > "matrix_all-backup.json"
+FPP_INSTANCES=(matrix fpp pixels pixels02)
 
-curl  -X POST \
-   -H "Content-Type:application/x-www-form-urlencoded" \
-   -d "protectSensitive=on" \
-   -d "backuparea=all" \
-   -d "keepExitingNetwork=on" \
-   -d "keepMasterSlave=on" \
-   -d "restorearea=on" \
-   -d "btnDownloadConfig=Download Configuration" \
- 'http://fpp/backup.php' | jq "$JQ_FILTER" > "fpp_all-backup.json"
+count=0
+for instance in "${FPP_INSTANCES[@]}"
+do
+   ((count=count+1))
+   echo ">>> Saving FPP config for $instance [$count of ${#FPP_INSTANCES[@]}]"
+
+   curl  -X POST \
+      -H "Content-Type:application/x-www-form-urlencoded" \
+      -d "protectSensitive=on" \
+      -d "backuparea=all" \
+      -d "keepExitingNetwork=on" \
+      -d "keepMasterSlave=on" \
+      -d "restorearea=on" \
+      -d "btnDownloadConfig=Download Configuration" \
+    "http://$instance/backup.php" | jq "$JQ_FILTER" > "${instance}_all-backup.json"
+done

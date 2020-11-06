@@ -1,0 +1,1278 @@
+{
+  "channelInputs": {
+    "channelInputs": [
+      {
+        "universes": null,
+        "startChannel": 1,
+        "channelCount": -1,
+        "enabled": 1,
+        "type": "universes"
+      }
+    ]
+  },
+  "channelOutputs": {
+    "universes": [
+      {
+        "channelOutputs": [
+          {
+            "type": "universes",
+            "enabled": 0,
+            "startChannel": 1,
+            "channelCount": -1,
+            "universes": []
+          }
+        ]
+      }
+    ],
+    "falcon_pixelnet_DMX": [
+      [
+        {
+          "active": 1,
+          "type": 0,
+          "startAddress": 1
+        },
+        {
+          "active": 1,
+          "type": 0,
+          "startAddress": 4097
+        },
+        {
+          "active": 1,
+          "type": 0,
+          "startAddress": 8193
+        },
+        {
+          "active": 1,
+          "type": 0,
+          "startAddress": 12289
+        },
+        {
+          "active": 1,
+          "type": 0,
+          "startAddress": 16385
+        },
+        {
+          "active": 1,
+          "type": 0,
+          "startAddress": 20481
+        },
+        {
+          "active": 1,
+          "type": 0,
+          "startAddress": 24577
+        },
+        {
+          "active": 1,
+          "type": 0,
+          "startAddress": 28673
+        },
+        {
+          "active": 1,
+          "type": 1,
+          "startAddress": 1
+        },
+        {
+          "active": 1,
+          "type": 1,
+          "startAddress": 513
+        },
+        {
+          "active": 1,
+          "type": 1,
+          "startAddress": 1025
+        },
+        {
+          "active": 1,
+          "type": 1,
+          "startAddress": 1537
+        }
+      ]
+    ],
+    "pixel_strings": [
+      null
+    ],
+    "bbb_strings": [
+      {
+        "channelOutputs": [
+          {
+            "serialInUse": false,
+            "outputCount": 7,
+            "outputs": [
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 1,
+                    "reverse": 0,
+                    "pixelCount": 100,
+                    "startChannel": 12828,
+                    "colorOrder": "RGB",
+                    "description": "Tree 01"
+                  },
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 1,
+                    "reverse": 0,
+                    "pixelCount": 50,
+                    "startChannel": 13128,
+                    "colorOrder": "RGB",
+                    "description": "Tree Small 01"
+                  },
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 1,
+                    "reverse": 0,
+                    "pixelCount": 50,
+                    "startChannel": 13278,
+                    "colorOrder": "RGB",
+                    "description": "Tree Small 02"
+                  }
+                ],
+                "portNumber": 0
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 1,
+                    "reverse": 0,
+                    "pixelCount": 74,
+                    "startChannel": 13428,
+                    "colorOrder": "RGB",
+                    "description": "Arch1"
+                  },
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 1,
+                    "reverse": 0,
+                    "pixelCount": 74,
+                    "startChannel": 13650,
+                    "colorOrder": "RGB",
+                    "description": "Arch2"
+                  },
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 1,
+                    "reverse": 0,
+                    "pixelCount": 74,
+                    "startChannel": 13872,
+                    "colorOrder": "RGB",
+                    "description": "Arch3"
+                  },
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 1,
+                    "reverse": 0,
+                    "pixelCount": 74,
+                    "startChannel": 14094,
+                    "colorOrder": "RGB",
+                    "description": "Arch4"
+                  }
+                ],
+                "portNumber": 1
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 1,
+                    "reverse": 0,
+                    "pixelCount": 5,
+                    "startChannel": 14316,
+                    "colorOrder": "RGB",
+                    "description": "Stake 01"
+                  },
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 1,
+                    "reverse": 0,
+                    "pixelCount": 5,
+                    "startChannel": 14331,
+                    "colorOrder": "RGB",
+                    "description": "Stake 02"
+                  },
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 1,
+                    "reverse": 0,
+                    "pixelCount": 5,
+                    "startChannel": 14346,
+                    "colorOrder": "RGB",
+                    "description": "Stake 03"
+                  },
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 1,
+                    "reverse": 0,
+                    "pixelCount": 5,
+                    "startChannel": 14361,
+                    "colorOrder": "RGB",
+                    "description": "Stake 04"
+                  },
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 1,
+                    "reverse": 0,
+                    "pixelCount": 5,
+                    "startChannel": 14376,
+                    "colorOrder": "RGB",
+                    "description": "Stake 05"
+                  },
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 1,
+                    "reverse": 0,
+                    "pixelCount": 5,
+                    "startChannel": 14391,
+                    "colorOrder": "RGB",
+                    "description": "Stake 06"
+                  },
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 1,
+                    "reverse": 0,
+                    "pixelCount": 5,
+                    "startChannel": 14406,
+                    "colorOrder": "RGB",
+                    "description": "Stake 07"
+                  },
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 1,
+                    "reverse": 0,
+                    "pixelCount": 5,
+                    "startChannel": 14421,
+                    "colorOrder": "RGB",
+                    "description": "Stake 08"
+                  },
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 1,
+                    "reverse": 0,
+                    "pixelCount": 5,
+                    "startChannel": 14436,
+                    "colorOrder": "RGB",
+                    "description": "Stake 09"
+                  },
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 1,
+                    "reverse": 0,
+                    "pixelCount": 5,
+                    "startChannel": 14451,
+                    "colorOrder": "RGB",
+                    "description": "Stake 10"
+                  }
+                ],
+                "portNumber": 2
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 1,
+                    "reverse": 0,
+                    "pixelCount": 50,
+                    "startChannel": 14466,
+                    "colorOrder": "RGB",
+                    "description": "Great Room 01"
+                  },
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 1,
+                    "reverse": 0,
+                    "pixelCount": 50,
+                    "startChannel": 14616,
+                    "colorOrder": "RGB",
+                    "description": "Great Room 02"
+                  }
+                ],
+                "portNumber": 3
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 1,
+                    "reverse": 0,
+                    "pixelCount": 148,
+                    "startChannel": 14766,
+                    "colorOrder": "RGB",
+                    "description": "Office"
+                  }
+                ],
+                "portNumber": 4
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 1,
+                    "reverse": 0,
+                    "pixelCount": 50,
+                    "startChannel": 15210,
+                    "colorOrder": "RGB",
+                    "description": "South West 01"
+                  },
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 1,
+                    "reverse": 0,
+                    "pixelCount": 50,
+                    "startChannel": 15360,
+                    "colorOrder": "RGB",
+                    "description": "South West 02"
+                  }
+                ],
+                "portNumber": 5
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 1,
+                    "reverse": 0,
+                    "pixelCount": 50,
+                    "startChannel": 15510,
+                    "colorOrder": "RGB",
+                    "description": "Master 01"
+                  }
+                ],
+                "portNumber": 6
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 7
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 8
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 9
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 10
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 11
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 12
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 13
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 14
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 15
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 16
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 17
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 18
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 19
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "expansionType": 0,
+                "portNumber": 20
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 21
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 22
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 23
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 24
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 25
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 26
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 27
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 28
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 29
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 30
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 31
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 32
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 33
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 34
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "brightness": 100,
+                    "zigZag": 0,
+                    "gamma": "1.0",
+                    "nullNodes": 0,
+                    "groupCount": 0,
+                    "reverse": 0,
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "colorOrder": "RGB",
+                    "description": ""
+                  }
+                ],
+                "portNumber": 35
+              }
+            ],
+            "subType": "F8-B-EXP-36",
+            "pinoutVersion": "3.x",
+            "type": "BBB48String",
+            "startChannel": 1,
+            "channelCount": -1,
+            "enabled": 1
+          }
+        ]
+      }
+    ],
+    "led_panels": [
+      null
+    ],
+    "other": [
+      null
+    ]
+  },
+  "model-overlays": {
+    "models": [
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 13429,
+        "ChannelCount": 222,
+        "Name": "Arch1"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 13651,
+        "ChannelCount": 222,
+        "Name": "Arch2"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 13873,
+        "ChannelCount": 222,
+        "Name": "Arch3"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 14095,
+        "ChannelCount": 222,
+        "Name": "Arch4"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "custom",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 1,
+        "ChannelCount": 540,
+        "data": "166,,165,,,136,,135,,,106,,105,,,76,,75,,,46,,45,,,16,,15;167,,164,,,137,,134,,,107,,104,,,77,,74,,,47,,44,,,17,,14;168,,163,,,138,,133,,,108,,103,,,78,,73,,,48,,43,,,18,,13;169,,162,,,139,,132,,,109,,102,,,79,,72,,,49,,42,,,19,,12;170,,161,,,140,,131,,,110,,101,,,80,,71,,,50,,41,,,20,,11;171,,160,,,141,,130,,,111,,100,,,81,,70,,,51,,40,,,21,,10;172,,159,,,142,,129,,,112,,99,,,82,,69,,,52,,39,,,22,,9;173,,158,,,143,,128,,,113,,98,,,83,,68,,,53,,38,,,23,,8;174,,157,,,144,,127,,,114,,97,,,84,,67,,,54,,37,,,24,,7;175,,156,,,145,,126,,,115,,96,,,85,,66,,,55,,36,,,25,,6;176,,155,,,146,,125,,,116,,95,,,86,,65,,,56,,35,,,26,,5;177,,154,,,147,,124,,,117,,94,,,87,,64,,,57,,34,,,27,,4;178,,153,,,148,,123,,,118,,93,,,88,,63,,,58,,33,,,28,,3;179,,152,,,149,,122,,,119,,92,,,89,,62,,,59,,32,,,29,,2;180,,151,,,150,,121,,,120,,91,,,90,,61,,,60,,31,,,30,,1",
+        "Name": "Characters"
+      },
+      {
+        "StartCorner": "BR",
+        "StrandsPerString": 1,
+        "StringCount": 10,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 14467,
+        "ChannelCount": 150,
+        "Name": "Great_Room_01"
+      },
+      {
+        "StartCorner": "BR",
+        "StrandsPerString": 1,
+        "StringCount": 10,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 14617,
+        "ChannelCount": 150,
+        "Name": "Great_Room_02"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 12829,
+        "ChannelCount": 1,
+        "Name": "Icicles_01_AC"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 12829,
+        "ChannelCount": 1,
+        "Name": "Icicles_02_AC"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 11,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 15511,
+        "ChannelCount": 150,
+        "Name": "Master_01"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 32,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 541,
+        "ChannelCount": 12288,
+        "Name": "Matrix"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "custom",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 14767,
+        "ChannelCount": 444,
+        "data": "107,106,105,104,103,102,101,100,69,68,67,66,65,64,63,62,61,60,59,58,57,56,55,54,23,22,21,20,19,18,17,16;108,,,,,,,99,70,,,,,,,,,,,,,,,53,24,,,,,,,15;109,,,,,,,98,71,,,,,,,,,,,,,,,52,25,,,,,,,14;110,,,,,,,97,72,,,,,,,,,,,,,,,51,26,,,,,,,13;111,,,,,,,96,73,,,,,,,,,,,,,,,50,27,,,,,,,12;112,,,,,,,95,74,,,,,,,,,,,,,,,49,28,,,,,,,11;113,,,,,,,94,75,,,,,,,,,,,,,,,48,29,,,,,,,10;114,,,,,,,93,76,,,,,,,,,,,,,,,47,30,,,,,,,9;115,,,,,,,92,77,,,,,,,,,,,,,,,46,31,,,,,,,8;116,,,,,,,91,78,,,,,,,,,,,,,,,45,32,,,,,,,7;117,,,,,,,90,79,,,,,,,,,,,,,,,44,33,,,,,,,6;118,,,,,,,89,80,,,,,,,,,,,,,,,43,34,,,,,,,5;119,,,,,,,88,81,,,,,,,,,,,,,,,42,35,,,,,,,4;120,,,,,,,87,82,,,,,,,,,,,,,,,41,36,,,,,,,3;121,,,,,,,86,83,,,,,,,,,,,,,,,40,37,,,,,,,2;122,123,124,125,126,127,128,85,84,129,130,131,132,133,134,135,136,137,138,139,140,141,142,39,38,143,144,145,146,147,148,1",
+        "Name": "Office"
+      },
+      {
+        "StartCorner": "BR",
+        "StrandsPerString": 1,
+        "StringCount": 10,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 15211,
+        "ChannelCount": 150,
+        "Name": "South_West_01"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 10,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 15361,
+        "ChannelCount": 150,
+        "Name": "South_West_02"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 14317,
+        "ChannelCount": 15,
+        "Name": "Stake_01"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 14332,
+        "ChannelCount": 15,
+        "Name": "Stake_02"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 14347,
+        "ChannelCount": 15,
+        "Name": "Stake_03"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 14362,
+        "ChannelCount": 15,
+        "Name": "Stake_04"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 14377,
+        "ChannelCount": 15,
+        "Name": "Stake_05"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 14392,
+        "ChannelCount": 15,
+        "Name": "Stake_06"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 14407,
+        "ChannelCount": 15,
+        "Name": "Stake_07"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 14422,
+        "ChannelCount": 15,
+        "Name": "Stake_08"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 14437,
+        "ChannelCount": 15,
+        "Name": "Stake_09"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 14452,
+        "ChannelCount": 15,
+        "Name": "Stake_10"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 12829,
+        "ChannelCount": 300,
+        "Name": "Tree_01"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 13129,
+        "ChannelCount": 150,
+        "Name": "Tree_Small_01"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 13279,
+        "ChannelCount": 150,
+        "Name": "Tree_Small_02"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 12829,
+        "ChannelCount": 1,
+        "Name": "Wrap_01_AC"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 12829,
+        "ChannelCount": 1,
+        "Name": "Wrap_02_AC"
+      }
+    ]
+  },
+  "show_setup": {
+    "events": [],
+    "playlist": [],
+    "schedule": [
+      [
+        ""
+      ]
+    ],
+    "scripts": []
+  },
+  "settings": {
+    "system_settings": [
+      {
+        "storageDevice": "mmcblk0p1",
+        "LastBlock": "61329408",
+        "volume": "70",
+        "AudioCard0Type": "unknown",
+        "AudioMixerDevice": "Master",
+        "rebootFlag": "0",
+        "HostName": "pixels",
+        "backgroundColor": "008000",
+        "restartFlag": "0",
+        "fppMode": "remote",
+        "HostDescription": "pixels",
+        "piRTC": "4",
+        "ntp": "1",
+        "LEDDisplayType": "7",
+        "showAllOptions": "0",
+        "e131statsLiveUpdate": "1",
+        "wifiDrivers": "Kernel"
+      }
+    ],
+    "proxies": [
+      [
+        ""
+      ]
+    ],
+    "timezone": [
+      [
+        ""
+      ]
+    ]
+  },
+  "network": {
+    "wired_network": [
+      [
+        ""
+      ]
+    ],
+    "wifi_network": [
+      [
+        ""
+      ]
+    ]
+  },
+  "protected": true,
+  "platform": "BeagleBone Black",
+  "fpp_backup_version": "2"
+}

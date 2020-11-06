@@ -85,220 +85,53 @@
       {
         "channelOutputs": [
           {
-            "type": "LEDPanelMatrix",
+            "colorOrder": "RGB",
+            "panelScan": 16,
             "subType": "RGBMatrix",
             "enabled": 1,
-            "cfgVersion": 2,
-            "startChannel": 525,
-            "channelCount": 12288,
-            "colorOrder": "RGB",
-            "gamma": "2.2",
-            "wiringPinout": "regular",
-            "brightness": 100,
-            "gpioSlowdown": 1,
-            "panelColorDepth": 6,
-            "invertedData": 1,
-            "panelWidth": 64,
-            "panelHeight": 32,
-            "panelScan": 16,
-            "panelOutputOrder": false,
-            "panelOutputBlankRow": false,
             "cpuPWM": false,
+            "panelHeight": 32,
+            "panelOutputBlankRow": false,
+            "startChannel": 541,
+            "cfgVersion": 2,
             "panels": [
               {
-                "outputNumber": 1,
-                "panelNumber": 0,
-                "xOffset": 64,
-                "yOffset": 0,
-                "orientation": "N",
                 "colorOrder": "",
+                "orientation": "N",
                 "row": 0,
-                "col": 0
+                "col": 0,
+                "xOffset": 0,
+                "outputNumber": 0,
+                "yOffset": 0,
+                "panelNumber": 0
               },
               {
-                "outputNumber": 0,
-                "panelNumber": 0,
-                "xOffset": 0,
+                "outputNumber": 1,
                 "yOffset": 0,
+                "panelNumber": 0,
+                "xOffset": 64,
                 "orientation": "N",
-                "colorOrder": "",
+                "col": 1,
                 "row": 0,
-                "col": 1
+                "colorOrder": ""
               }
-            ]
+            ],
+            "panelColorDepth": 8,
+            "invertedData": 1,
+            "type": "LEDPanelMatrix",
+            "channelCount": 12288,
+            "panelWidth": 64,
+            "gamma": "2.2",
+            "brightness": 100,
+            "panelOutputOrder": false,
+            "wiringPinout": "regular",
+            "gpioSlowdown": 1
           }
         ]
       }
     ],
     "other": [
       null
-    ]
-  },
-  "model-overlays": {
-    "models": [
-      {
-        "StringCount": 1,
-        "StartCorner": "BL",
-        "ChannelCount": 1,
-        "Name": "1_Bedroom",
-        "StartChannel": 1,
-        "ChannelCountPerNode": 1,
-        "Orientation": "custom",
-        "StrandsPerString": 1,
-        "data": "1,1,1,1,1,1,1,1,1,1,1,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,1,1,1,1,1,1,1,1,1,1,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,1,1,1,1,1,1,1,1,1,1,1"
-      },
-      {
-        "StringCount": 1,
-        "StartCorner": "BL",
-        "ChannelCount": 1,
-        "Name": "10_Icicle_Lights",
-        "StartChannel": 10,
-        "ChannelCountPerNode": 1,
-        "Orientation": "custom",
-        "StrandsPerString": 1,
-        "data": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1;1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1;1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1,,1;1,,,,1,,,,1,,,,1,,,,1,,,,1,,,,1,,,,1,,,,1,,,,1,,,,1,,,,1,,,,1,,,,1,,,,1"
-      },
-      {
-        "StringCount": 1,
-        "StartCorner": "BL",
-        "ChannelCount": 1,
-        "Name": "11_Great_Red",
-        "StartChannel": 11,
-        "ChannelCountPerNode": 1,
-        "Orientation": "custom",
-        "StrandsPerString": 1,
-        "data": "1,1,1,1,1,1,1,1,1,1,1,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,1,1,1,1,1,1,1,1,1,1,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,1,1,1,1,1,1,1,1,1,1,1"
-      },
-      {
-        "StringCount": 1,
-        "StartCorner": "BL",
-        "ChannelCount": 1,
-        "Name": "12_Great_Green",
-        "StartChannel": 12,
-        "ChannelCountPerNode": 1,
-        "Orientation": "custom",
-        "StrandsPerString": 1,
-        "data": "1,1,1,1,1,1,1,1,1,1,1,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,1,1,1,1,1,1,1,1,1,1,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,1,1,1,1,1,1,1,1,1,1,1"
-      },
-      {
-        "StringCount": 1,
-        "StartCorner": "BL",
-        "ChannelCount": 1,
-        "Name": "2_SW_Green",
-        "StartChannel": 2,
-        "ChannelCountPerNode": 1,
-        "Orientation": "custom",
-        "StrandsPerString": 1,
-        "data": "1,1,1,1,1,1,1,1,1,1,1,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,1,1,1,1,1,1,1,1,1,1,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,1,1,1,1,1,1,1,1,1,1,1"
-      },
-      {
-        "StringCount": 1,
-        "StartCorner": "BL",
-        "ChannelCount": 1,
-        "Name": "3_SW_Red",
-        "StartChannel": 3,
-        "ChannelCountPerNode": 1,
-        "Orientation": "custom",
-        "StrandsPerString": 1,
-        "data": "1,1,1,1,1,1,1,1,1,1,1,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,1,1,1,1,1,1,1,1,1,1,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,1,1,1,1,1,1,1,1,1,1,1"
-      },
-      {
-        "StringCount": 1,
-        "StartCorner": "BL",
-        "ChannelCount": 1,
-        "Name": "4_Office_Door",
-        "StartChannel": 4,
-        "ChannelCountPerNode": 1,
-        "Orientation": "custom",
-        "StrandsPerString": 1,
-        "data": "1,1,1,1,1,1,1,1,1,1,1,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,1,1,1,1,1,1,1,1,1,1,1"
-      },
-      {
-        "StringCount": 1,
-        "StartCorner": "BL",
-        "ChannelCount": 1,
-        "Name": "5_Office_Windows",
-        "StartChannel": 5,
-        "ChannelCountPerNode": 1,
-        "Orientation": "custom",
-        "StrandsPerString": 1,
-        "data": ",,,,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,;,,,,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,,,,,,,,,"
-      },
-      {
-        "StringCount": 1,
-        "StartCorner": "BL",
-        "ChannelCount": 1,
-        "Name": "6_Office_Windows_Outside",
-        "StartChannel": 6,
-        "ChannelCountPerNode": 1,
-        "Orientation": "custom",
-        "StrandsPerString": 1,
-        "data": "1,1,1,1,1,1,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,1;1,1,1,1,1,1,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1"
-      },
-      {
-        "StrandsPerString": 1,
-        "StartCorner": "BL",
-        "ChannelCount": 1,
-        "Name": "7_Porch",
-        "StartChannel": 7,
-        "ChannelCountPerNode": 1,
-        "Orientation": "horizontal",
-        "StringCount": 1
-      },
-      {
-        "StringCount": 1,
-        "StartCorner": "BL",
-        "ChannelCount": 1,
-        "Name": "7_Tree_Lt",
-        "StartChannel": 7,
-        "ChannelCountPerNode": 1,
-        "Orientation": "custom",
-        "StrandsPerString": 1,
-        "data": "1,1,1,1;1,1,1,1;1,1,1,1;1,1,1,1;1,1,1,1"
-      },
-      {
-        "StringCount": 1,
-        "StartCorner": "BL",
-        "ChannelCount": 1,
-        "Name": "7_Tree_Rt",
-        "StartChannel": 7,
-        "ChannelCountPerNode": 1,
-        "Orientation": "custom",
-        "StrandsPerString": 1,
-        "data": "1,1,1,1;1,1,1,1;1,1,1,1;1,1,1,1;1,1,1,1"
-      },
-      {
-        "StringCount": 1,
-        "StartCorner": "BL",
-        "ChannelCount": 1,
-        "Name": "8_Package",
-        "StartChannel": 8,
-        "ChannelCountPerNode": 1,
-        "Orientation": "custom",
-        "StrandsPerString": 1,
-        "data": ",,1,,,1,,;,1,,1,1,,1,;,,1,1,1,1,,;1,1,1,1,1,1,1,1;1,,,,,,,1;1,,,,,,,1;1,,,,,,,1;1,,,,,,,1;1,,,,,,,1;1,,,,,,,1;1,1,1,1,1,1,1,1"
-      },
-      {
-        "StringCount": 1,
-        "StartCorner": "BL",
-        "ChannelCount": 1,
-        "Name": "9_Candy_Canes",
-        "StartChannel": 9,
-        "ChannelCountPerNode": 1,
-        "Orientation": "custom",
-        "StrandsPerString": 1,
-        "data": ",,,,,,,,,,,;,,,,,,,,,,,;,,,,,,,,,,,;,,,,,,,,,,,;,,,,,,,,,,,;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1;1,,,,,,,,,,,1|,,,,,,,,,,,;,,,,,,,,,,,;,,,,,,,,,,,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,1,,,,,,,,,1,;,,,,,,,,,,,|,,,,,,,,,,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,1,,,,,,,1,,;,,,,,,,,,,,;,,,,,,,,,,,;,,,,,,,,,,,"
-      },
-      {
-        "StrandsPerString": 1,
-        "StartCorner": "BL",
-        "ChannelCount": 12288,
-        "Name": "Matrix",
-        "StartChannel": 525,
-        "ChannelCountPerNode": 3,
-        "Orientation": "horizontal",
-        "StringCount": 32
-      }
     ]
   },
   "show_setup": {
@@ -340,7 +173,7 @@
         "        \"endTimeOffset\": 0,",
         "        \"repeat\": 1,",
         "        \"startDate\": \"2020-07-01\",",
-        "        \"endDate\": \"2025-07-31\",",
+        "        \"endDate\": \"2020-07-31\",",
         "        \"stopType\": 0",
         "    }",
         "]"
@@ -359,19 +192,18 @@
         "FalconHardwareDetected": "0",
         "rebootFlag": "0",
         "restartFlag": "0",
-        "backgroundColor": "0000FF",
-        "TetherSSID": "matrix",
-        "TetherPSK": "techplexlabs",
-        "HostName": "matrix",
-        "LEDPanelsLayout": "2x1",
-        "LEDPanelsSize": "64x32x16",
-        "fppMode": "player",
-        "LEDPanelUIAdvancedLayout": "1",
-        "LEDPanelUIPixelsHigh": "32",
-        "LEDPanelUIPixelsWide": "128",
         "TimeZone": "America/New_York",
         "ntp": "1",
-        "ntpServer": "10.0.0.1"
+        "ntpServer": "10.0.0.1",
+        "HostName": "matrix",
+        "LEDPanelsLayout": "2x1",
+        "LEDPanelUIAdvancedLayout": "1",
+        "LEDPanelUIPixelsWide": "128",
+        "LEDPanelsSize": "64x32x16",
+        "HostDescription": "matrix",
+        "fppMode": "remote",
+        "backgroundColor": "FF0000",
+        "VideoOutput": "Disabled"
       }
     ],
     "proxies": [
