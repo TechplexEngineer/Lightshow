@@ -2,6 +2,33 @@
 <!DOCTYPE html>
 <xrgb>
   <models>
+    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" parm1="10" parm2="10" parm3="10" Controller="K16A-B" CustomColor="#5f0004" StringType="Single Color Intensity" TagColour="rgb(107, 0, 1)" name="Package Red AC 02" WorldPosX="1109.5925" WorldPosY="20.1630" WorldPosZ="400.4253" ScaleX="3.0244" ScaleY="4.0326" ScaleZ="0.6924" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:1">
+      <ControllerConnection Protocol="Renard" channel="1"/>
+    </model>
+    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" parm1="10" parm2="10" parm3="10" CustomColor="#000000" StringType="Single Color Intensity" Controller="K16A-B" name="Package Green AC 02" WorldPosX="1078.5653" WorldPosY="14.5490" WorldPosZ="415.9177" ScaleX="2.1823" ScaleY="2.9098" ScaleZ="0.4996" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:1">
+      <ControllerConnection Protocol="Renard" channel="1"/>
+    </model>
+    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" parm1="10" parm2="10" parm3="10" CustomColor="#000000" StringType="Single Color Intensity" Controller="K16A-B" name="Package Blue AC 02" WorldPosX="1098.2191" WorldPosY="11.4745" WorldPosZ="432.7965" ScaleX="1.5207" ScaleY="2.0276" ScaleZ="0.3481" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:1">
+      <ControllerConnection Protocol="Renard" channel="1"/>
+    </model>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" name="Image" parm1="1" parm2="1" LayoutGroup="Default" Image="/Users/techplex/Documents/xlights/lightshow-2019/sequences/Images/tinsel-santa.png" CustomColor="#000000" StringType="Single Color Intensity" Controller="K16A-B" WorldPosX="1051.5211" WorldPosY="28.8790" WorldPosZ="398.2194" ScaleX="46.5117" ScaleY="57.7580" ScaleZ="0.4741" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="&gt;Cherry AC:1">
+      <ControllerConnection/>
+    </model>
+    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" DisplayAs="Tree 360" parm1="1" TreeSpiralRotations="8.000000" parm2="100" name="Tree AC" CustomColor="#000000" StringType="Single Color Intensity" Controller="K16A-B" WorldPosX="1004.5342" WorldPosY="37.9050" WorldPosZ="378.4207" ScaleX="0.1875" ScaleY="0.2527" ScaleZ="0.1875" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:1">
+      <ControllerConnection Protocol="Renard" channel="1"/>
+      <dimmingCurve>
+        <all brightness="-70" gamma="1.0"/>
+      </dimmingCurve>
+    </model>
+    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" parm1="10" parm2="10" parm3="10" CustomColor="#000000" StringType="Single Color Intensity" Controller="K16A-B" name="Package Blue AC 01" WorldPosX="1029.9019" WorldPosY="10.1381" WorldPosZ="412.9765" ScaleX="1.5207" ScaleY="2.0276" ScaleZ="0.3481" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:1">
+      <ControllerConnection Protocol="Renard" channel="1"/>
+    </model>
+    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" parm1="10" parm2="10" parm3="10" CustomColor="#000000" StringType="Single Color Intensity" Controller="K16A-B" name="Package Green AC 01" WorldPosX="1007.5729" WorldPosY="14.5490" WorldPosZ="435.1070" ScaleX="2.1823" ScaleY="2.9098" ScaleZ="0.4996" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:1">
+      <ControllerConnection Protocol="Renard" channel="1"/>
+    </model>
+    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" parm1="10" parm2="10" parm3="10" Controller="K16A-B" CustomColor="#5f0004" StringType="Single Color Intensity" TagColour="rgb(107, 0, 1)" name="Package Red AC 01" WorldPosX="979.9956" WorldPosY="20.1630" WorldPosZ="412.9765" ScaleX="3.0244" ScaleY="4.0326" ScaleZ="0.6924" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:1">
+      <ControllerConnection Protocol="Renard" channel="1"/>
+    </model>
     <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" CustomColor="#000000" StringType="Single Color Intensity" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" name="Cherry AC" Controller="K16A-B" WorldPosX="0.6970" WorldPosY="29.5010" WorldPosZ="55.3890" ScaleX="0.1000" ScaleY="0.1000" ScaleZ="0.1000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:22">
       <ControllerConnection Port="2" Protocol="Renard" channel="4"/>
     </model>
@@ -19,9 +46,6 @@
     </model>
     <model DisplayAs="Candy Canes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm2="18" LayoutGroup="Default" parm1="1" CustomColor="#000000" StringType="Single Color Intensity" CandyCaneSticks="false" Controller="K16A-B" name="Candy AC 01" WorldPosX="489.3934" WorldPosY="28.5681" WorldPosZ="83.3244" X2="1.000000" Y2="0.000000" Z2="15.000000" RotateX="0.00000000" Height="1.483554" Angle="-1" versionNumber="5" StartChannel="!K16A-B:13">
       <ControllerConnection Port="1" Protocol="Renard" channel="13"/>
-    </model>
-    <model DisplayAs="Window Frame" StartSide="B" Dir="L" PixelSize="2" Transparency="0" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" parm2="16" Antialias="0" Controller="K16A-B" name="Package 01" CustomColor="#000000" StringType="Single Color Intensity" WorldPosX="600.7778" WorldPosY="32.0000" WorldPosZ="200.3390" ScaleX="2.0000" ScaleY="2.5000" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:21">
-      <ControllerConnection Port="2" Protocol="Renard" channel="3"/>
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 02" ModelChain="&gt;Stake 01" Controller="F8-B" WorldPosX="469.8711" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!F8-B:1504">
       <ControllerConnection Port="3" Protocol="ws2811"/>
@@ -206,13 +230,13 @@
     <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" CustomColor="#000000" StringType="Single Color Intensity" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" name="Wrap 01 AC" Controller="K16A-B" WorldPosX="434.9400" WorldPosY="16.9200" WorldPosZ="376.1435" ScaleX="0.0822" ScaleY="0.0564" ScaleZ="0.0943" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:8">
       <ControllerConnection channel="8" Port="1" Protocol="Renard"/>
     </model>
-    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" DisplayAs="Tree 360" parm1="1" TreeSpiralRotations="8.000000" Controller="F8-B" parm2="50" name="Tree Small 02" ModelChain="&gt;Tree Small 01" WorldPosX="838.9479" WorldPosY="17.2875" WorldPosZ="472.8498" ScaleX="0.2592" ScaleY="0.2305" ScaleZ="0.2592" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:451">
+    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" DisplayAs="Tree 360" parm1="1" TreeSpiralRotations="8.000000" Controller="F8-B" parm2="50" name="Tree Small 02" ModelChain="&gt;Tree 01" WorldPosX="838.9479" WorldPosY="17.2875" WorldPosZ="472.8498" ScaleX="0.2592" ScaleY="0.2305" ScaleZ="0.2592" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:451">
       <ControllerConnection colorOrder="RGB" Port="1" Protocol="ws2811"/>
       <dimmingCurve>
         <all brightness="-70" gamma="1.0"/>
       </dimmingCurve>
     </model>
-    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" DisplayAs="Tree 360" parm1="1" TreeSpiralRotations="8.000000" Controller="F8-B" parm2="50" name="Tree Small 01" ModelChain="&gt;Tree 01" WorldPosX="399.3114" WorldPosY="18.9525" WorldPosZ="507.5837" ScaleX="0.2592" ScaleY="0.2305" ScaleZ="0.2592" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:301">
+    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" DisplayAs="Tree 360" parm1="1" TreeSpiralRotations="8.000000" Controller="F8-B" parm2="50" name="Tree Small 01" WorldPosX="399.3114" WorldPosY="18.9525" WorldPosZ="507.5837" ScaleX="0.2592" ScaleY="0.2305" ScaleZ="0.2592" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:1">
       <ControllerConnection colorOrder="RGB" Port="1" Protocol="ws2811"/>
       <dimmingCurve>
         <all brightness="-70" gamma="1.0"/>
@@ -266,7 +290,7 @@
         <all brightness="-70" gamma="1.0"/>
       </dimmingCurve>
     </model>
-    <model DisplayAs="Custom" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" name="Office" parm2="16" parm1="32" Depth="1" CustomModel="107,106,105,104,103,102,101,100,69,68,67,66,65,64,63,62,61,60,59,58,57,56,55,54,23,22,21,20,19,18,17,16;108,,,,,,,99,70,,,,,,,,,,,,,,,53,24,,,,,,,15;109,,,,,,,98,71,,,,,,,,,,,,,,,52,25,,,,,,,14;110,,,,,,,97,72,,,,,,,,,,,,,,,51,26,,,,,,,13;111,,,,,,,96,73,,,,,,,,,,,,,,,50,27,,,,,,,12;112,,,,,,,95,74,,,,,,,,,,,,,,,49,28,,,,,,,11;113,,,,,,,94,75,,,,,,,,,,,,,,,48,29,,,,,,,10;114,,,,,,,93,76,,,,,,,,,,,,,,,47,30,,,,,,,9;115,,,,,,,92,77,,,,,,,,,,,,,,,46,31,,,,,,,8;116,,,,,,,91,78,,,,,,,,,,,,,,,45,32,,,,,,,7;117,,,,,,,90,79,,,,,,,,,,,,,,,44,33,,,,,,,6;118,,,,,,,89,80,,,,,,,,,,,,,,,43,34,,,,,,,5;119,,,,,,,88,81,,,,,,,,,,,,,,,42,35,,,,,,,4;120,,,,,,,87,82,,,,,,,,,,,,,,,41,36,,,,,,,3;121,,,,,,,86,83,,,,,,,,,,,,,,,40,37,,,,,,,2;122,123,124,125,126,127,128,85,84,129,130,131,132,133,134,135,136,137,138,139,140,141,142,39,38,143,144,145,146,147,148,1" CustomBkgLightness="0" CustomBkgImage="" Controller="F8-B" WorldPosX="429.4749" WorldPosY="90.3929" WorldPosZ="50.4479" ScaleX="3.1423" ScaleY="3.1535" ScaleZ="3.1423" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:1939">
+    <model DisplayAs="Custom" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" name="Office" parm2="16" parm1="32" Depth="1" CustomModel="107,106,105,104,103,102,101,100,69,68,67,66,65,64,63,62,61,60,59,58,57,56,55,54,23,22,21,20,19,18,17,16;108,,,,,,,99,70,,,,,,,,,,,,,,,53,24,,,,,,,15;109,,,,,,,98,71,,,,,,,,,,,,,,,52,25,,,,,,,14;110,,,,,,,97,72,,,,,,,,,,,,,,,51,26,,,,,,,13;111,,,,,,,96,73,,,,,,,,,,,,,,,50,27,,,,,,,12;112,,,,,,,95,74,,,,,,,,,,,,,,,49,28,,,,,,,11;113,,,,,,,94,75,,,,,,,,,,,,,,,48,29,,,,,,,10;114,,,,,,,93,76,,,,,,,,,,,,,,,47,30,,,,,,,9;115,,,,,,,92,77,,,,,,,,,,,,,,,46,31,,,,,,,8;116,,,,,,,91,78,,,,,,,,,,,,,,,45,32,,,,,,,7;117,,,,,,,90,79,,,,,,,,,,,,,,,44,33,,,,,,,6;118,,,,,,,89,80,,,,,,,,,,,,,,,43,34,,,,,,,5;119,,,,,,,88,81,,,,,,,,,,,,,,,42,35,,,,,,,4;120,,,,,,,87,82,,,,,,,,,,,,,,,41,36,,,,,,,3;121,,,,,,,86,83,,,,,,,,,,,,,,,40,37,,,,,,,2;122,123,124,125,126,127,128,85,84,129,130,131,132,133,134,135,136,137,138,139,140,141,142,39,38,143,144,145,146,147,148,1" CustomBkgLightness="0" CustomBkgImage="" Controller="F8-B" WorldPosX="429.4749" WorldPosY="90.3929" WorldPosZ="50.4479" ScaleX="3.1423" ScaleY="3.1535" ScaleZ="3.1423" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:1639">
       <ControllerConnection Protocol="ws2811" Port="5"/>
       <subModel name="Office 01" layout="horizontal" type="ranges" line0="85-128" WorldPosX="429.4749" WorldPosY="90.3929" WorldPosZ="50.4479" ScaleX="3.1423" ScaleY="3.1535" ScaleZ="3.1423" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="14993">
         <ControllerConnection/>
@@ -281,37 +305,37 @@
         <all brightness="-70" gamma="1.0"/>
       </dimmingCurve>
     </model>
-    <model DisplayAs="Window Frame" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" name="Master 01" parm1="11" parm3="11" parm2="14" Dir="L" StartSide="B" Controller="F8-B" WorldPosX="749.8444" WorldPosY="90.5134" WorldPosZ="60.2156" ScaleX="2.7224" ScaleY="3.6339" ScaleZ="2.7224" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:2683">
+    <model DisplayAs="Window Frame" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" name="Master 01" parm1="11" parm3="11" parm2="14" Dir="L" StartSide="B" Controller="F8-B" WorldPosX="749.8444" WorldPosY="90.5134" WorldPosZ="60.2156" ScaleX="2.7224" ScaleY="3.6339" ScaleZ="2.7224" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:2383">
       <ControllerConnection Protocol="ws2811" Port="7"/>
       <dimmingCurve>
         <all brightness="-70" gamma="1"/>
       </dimmingCurve>
     </model>
-    <model DisplayAs="Window Frame" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" parm1="10" parm2="15" parm3="10" name="South West 01" Dir="R" StartSide="B" Controller="F8-B" WorldPosX="582.1880" WorldPosY="89.3565" WorldPosZ="60.1784" ScaleX="2.6250" ScaleY="3.3750" ScaleZ="1.0002" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:2383">
+    <model DisplayAs="Window Frame" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" parm1="10" parm2="15" parm3="10" name="South West 01" Dir="R" StartSide="B" Controller="F8-B" WorldPosX="582.1880" WorldPosY="89.3565" WorldPosZ="60.1784" ScaleX="2.6250" ScaleY="3.3750" ScaleZ="1.0002" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:2083">
       <ControllerConnection Protocol="ws2811" Port="6"/>
       <dimmingCurve>
         <all brightness="-70" gamma="1.0"/>
       </dimmingCurve>
     </model>
-    <model DisplayAs="Window Frame" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" parm1="10" parm2="15" parm3="10" name="South West 02" Controller="F8-B" ModelChain="&gt;South West 01" WorldPosX="614.2549" WorldPosY="89.3565" WorldPosZ="60.1784" ScaleX="2.6250" ScaleY="3.3750" ScaleZ="1.0194" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:2533">
+    <model DisplayAs="Window Frame" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" parm1="10" parm2="15" parm3="10" name="South West 02" Controller="F8-B" ModelChain="&gt;South West 01" WorldPosX="614.2549" WorldPosY="89.3565" WorldPosZ="60.1784" ScaleX="2.6250" ScaleY="3.3750" ScaleZ="1.0194" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:2233">
       <ControllerConnection Port="6" Protocol="ws2811"/>
       <dimmingCurve>
         <all brightness="-70" gamma="1.0"/>
       </dimmingCurve>
     </model>
-    <model DisplayAs="Window Frame" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" parm1="10" parm2="15" parm3="10" name="Great Room 02" Dir="R" StartSide="B" Controller="F8-B" ModelChain="&gt;Great Room 01" WorldPosX="243.6604" WorldPosY="91.2779" WorldPosZ="-47.8457" ScaleX="2.7500" ScaleY="3.6000" ScaleZ="2.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:1789">
-      <ControllerConnection channel="156" Port="4" Protocol="ws2811"/>
+    <model DisplayAs="Window Frame" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" parm1="10" parm2="15" parm3="10" name="Great Room 02" Dir="R" StartSide="B" Controller="F8-B" WorldPosX="243.6604" WorldPosY="91.2779" WorldPosZ="-47.8457" ScaleX="2.7500" ScaleY="3.6000" ScaleZ="2.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:2683">
+      <ControllerConnection channel="156" Protocol="ws2811" Port="10"/>
       <dimmingCurve>
         <all brightness="-70" gamma="1.0"/>
       </dimmingCurve>
     </model>
-    <model DisplayAs="Window Frame" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" name="Great Room 01" parm1="10" parm2="15" parm3="10" Dir="R" StartSide="B" Controller="F8-B" WorldPosX="177.4833" WorldPosY="91.7663" WorldPosZ="-47.6980" ScaleX="2.7500" ScaleY="3.6000" ScaleZ="2.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:1639">
-      <ControllerConnection channel="6" Port="4" Protocol="ws2811"/>
+    <model DisplayAs="Window Frame" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" name="Great Room 01" parm1="10" parm2="15" parm3="10" Dir="R" StartSide="B" Controller="F8-B" WorldPosX="177.4833" WorldPosY="91.7663" WorldPosZ="-47.6980" ScaleX="2.7500" ScaleY="3.6000" ScaleZ="2.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:2533">
+      <ControllerConnection channel="6" Protocol="ws2811" Port="9"/>
       <dimmingCurve>
         <all brightness="-70" gamma="1.0"/>
       </dimmingCurve>
     </model>
-    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" name="Matrix" DisplayAs="Horiz Matrix" LayoutGroup="Default" parm1="32" parm2="128" WorldPosX="229.8429" WorldPosY="680.3868" WorldPosZ="0.0000" ScaleX="1.5672" ScaleY="1.7685" ScaleZ="0.0079" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!matrix:1">
+    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" name="Matrix" DisplayAs="Horiz Matrix" LayoutGroup="Default" parm1="32" parm2="128" WorldPosX="-142.7240" WorldPosY="246.0471" WorldPosZ="0.0000" ScaleX="1.5672" ScaleY="1.7685" ScaleZ="0.0079" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!matrix:1">
       <ControllerConnection Protocol="ws2811"/>
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 01" Controller="F8-B" WorldPosX="402.2692" WorldPosY="0.0000" WorldPosZ="227.0808" X2="0.000000" Y2="36.715561" Z2="0.000000" versionNumber="5" StartChannel="!F8-B:1489">
@@ -347,7 +371,7 @@
     <model DisplayAs="Arches" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="74" name="Arch1" Controller="F8-B" StringType="GRB Nodes" WorldPosX="428.6712" WorldPosY="7.6381" WorldPosZ="497.6737" X2="67.748505" Y2="3.405622" Z2="-24.691162" RotateX="0.00000000" Height="1.000000" Angle="0" versionNumber="5" StartChannel="!F8-B:601">
       <ControllerConnection Protocol="ws2811" Port="2"/>
     </model>
-    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" DisplayAs="Tree 360" parm1="1" TreeSpiralRotations="8.000000" parm2="100" Controller="F8-B" name="Tree 01" WorldPosX="617.2684" WorldPosY="37.9050" WorldPosZ="433.4865" ScaleX="0.1875" ScaleY="0.2527" ScaleZ="0.1875" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:1">
+    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" DisplayAs="Tree 360" parm1="1" TreeSpiralRotations="8.000000" parm2="100" Controller="F8-B" name="Tree 01" ModelChain="&gt;Tree Small 01" WorldPosX="617.2684" WorldPosY="37.9050" WorldPosZ="433.4865" ScaleX="0.1875" ScaleY="0.2527" ScaleZ="0.1875" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:151">
       <ControllerConnection Protocol="ws2811" colorOrder="RGB" Port="1"/>
       <dimmingCurve>
         <all brightness="-70" gamma="1.0"/>
@@ -379,7 +403,7 @@
     </model>
   </models>
   <view_objects>
-    <view_object DisplayAs="Image" LayoutGroup="Default" name="House Top View" Brightness="50" Image="/Users/techplex/Documents/xlights/lightshow-2019/sequences/Images/Putney Top View.jpeg" Active="1" WorldPosX="368.4728" WorldPosY="0.0000" WorldPosZ="90.2954" ScaleX="2.9326" ScaleY="2.9326" ScaleZ="2.9326" RotateX="90.00000000" RotateY="90.00000000" RotateZ="180.00000000" Locked="1" versionNumber="5"/>
+    <view_object DisplayAs="Image" LayoutGroup="Default" name="House Top View" Image="/Users/techplex/Documents/xlights/lightshow-2019/sequences/Images/Putney Top View.jpeg" Active="1" Brightness="30" WorldPosX="368.4728" WorldPosY="0.0000" WorldPosZ="90.2954" ScaleX="2.9326" ScaleY="2.9326" ScaleZ="2.9326" RotateX="90.00000000" RotateY="90.00000000" RotateZ="180.00000000" Locked="1" versionNumber="5"/>
     <view_object DisplayAs="Mesh" LayoutGroup="Default" ObjFile="/Users/techplex/Documents/xlights/lightshow-2019/sequences/3D/putney facade v4.obj" name="House" Brightness="30" Active="1" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" Locked="1" versionNumber="5"/>
     <view_object DisplayAs="Gridlines" LayoutGroup="Default" name="Gridlines" GridLineSpacing="50" GridWidth="2000.0" GridHeight="1000.0" Active="0" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="-90.00000000" RotateY="-0.00000000" RotateZ="0.00000000" Locked="1" versionNumber="5"/>
   </view_objects>
@@ -415,7 +439,7 @@
     <modelGroup selected="0" name="Icicles" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Icicles 01 AC,Icicles 02 AC"/>
     <modelGroup selected="0" name="Holly" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Holly AC 01,Holly AC 02"/>
     <modelGroup selected="0" name="Wraps" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Wrap 01 AC,Wrap 02 AC"/>
-    <modelGroup selected="0" name="2019 Package" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Holly,Wraps,Package 01"/>
+    <modelGroup selected="0" name="2019 Package" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Holly,Wraps"/>
     <modelGroup selected="0" name="Office Outside" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Office/Office 01,Office/Office 03"/>
   </modelGroups>
   <layoutGroups>
@@ -432,9 +456,9 @@
     <Display2DBoundingBox value="0"/>
     <storedLayoutGroup value="Default"/>
     <Display2DCenter0 value="0"/>
+    <backgroundImage value="C:\Users\bbourque\projects\pers\lightshow\sequences\Images\5 Putney 2019.jpg"/>
     <previewWidth value="1280"/>
     <previewHeight value="960"/>
-    <backgroundImage value="C:\Users\bbourque\projects\pers\lightshow\sequences\Images\5 Putney 2019.jpg"/>
   </settings>
   <colors>
     <EffectDefault Red="192" Green="192" Blue="192"/>
