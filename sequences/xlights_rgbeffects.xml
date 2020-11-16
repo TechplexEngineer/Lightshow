@@ -474,6 +474,7 @@
     <modelGroup selected="0" name="Wraps AC" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Wrap 01 AC,Wrap 02 AC"/>
     <modelGroup selected="0" name="Pixels Left" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Arch1,Arch2,Great Room 01,Great Room 02,Office,Tree Small 01"/>
     <modelGroup selected="0" name="Pixels Right" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Arch3,Arch4,Master 01,South West 01,South West 02"/>
+    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Windows" name="House and Windows"/>
   </modelGroups>
   <layoutGroups>
     <layoutGroup name="Windows" PaneWidth="1280" PaneHeight="960" PosX="100" PosY="156"/>

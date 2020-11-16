@@ -1,14 +1,16 @@
 false
-6
+7
 All Pixels
 Windows
 Stakes
 Trees
 Pixels Left
 Pixels Right
+House and Windows
 All Pixels			All Pixels	white
 Windows			Windows	white
 Stakes			Small-Meteor-12	white
 Trees			Trees	white
 Pixels Left			Left Side	white
 Pixels Right			Right Side	white
+House and Windows			Whole_House_And_Windows	white
