@@ -440,6 +440,7 @@
     <view name="Characters" models=""/>
     <view name="Great Room" models=""/>
     <view name="2019" models="2019 Package,Icicles"/>
+    <view name="Meiser Bros" models="All AC,All Pixels,Pixels Left,Pixels Right"/>
   </views>
   <palettes/>
   <modelGroups>
