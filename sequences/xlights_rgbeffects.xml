@@ -11,8 +11,8 @@
     <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" parm1="10" parm2="10" parm3="10" CustomColor="#000000" StringType="Single Color Intensity" Controller="K16A-B" name="Package Blue AC 02" WorldPosX="1098.2191" WorldPosY="11.4745" WorldPosZ="432.7965" ScaleX="1.5207" ScaleY="2.0276" ScaleZ="0.3481" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:1">
       <ControllerConnection Protocol="Renard" channel="1"/>
     </model>
-    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" name="Image" parm1="1" parm2="1" LayoutGroup="Default" Image="/Users/techplex/Documents/xlights/lightshow-2019/sequences/Images/tinsel-santa.png" CustomColor="#000000" StringType="Single Color Intensity" Controller="K16A-B" WorldPosX="1051.5211" WorldPosY="28.8790" WorldPosZ="398.2194" ScaleX="46.5117" ScaleY="57.7580" ScaleZ="0.4741" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="&gt;Cherry AC:1">
-      <ControllerConnection/>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" LayoutGroup="Default" Image="/Users/techplex/Documents/xlights/lightshow-2019/sequences/Images/tinsel-santa.png" CustomColor="#000000" StringType="Single Color Intensity" Controller="K16A-B" name="Santa" WorldPosX="1051.5211" WorldPosY="28.8790" WorldPosZ="398.2194" ScaleX="46.5117" ScaleY="57.7580" ScaleZ="0.4741" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:1">
+      <ControllerConnection Protocol="Renard" channel="1" Port="1"/>
     </model>
     <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" DisplayAs="Tree 360" parm1="1" TreeSpiralRotations="8.000000" parm2="100" name="Tree AC" CustomColor="#000000" StringType="Single Color Intensity" Controller="K16A-B" WorldPosX="1004.5342" WorldPosY="37.9050" WorldPosZ="378.4207" ScaleX="0.1875" ScaleY="0.2527" ScaleZ="0.1875" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:1">
       <ControllerConnection Protocol="Renard" channel="1"/>
@@ -421,8 +421,11 @@
   </views>
   <palettes/>
   <modelGroups>
+    <modelGroup selected="0" name="All AC" LayoutGroup="Default" versionNumber="2" models="Bushes AC,Candy Canes AC,Holly AC,Icicles AC,Cherry AC,Door Entry AC,Door Office AC" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid">
+      <ControllerConnection/>
+    </modelGroup>
     <modelGroup selected="0" name="Arches" LayoutGroup="Default" models="Arches Left,Arches RIght" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
-    <modelGroup selected="0" name="Stakes" LayoutGroup="Default" models="Stake 01,Stake 02,Stake 03,Stake 04,Stake 05,Stake 06,Stake 07,Stake 08,Stake 09,Stake 10" GridSize="400" layout="grid"/>
+    <modelGroup selected="0" name="Stakes" LayoutGroup="Default" models="Stakes - Even,Stakes - Odd" GridSize="400" layout="grid"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stake 01/1 - Bottom,Stake 02/1 - Bottom,Stake 03/1 - Bottom,Stake 04/1 - Bottom,Stake 05/1 - Bottom,Stake 06/1 - Bottom,Stake 07/1 - Bottom,Stake 08/1 - Bottom,Stake 09/1 - Bottom,Stake 10/1 - Bottom" name="Stakes (1) Bottom"/>
     <modelGroup selected="0" name="Stakes (2)" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stake 01/2,Stake 02/2,Stake 03/2,Stake 04/2,Stake 05/2,Stake 06/2,Stake 07/2,Stake 08/2,Stake 09/2,Stake 10/2"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stake 01/3,Stake 02/3,Stake 03/3,Stake 04/3,Stake 05/3,Stake 06/3,Stake 07/3,Stake 08/3,Stake 09/3,Stake 10/3" name="Stakes (3)"/>
@@ -430,17 +433,21 @@
     <modelGroup selected="0" name="Stakes (5) Top" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stake 01/5 - Top,Stake 02/5 - Top,Stake 03/5 - Top,Stake 04/5 - Top,Stake 05/5 - Top,Stake 06/5 - Top,Stake 07/5 - Top,Stake 08/5 - Top,Stake 09/5 - Top,Stake 10/5 - Top"/>
     <modelGroup selected="0" name="Stakes - Odd" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stakes (1) Bottom,Stakes (3),Stakes (5) Top"/>
     <modelGroup selected="0" name="Stakes - Even" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stakes (2),Stakes (4)"/>
-    <modelGroup selected="0" name="Whole House" LayoutGroup="Default" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" models="Arches,Windows,Stakes"/>
+    <modelGroup selected="0" LayoutGroup="Default" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" name="All Pixels" models="Arches,Windows,Stakes,Trees"/>
     <modelGroup selected="0" name="Windows" LayoutGroup="Default" models="Great Room 01,Great Room 02,Office/Office 01,Office/Office 02,Office/Office 03,South West 01,South West 02,Master 01" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
     <modelGroup selected="0" name="Arches Left" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Arch1,Arch2"/>
     <modelGroup selected="0" name="Arches RIght" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Arch3,Arch4"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Candy AC 01,Candy AC 02,Candy AC 03,Candy AC 04,Candy AC 05,Candy AC 06" name="Candy Canes AC"/>
-    <modelGroup selected="0" name="Bushes" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Bush AC 01,Bush AC 02,Bush AC 03,Bush AC 04,Bush AC 05"/>
-    <modelGroup selected="0" name="Icicles" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Icicles 01 AC,Icicles 02 AC"/>
-    <modelGroup selected="0" name="Holly" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Holly AC 01,Holly AC 02"/>
-    <modelGroup selected="0" name="Wraps" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Wrap 01 AC,Wrap 02 AC"/>
-    <modelGroup selected="0" name="2019 Package" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Holly,Wraps"/>
+    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Bush AC 01,Bush AC 02,Bush AC 03,Bush AC 04,Bush AC 05" name="Bushes AC"/>
+    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Icicles 01 AC,Icicles 02 AC" name="Icicles AC"/>
+    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Holly AC 01,Holly AC 02" name="Holly AC"/>
+    <modelGroup selected="0" name="2019 Package" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Holly AC"/>
     <modelGroup selected="0" name="Office Outside" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Office/Office 01,Office/Office 03"/>
+    <modelGroup selected="0" name="Packages Left AC" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Package Blue AC 01,Package Green AC 01,Package Red AC 01"/>
+    <modelGroup selected="0" name="Packages Right AC" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Package Blue AC 02,Package Green AC 02,Package Red AC 02"/>
+    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Packages Left AC,Packages Right AC" name="Packages AC"/>
+    <modelGroup selected="0" name="Trees" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Tree 01,Tree Small 01,Tree Small 02"/>
+    <modelGroup selected="0" name="Wraps AC" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Wrap 01 AC,Wrap 02 AC"/>
   </modelGroups>
   <layoutGroups>
     <layoutGroup name="Windows" PaneWidth="1280" PaneHeight="960" PosX="100" PosY="156"/>
