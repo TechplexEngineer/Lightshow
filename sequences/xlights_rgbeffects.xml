@@ -8,10 +8,10 @@
     <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" CustomColor="#000000" StringType="Single Color Intensity" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" Controller="K16A-B" name="Cherry AC" WorldPosX="0.7019" WorldPosY="86.2382" WorldPosZ="55.3890" ScaleX="0.2310" ScaleY="0.0205" ScaleZ="0.2000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:22">
       <ControllerConnection Port="2" Protocol="Renard" channel="4"/>
     </model>
-    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" CustomColor="#000000" StringType="Single Color Intensity" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" Controller="K16A-B" name="Bush AC 07" WorldPosX="-427.5199" WorldPosY="16.9200" WorldPosZ="297.1148" ScaleX="0.0822" ScaleY="0.0564" ScaleZ="0.0943" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:1">
+    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" CustomColor="#000000" StringType="Single Color Intensity" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" name="Bush AC 07" Controller="" WorldPosX="-427.5199" WorldPosY="16.9200" WorldPosZ="297.1148" ScaleX="0.0822" ScaleY="0.0564" ScaleZ="0.0943" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:1">
       <ControllerConnection Port="1" Protocol="Renard"/>
     </model>
-    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" CustomColor="#000000" StringType="Single Color Intensity" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" Controller="K16A-B" name="Bush AC 06" WorldPosX="-426.8324" WorldPosY="16.9200" WorldPosZ="431.6393" ScaleX="0.0822" ScaleY="0.0564" ScaleZ="0.0943" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:1">
+    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" CustomColor="#000000" StringType="Single Color Intensity" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" name="Bush AC 06" Controller="" WorldPosX="-426.8324" WorldPosY="16.9200" WorldPosZ="431.6393" ScaleX="0.0822" ScaleY="0.0564" ScaleZ="0.0943" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:1">
       <ControllerConnection Port="1" Protocol="Renard"/>
     </model>
     <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" LayoutGroup="Default" name="North Pole Sign AC" Image="/Users/techplex/Documents/xlights/lightshow-2019/sequences/Images/north pole sign.png" CustomColor="#000000" StringType="Single Color Intensity" WorldPosX="76.4501" WorldPosY="33.8531" WorldPosZ="493.5953" ScaleX="32.8559" ScaleY="67.7061" ScaleZ="2.7943" RotateX="0.00000000" RotateY="39.40361404" RotateZ="0.00000000" versionNumber="5" StartChannel="&gt;Candy Canes 04 AC:1">
@@ -56,7 +56,7 @@
     <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" parm1="10" parm2="10" parm3="10" Controller="K16A-B" TagColour="rgb(107, 0, 1)" name="Package Red AC 01" CustomColor="#5f0004" StringType="Single Color Intensity" WorldPosX="979.9956" WorldPosY="20.1630" WorldPosZ="412.9765" ScaleX="3.0244" ScaleY="4.0326" ScaleZ="0.6924" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:1">
       <ControllerConnection Protocol="Renard" channel="1"/>
     </model>
-    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" CustomColor="#000000" StringType="Single Color Intensity" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" Controller="K16A-B" name="Cherry Wrap AC" WorldPosX="0.6970" WorldPosY="42.1500" WorldPosZ="55.3890" ScaleX="0.1000" ScaleY="0.1405" ScaleZ="0.1000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:22">
+    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" CustomColor="#000000" StringType="Single Color Intensity" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" name="Cherry Wrap AC" WorldPosX="0.6970" WorldPosY="42.1500" WorldPosZ="55.3890" ScaleX="0.1000" ScaleY="0.1405" ScaleZ="0.1000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:22">
       <ControllerConnection Port="2" Protocol="Renard" channel="4"/>
     </model>
     <model DisplayAs="Candy Canes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm2="18" LayoutGroup="Default" parm1="1" CustomColor="#000000" StringType="Single Color Intensity" CandyCaneSticks="false" name="Candy AC 04" Controller="K16A-B" WorldPosX="537.5627" WorldPosY="10.0512" WorldPosZ="109.1178" X2="1.000000" Y2="0.000000" Z2="15.000000" RotateX="0.00000000" Height="1.483554" Angle="-1" versionNumber="5" StartChannel="!K16A-B:16">
@@ -236,19 +236,19 @@
     <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" CustomColor="#000000" StringType="Single Color Intensity" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" name="Holly AC 01" Controller="K16A-B" WorldPosX="419.1164" WorldPosY="16.9200" WorldPosZ="104.3435" ScaleX="0.2991" ScaleY="0.0564" ScaleZ="0.0943" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:11">
       <ControllerConnection Port="1" Protocol="Renard" channel="11"/>
     </model>
-    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" CustomColor="#000000" StringType="Single Color Intensity" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" name="Bush AC 05" Controller="K16A-B" WorldPosX="169.6871" WorldPosY="16.9200" WorldPosZ="621.2030" ScaleX="0.0822" ScaleY="0.0564" ScaleZ="0.0943" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:5">
+    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" CustomColor="#000000" StringType="Single Color Intensity" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" name="Bush AC 05" Controller="" WorldPosX="169.6871" WorldPosY="16.9200" WorldPosZ="621.2030" ScaleX="0.0822" ScaleY="0.0564" ScaleZ="0.0943" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:5">
       <ControllerConnection channel="5" Port="1" Protocol="Renard"/>
     </model>
-    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" CustomColor="#000000" StringType="Single Color Intensity" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" name="Bush AC 04" Controller="K16A-B" WorldPosX="69.9255" WorldPosY="16.9200" WorldPosZ="621.2030" ScaleX="0.0822" ScaleY="0.0564" ScaleZ="0.0943" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:4">
+    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" CustomColor="#000000" StringType="Single Color Intensity" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" name="Bush AC 04" Controller="" WorldPosX="69.9255" WorldPosY="16.9200" WorldPosZ="621.2030" ScaleX="0.0822" ScaleY="0.0564" ScaleZ="0.0943" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:4">
       <ControllerConnection channel="4" Port="1" Protocol="Renard"/>
     </model>
-    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" CustomColor="#000000" StringType="Single Color Intensity" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" name="Bush AC 03" Controller="K16A-B" WorldPosX="-29.4065" WorldPosY="16.9200" WorldPosZ="621.2030" ScaleX="0.0822" ScaleY="0.0564" ScaleZ="0.0943" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:3">
+    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" CustomColor="#000000" StringType="Single Color Intensity" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" name="Bush AC 03" Controller="" WorldPosX="-29.4065" WorldPosY="16.9200" WorldPosZ="621.2030" ScaleX="0.0822" ScaleY="0.0564" ScaleZ="0.0943" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:3">
       <ControllerConnection channel="3" Port="1" Protocol="Renard"/>
     </model>
-    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" CustomColor="#000000" StringType="Single Color Intensity" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" name="Bush AC 02" Controller="K16A-B" WorldPosX="-125.0208" WorldPosY="16.9200" WorldPosZ="621.2030" ScaleX="0.0822" ScaleY="0.0564" ScaleZ="0.0943" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:2">
+    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" CustomColor="#000000" StringType="Single Color Intensity" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" name="Bush AC 02" Controller="" WorldPosX="-125.0208" WorldPosY="16.9200" WorldPosZ="621.2030" ScaleX="0.0822" ScaleY="0.0564" ScaleZ="0.0943" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:2">
       <ControllerConnection channel="2" Port="1" Protocol="Renard"/>
     </model>
-    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" CustomColor="#000000" StringType="Single Color Intensity" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" name="Bush AC 01" Controller="K16A-B" WorldPosX="-220.6605" WorldPosY="16.9200" WorldPosZ="621.2030" ScaleX="0.0822" ScaleY="0.0564" ScaleZ="0.0943" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:1">
+    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" CustomColor="#000000" StringType="Single Color Intensity" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" name="Bush AC 01" Controller="" WorldPosX="-220.6605" WorldPosY="16.9200" WorldPosZ="621.2030" ScaleX="0.0822" ScaleY="0.0564" ScaleZ="0.0943" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:1">
       <ControllerConnection Port="1" Protocol="Renard"/>
     </model>
     <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" CustomColor="#000000" StringType="Single Color Intensity" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" name="Wrap 02 AC" Controller="K16A-B" WorldPosX="859.0200" WorldPosY="16.8000" WorldPosZ="330.0413" ScaleX="0.0820" ScaleY="0.0560" ScaleZ="0.0940" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!K16A-B:9">
@@ -436,22 +436,19 @@
   </view_objects>
   <effects version="0006"/>
   <views>
-    <view name="Stakes" models=""/>
-    <view name="Whole House" models="Whole House"/>
-    <view name="Windows" models="Windows"/>
-    <view name="Soldiers" models="Windows"/>
+    <view name="Windows" models=""/>
     <view name="Characters" models=""/>
-    <view name="Great Room" models="Great Room 01,Great Room 02"/>
-    <view name="South West" models="South West 01,South West 02"/>
-    <view name="Example" models="Package 01,Holly AC 01,Holly AC 02"/>
-    <view name="2019" models="2019 Package,Icicles,Great Room 01,Great Room 02,Office,Office Outside,Candy Canes AC,Door Office AC,South West 01,South West 02,Master 01"/>
+    <view name="Great Room" models=""/>
+    <view name="2019" models="2019 Package,Icicles"/>
   </views>
   <palettes/>
   <modelGroups>
     <modelGroup selected="0" name="All AC" LayoutGroup="Default" versionNumber="2" models="Cherry Wrap AC,Door Entry AC,Door Office AC,Angel AC,Bush AC 01,Bush AC 02,Bush AC 03,Bush AC 04,Bush AC 05,Bush AC 06,Bush AC 07,Candy AC 01,Candy AC 02,Candy AC 03,Candy AC 04,Candy AC 05,Candy AC 06,Candy Canes 01 AC,Candy Canes 02 AC,Candy Canes 03 AC,Candy Canes 04 AC,Cherry AC,Holly AC 01,Holly AC 02,Icicles 01 AC,Icicles 02 AC,North Pole Sign AC,Package Blue AC 01,Package Blue AC 02,Package Green AC 01,Package Green AC 02,Package Red AC 01,Package Red AC 02,Porch AC,Santa AC,Tree AC,Wrap 01 AC,Wrap 02 AC" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid">
       <ControllerConnection/>
     </modelGroup>
-    <modelGroup selected="0" name="Arches" LayoutGroup="Default" models="Arches Left,Arches RIght" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
+    <modelGroup selected="0" name="Arches" LayoutGroup="Default" models="Arches Left,Arches RIght" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" WorldPosX="193.0000" WorldPosY="20.0000" WorldPosZ="0.0000" ScaleX="1.8040" ScaleY="1.8040" ScaleZ="1.8040" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="">
+      <ControllerConnection/>
+    </modelGroup>
     <modelGroup selected="0" name="Stakes" LayoutGroup="Default" models="Stakes - Even,Stakes - Odd" GridSize="400" layout="grid"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stake 01/1 - Bottom,Stake 02/1 - Bottom,Stake 03/1 - Bottom,Stake 04/1 - Bottom,Stake 05/1 - Bottom,Stake 06/1 - Bottom,Stake 07/1 - Bottom,Stake 08/1 - Bottom,Stake 09/1 - Bottom,Stake 10/1 - Bottom" name="Stakes (1) Bottom"/>
     <modelGroup selected="0" name="Stakes (2)" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stake 01/2,Stake 02/2,Stake 03/2,Stake 04/2,Stake 05/2,Stake 06/2,Stake 07/2,Stake 08/2,Stake 09/2,Stake 10/2"/>
@@ -474,6 +471,8 @@
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Packages Left AC,Packages Right AC" name="Packages AC"/>
     <modelGroup selected="0" name="Trees" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Tree 01,Tree Small 01,Tree Small 02"/>
     <modelGroup selected="0" name="Wraps AC" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Wrap 01 AC,Wrap 02 AC"/>
+    <modelGroup selected="0" name="Pixels Left" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Arch1,Arch2,Great Room 01,Great Room 02,Office,Tree Small 01"/>
+    <modelGroup selected="0" name="Pixels Right" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Arch3,Arch4,Master 01,South West 01,South West 02"/>
   </modelGroups>
   <layoutGroups>
     <layoutGroup name="Windows" PaneWidth="1280" PaneHeight="960" PosX="100" PosY="156"/>
