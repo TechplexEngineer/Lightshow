@@ -496,6 +496,7 @@
     <backgroundImage value="C:\Users\bbourque\projects\pers\lightshow\sequences\Images\5 Putney 2019.jpg"/>
     <previewWidth value="1280"/>
     <previewHeight value="960"/>
+    <fseqDir value="/home/techplex/projects/pers/lightshow/sequences/fseq"/>
   </settings>
   <colors>
     <EffectDefault Red="192" Green="192" Blue="192"/>
@@ -519,7 +520,7 @@
     <Timing2 Red="255" Green="0" Blue="0"/>
     <Timing3 Red="0" Green="255" Blue="0"/>
     <Timing4 Red="0" Green="0" Blue="255"/>
-    <Timing5 Red="255" Green="255" Blue="0"/>
+    <Timing5 Red="255" Green="216" Blue="0"/>
     <TimingDefault Red="255" Green="255" Blue="255"/>
     <Waveform Red="130" Green="178" Blue="207"/>
     <WaveformSelected Red="0" Green="0" Blue="200"/>
