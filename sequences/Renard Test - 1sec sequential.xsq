@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2020.47</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile></mediaFile>
+    <sequenceDuration>41</sequenceDuration>
+    <imageDir/>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect></Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="1000ms Metronome" visible="1" views="All AC In Order" active="1"/>
+    <Element collapsed="0" type="model" name="All Pixels" visible="1"/>
+    <Element collapsed="0" type="model" name="Pixels Left" visible="1"/>
+    <Element collapsed="0" type="model" name="Pixels Right" visible="1"/>
+    <Element collapsed="0" type="model" name="House and Windows" visible="1"/>
+    <Element collapsed="0" type="model" name="AC All Chan Order" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Bush 01" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bush 02" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bush 03" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bush 04" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bush 05" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Snow Flakes 01" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Snow Flakes 02" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bush 06" visible="0"/>
+    <Element collapsed="0" type="model" name="AC North Pole Sign" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Helo Canes 03" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Helo Canes 02" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Helo Canes 01" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Helo Canes 04" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bush 07" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Cherry Wrap" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Rope Lights" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Cherry" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Icicles 01" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Door Office" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Holly 02" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Holly 01" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Candy 02" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Door Entry" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Candy 06" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Candy 05" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Candy 01" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Candy 03" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Candy 04" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Santa" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Wrap 01" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Tree" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Angel" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Wrap 02" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Icicles 02" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Package Blue 01" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Package Green 01" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Package Red 01" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Package Blue 02" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Package Green 02" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Package Red 02" visible="0"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="1000ms Metronome" fixed="1000">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="All Pixels">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Pixels Left">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Pixels Right">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="House and Windows">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC All Chan Order">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Bush 01">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="1000" endTime="2000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Bush 02">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="2000" endTime="3000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Bush 03">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="3000" endTime="4000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Bush 04">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="4000" endTime="5000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Bush 05">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="5000" endTime="6000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Snow Flakes 01">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="6000" endTime="7000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Snow Flakes 02">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="7000" endTime="8000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Bush 06">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="8000" endTime="9000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC North Pole Sign">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="9000" endTime="10000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Helo Canes 03">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="10000" endTime="11000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Helo Canes 02">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="11000" endTime="12000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Helo Canes 01">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="12000" endTime="13000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Helo Canes 04">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="13000" endTime="14000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Bush 07">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="14000" endTime="15000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Cherry Wrap">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="15000" endTime="16000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Rope Lights">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="16000" endTime="17000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Cherry">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="17000" endTime="18000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Icicles 01">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="18000" endTime="19000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Door Office">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="19000" endTime="20000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Holly 02">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="20000" endTime="21000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Holly 01">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="21000" endTime="22000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Candy 02">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="22000" endTime="23000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Door Entry">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="23000" endTime="24000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Candy 06">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="24000" endTime="25000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Candy 05">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="25000" endTime="26000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Candy 01">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="26000" endTime="27000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Candy 03">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="27000" endTime="28000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Candy 04">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="28000" endTime="29000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Santa">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="29000" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Wrap 01">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="30000" endTime="31000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Tree">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="31000" endTime="32000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Angel">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="32000" endTime="33000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Wrap 02">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="33000" endTime="34000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Icicles 02">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="34000" endTime="35000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Package Blue 01">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="35000" endTime="36000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Package Green 01">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="36000" endTime="37000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Package Red 01">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="37000" endTime="38000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Package Blue 02">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="38000" endTime="39000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Package Green 02">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="39000" endTime="40000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Package Red 02">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="40000" endTime="41000" palette="0"/>
+      </EffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>2</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
