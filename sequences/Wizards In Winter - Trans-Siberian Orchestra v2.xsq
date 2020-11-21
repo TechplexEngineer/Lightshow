@@ -48,18 +48,18 @@
   </DataLayers>
   <DisplayElements>
     <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,Stakes,Whole House,Windows,Soldiers,Characters,Great Room,South West,Example,2019" active="0"/>
-    <Element collapsed="0" type="model" name="2019 Package" visible="1"/>
-    <Element collapsed="0" type="model" name="Icicles AC" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Holly" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Icicles" visible="1"/>
     <Element collapsed="0" type="model" name="Great Room 01" visible="1"/>
     <Element collapsed="0" type="model" name="Great Room 02" visible="1"/>
     <Element collapsed="0" type="model" name="Office" visible="1"/>
     <Element collapsed="0" type="model" name="Office Outside" visible="1"/>
-    <Element collapsed="0" type="model" name="Candy Canes AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Door Office AC" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Candy Canes" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Door Office" visible="1"/>
     <Element collapsed="0" type="model" name="South West 01" visible="1"/>
     <Element collapsed="0" type="model" name="South West 02" visible="1"/>
     <Element collapsed="0" type="model" name="Master 01" visible="1"/>
-    <Element collapsed="0" type="model" name="Porch AC" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Rope Lights" visible="1"/>
     <Element collapsed="0" type="timing" name="Tempo - Beats - Complex" visible="1" views="" active="0"/>
     <Element collapsed="0" type="timing" name="Tempo - Beats - Broadband" visible="1" views="" active="0"/>
     <Element collapsed="0" type="timing" name="Bars" visible="1" views="" active="0"/>
@@ -67,8 +67,6 @@
     <Element collapsed="0" type="timing" name="Tempo - Beats - Freq" visible="1" views="" active="0"/>
     <Element collapsed="0" type="timing" name="Beat Spectral Difference" visible="1" views="" active="0"/>
     <Element collapsed="1" type="timing" name="Note Onsets" visible="1" views="" active="0"/>
-    <Element collapsed="0" type="model" name="Holly AC 01" visible="1"/>
-    <Element collapsed="0" type="model" name="Holly AC 02" visible="1"/>
     <Element collapsed="0" type="timing" name="Tempo - Beats - Complex-1" visible="1" views="" active="0"/>
     <Element collapsed="0" type="timing" name="Tempo - Beats - Broadband-1" visible="1" views="" active="0"/>
     <Element collapsed="0" type="timing" name="Bars-1" visible="1" views="" active="0"/>
@@ -82,7 +80,7 @@
     <Element type="timing" name="New Timing">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="2019 Package">
+    <Element type="model" name="AC Holly">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="26100" endTime="26300" palette="0"/>
         <Effect ref="1" name="On" id="1" startTime="26300" endTime="26700" palette="0"/>
@@ -126,7 +124,7 @@
         <Effect ref="1" name="On" id="39" startTime="181350" endTime="181900" palette="0"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Icicles AC">
+    <Element type="model" name="AC Icicles">
       <EffectLayer>
         <Effect ref="1" name="On" startTime="800" endTime="1000" palette="0"/>
         <Effect ref="1" name="On" id="1" startTime="7300" endTime="7500" palette="0"/>
@@ -993,7 +991,7 @@
         <Effect ref="1" name="On" id="150" startTime="181350" endTime="181900" palette="4"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Candy Canes AC">
+    <Element type="model" name="AC Candy Canes">
       <EffectLayer>
         <Effect ref="1" name="On" startTime="200" endTime="400" palette="0"/>
         <Effect ref="1" name="On" id="1" startTime="2450" endTime="2750" palette="0"/>
@@ -1159,7 +1157,7 @@
         <Effect ref="1" name="On" id="161" startTime="181350" endTime="181900" palette="0"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Door Office AC">
+    <Element type="model" name="AC Door Office">
       <EffectLayer>
         <Effect ref="1" name="On" startTime="1100" endTime="1400" palette="0"/>
         <Effect ref="1" name="On" id="1" startTime="1650" endTime="1950" palette="0"/>
@@ -1883,7 +1881,7 @@
         <Effect ref="1" name="On" id="156" startTime="181350" endTime="181900" palette="6"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Porch AC">
+    <Element type="model" name="AC Rope Lights">
       <EffectLayer>
         <Effect ref="1" name="On" startTime="24450" endTime="24700" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="27700" endTime="27950" palette="0"/>
@@ -5408,12 +5406,6 @@
         <Effect label="" startTime="181350" endTime="181650"></Effect>
         <Effect label="" startTime="181650" endTime="181650"></Effect>
       </EffectLayer>
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Holly AC 01">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Holly AC 02">
       <EffectLayer/>
     </Element>
     <Element type="timing" name="Tempo - Beats - Complex-1">

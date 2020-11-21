@@ -254,7 +254,6 @@
     <DataLayer lor_params="105" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
   </DataLayers>
   <DisplayElements>
-    <Element collapsed="0" type="model" name="All AC" visible="1"/>
     <Element collapsed="0" type="model" name="All Pixels" visible="1"/>
     <Element collapsed="1" type="timing" name="MrsClaus" visible="1" views="Meiser Bros" active="0"/>
     <Element collapsed="1" type="timing" name="Miser bros" visible="1" views="Meiser Bros" active="0"/>
@@ -273,9 +272,6 @@
     <Element collapsed="0" type="timing" name="background-2" visible="1" views="" active="0"/>
   </DisplayElements>
   <ElementEffects>
-    <Element type="model" name="All AC">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="All Pixels">
       <EffectLayer>
         <Effect ref="0" name="Snowstorm" startTime="2750" endTime="8650" palette="0"/>
@@ -3804,7 +3800,7 @@
         <Effect ref="78" name="Life" id="33" startTime="71100" endTime="71950" palette="0"/>
         <Effect ref="25" name="Curtain" id="34" startTime="72000" endTime="73000" palette="0"/>
         <Effect ref="96" name="Snowflakes" id="35" startTime="73000" endTime="73550" palette="0"/>
-        <Effect ref="14" name="Morph" selected="1" id="36" startTime="74550" endTime="76650" palette="0"/>
+        <Effect ref="14" name="Morph" id="36" startTime="74550" endTime="76650" palette="0"/>
         <Effect ref="97" name="Strobe" id="37" startTime="77400" endTime="78300" palette="1"/>
         <Effect ref="13" name="Garlands" id="38" startTime="78500" endTime="79500" palette="5"/>
         <Effect ref="27" name="Ripple" id="39" startTime="79550" endTime="80750" palette="4"/>
@@ -5488,7 +5484,7 @@
       </EffectLayer>
     </Element>
   </ElementEffects>
-  <lastView>5</lastView>
+  <lastView>0</lastView>
   <TimingTags>
     <Tag number="0" position="-1"/>
     <Tag number="1" position="-1"/>

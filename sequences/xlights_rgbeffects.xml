@@ -479,6 +479,7 @@
     <modelGroup selected="0" name="Pixels Right" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Arch3,Arch4,Master 01,South West 01,South West 02"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Windows" name="House and Windows"/>
     <modelGroup selected="0" name="AC All" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="AC Bushes,AC Candy Canes,AC Holly,AC Icicles,AC Packages,AC Packages Left,AC Packages Right,AC Wraps"/>
+    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="AC All,All Pixels" name="Everything"/>
   </modelGroups>
   <layoutGroups>
     <layoutGroup name="Windows" PaneWidth="1280" PaneHeight="960" PosX="100" PosY="156"/>
@@ -494,10 +495,11 @@
     <Display2DBoundingBox value="0"/>
     <Display2DCenter0 value="0"/>
     <backgroundImage value="C:\Users\bbourque\projects\pers\lightshow\sequences\Images\5 Putney 2019.jpg"/>
-    <fseqDir value="/home/techplex/projects/pers/lightshow/sequences/fseq"/>
+    <storedLayoutGroup value="Default"/>
     <previewWidth value="1280"/>
     <previewHeight value="960"/>
-    <storedLayoutGroup value="Default"/>
+    <fseqDir value="/Users/techplex/Documents/xlights/lightshow-2019/sequences"/>
+    <renderCacheDir value="/Users/techplex/Documents/xlights/lightshow-2019/sequences"/>
   </settings>
   <colors>
     <EffectDefault Red="192" Green="192" Blue="192"/>

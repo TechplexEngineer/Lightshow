@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2020.47</version>
+    <version>2020.44</version>
     <author/>
     <author-email/>
     <author-website/>
@@ -53,20 +53,19 @@
     <Element collapsed="0" type="model" name="Windows" visible="1"/>
     <Element collapsed="0" type="model" name="Arches Left" visible="1"/>
     <Element collapsed="0" type="model" name="Arches RIght" visible="1"/>
-    <Element collapsed="0" type="model" name="Cherry AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Door Office AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Holly AC 02" visible="1"/>
-    <Element collapsed="0" type="model" name="Holly AC 01" visible="1"/>
-    <Element collapsed="0" type="model" name="Wrap 02 AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Wrap 01 AC" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Door Office" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Holly 02" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Holly 01" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Wrap 02" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Wrap 01" visible="1"/>
     <Element collapsed="0" type="model" name="Office" visible="1"/>
     <Element collapsed="0" type="model" name="Master 01" visible="1"/>
     <Element collapsed="0" type="model" name="South West 01" visible="1"/>
     <Element collapsed="0" type="model" name="South West 02" visible="1"/>
     <Element collapsed="0" type="model" name="Great Room 02" visible="1"/>
     <Element collapsed="0" type="model" name="Great Room 01" visible="1"/>
-    <Element collapsed="0" type="model" name="Icicles AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Candy Canes AC" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Icicles" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Candy Canes" visible="1"/>
     <Element collapsed="0" type="timing" name="100ms" visible="1" views="" active="0"/>
     <Element collapsed="0" type="timing" name="Bars" visible="1" views="" active="0"/>
     <Element collapsed="0" type="timing" name="Beats 4" visible="1" views="" active="0"/>
@@ -74,14 +73,11 @@
     <Element collapsed="0" type="timing" name="Beats" visible="1" views="" active="0"/>
     <Element collapsed="0" type="model" name="Office Outside" visible="1"/>
     <Element collapsed="0" type="model" name="All Pixels" visible="1"/>
-    <Element collapsed="0" type="model" name="All AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Bushes AC" visible="0"/>
-    <Element collapsed="0" type="model" name="Holly AC" visible="0"/>
-    <Element collapsed="0" type="model" name="Door Entry AC" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Holly" visible="0"/>
     <Element collapsed="0" type="model" name="Arches" visible="0"/>
     <Element collapsed="0" type="model" name="Stakes" visible="0"/>
     <Element collapsed="0" type="model" name="Trees" visible="0"/>
-    <Element collapsed="0" type="model" name="Rope Lights AC" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Rope Lights" visible="0"/>
     <Element collapsed="0" type="model" name="Pixels Left" visible="1"/>
     <Element collapsed="0" type="model" name="Pixels Right" visible="1"/>
     <Element collapsed="0" type="model" name="House and Windows" visible="1"/>
@@ -99,10 +95,7 @@
     <Element type="model" name="Arches RIght">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Cherry AC">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Door Office AC">
+    <Element type="model" name="AC Door Office">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="13500" endTime="14250" palette="0"/>
         <Effect ref="1" name="On" id="1" startTime="14250" endTime="15000" palette="0"/>
@@ -155,7 +148,7 @@
         <Effect ref="4" name="On" id="48" startTime="191100" endTime="194050" palette="0"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Holly AC 02">
+    <Element type="model" name="AC Holly 02">
       <EffectLayer>
         <Effect ref="4" name="On" startTime="32750" endTime="33200" palette="0"/>
         <Effect ref="4" name="On" id="1" startTime="35600" endTime="36100" palette="0"/>
@@ -288,7 +281,7 @@
         <Effect ref="4" name="On" id="128" startTime="191100" endTime="194050" palette="0"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Holly AC 01">
+    <Element type="model" name="AC Holly 01">
       <EffectLayer>
         <Effect ref="4" name="On" startTime="32750" endTime="33200" palette="0"/>
         <Effect ref="4" name="On" id="1" startTime="35600" endTime="36100" palette="0"/>
@@ -421,7 +414,7 @@
         <Effect ref="4" name="On" id="128" startTime="191100" endTime="194050" palette="0"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Wrap 02 AC">
+    <Element type="model" name="AC Wrap 02">
       <EffectLayer>
         <Effect ref="4" name="On" startTime="32750" endTime="33200" palette="0"/>
         <Effect ref="4" name="On" id="1" startTime="35600" endTime="36100" palette="0"/>
@@ -554,7 +547,7 @@
         <Effect ref="4" name="On" id="128" startTime="191100" endTime="194050" palette="0"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Wrap 01 AC">
+    <Element type="model" name="AC Wrap 01">
       <EffectLayer>
         <Effect ref="4" name="On" startTime="32750" endTime="33200" palette="0"/>
         <Effect ref="4" name="On" id="1" startTime="35600" endTime="36100" palette="0"/>
@@ -1551,7 +1544,7 @@
         <Effect ref="4" name="On" id="170" startTime="191100" endTime="194050" palette="4"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Icicles AC">
+    <Element type="model" name="AC Icicles">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="50" endTime="4050" palette="0"/>
         <Effect ref="1" name="On" id="1" startTime="4050" endTime="8050" palette="0"/>
@@ -1626,7 +1619,7 @@
         <Effect ref="4" name="On" id="70" startTime="191100" endTime="194050" palette="0"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Candy Canes AC">
+    <Element type="model" name="AC Candy Canes">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="6200" endTime="6950" palette="0"/>
         <Effect ref="1" name="On" id="1" startTime="6950" endTime="7650" palette="0"/>
@@ -5366,13 +5359,7 @@
     <Element type="model" name="All Pixels">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="All AC">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Bushes AC">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Holly AC">
+    <Element type="model" name="AC Holly">
       <EffectLayer>
         <Effect ref="4" name="On" startTime="32750" endTime="33200" palette="0"/>
         <Effect ref="4" name="On" id="1" startTime="35600" endTime="36100" palette="0"/>
@@ -5505,9 +5492,6 @@
         <Effect ref="4" name="On" id="128" startTime="191100" endTime="194050" palette="0"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Door Entry AC">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Arches">
       <EffectLayer/>
     </Element>
@@ -5517,7 +5501,7 @@
     <Element type="model" name="Trees">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Rope Lights AC">
+    <Element type="model" name="AC Rope Lights">
       <EffectLayer>
         <Effect ref="1" name="On" startTime="28300" endTime="32750" palette="0"/>
         <Effect ref="3" name="On" id="1" startTime="68300" endTime="68350" palette="0"/>

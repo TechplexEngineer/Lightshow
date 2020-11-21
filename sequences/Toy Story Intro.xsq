@@ -5,14 +5,14 @@
     <author/>
     <author-email/>
     <author-website/>
-    <song/>
-    <artist/>
-    <album/>
+    <song></song>
+    <artist></artist>
+    <album></album>
     <MusicURL/>
     <comment/>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
-    <mediaFile>/Users/techplex/Documents/xlights/lightshow-2019/sequences/Toy Story Intro.mp3</mediaFile>
+    <mediaFile>/Users/techplex/Documents/xlights/lightshow-2019/sequences/Music/Toy Story Intro.mp3</mediaFile>
     <sequenceDuration>162.037</sequenceDuration>
     <imageDir/>
   </head>
@@ -55,7 +55,7 @@
     <Element collapsed="0" type="timing" name="Jessie" visible="1" views="" active="0"/>
     <Element collapsed="0" type="timing" name="Mr Potato Head" visible="1" views="" active="0"/>
     <Element collapsed="0" type="timing" name="Hamm" visible="1" views="" active="0"/>
-    <Element collapsed="0" type="model" name="Whole House" visible="1"/>
+    <Element collapsed="0" type="model" name="Everything" visible="1"/>
     <Element collapsed="0" type="model" name="Arches" visible="1"/>
     <Element collapsed="0" type="model" name="Characters" visible="1"/>
     <Element collapsed="0" type="model" name="Tree 01" visible="1"/>
@@ -197,7 +197,7 @@
         <Effect label="Come on, lets see how much we are going for on ebay" startTime="154450" endTime="157350"></Effect>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Whole House">
+    <Element type="model" name="Everything">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="157400" endTime="158200" palette="0"/>
         <Effect ref="1" name="On" id="1" startTime="158200" endTime="158800" palette="0"/>
@@ -588,7 +588,7 @@
     </Element>
     <Element type="model" name="Arch3">
       <EffectLayer>
-        <Effect ref="7" name="Butterfly" selected="1" startTime="152000" endTime="154050" palette="5"/>
+        <Effect ref="7" name="Butterfly" startTime="152000" endTime="154050" palette="5"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Arch4">
@@ -605,7 +605,7 @@
       <EffectLayer/>
     </Element>
   </ElementEffects>
-  <lastView>4</lastView>
+  <lastView>0</lastView>
   <TimingTags>
     <Tag number="0" position="-1"/>
     <Tag number="1" position="-1"/>

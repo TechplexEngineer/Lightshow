@@ -2,19 +2,19 @@
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
     <version>2020.44</version>
-    <author></author>
-    <author-email></author-email>
-    <author-website></author-website>
-    <song></song>
-    <artist></artist>
-    <album></album>
-    <MusicURL></MusicURL>
-    <comment></comment>
+    <author/>
+    <author-email/>
+    <author-website/>
+    <song/>
+    <artist/>
+    <album/>
+    <MusicURL/>
+    <comment/>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
     <mediaFile>/Users/techplex/Documents/xlights/lightshow-2019/sequences/Music/Into the Unknown - Panic at the Disco.mp3</mediaFile>
     <sequenceDuration>195.837</sequenceDuration>
-    <imageDir></imageDir>
+    <imageDir/>
   </head>
   <nextid>1</nextid>
   <Jukebox/>
@@ -138,7 +138,6 @@
   </DataLayers>
   <DisplayElements>
     <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,Windows,Characters,Great Room,2019,Meiser Bros" active="1"/>
-    <Element collapsed="0" type="model" name="All AC" visible="1"/>
     <Element collapsed="0" type="model" name="Arches" visible="1"/>
     <Element collapsed="0" type="model" name="Stakes" visible="1"/>
     <Element collapsed="0" type="model" name="Stakes (1) Bottom" visible="1"/>
@@ -152,44 +151,12 @@
     <Element collapsed="0" type="model" name="Windows" visible="1"/>
     <Element collapsed="0" type="model" name="Arches Left" visible="1"/>
     <Element collapsed="0" type="model" name="Arches RIght" visible="1"/>
-    <Element collapsed="0" type="model" name="Candy Canes AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Bushes AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Icicles AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Holly AC" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Icicles" visible="1"/>
     <Element collapsed="0" type="model" name="Office Outside" visible="1"/>
-    <Element collapsed="0" type="model" name="Packages Left AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Packages Right AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Packages AC" visible="1"/>
     <Element collapsed="0" type="model" name="Trees" visible="1"/>
-    <Element collapsed="0" type="model" name="Wraps AC" visible="1"/>
     <Element collapsed="0" type="model" name="Pixels Left" visible="1"/>
     <Element collapsed="0" type="model" name="Pixels Right" visible="1"/>
     <Element collapsed="0" type="model" name="House and Windows" visible="1"/>
-    <Element collapsed="0" type="model" name="Snow Flakes AC 02" visible="1"/>
-    <Element collapsed="0" type="model" name="Snow Flakes AC 01" visible="1"/>
-    <Element collapsed="0" type="model" name="Angel AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Cherry AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Bush AC 06" visible="1"/>
-    <Element collapsed="0" type="model" name="Bush AC 07" visible="1"/>
-    <Element collapsed="0" type="model" name="North Pole Sign AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Helo Canes 04 AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Helo Canes 03 AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Helo Canes 02 AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Helo Canes 01 AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Package Red AC 02" visible="1"/>
-    <Element collapsed="0" type="model" name="Package Green AC 02" visible="1"/>
-    <Element collapsed="0" type="model" name="Package Blue AC 02" visible="1"/>
-    <Element collapsed="0" type="model" name="Santa AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Tree AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Package Blue AC 01" visible="1"/>
-    <Element collapsed="0" type="model" name="Package Green AC 01" visible="1"/>
-    <Element collapsed="0" type="model" name="Package Red AC 01" visible="1"/>
-    <Element collapsed="0" type="model" name="Cherry Wrap AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Candy AC 04" visible="1"/>
-    <Element collapsed="0" type="model" name="Candy AC 02" visible="1"/>
-    <Element collapsed="0" type="model" name="Candy AC 05" visible="1"/>
-    <Element collapsed="0" type="model" name="Candy AC 03" visible="1"/>
-    <Element collapsed="0" type="model" name="Candy AC 01" visible="1"/>
     <Element collapsed="0" type="model" name="Stake 02" visible="1"/>
     <Element collapsed="0" type="model" name="Stake 03" visible="1"/>
     <Element collapsed="0" type="model" name="Stake 04" visible="1"/>
@@ -197,22 +164,8 @@
     <Element collapsed="0" type="model" name="Stake 06" visible="1"/>
     <Element collapsed="0" type="model" name="Stake 07" visible="1"/>
     <Element collapsed="0" type="model" name="Stake 08" visible="1"/>
-    <Element collapsed="0" type="model" name="Rope Lights AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Door Entry AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Door Office AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Holly AC 02" visible="1"/>
-    <Element collapsed="0" type="model" name="Holly AC 01" visible="1"/>
-    <Element collapsed="0" type="model" name="Bush AC 05" visible="1"/>
-    <Element collapsed="0" type="model" name="Bush AC 04" visible="1"/>
-    <Element collapsed="0" type="model" name="Bush AC 03" visible="1"/>
-    <Element collapsed="0" type="model" name="Bush AC 02" visible="1"/>
-    <Element collapsed="0" type="model" name="Bush AC 01" visible="1"/>
-    <Element collapsed="0" type="model" name="Wrap 02 AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Wrap 01 AC" visible="1"/>
     <Element collapsed="0" type="model" name="Tree Small 02" visible="1"/>
     <Element collapsed="0" type="model" name="Tree Small 01" visible="1"/>
-    <Element collapsed="0" type="model" name="Icicles 02 AC" visible="1"/>
-    <Element collapsed="0" type="model" name="Icicles 01 AC" visible="1"/>
     <Element collapsed="0" type="model" name="Stake 09" visible="1"/>
     <Element collapsed="0" type="model" name="Stake 10" visible="1"/>
     <Element collapsed="0" type="model" name="Office" visible="1"/>
@@ -229,7 +182,6 @@
     <Element collapsed="0" type="model" name="Arch1" visible="1"/>
     <Element collapsed="0" type="model" name="Tree 01" visible="1"/>
     <Element collapsed="0" type="model" name="Characters" visible="1"/>
-    <Element collapsed="0" type="model" name="Candy AC 06" visible="1"/>
     <Element collapsed="0" type="timing" name="Sections" visible="1" views="" active="1"/>
     <Element collapsed="0" type="timing" name="Bars" visible="1" views="" active="0"/>
     <Element collapsed="0" type="timing" name="Beats" visible="1" views="" active="0"/>
@@ -238,9 +190,6 @@
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="New Timing">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="All AC">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Arches">
@@ -422,13 +371,7 @@
     <Element type="model" name="Arches RIght">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Candy Canes AC">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Bushes AC">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Icicles AC">
+    <Element type="model" name="AC Icicles">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="138450" endTime="138950" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="139400" endTime="139900" palette="1"/>
@@ -482,25 +425,10 @@
         <Effect ref="48" name="Off" id="5" startTime="166550" endTime="172950" palette="15"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Holly AC">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Office Outside">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Packages Left AC">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Packages Right AC">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Packages AC">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Trees">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Wraps AC">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Pixels Left">
@@ -510,81 +438,6 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="House and Windows">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Snow Flakes AC 02">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Snow Flakes AC 01">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Angel AC">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Cherry AC">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Bush AC 06">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Bush AC 07">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="North Pole Sign AC">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Helo Canes 04 AC">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Helo Canes 03 AC">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Helo Canes 02 AC">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Helo Canes 01 AC">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Package Red AC 02">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Package Green AC 02">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Package Blue AC 02">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Santa AC">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Tree AC">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Package Blue AC 01">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Package Green AC 01">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Package Red AC 01">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Cherry Wrap AC">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Candy AC 04">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Candy AC 02">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Candy AC 05">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Candy AC 03">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Candy AC 01">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Stake 02">
@@ -606,42 +459,6 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Stake 08">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Rope Lights AC">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Door Entry AC">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Door Office AC">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Holly AC 02">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Holly AC 01">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Bush AC 05">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Bush AC 04">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Bush AC 03">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Bush AC 02">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Bush AC 01">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Wrap 02 AC">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Wrap 01 AC">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Tree Small 02">
@@ -780,12 +597,6 @@
         <Effect ref="70" name="Spirals" id="15" startTime="164500" endTime="167650" palette="24"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Icicles 02 AC">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Icicles 01 AC">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Stake 09">
       <EffectLayer/>
     </Element>
@@ -917,7 +728,7 @@
         <Effect ref="72" name="Morph" id="16" startTime="55300" endTime="55800" palette="9"/>
         <Effect ref="72" name="Morph" id="17" startTime="55800" endTime="56300" palette="9"/>
         <Effect ref="72" name="Morph" id="18" startTime="56300" endTime="56800" palette="9"/>
-        <Effect ref="72" name="Morph" selected="1" id="19" startTime="56800" endTime="57300" palette="9"/>
+        <Effect ref="72" name="Morph" id="19" startTime="56800" endTime="57300" palette="9"/>
         <Effect ref="72" name="Morph" id="20" startTime="57300" endTime="57850" palette="9"/>
         <Effect ref="72" name="Morph" id="21" startTime="57850" endTime="58350" palette="9"/>
         <Effect ref="72" name="Morph" id="22" startTime="58350" endTime="58850" palette="9"/>
@@ -1032,9 +843,6 @@
       </EffectLayer>
     </Element>
     <Element type="model" name="Characters">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Candy AC 06">
       <EffectLayer/>
     </Element>
     <Element type="timing" name="Sections">
