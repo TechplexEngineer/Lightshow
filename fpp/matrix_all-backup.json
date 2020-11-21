@@ -201,7 +201,7 @@
         "LEDPanelUIPixelsWide": "128",
         "LEDPanelsSize": "64x32x16",
         "HostDescription": "matrix",
-        "fppMode": "remote",
+        "fppMode": "bridge",
         "backgroundColor": "FF0000",
         "VideoOutput": "Disabled"
       }

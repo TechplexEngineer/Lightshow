@@ -4,7 +4,7 @@ set -euo pipefail
 
 JQ_FILTER='del(.network.wifi_network[]) | .network.wifi_network[0]=[""]'
 
-FPP_INSTANCES=(matrix fpp pixels pixels02)
+FPP_INSTANCES=(matrix fpp pixels renard01)
 
 count=0
 for instance in "${FPP_INSTANCES[@]}"

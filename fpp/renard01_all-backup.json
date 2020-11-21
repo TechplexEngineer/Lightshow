@@ -1,31 +1,7 @@
 {
   "channelOutputs": {
     "universes": [
-      {
-        "channelOutputs": [
-          {
-            "type": "universes",
-            "enabled": 1,
-            "startChannel": 1,
-            "channelCount": -1,
-            "universes": [
-              {
-                "active": 1,
-                "description": "Characters",
-                "id": 1,
-                "startChannel": 1,
-                "universeCount": 1,
-                "channelCount": 540,
-                "type": 5,
-                "address": "espixel-01",
-                "priority": 0,
-                "monitor": 1,
-                "deDuplicate": 0
-              }
-            ]
-          }
-        ]
-      }
+      null
     ],
     "falcon_pixelnet_DMX": [
       [
@@ -98,7 +74,19 @@
       null
     ],
     "other": [
-      null
+      {
+        "channelOutputs": [
+          {
+            "enabled": 1,
+            "type": "Renard",
+            "startChannel": 15661,
+            "channelCount": 72,
+            "device": "ttyUSB0",
+            "renardspeed": 57600,
+            "renardparm": "8N1"
+          }
+        ]
+      }
     ]
   },
   "model-overlays": {
@@ -457,22 +445,22 @@
         "StartCorner": "BL",
         "StrandsPerString": 1,
         "StringCount": 1,
+        "data": ",,,,1;,1,,,;,,,,;,,,,;,,1,,",
         "Orientation": "custom",
         "ChannelCountPerNode": 1,
         "StartChannel": 15666,
         "ChannelCount": 1,
-        "data": ",,,,1;,1,,,;,,,,;,,,,;,,1,,",
         "Name": "AC_Snow_Flakes_01"
       },
       {
         "StartCorner": "BL",
         "StrandsPerString": 1,
         "StringCount": 1,
+        "data": ",,,,1;,1,,,;,,,,;,,,,;,,1,,",
         "Orientation": "custom",
         "ChannelCountPerNode": 1,
         "StartChannel": 15667,
         "ChannelCount": 1,
-        "data": ",,,,1;,1,,,;,,,,;,,,,;,,1,,",
         "Name": "AC_Snow_Flakes_02"
       },
       {
@@ -549,11 +537,11 @@
         "StartCorner": "BL",
         "StrandsPerString": 1,
         "StringCount": 1,
+        "data": "166,,165,,,136,,135,,,106,,105,,,76,,75,,,46,,45,,,16,,15;167,,164,,,137,,134,,,107,,104,,,77,,74,,,47,,44,,,17,,14;168,,163,,,138,,133,,,108,,103,,,78,,73,,,48,,43,,,18,,13;169,,162,,,139,,132,,,109,,102,,,79,,72,,,49,,42,,,19,,12;170,,161,,,140,,131,,,110,,101,,,80,,71,,,50,,41,,,20,,11;171,,160,,,141,,130,,,111,,100,,,81,,70,,,51,,40,,,21,,10;172,,159,,,142,,129,,,112,,99,,,82,,69,,,52,,39,,,22,,9;173,,158,,,143,,128,,,113,,98,,,83,,68,,,53,,38,,,23,,8;174,,157,,,144,,127,,,114,,97,,,84,,67,,,54,,37,,,24,,7;175,,156,,,145,,126,,,115,,96,,,85,,66,,,55,,36,,,25,,6;176,,155,,,146,,125,,,116,,95,,,86,,65,,,56,,35,,,26,,5;177,,154,,,147,,124,,,117,,94,,,87,,64,,,57,,34,,,27,,4;178,,153,,,148,,123,,,118,,93,,,88,,63,,,58,,33,,,28,,3;179,,152,,,149,,122,,,119,,92,,,89,,62,,,59,,32,,,29,,2;180,,151,,,150,,121,,,120,,91,,,90,,61,,,60,,31,,,30,,1",
         "Orientation": "custom",
         "ChannelCountPerNode": 3,
         "StartChannel": 1,
         "ChannelCount": 540,
-        "data": "166,,165,,,136,,135,,,106,,105,,,76,,75,,,46,,45,,,16,,15;167,,164,,,137,,134,,,107,,104,,,77,,74,,,47,,44,,,17,,14;168,,163,,,138,,133,,,108,,103,,,78,,73,,,48,,43,,,18,,13;169,,162,,,139,,132,,,109,,102,,,79,,72,,,49,,42,,,19,,12;170,,161,,,140,,131,,,110,,101,,,80,,71,,,50,,41,,,20,,11;171,,160,,,141,,130,,,111,,100,,,81,,70,,,51,,40,,,21,,10;172,,159,,,142,,129,,,112,,99,,,82,,69,,,52,,39,,,22,,9;173,,158,,,143,,128,,,113,,98,,,83,,68,,,53,,38,,,23,,8;174,,157,,,144,,127,,,114,,97,,,84,,67,,,54,,37,,,24,,7;175,,156,,,145,,126,,,115,,96,,,85,,66,,,55,,36,,,25,,6;176,,155,,,146,,125,,,116,,95,,,86,,65,,,56,,35,,,26,,5;177,,154,,,147,,124,,,117,,94,,,87,,64,,,57,,34,,,27,,4;178,,153,,,148,,123,,,118,,93,,,88,,63,,,58,,33,,,28,,3;179,,152,,,149,,122,,,119,,92,,,89,,62,,,59,,32,,,29,,2;180,,151,,,150,,121,,,120,,91,,,90,,61,,,60,,31,,,30,,1",
         "Name": "Characters"
       },
       {
@@ -600,11 +588,11 @@
         "StartCorner": "BL",
         "StrandsPerString": 1,
         "StringCount": 1,
+        "data": "107,106,105,104,103,102,101,100,69,68,67,66,65,64,63,62,61,60,59,58,57,56,55,54,23,22,21,20,19,18,17,16;108,,,,,,,99,70,,,,,,,,,,,,,,,53,24,,,,,,,15;109,,,,,,,98,71,,,,,,,,,,,,,,,52,25,,,,,,,14;110,,,,,,,97,72,,,,,,,,,,,,,,,51,26,,,,,,,13;111,,,,,,,96,73,,,,,,,,,,,,,,,50,27,,,,,,,12;112,,,,,,,95,74,,,,,,,,,,,,,,,49,28,,,,,,,11;113,,,,,,,94,75,,,,,,,,,,,,,,,48,29,,,,,,,10;114,,,,,,,93,76,,,,,,,,,,,,,,,47,30,,,,,,,9;115,,,,,,,92,77,,,,,,,,,,,,,,,46,31,,,,,,,8;116,,,,,,,91,78,,,,,,,,,,,,,,,45,32,,,,,,,7;117,,,,,,,90,79,,,,,,,,,,,,,,,44,33,,,,,,,6;118,,,,,,,89,80,,,,,,,,,,,,,,,43,34,,,,,,,5;119,,,,,,,88,81,,,,,,,,,,,,,,,42,35,,,,,,,4;120,,,,,,,87,82,,,,,,,,,,,,,,,41,36,,,,,,,3;121,,,,,,,86,83,,,,,,,,,,,,,,,40,37,,,,,,,2;122,123,124,125,126,127,128,85,84,129,130,131,132,133,134,135,136,137,138,139,140,141,142,39,38,143,144,145,146,147,148,1",
         "Orientation": "custom",
         "ChannelCountPerNode": 3,
         "StartChannel": 14467,
         "ChannelCount": 444,
-        "data": "107,106,105,104,103,102,101,100,69,68,67,66,65,64,63,62,61,60,59,58,57,56,55,54,23,22,21,20,19,18,17,16;108,,,,,,,99,70,,,,,,,,,,,,,,,53,24,,,,,,,15;109,,,,,,,98,71,,,,,,,,,,,,,,,52,25,,,,,,,14;110,,,,,,,97,72,,,,,,,,,,,,,,,51,26,,,,,,,13;111,,,,,,,96,73,,,,,,,,,,,,,,,50,27,,,,,,,12;112,,,,,,,95,74,,,,,,,,,,,,,,,49,28,,,,,,,11;113,,,,,,,94,75,,,,,,,,,,,,,,,48,29,,,,,,,10;114,,,,,,,93,76,,,,,,,,,,,,,,,47,30,,,,,,,9;115,,,,,,,92,77,,,,,,,,,,,,,,,46,31,,,,,,,8;116,,,,,,,91,78,,,,,,,,,,,,,,,45,32,,,,,,,7;117,,,,,,,90,79,,,,,,,,,,,,,,,44,33,,,,,,,6;118,,,,,,,89,80,,,,,,,,,,,,,,,43,34,,,,,,,5;119,,,,,,,88,81,,,,,,,,,,,,,,,42,35,,,,,,,4;120,,,,,,,87,82,,,,,,,,,,,,,,,41,36,,,,,,,3;121,,,,,,,86,83,,,,,,,,,,,,,,,40,37,,,,,,,2;122,123,124,125,126,127,128,85,84,129,130,131,132,133,134,135,136,137,138,139,140,141,142,39,38,143,144,145,146,147,148,1",
         "Name": "Office"
       },
       {
@@ -760,100 +748,20 @@
     ]
   },
   "show_setup": {
-    "events": [],
-    "playlist": {
-      "2020.json": [
+    "events": {
+      "01_01.fevt": [
         "{",
-        "    \"name\": \"2020\",",
-        "    \"version\": 3,",
-        "    \"repeat\": 0,",
-        "    \"loopCount\": 0,",
-        "    \"mainPlaylist\": [",
-        "        {",
-        "            \"type\": \"both\",",
-        "            \"enabled\": 1,",
-        "            \"playOnce\": 0,",
-        "            \"sequenceName\": \"Toy Story Intro.fseq\",",
-        "            \"mediaName\": \"Toy Story Intro.mp3\",",
-        "            \"videoOut\": \"--Default--\",",
-        "            \"duration\": 162",
-        "        },",
-        "        {",
-        "            \"type\": \"both\",",
-        "            \"enabled\": 1,",
-        "            \"playOnce\": 0,",
-        "            \"sequenceName\": \"Wizards In Winter - Trans-Siberian Orchestra v2.fseq\",",
-        "            \"mediaName\": \"Wizards In Winter - Trans-Siberian Orchestra.m4a\",",
-        "            \"videoOut\": \"--Default--\",",
-        "            \"duration\": 187.9",
-        "        },",
-        "        {",
-        "            \"type\": \"both\",",
-        "            \"enabled\": 1,",
-        "            \"playOnce\": 0,",
-        "            \"sequenceName\": \"Snow Miser and Heat Miser Import.fseq\",",
-        "            \"mediaName\": \"Snow Miser and Heat Miser.mp3\",",
-        "            \"videoOut\": \"--Default--\",",
-        "            \"duration\": 203.8",
-        "        },",
-        "        {",
-        "            \"type\": \"both\",",
-        "            \"enabled\": 1,",
-        "            \"playOnce\": 0,",
-        "            \"sequenceName\": \"Carol of the Bells - Trans-Siberian Orchestra v2.fseq\",",
-        "            \"mediaName\": \"Carol of the Bells - Trans-Siberian Orchestra.mp3\",",
-        "            \"videoOut\": \"--Default--\",",
-        "            \"duration\": 205.05",
-        "        },",
-        "        {",
-        "            \"type\": \"both\",",
-        "            \"enabled\": 1,",
-        "            \"playOnce\": 0,",
-        "            \"sequenceName\": \"Into the Unknown - Panic at the Disco.fseq\",",
-        "            \"mediaName\": \"Into the Unknown - Panic at the Disco.mp3\",",
-        "            \"videoOut\": \"--Default--\",",
-        "            \"duration\": 195.8",
-        "        }",
-        "    ],",
-        "    \"playlistInfo\": {",
-        "        \"total_duration\": 954.55,",
-        "        \"total_items\": 5",
-        "    }",
-        "}"
-      ],
-      "2019.json": [
-        "{",
-        "    \"name\": \"2019\",",
-        "    \"version\": 3,",
-        "    \"repeat\": 0,",
-        "    \"loopCount\": 0,",
-        "    \"mainPlaylist\": [",
-        "        {",
-        "            \"type\": \"both\",",
-        "            \"enabled\": 1,",
-        "            \"playOnce\": 0,",
-        "            \"sequenceName\": \"Carol of the Bells - Trans-Siberian Orchestra.fseq\",",
-        "            \"mediaName\": \"Carol of the Bells - Trans-Siberian Orchestra.mp3\",",
-        "            \"videoOut\": \"--Default--\",",
-        "            \"duration\": 205.05",
-        "        },",
-        "        {",
-        "            \"type\": \"both\",",
-        "            \"enabled\": 1,",
-        "            \"playOnce\": 0,",
-        "            \"sequenceName\": \"Wizards In Winter - Trans-Siberian Orchestra.fseq\",",
-        "            \"mediaName\": \"Wizards In Winter - Trans-Siberian Orchestra.m4a\",",
-        "            \"videoOut\": \"--Default--\",",
-        "            \"duration\": 187.9",
-        "        }",
-        "    ],",
-        "    \"playlistInfo\": {",
-        "        \"total_duration\": 392.95000000000005,",
-        "        \"total_items\": 2",
-        "    }",
+        "    \"command\": \"All Lights Off\",",
+        "    \"multisyncCommand\": false,",
+        "    \"multisyncHosts\": \"\",",
+        "    \"args\": [],",
+        "    \"name\": \"all off\",",
+        "    \"majorId\": 1,",
+        "    \"minorId\": 1",
         "}"
       ]
     },
+    "playlist": [],
     "schedule": [
       [
         ""
@@ -865,27 +773,17 @@
     "system_settings": [
       {
         "storageDevice": "mmcblk0p2",
-        "LastBlock": "60805120",
+        "LastBlock": "29696000",
         "volume": "70",
-        "AudioCard0Type": "unknown",
-        "AudioMixerDevice": "Speaker",
+        "AudioCard0Type": "bcm2",
+        "AudioMixerDevice": "PCM",
         "FalconHardwareDetected": "0",
-        "rebootFlag": "0",
+        "HostName": "Renard01",
         "restartFlag": "0",
-        "AudioOutput": "1",
-        "verbosePlaylistItemDetails": "0",
-        "backgroundColor": "",
-        "uiLevel": "2",
-        "MultiSyncAdvancedView": "1",
-        "fppMode": "master",
-        "HostDescription": "Master - FM Radio",
-        "EnableRouting": "0",
-        "MultiSyncExtraRemotes": "",
-        "MultiSyncRemotes": "",
-        "MultiSyncRefreshStatus": "0",
-        "ntp": "1",
-        "ntpServer": "10.0.0.1",
-        "TimeZone": "America/New_York",
+        "rebootFlag": "0",
+        "wifiDrivers": "Kernel",
+        "backgroundColor": "0000FF",
+        "fppMode": "remote",
         "e131statsLiveUpdate": "1"
       }
     ],
@@ -895,40 +793,12 @@
       ]
     ],
     "timezone": [
-      [
-        ""
-      ]
-    ]
-  },
-  "plugins": {
-    "Si4713_FM_RDS": [
-      [
-        "Start = \"FPPDStart\"",
-        "Stop = \"Never\"",
-        "Frequency = \"87.9\"",
-        "LoggingLevel = \"ERROR\"",
-        "EnableRDS = \"True\"",
-        "RDSTextTitle = \"True\"",
-        "RDSTextArtist = \"True\"",
-        "StationDelay = \"4\"",
-        "StationText = \"\"",
-        "RDSTextText = \"Lights on Putney Circle\"",
-        "StationTitle = \"False\"",
-        "StationArtist = \"False\"",
-        "StationTrackNumPre = \"\"",
-        "StationTrackNumSuf = \"of 4\"",
-        "StationTrackNum = \"False\"",
-        "RDSTextTrackNum = \"False\"",
-        "Power = \"113\"",
-        ""
-      ]
+      false
     ]
   },
   "network": {
     "wired_network": [
       [
-        "INTERFACE=eth0",
-        "PROTO=dhcp",
         ""
       ]
     ],
@@ -940,5 +810,5 @@
   },
   "protected": true,
   "platform": "Raspberry Pi",
-  "fpp_backup_version": "2"
+  "fpp_backup_version": "3"
 }

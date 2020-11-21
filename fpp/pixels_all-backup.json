@@ -96,44 +96,43 @@
         "channelOutputs": [
           {
             "serialInUse": false,
-            "outputCount": 7,
             "outputs": [
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 1,
                     "reverse": 0,
-                    "pixelCount": 100,
-                    "startChannel": 12828,
+                    "groupCount": 1,
+                    "brightness": 100,
                     "colorOrder": "RGB",
-                    "description": "Tree 01"
-                  },
-                  {
-                    "brightness": 100,
-                    "zigZag": 0,
-                    "gamma": "1.0",
-                    "nullNodes": 0,
-                    "groupCount": 1,
-                    "reverse": 0,
                     "pixelCount": 50,
-                    "startChannel": 13128,
-                    "colorOrder": "RGB",
+                    "startChannel": 12828,
                     "description": "Tree Small 01"
                   },
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 1,
                     "reverse": 0,
+                    "groupCount": 1,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 100,
+                    "startChannel": 12978,
+                    "description": "Tree 01"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 1,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 50,
                     "startChannel": 13278,
-                    "colorOrder": "RGB",
                     "description": "Tree Small 02"
                   }
                 ],
@@ -142,51 +141,51 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 1,
                     "reverse": 0,
+                    "groupCount": 1,
+                    "brightness": 100,
+                    "colorOrder": "GRB",
                     "pixelCount": 74,
                     "startChannel": 13428,
-                    "colorOrder": "RGB",
                     "description": "Arch1"
                   },
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 1,
                     "reverse": 0,
+                    "groupCount": 1,
+                    "brightness": 100,
+                    "colorOrder": "GRB",
                     "pixelCount": 74,
                     "startChannel": 13650,
-                    "colorOrder": "RGB",
                     "description": "Arch2"
                   },
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 1,
                     "reverse": 0,
+                    "groupCount": 1,
+                    "brightness": 100,
+                    "colorOrder": "GRB",
                     "pixelCount": 74,
                     "startChannel": 13872,
-                    "colorOrder": "RGB",
                     "description": "Arch3"
                   },
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 1,
                     "reverse": 0,
+                    "groupCount": 1,
+                    "brightness": 100,
+                    "colorOrder": "GRB",
                     "pixelCount": 74,
                     "startChannel": 14094,
-                    "colorOrder": "RGB",
                     "description": "Arch4"
                   }
                 ],
@@ -195,123 +194,123 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 1,
                     "reverse": 0,
+                    "groupCount": 1,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 5,
                     "startChannel": 14316,
-                    "colorOrder": "RGB",
                     "description": "Stake 01"
                   },
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 1,
                     "reverse": 0,
+                    "groupCount": 1,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 5,
                     "startChannel": 14331,
-                    "colorOrder": "RGB",
                     "description": "Stake 02"
                   },
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 1,
                     "reverse": 0,
+                    "groupCount": 1,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 5,
                     "startChannel": 14346,
-                    "colorOrder": "RGB",
                     "description": "Stake 03"
                   },
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 1,
                     "reverse": 0,
+                    "groupCount": 1,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 5,
                     "startChannel": 14361,
-                    "colorOrder": "RGB",
                     "description": "Stake 04"
                   },
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 1,
                     "reverse": 0,
+                    "groupCount": 1,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 5,
                     "startChannel": 14376,
-                    "colorOrder": "RGB",
                     "description": "Stake 05"
                   },
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 1,
                     "reverse": 0,
+                    "groupCount": 1,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 5,
                     "startChannel": 14391,
-                    "colorOrder": "RGB",
                     "description": "Stake 06"
                   },
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 1,
                     "reverse": 0,
+                    "groupCount": 1,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 5,
                     "startChannel": 14406,
-                    "colorOrder": "RGB",
                     "description": "Stake 07"
                   },
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 1,
                     "reverse": 0,
+                    "groupCount": 1,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 5,
                     "startChannel": 14421,
-                    "colorOrder": "RGB",
                     "description": "Stake 08"
                   },
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 1,
                     "reverse": 0,
+                    "groupCount": 1,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 5,
                     "startChannel": 14436,
-                    "colorOrder": "RGB",
                     "description": "Stake 09"
                   },
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 1,
                     "reverse": 0,
+                    "groupCount": 1,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 5,
                     "startChannel": 14451,
-                    "colorOrder": "RGB",
                     "description": "Stake 10"
                   }
                 ],
@@ -320,28 +319,16 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
-                    "nullNodes": 0,
-                    "groupCount": 1,
-                    "reverse": 0,
-                    "pixelCount": 50,
-                    "startChannel": 14466,
-                    "colorOrder": "RGB",
-                    "description": "Great Room 01"
-                  },
-                  {
-                    "brightness": 100,
                     "zigZag": 0,
-                    "gamma": "1.0",
                     "nullNodes": 0,
-                    "groupCount": 1,
                     "reverse": 0,
-                    "pixelCount": 50,
-                    "startChannel": 14616,
+                    "groupCount": 0,
+                    "brightness": 100,
                     "colorOrder": "RGB",
-                    "description": "Great Room 02"
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
                   }
                 ],
                 "portNumber": 3
@@ -349,15 +336,15 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 1,
                     "reverse": 0,
-                    "pixelCount": 148,
-                    "startChannel": 14766,
+                    "groupCount": 1,
+                    "brightness": 100,
                     "colorOrder": "RGB",
+                    "pixelCount": 148,
+                    "startChannel": 14466,
                     "description": "Office"
                   }
                 ],
@@ -366,27 +353,27 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 1,
                     "reverse": 0,
-                    "pixelCount": 50,
-                    "startChannel": 15210,
+                    "groupCount": 1,
+                    "brightness": 100,
                     "colorOrder": "RGB",
+                    "pixelCount": 50,
+                    "startChannel": 14910,
                     "description": "South West 01"
                   },
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 1,
                     "reverse": 0,
-                    "pixelCount": 50,
-                    "startChannel": 15360,
+                    "groupCount": 1,
+                    "brightness": 100,
                     "colorOrder": "RGB",
+                    "pixelCount": 50,
+                    "startChannel": 15060,
                     "description": "South West 02"
                   }
                 ],
@@ -395,15 +382,15 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 1,
                     "reverse": 0,
-                    "pixelCount": 50,
-                    "startChannel": 15510,
+                    "groupCount": 1,
+                    "brightness": 100,
                     "colorOrder": "RGB",
+                    "pixelCount": 50,
+                    "startChannel": 15210,
                     "description": "Master 01"
                   }
                 ],
@@ -412,15 +399,15 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
@@ -429,16 +416,16 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
-                    "pixelCount": 0,
-                    "startChannel": 0,
+                    "groupCount": 1,
+                    "brightness": 100,
                     "colorOrder": "RGB",
-                    "description": ""
+                    "pixelCount": 50,
+                    "startChannel": 15360,
+                    "description": "Great Room 01"
                   }
                 ],
                 "portNumber": 8
@@ -446,16 +433,16 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
-                    "pixelCount": 0,
-                    "startChannel": 0,
+                    "groupCount": 1,
+                    "brightness": 100,
                     "colorOrder": "RGB",
-                    "description": ""
+                    "pixelCount": 50,
+                    "startChannel": 15510,
+                    "description": "Great Room 02"
                   }
                 ],
                 "portNumber": 9
@@ -463,15 +450,15 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
@@ -480,15 +467,15 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
@@ -497,15 +484,15 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
@@ -514,15 +501,15 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
@@ -531,15 +518,15 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
@@ -548,15 +535,15 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
@@ -565,15 +552,15 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
@@ -582,15 +569,15 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
@@ -599,15 +586,15 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
@@ -616,50 +603,50 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
                 "portNumber": 19
               },
               {
+                "expansionType": 0,
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
-                "expansionType": 0,
                 "portNumber": 20
               },
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
@@ -668,15 +655,15 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
@@ -685,15 +672,15 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
@@ -702,15 +689,15 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
@@ -719,15 +706,15 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
@@ -736,15 +723,15 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
@@ -753,15 +740,15 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
@@ -770,15 +757,15 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
@@ -787,15 +774,15 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
@@ -804,15 +791,15 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
@@ -821,15 +808,15 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
@@ -838,15 +825,15 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
@@ -855,15 +842,15 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
@@ -872,15 +859,15 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
@@ -889,24 +876,25 @@
               {
                 "virtualStrings": [
                   {
-                    "brightness": 100,
-                    "zigZag": 0,
                     "gamma": "1.0",
+                    "zigZag": 0,
                     "nullNodes": 0,
-                    "groupCount": 0,
                     "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
                     "pixelCount": 0,
                     "startChannel": 0,
-                    "colorOrder": "RGB",
                     "description": ""
                   }
                 ],
                 "portNumber": 35
               }
             ],
-            "subType": "F8-B-EXP-36",
-            "pinoutVersion": "3.x",
+            "outputCount": 10,
             "type": "BBB48String",
+            "pinoutVersion": "3.x",
+            "subType": "F8-B-EXP-36",
             "startChannel": 1,
             "channelCount": -1,
             "enabled": 1
@@ -923,6 +911,408 @@
   },
   "model-overlays": {
     "models": [
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15724,
+        "ChannelCount": 1,
+        "Name": "AC_Angel"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15661,
+        "ChannelCount": 1,
+        "Name": "AC_Bush_01"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15662,
+        "ChannelCount": 1,
+        "Name": "AC_Bush_02"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15663,
+        "ChannelCount": 1,
+        "Name": "AC_Bush_03"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15664,
+        "ChannelCount": 1,
+        "Name": "AC_Bush_04"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15665,
+        "ChannelCount": 1,
+        "Name": "AC_Bush_05"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15668,
+        "ChannelCount": 1,
+        "Name": "AC_Bush_06"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15682,
+        "ChannelCount": 1,
+        "Name": "AC_Bush_07"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15717,
+        "ChannelCount": 1,
+        "Name": "AC_Candy_01"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15711,
+        "ChannelCount": 1,
+        "Name": "AC_Candy_02"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15718,
+        "ChannelCount": 1,
+        "Name": "AC_Candy_03"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15720,
+        "ChannelCount": 1,
+        "Name": "AC_Candy_04"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15715,
+        "ChannelCount": 1,
+        "Name": "AC_Candy_05"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15714,
+        "ChannelCount": 1,
+        "Name": "AC_Candy_06"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15690,
+        "ChannelCount": 1,
+        "Name": "AC_Cherry"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15685,
+        "ChannelCount": 1,
+        "Name": "AC_Cherry_Wrap"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 16,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15712,
+        "ChannelCount": 1,
+        "Name": "AC_Door_Entry"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 16,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15704,
+        "ChannelCount": 1,
+        "Name": "AC_Door_Office"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15672,
+        "ChannelCount": 1,
+        "Name": "AC_Helo_Canes_01"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15671,
+        "ChannelCount": 1,
+        "Name": "AC_Helo_Canes_02"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15670,
+        "ChannelCount": 1,
+        "Name": "AC_Helo_Canes_03"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15674,
+        "ChannelCount": 1,
+        "Name": "AC_Helo_Canes_04"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15710,
+        "ChannelCount": 1,
+        "Name": "AC_Holly_01"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15709,
+        "ChannelCount": 1,
+        "Name": "AC_Holly_02"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15703,
+        "ChannelCount": 1,
+        "Name": "AC_Icicles_01"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15726,
+        "ChannelCount": 1,
+        "Name": "AC_Icicles_02"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15669,
+        "ChannelCount": 1,
+        "Name": "AC_North_Pole_Sign"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 10,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15727,
+        "ChannelCount": 1,
+        "Name": "AC_Package_Blue_01"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 10,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15730,
+        "ChannelCount": 1,
+        "Name": "AC_Package_Blue_02"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 10,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15728,
+        "ChannelCount": 1,
+        "Name": "AC_Package_Green_01"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 10,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15731,
+        "ChannelCount": 1,
+        "Name": "AC_Package_Green_02"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 10,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15729,
+        "ChannelCount": 1,
+        "Name": "AC_Package_Red_01"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 10,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15732,
+        "ChannelCount": 1,
+        "Name": "AC_Package_Red_02"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15687,
+        "ChannelCount": 1,
+        "Name": "AC_Rope_Lights"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15721,
+        "ChannelCount": 1,
+        "Name": "AC_Santa"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "custom",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15666,
+        "ChannelCount": 1,
+        "data": ",,,,1;,1,,,;,,,,;,,,,;,,1,,",
+        "Name": "AC_Snow_Flakes_01"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "custom",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15667,
+        "ChannelCount": 1,
+        "data": ",,,,1;,1,,,;,,,,;,,,,;,,1,,",
+        "Name": "AC_Snow_Flakes_02"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15723,
+        "ChannelCount": 1,
+        "Name": "AC_Tree"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15722,
+        "ChannelCount": 1,
+        "Name": "AC_Wrap_01"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15725,
+        "ChannelCount": 1,
+        "Name": "AC_Wrap_02"
+      },
       {
         "StartCorner": "BL",
         "StrandsPerString": 1,
@@ -980,7 +1370,7 @@
         "StringCount": 10,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 14467,
+        "StartChannel": 15361,
         "ChannelCount": 150,
         "Name": "Great_Room_01"
       },
@@ -990,29 +1380,9 @@
         "StringCount": 10,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 14617,
+        "StartChannel": 15511,
         "ChannelCount": 150,
         "Name": "Great_Room_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 12829,
-        "ChannelCount": 1,
-        "Name": "Icicles_01_AC"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 12829,
-        "ChannelCount": 1,
-        "Name": "Icicles_02_AC"
       },
       {
         "StartCorner": "BL",
@@ -1020,7 +1390,7 @@
         "StringCount": 11,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 15511,
+        "StartChannel": 15211,
         "ChannelCount": 150,
         "Name": "Master_01"
       },
@@ -1040,7 +1410,7 @@
         "StringCount": 1,
         "Orientation": "custom",
         "ChannelCountPerNode": 3,
-        "StartChannel": 14767,
+        "StartChannel": 14467,
         "ChannelCount": 444,
         "data": "107,106,105,104,103,102,101,100,69,68,67,66,65,64,63,62,61,60,59,58,57,56,55,54,23,22,21,20,19,18,17,16;108,,,,,,,99,70,,,,,,,,,,,,,,,53,24,,,,,,,15;109,,,,,,,98,71,,,,,,,,,,,,,,,52,25,,,,,,,14;110,,,,,,,97,72,,,,,,,,,,,,,,,51,26,,,,,,,13;111,,,,,,,96,73,,,,,,,,,,,,,,,50,27,,,,,,,12;112,,,,,,,95,74,,,,,,,,,,,,,,,49,28,,,,,,,11;113,,,,,,,94,75,,,,,,,,,,,,,,,48,29,,,,,,,10;114,,,,,,,93,76,,,,,,,,,,,,,,,47,30,,,,,,,9;115,,,,,,,92,77,,,,,,,,,,,,,,,46,31,,,,,,,8;116,,,,,,,91,78,,,,,,,,,,,,,,,45,32,,,,,,,7;117,,,,,,,90,79,,,,,,,,,,,,,,,44,33,,,,,,,6;118,,,,,,,89,80,,,,,,,,,,,,,,,43,34,,,,,,,5;119,,,,,,,88,81,,,,,,,,,,,,,,,42,35,,,,,,,4;120,,,,,,,87,82,,,,,,,,,,,,,,,41,36,,,,,,,3;121,,,,,,,86,83,,,,,,,,,,,,,,,40,37,,,,,,,2;122,123,124,125,126,127,128,85,84,129,130,131,132,133,134,135,136,137,138,139,140,141,142,39,38,143,144,145,146,147,148,1",
         "Name": "Office"
@@ -1051,7 +1421,7 @@
         "StringCount": 10,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 15211,
+        "StartChannel": 14911,
         "ChannelCount": 150,
         "Name": "South_West_01"
       },
@@ -1061,7 +1431,7 @@
         "StringCount": 10,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 15361,
+        "StartChannel": 15061,
         "ChannelCount": 150,
         "Name": "South_West_02"
       },
@@ -1171,7 +1541,7 @@
         "StringCount": 1,
         "Orientation": "vertical",
         "ChannelCountPerNode": 3,
-        "StartChannel": 12829,
+        "StartChannel": 12979,
         "ChannelCount": 300,
         "Name": "Tree_01"
       },
@@ -1181,7 +1551,7 @@
         "StringCount": 1,
         "Orientation": "vertical",
         "ChannelCountPerNode": 3,
-        "StartChannel": 13129,
+        "StartChannel": 12829,
         "ChannelCount": 150,
         "Name": "Tree_Small_01"
       },
@@ -1194,26 +1564,6 @@
         "StartChannel": 13279,
         "ChannelCount": 150,
         "Name": "Tree_Small_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 12829,
-        "ChannelCount": 1,
-        "Name": "Wrap_01_AC"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 12829,
-        "ChannelCount": 1,
-        "Name": "Wrap_02_AC"
       }
     ]
   },
@@ -1246,7 +1596,8 @@
         "LEDDisplayType": "7",
         "showAllOptions": "0",
         "e131statsLiveUpdate": "1",
-        "wifiDrivers": "Kernel"
+        "wifiDrivers": "Kernel",
+        "uiLevel": "1"
       }
     ],
     "proxies": [
