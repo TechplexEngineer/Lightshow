@@ -78,7 +78,7 @@
       <ControllerConnection Port="1" Protocol="Renard" channel="57"/>
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 02" ModelChain="&gt;Stake 01" Controller="F8-B" WorldPosX="469.8711" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!F8-B:1504">
-      <ControllerConnection Port="3" Protocol="ws2811"/>
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1">
         <ControllerConnection/>
       </subModel>
@@ -94,12 +94,9 @@
       <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5">
         <ControllerConnection/>
       </subModel>
-      <dimmingCurve>
-        <all brightness="-70" gamma="1.0"/>
-      </dimmingCurve>
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 03" ModelChain="&gt;Stake 02" Controller="F8-B" WorldPosX="550.4344" WorldPosY="0.0000" WorldPosZ="261.9470" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!F8-B:1519">
-      <ControllerConnection Port="3" Protocol="ws2811"/>
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1">
         <ControllerConnection/>
       </subModel>
@@ -115,12 +112,9 @@
       <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5">
         <ControllerConnection/>
       </subModel>
-      <dimmingCurve>
-        <all brightness="-70" gamma="1.0"/>
-      </dimmingCurve>
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 04" ModelChain="&gt;Stake 03" Controller="F8-B" WorldPosX="634.2415" WorldPosY="0.0000" WorldPosZ="338.9407" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!F8-B:1534">
-      <ControllerConnection Port="3" Protocol="ws2811"/>
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1">
         <ControllerConnection/>
       </subModel>
@@ -136,12 +130,9 @@
       <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5">
         <ControllerConnection/>
       </subModel>
-      <dimmingCurve>
-        <all brightness="-70" gamma="1.0"/>
-      </dimmingCurve>
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 05" ModelChain="&gt;Stake 04" Controller="F8-B" WorldPosX="683.8185" WorldPosY="0.0000" WorldPosZ="261.9470" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!F8-B:1549">
-      <ControllerConnection Port="3" Protocol="ws2811"/>
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1">
         <ControllerConnection/>
       </subModel>
@@ -157,12 +148,9 @@
       <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5">
         <ControllerConnection/>
       </subModel>
-      <dimmingCurve>
-        <all brightness="-70" gamma="1.0"/>
-      </dimmingCurve>
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 06" ModelChain="&gt;Stake 05" Controller="F8-B" WorldPosX="762.0678" WorldPosY="0.0000" WorldPosZ="296.0295" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!F8-B:1564">
-      <ControllerConnection Port="3" Protocol="ws2811"/>
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1">
         <ControllerConnection/>
       </subModel>
@@ -178,12 +166,9 @@
       <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5">
         <ControllerConnection/>
       </subModel>
-      <dimmingCurve>
-        <all brightness="-70" gamma="1.0"/>
-      </dimmingCurve>
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 07" ModelChain="&gt;Stake 06" Controller="F8-B" WorldPosX="832.2477" WorldPosY="0.0000" WorldPosZ="218.8001" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!F8-B:1579">
-      <ControllerConnection Port="3" Protocol="ws2811"/>
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1">
         <ControllerConnection/>
       </subModel>
@@ -199,12 +184,9 @@
       <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5">
         <ControllerConnection/>
       </subModel>
-      <dimmingCurve>
-        <all brightness="-70" gamma="1.0"/>
-      </dimmingCurve>
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08" ModelChain="&gt;Stake 07" Controller="F8-B" WorldPosX="936.8953" WorldPosY="2.2857" WorldPosZ="261.9470" X2="0.000000" Y2="32.107098" Z2="0.000000" versionNumber="5" StartChannel="!F8-B:1594">
-      <ControllerConnection Port="3" Protocol="ws2811"/>
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1">
         <ControllerConnection/>
       </subModel>
@@ -220,9 +202,6 @@
       <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5">
         <ControllerConnection/>
       </subModel>
-      <dimmingCurve>
-        <all brightness="-70" gamma="1.0"/>
-      </dimmingCurve>
     </model>
     <model DisplayAs="Poly Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="200" Controller="Renard" name="AC Rope Lights" TagColour="white" CustomColor="#fa0000" StringType="Single Color Intensity" WorldPosX="343.1693" WorldPosY="47.4697" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="7" PointData="0.000000,22.530300,0.000000,-48.362518,22.530300,0.000000,-49.102051,77.530304,0.000000,-93.169312,77.530304,0.000000,-93.169312,22.530300,0.000000,-333.169312,22.530300,0.000000,-333.169312,22.530300,-250.000000" cPointData="" versionNumber="5" StartChannel="!Renard:27">
       <ControllerConnection Port="1" Protocol="Renard" channel="27"/>
@@ -261,16 +240,10 @@
       <ControllerConnection Port="1" Protocol="Renard" channel="62"/>
     </model>
     <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" DisplayAs="Tree 360" parm1="1" TreeSpiralRotations="8.000000" Controller="F8-B" parm2="50" name="Tree Small 02" ModelChain="&gt;Tree 01" WorldPosX="838.9479" WorldPosY="17.2875" WorldPosZ="472.8498" ScaleX="0.2590" ScaleY="0.2305" ScaleZ="0.2592" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:451">
-      <ControllerConnection colorOrder="RGB" Port="1" Protocol="ws2811"/>
-      <dimmingCurve>
-        <all brightness="-70" gamma="1.0"/>
-      </dimmingCurve>
+      <ControllerConnection colorOrder="RGB" Port="1" Protocol="ws2811" brightness="30"/>
     </model>
     <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" DisplayAs="Tree 360" parm1="1" TreeSpiralRotations="8.000000" Controller="F8-B" parm2="50" name="Tree Small 01" WorldPosX="399.3114" WorldPosY="17.2875" WorldPosZ="507.5837" ScaleX="0.2592" ScaleY="0.2305" ScaleZ="0.2592" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:1">
-      <ControllerConnection colorOrder="RGB" Port="1" Protocol="ws2811"/>
-      <dimmingCurve>
-        <all brightness="-70" gamma="1.0"/>
-      </dimmingCurve>
+      <ControllerConnection colorOrder="RGB" Port="1" Protocol="ws2811" brightness="30"/>
     </model>
     <model DisplayAs="Icicles" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" DropPattern="3,4,5,4" LayoutGroup="Default" parm2="200" Controller="Renard" name="AC Icicles 02" TagColour="white" CustomColor="#e0e0e0" StringType="Single Color Intensity" WorldPosX="354.4526" WorldPosY="128.4258" WorldPosZ="64.4940" X2="464.058289" Y2="0.000000" Z2="0.000000" RotateX="0.00000000" Height="-0.318255" Shear="-0.023424" versionNumber="5" StartChannel="!Renard:66">
       <ControllerConnection Port="1" Protocol="Renard" channel="66"/>
@@ -279,7 +252,7 @@
       <ControllerConnection Port="1" Protocol="Renard" channel="43"/>
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09" ModelChain="&gt;Stake 08" Controller="F8-B" WorldPosX="1005.3288" WorldPosY="0.0000" WorldPosZ="147.2780" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!F8-B:1609">
-      <ControllerConnection Port="3" Protocol="ws2811"/>
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1">
         <ControllerConnection/>
       </subModel>
@@ -295,12 +268,9 @@
       <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5">
         <ControllerConnection/>
       </subModel>
-      <dimmingCurve>
-        <all brightness="-70" gamma="1.0"/>
-      </dimmingCurve>
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10" ModelChain="&gt;Stake 09" Controller="F8-B" WorldPosX="1100.0867" WorldPosY="0.0000" WorldPosZ="190.7353" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!F8-B:1624">
-      <ControllerConnection Port="3" Protocol="ws2811"/>
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1">
         <ControllerConnection/>
       </subModel>
@@ -316,12 +286,9 @@
       <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5">
         <ControllerConnection/>
       </subModel>
-      <dimmingCurve>
-        <all brightness="-70" gamma="1.0"/>
-      </dimmingCurve>
     </model>
     <model DisplayAs="Custom" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" name="Office" parm2="16" parm1="32" Depth="1" CustomModel="107,106,105,104,103,102,101,100,69,68,67,66,65,64,63,62,61,60,59,58,57,56,55,54,23,22,21,20,19,18,17,16;108,,,,,,,99,70,,,,,,,,,,,,,,,53,24,,,,,,,15;109,,,,,,,98,71,,,,,,,,,,,,,,,52,25,,,,,,,14;110,,,,,,,97,72,,,,,,,,,,,,,,,51,26,,,,,,,13;111,,,,,,,96,73,,,,,,,,,,,,,,,50,27,,,,,,,12;112,,,,,,,95,74,,,,,,,,,,,,,,,49,28,,,,,,,11;113,,,,,,,94,75,,,,,,,,,,,,,,,48,29,,,,,,,10;114,,,,,,,93,76,,,,,,,,,,,,,,,47,30,,,,,,,9;115,,,,,,,92,77,,,,,,,,,,,,,,,46,31,,,,,,,8;116,,,,,,,91,78,,,,,,,,,,,,,,,45,32,,,,,,,7;117,,,,,,,90,79,,,,,,,,,,,,,,,44,33,,,,,,,6;118,,,,,,,89,80,,,,,,,,,,,,,,,43,34,,,,,,,5;119,,,,,,,88,81,,,,,,,,,,,,,,,42,35,,,,,,,4;120,,,,,,,87,82,,,,,,,,,,,,,,,41,36,,,,,,,3;121,,,,,,,86,83,,,,,,,,,,,,,,,40,37,,,,,,,2;122,123,124,125,126,127,128,85,84,129,130,131,132,133,134,135,136,137,138,139,140,141,142,39,38,143,144,145,146,147,148,1" CustomBkgLightness="0" CustomBkgImage="" Controller="F8-B" WorldPosX="429.4749" WorldPosY="90.3929" WorldPosZ="50.4479" ScaleX="3.1423" ScaleY="3.1535" ScaleZ="3.1423" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:1639">
-      <ControllerConnection Protocol="ws2811" Port="5"/>
+      <ControllerConnection Protocol="ws2811" Port="5" brightness="30"/>
       <subModel name="Office 01" layout="horizontal" type="ranges" line0="85-128" WorldPosX="429.4749" WorldPosY="90.3929" WorldPosZ="50.4479" ScaleX="3.1423" ScaleY="3.1535" ScaleZ="3.1423" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="14993">
         <ControllerConnection/>
       </subModel>
@@ -331,45 +298,27 @@
       <subModel name="Office 03" layout="horizontal" type="ranges" line0="1-38,143-148" WorldPosX="429.4749" WorldPosY="90.3929" WorldPosZ="50.4479" ScaleX="3.1423" ScaleY="3.1535" ScaleZ="3.1423" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="14741">
         <ControllerConnection/>
       </subModel>
-      <dimmingCurve>
-        <all brightness="-70" gamma="1.0"/>
-      </dimmingCurve>
     </model>
     <model DisplayAs="Window Frame" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" name="Master 01" parm1="11" parm3="11" parm2="14" Dir="L" StartSide="B" Controller="F8-B" WorldPosX="749.8444" WorldPosY="90.5134" WorldPosZ="60.2156" ScaleX="2.7224" ScaleY="3.6339" ScaleZ="2.7224" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:2383">
-      <ControllerConnection Protocol="ws2811" Port="7"/>
-      <dimmingCurve>
-        <all brightness="-70" gamma="1"/>
-      </dimmingCurve>
+      <ControllerConnection Protocol="ws2811" Port="7" brightness="30"/>
     </model>
     <model DisplayAs="Window Frame" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" parm1="10" parm2="15" parm3="10" name="South West 01" Dir="R" StartSide="B" Controller="F8-B" WorldPosX="582.1880" WorldPosY="89.3565" WorldPosZ="60.1784" ScaleX="2.6250" ScaleY="3.3750" ScaleZ="1.0002" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:2083">
-      <ControllerConnection Protocol="ws2811" Port="6"/>
-      <dimmingCurve>
-        <all brightness="-70" gamma="1.0"/>
-      </dimmingCurve>
+      <ControllerConnection Protocol="ws2811" Port="6" brightness="30"/>
     </model>
     <model DisplayAs="Window Frame" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" parm1="10" parm2="15" parm3="10" name="South West 02" Controller="F8-B" ModelChain="&gt;South West 01" WorldPosX="614.2549" WorldPosY="89.3565" WorldPosZ="60.1784" ScaleX="2.6250" ScaleY="3.3750" ScaleZ="1.0194" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:2233">
-      <ControllerConnection Port="6" Protocol="ws2811"/>
-      <dimmingCurve>
-        <all brightness="-70" gamma="1.0"/>
-      </dimmingCurve>
+      <ControllerConnection Port="6" Protocol="ws2811" brightness="30"/>
     </model>
     <model DisplayAs="Window Frame" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" parm1="10" parm2="15" parm3="10" name="Great Room 02" Dir="R" StartSide="B" Controller="F8-B" WorldPosX="243.6604" WorldPosY="91.2779" WorldPosZ="-47.8457" ScaleX="2.7500" ScaleY="3.6000" ScaleZ="2.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:2683">
-      <ControllerConnection channel="156" Protocol="ws2811" Port="10"/>
-      <dimmingCurve>
-        <all brightness="-70" gamma="1.0"/>
-      </dimmingCurve>
+      <ControllerConnection channel="156" Protocol="ws2811" Port="10" brightness="30"/>
     </model>
     <model DisplayAs="Window Frame" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" name="Great Room 01" parm1="10" parm2="15" parm3="10" Dir="R" StartSide="B" Controller="F8-B" WorldPosX="177.4833" WorldPosY="91.7663" WorldPosZ="-47.6980" ScaleX="2.7500" ScaleY="3.6000" ScaleZ="2.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:2533">
-      <ControllerConnection channel="6" Protocol="ws2811" Port="9"/>
-      <dimmingCurve>
-        <all brightness="-70" gamma="1.0"/>
-      </dimmingCurve>
+      <ControllerConnection channel="6" Protocol="ws2811" Port="9" brightness="30"/>
     </model>
     <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" name="Matrix" DisplayAs="Horiz Matrix" LayoutGroup="Default" parm1="32" parm2="128" WorldPosX="-142.7240" WorldPosY="246.0471" WorldPosZ="0.0000" ScaleX="1.5672" ScaleY="1.7685" ScaleZ="0.0079" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!matrix:1">
       <ControllerConnection Protocol="ws2811"/>
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 01" Controller="F8-B" WorldPosX="402.2692" WorldPosY="0.0000" WorldPosZ="227.0808" X2="0.000000" Y2="36.715561" Z2="0.000000" versionNumber="5" StartChannel="!F8-B:1489">
-      <ControllerConnection Port="3" Protocol="ws2811"/>
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1">
         <ControllerConnection/>
       </subModel>
@@ -385,9 +334,6 @@
       <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5">
         <ControllerConnection/>
       </subModel>
-      <dimmingCurve>
-        <all brightness="-70" gamma="1.0"/>
-      </dimmingCurve>
     </model>
     <model DisplayAs="Arches" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="74" name="Arch2" ModelChain="&gt;Arch1" Controller="F8-B" StringType="RGB Nodes" WorldPosX="509.6816" WorldPosY="0.0000" WorldPosZ="463.5745" X2="75.368317" Y2="0.477901" Z2="-19.173462" RotateX="0.00000000" Height="1.000000" Angle="0" versionNumber="5" StartChannel="!F8-B:823">
       <ControllerConnection Port="2" Protocol="ws2811" colorOrder="GRB"/>
@@ -402,10 +348,7 @@
       <ControllerConnection Protocol="ws2811" Port="2" colorOrder="GRB"/>
     </model>
     <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" DisplayAs="Tree 360" parm1="1" TreeSpiralRotations="8.000000" parm2="100" Controller="F8-B" name="Tree 01" ModelChain="&gt;Tree Small 01" WorldPosX="617.2684" WorldPosY="37.9050" WorldPosZ="433.4865" ScaleX="0.1880" ScaleY="0.2527" ScaleZ="0.1875" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:151">
-      <ControllerConnection Protocol="ws2811" colorOrder="RGB" Port="1"/>
-      <dimmingCurve>
-        <all brightness="-70" gamma="1.0"/>
-      </dimmingCurve>
+      <ControllerConnection Protocol="ws2811" colorOrder="RGB" Port="1" brightness="30"/>
     </model>
     <model DisplayAs="Custom" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" CustomBkgLightness="0" name="Characters" parm1="28" parm2="15" Depth="1" CustomModel="166,,165,,,136,,135,,,106,,105,,,76,,75,,,46,,45,,,16,,15;167,,164,,,137,,134,,,107,,104,,,77,,74,,,47,,44,,,17,,14;168,,163,,,138,,133,,,108,,103,,,78,,73,,,48,,43,,,18,,13;169,,162,,,139,,132,,,109,,102,,,79,,72,,,49,,42,,,19,,12;170,,161,,,140,,131,,,110,,101,,,80,,71,,,50,,41,,,20,,11;171,,160,,,141,,130,,,111,,100,,,81,,70,,,51,,40,,,21,,10;172,,159,,,142,,129,,,112,,99,,,82,,69,,,52,,39,,,22,,9;173,,158,,,143,,128,,,113,,98,,,83,,68,,,53,,38,,,23,,8;174,,157,,,144,,127,,,114,,97,,,84,,67,,,54,,37,,,24,,7;175,,156,,,145,,126,,,115,,96,,,85,,66,,,55,,36,,,25,,6;176,,155,,,146,,125,,,116,,95,,,86,,65,,,56,,35,,,26,,5;177,,154,,,147,,124,,,117,,94,,,87,,64,,,57,,34,,,27,,4;178,,153,,,148,,123,,,118,,93,,,88,,63,,,58,,33,,,28,,3;179,,152,,,149,,122,,,119,,92,,,89,,62,,,59,,32,,,29,,2;180,,151,,,150,,121,,,120,,91,,,90,,61,,,60,,31,,,30,,1" CustomBkgImage="" Controller="Characters" WorldPosX="598.3389" WorldPosY="53.9442" WorldPosZ="62.9630" ScaleX="2.0437" ScaleY="0.3771" ScaleZ="2.0437" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Characters:1">
       <ControllerConnection Port="1" Protocol="ws2811"/>
