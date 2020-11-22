@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2020.44</version>
+    <version>2020.47</version>
     <author/>
     <author-email/>
     <author-website/>
-    <song></song>
-    <artist></artist>
-    <album></album>
+    <song/>
+    <artist/>
+    <album/>
     <MusicURL/>
     <comment/>
     <sequenceTiming>50 ms</sequenceTiming>
@@ -34,6 +34,7 @@
     <Effect>E_CHOICE_VUMeter_Type=On,E_SLIDER_VUMeter_Gain=100,E_TEXTCTRL_VUMeter_Gain=100</Effect>
     <Effect>E_CHECKBOX_VUMeter_LogarithmicX=0,E_CHECKBOX_VUMeter_SlowDownFalls=1,E_CHOICE_VUMeter_Shape=Circle,E_CHOICE_VUMeter_TimingTrack=Base,E_CHOICE_VUMeter_Type=On,E_SLIDER_VUMeter_Bars=6,E_SLIDER_VUMeter_EndNote=84,E_SLIDER_VUMeter_Gain=100,E_SLIDER_VUMeter_Sensitivity=70,E_SLIDER_VUMeter_StartNote=36,E_SLIDER_VUMeter_XOffset=0,E_SLIDER_VUMeter_YOffset=0,E_TEXTCTRL_VUMeter_Gain=100</Effect>
     <Effect></Effect>
+    <Effect>E_TEXTCTRL_Eff_On_End=0</Effect>
     <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Skips,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=100,E_SLIDER_Skips_BandSize=2,E_SLIDER_Skips_SkipSize=6,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
     <Effect>E_CHOICE_Butterfly_Colors=Palette,E_CHOICE_Butterfly_Direction=Normal,E_SLIDER_Butterfly_Chunks=1,E_SLIDER_Butterfly_Skip=2,E_SLIDER_Butterfly_Speed=10,E_SLIDER_Butterfly_Style=1,T_CHECKBOX_Canvas=1</Effect>
     <Effect>B_CHOICE_BufferStyle=Single Line,E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=8,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
@@ -258,7 +259,8 @@
     </Element>
     <Element type="model" name="Tree 01">
       <EffectLayer>
-        <Effect ref="5" name="On" startTime="0" endTime="162950" palette="2"/>
+        <Effect ref="5" name="On" startTime="0" endTime="154400" palette="2"/>
+        <Effect ref="6" name="On" id="1" startTime="154400" endTime="157350" palette="2"/>
       </EffectLayer>
       <Strand index="0">
         <Node index="0">
@@ -501,11 +503,11 @@
           <Effect ref="5" name="On" startTime="70100" endTime="75050" palette="3"/>
         </Node>
         <Node index="74">
-          <Effect ref="6" name="SingleStrand" startTime="0" endTime="14000" palette="4"/>
-          <Effect ref="6" name="SingleStrand" id="1" startTime="14000" endTime="28000" palette="4"/>
-          <Effect ref="6" name="SingleStrand" id="2" startTime="28050" endTime="42050" palette="4"/>
-          <Effect ref="6" name="SingleStrand" id="3" startTime="42050" endTime="56050" palette="4"/>
-          <Effect ref="6" name="SingleStrand" id="4" startTime="56050" endTime="70050" palette="4"/>
+          <Effect ref="7" name="SingleStrand" startTime="0" endTime="14000" palette="4"/>
+          <Effect ref="7" name="SingleStrand" id="1" startTime="14000" endTime="28000" palette="4"/>
+          <Effect ref="7" name="SingleStrand" id="2" startTime="28050" endTime="42050" palette="4"/>
+          <Effect ref="7" name="SingleStrand" id="3" startTime="42050" endTime="56050" palette="4"/>
+          <Effect ref="7" name="SingleStrand" id="4" startTime="56050" endTime="70050" palette="4"/>
         </Node>
         <Node index="75">
           <Effect ref="5" name="On" startTime="70150" endTime="75000" palette="3"/>
@@ -525,7 +527,7 @@
         <Effect ref="4" name="VU Meter" id="1" startTime="8000" endTime="9300" palette="1"/>
         <Effect ref="4" name="VU Meter" id="2" startTime="9300" endTime="10500" palette="1"/>
         <Effect ref="4" name="VU Meter" id="3" startTime="10500" endTime="12800" palette="1"/>
-        <Effect ref="7" name="Butterfly" id="4" startTime="149250" endTime="154050" palette="5"/>
+        <Effect ref="8" name="Butterfly" selected="1" id="4" startTime="149250" endTime="154050" palette="5"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Great Room 01">
@@ -551,54 +553,54 @@
     </Element>
     <Element type="model" name="Master 01">
       <EffectLayer>
-        <Effect ref="7" name="Butterfly" startTime="152500" endTime="154050" palette="5"/>
+        <Effect ref="8" name="Butterfly" startTime="152500" endTime="154050" palette="5"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="South West 01">
       <EffectLayer>
-        <Effect ref="7" name="Butterfly" startTime="151500" endTime="154050" palette="5"/>
+        <Effect ref="8" name="Butterfly" startTime="151500" endTime="154050" palette="5"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="South West 02">
       <EffectLayer>
-        <Effect ref="7" name="Butterfly" startTime="152000" endTime="154050" palette="5"/>
+        <Effect ref="8" name="Butterfly" startTime="152000" endTime="154050" palette="5"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Office">
       <EffectLayer/>
       <SubModelEffectLayer name="Office 01">
-        <Effect ref="7" name="Butterfly" startTime="150000" endTime="154050" palette="5"/>
+        <Effect ref="8" name="Butterfly" startTime="150000" endTime="154050" palette="5"/>
       </SubModelEffectLayer>
       <SubModelEffectLayer name="Office 02">
-        <Effect ref="7" name="Butterfly" startTime="150500" endTime="154050" palette="5"/>
+        <Effect ref="8" name="Butterfly" startTime="150500" endTime="154050" palette="5"/>
       </SubModelEffectLayer>
       <SubModelEffectLayer name="Office 03">
-        <Effect ref="7" name="Butterfly" startTime="151000" endTime="154050" palette="5"/>
+        <Effect ref="8" name="Butterfly" startTime="151000" endTime="154050" palette="5"/>
       </SubModelEffectLayer>
     </Element>
     <Element type="model" name="Arch1">
       <EffectLayer>
-        <Effect ref="7" name="Butterfly" startTime="150000" endTime="154050" palette="5"/>
+        <Effect ref="8" name="Butterfly" startTime="150000" endTime="154050" palette="5"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Arch2">
       <EffectLayer>
-        <Effect ref="7" name="Butterfly" startTime="151400" endTime="154050" palette="5"/>
+        <Effect ref="8" name="Butterfly" startTime="151400" endTime="154050" palette="5"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Arch3">
       <EffectLayer>
-        <Effect ref="7" name="Butterfly" startTime="152000" endTime="154050" palette="5"/>
+        <Effect ref="8" name="Butterfly" startTime="152000" endTime="154050" palette="5"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Arch4">
       <EffectLayer>
-        <Effect ref="7" name="Butterfly" startTime="152450" endTime="154050" palette="5"/>
+        <Effect ref="8" name="Butterfly" startTime="152450" endTime="154050" palette="5"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Arches Left">
       <EffectLayer>
-        <Effect ref="8" name="SingleStrand" startTime="15550" endTime="21650" palette="6"/>
+        <Effect ref="9" name="SingleStrand" startTime="15550" endTime="21650" palette="6"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Arches RIght">
