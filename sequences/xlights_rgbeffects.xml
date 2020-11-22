@@ -227,11 +227,11 @@
     <model DisplayAs="Poly Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="200" Controller="Renard" name="AC Rope Lights" TagColour="white" CustomColor="#fa0000" StringType="Single Color Intensity" WorldPosX="343.1693" WorldPosY="47.4697" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="7" PointData="0.000000,22.530300,0.000000,-48.362518,22.530300,0.000000,-49.102051,77.530304,0.000000,-93.169312,77.530304,0.000000,-93.169312,22.530300,0.000000,-333.169312,22.530300,0.000000,-333.169312,22.530300,-250.000000" cPointData="" versionNumber="5" StartChannel="!Renard:27">
       <ControllerConnection Port="1" Protocol="Renard" channel="27"/>
     </model>
-    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" Controller="Renard" name="AC Door Entry" TagColour="white" CustomColor="#e0e0e0" StringType="Single Color Intensity" WorldPosX="309.8319" WorldPosY="78.1546" WorldPosZ="-37.3423" ScaleX="1.8179" ScaleY="1.4668" ScaleZ="0.0588" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:52">
-      <ControllerConnection Port="1" Protocol="Renard" channel="52"/>
-    </model>
-    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" Controller="Renard" name="AC Door Office" TagColour="white" CustomColor="#e0e0e0" StringType="Single Color Intensity" WorldPosX="516.2922" WorldPosY="74.9567" WorldPosZ="48.8869" ScaleX="1.9653" ScaleY="1.5722" ScaleZ="0.0584" RotateX="0.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:44">
+    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" Controller="Renard" name="AC Door Entry" TagColour="white" CustomColor="#e0e0e0" StringType="Single Color Intensity" WorldPosX="309.8319" WorldPosY="78.1546" WorldPosZ="-37.3423" ScaleX="1.8179" ScaleY="1.4668" ScaleZ="0.0588" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:44">
       <ControllerConnection Port="1" Protocol="Renard" channel="44"/>
+    </model>
+    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" Controller="Renard" name="AC Door Office" TagColour="white" CustomColor="#e0e0e0" StringType="Single Color Intensity" WorldPosX="516.2922" WorldPosY="74.9567" WorldPosZ="48.8869" ScaleX="1.9653" ScaleY="1.5722" ScaleZ="0.0584" RotateX="0.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:52">
+      <ControllerConnection Port="1" Protocol="Renard" channel="52"/>
     </model>
     <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" Controller="Renard" CustomColor="#ed25da" StringType="Single Color Intensity" TagColour="white" name="AC Holly 01" WorldPosX="665.7258" WorldPosY="16.9200" WorldPosZ="104.3435" ScaleX="0.5710" ScaleY="0.0564" ScaleZ="0.0943" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:50">
       <ControllerConnection Port="1" Protocol="Renard" channel="50"/>
@@ -389,17 +389,17 @@
         <all brightness="-70" gamma="1.0"/>
       </dimmingCurve>
     </model>
-    <model DisplayAs="Arches" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="74" name="Arch2" ModelChain="&gt;Arch1" Controller="F8-B" StringType="GRB Nodes" WorldPosX="509.6816" WorldPosY="0.0000" WorldPosZ="463.5745" X2="75.368317" Y2="0.477901" Z2="-19.173462" RotateX="0.00000000" Height="1.000000" Angle="0" versionNumber="5" StartChannel="!F8-B:823">
-      <ControllerConnection Port="2" Protocol="ws2811"/>
+    <model DisplayAs="Arches" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="74" name="Arch2" ModelChain="&gt;Arch1" Controller="F8-B" StringType="RGB Nodes" WorldPosX="509.6816" WorldPosY="0.0000" WorldPosZ="463.5745" X2="75.368317" Y2="0.477901" Z2="-19.173462" RotateX="0.00000000" Height="1.000000" Angle="0" versionNumber="5" StartChannel="!F8-B:823">
+      <ControllerConnection Port="2" Protocol="ws2811" colorOrder="GRB"/>
     </model>
-    <model DisplayAs="Arches" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="74" name="Arch3" ModelChain="&gt;Arch2" Controller="F8-B" StringType="GRB Nodes" WorldPosX="661.9865" WorldPosY="3.4550" WorldPosZ="441.8926" X2="71.818115" Y2="-3.454987" Z2="6.454468" RotateX="0.00000000" Height="1.000000" Angle="2" versionNumber="5" StartChannel="!F8-B:1045">
-      <ControllerConnection Port="2" Protocol="ws2811"/>
+    <model DisplayAs="Arches" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="74" name="Arch3" ModelChain="&gt;Arch2" Controller="F8-B" StringType="RGB Nodes" WorldPosX="661.9865" WorldPosY="3.4550" WorldPosZ="441.8926" X2="71.818115" Y2="-3.454987" Z2="6.454468" RotateX="0.00000000" Height="1.000000" Angle="2" versionNumber="5" StartChannel="!F8-B:1045">
+      <ControllerConnection Port="2" Protocol="ws2811" colorOrder="GRB"/>
     </model>
-    <model DisplayAs="Arches" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="74" name="Arch4" ModelChain="&gt;Arch3" Controller="F8-B" StringType="GRB Nodes" WorldPosX="744.5827" WorldPosY="4.3449" WorldPosZ="450.3784" X2="69.851624" Y2="-4.344940" Z2="17.896240" RotateX="0.00000000" Height="1.000000" Angle="0" versionNumber="5" StartChannel="!F8-B:1267">
-      <ControllerConnection Port="2" Protocol="ws2811"/>
+    <model DisplayAs="Arches" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="74" name="Arch4" ModelChain="&gt;Arch3" Controller="F8-B" StringType="RGB Nodes" WorldPosX="744.5827" WorldPosY="4.3449" WorldPosZ="450.3784" X2="69.851624" Y2="-4.344940" Z2="17.896240" RotateX="0.00000000" Height="1.000000" Angle="0" versionNumber="5" StartChannel="!F8-B:1267">
+      <ControllerConnection Port="2" Protocol="ws2811" colorOrder="GRB"/>
     </model>
-    <model DisplayAs="Arches" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="74" name="Arch1" Controller="F8-B" StringType="GRB Nodes" WorldPosX="428.6712" WorldPosY="0.0000" WorldPosZ="497.6737" X2="67.748505" Y2="3.405622" Z2="-24.691162" RotateX="0.00000000" Height="1.000000" Angle="0" versionNumber="5" StartChannel="!F8-B:601">
-      <ControllerConnection Protocol="ws2811" Port="2"/>
+    <model DisplayAs="Arches" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="74" name="Arch1" Controller="F8-B" StringType="RGB Nodes" WorldPosX="428.6712" WorldPosY="0.0000" WorldPosZ="497.6737" X2="67.748505" Y2="3.405622" Z2="-24.691162" RotateX="0.00000000" Height="1.000000" Angle="0" versionNumber="5" StartChannel="!F8-B:601">
+      <ControllerConnection Protocol="ws2811" Port="2" colorOrder="GRB"/>
     </model>
     <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" DisplayAs="Tree 360" parm1="1" TreeSpiralRotations="8.000000" parm2="100" Controller="F8-B" name="Tree 01" ModelChain="&gt;Tree Small 01" WorldPosX="617.2684" WorldPosY="37.9050" WorldPosZ="433.4865" ScaleX="0.1880" ScaleY="0.2527" ScaleZ="0.1875" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:151">
       <ControllerConnection Protocol="ws2811" colorOrder="RGB" Port="1"/>
@@ -498,8 +498,8 @@
     <storedLayoutGroup value="Default"/>
     <previewWidth value="1280"/>
     <previewHeight value="960"/>
-    <fseqDir value="/Users/techplex/Documents/xlights/lightshow-2019/sequences"/>
-    <renderCacheDir value="/Users/techplex/Documents/xlights/lightshow-2019/sequences"/>
+    <fseqDir value="/home/techplex/projects/pers/lightshow/sequences"/>
+    <renderCacheDir value="/home/techplex/projects/pers/lightshow/sequences"/>
   </settings>
   <colors>
     <EffectDefault Red="192" Green="192" Blue="192"/>
