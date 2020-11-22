@@ -3,3 +3,4 @@ Backup/
 *.fseq
 ~*
 .DS_Store
+RenderCache
