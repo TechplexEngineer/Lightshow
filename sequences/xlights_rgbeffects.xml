@@ -8,7 +8,7 @@
     <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" LayoutGroup="Default" Image="/Users/techplex/Documents/xlights/lightshow-2019/sequences/Images/angel.png" Controller="Renard" name="AC Angel" TagColour="white" CustomColor="#e0e0e0" StringType="Single Color Intensity" WorldPosX="349.4946" WorldPosY="40.8200" WorldPosZ="291.4565" ScaleX="48.4477" ScaleY="81.6399" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:64">
       <ControllerConnection Port="1" Protocol="Renard" channel="64"/>
     </model>
-    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" Controller="Renard" name="AC Cherry" TagColour="white" CustomColor="#e0e0e0" StringType="Single Color Intensity" WorldPosX="0.7019" WorldPosY="86.2382" WorldPosZ="55.3890" ScaleX="0.2310" ScaleY="0.0205" ScaleZ="0.2000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:30">
+    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" Controller="Renard" TagColour="white" CustomColor="#e0e0e0" StringType="Single Color Intensity" name="AC Cherry Icicles" WorldPosX="0.7019" WorldPosY="86.2382" WorldPosZ="55.3890" ScaleX="0.2310" ScaleY="0.0205" ScaleZ="0.2000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:30">
       <ControllerConnection Port="1" Protocol="Renard" channel="30"/>
     </model>
     <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" Controller="Renard" name="AC Bush 06" CustomColor="#008000" StringType="Single Color Intensity" TagColour="white" WorldPosX="-427.5199" WorldPosY="16.9200" WorldPosZ="297.1148" ScaleX="0.0822" ScaleY="0.0564" ScaleZ="0.0943" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:8">
@@ -236,7 +236,7 @@
     <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" Controller="Renard" name="AC Wrap 02" TagColour="white" CustomColor="#e0e0e0" StringType="Single Color Intensity" WorldPosX="859.0200" WorldPosY="16.8000" WorldPosZ="330.0413" ScaleX="0.0820" ScaleY="0.0560" ScaleZ="0.0940" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:65">
       <ControllerConnection Port="1" Protocol="Renard" channel="65"/>
     </model>
-    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" Controller="Renard" name="AC Wrap 01" TagColour="white" CustomColor="#e91ac6" StringType="Single Color Intensity" WorldPosX="434.9400" WorldPosY="16.9200" WorldPosZ="376.1435" ScaleX="0.0822" ScaleY="0.0564" ScaleZ="0.0943" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:62">
+    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" Controller="Renard" name="AC Wrap 01" TagColour="white" CustomColor="#e0e0e0" StringType="Single Color Intensity" WorldPosX="434.9400" WorldPosY="16.9200" WorldPosZ="376.1435" ScaleX="0.0822" ScaleY="0.0564" ScaleZ="0.0943" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:62">
       <ControllerConnection Port="1" Protocol="Renard" channel="62"/>
     </model>
     <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" DisplayAs="Tree 360" parm1="1" TreeSpiralRotations="8.000000" Controller="F8-B" parm2="50" name="Tree Small 02" ModelChain="&gt;Tree 01" WorldPosX="838.9479" WorldPosY="17.2875" WorldPosZ="472.8498" ScaleX="0.2590" ScaleY="0.2305" ScaleZ="0.2592" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:451">
@@ -383,15 +383,18 @@
     <view_object DisplayAs="Mesh" LayoutGroup="Default" ObjFile="/Users/techplex/Documents/xlights/lightshow-2019/sequences/3D/putney facade v4.obj" name="House" Brightness="30" Active="1" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" Locked="1" versionNumber="5"/>
     <view_object DisplayAs="Gridlines" LayoutGroup="Default" name="Gridlines" GridLineSpacing="50" GridWidth="2000.0" GridHeight="1000.0" Active="0" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="-90.00000000" RotateY="-0.00000000" RotateZ="0.00000000" Locked="1" versionNumber="5"/>
   </view_objects>
-  <effects version="0006"/>
+  <effects version="0006">
+    <effect name="Pinwheel - Bush" settings="CopyFormat1&#x9;0&#x9;1&#x9;2&#x9;0&#x9;98&#x9;PASTE_BY_CELL&#xA;Pinwheel&#x9;E_CHECKBOX_Pinwheel_Rotation=1,E_CHOICE_Pinwheel_3D=None,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=100,E_SLIDER_Pinwheel_Arms=2,E_SLIDER_Pinwheel_Offset=0,E_SLIDER_Pinwheel_Speed=2,E_SLIDER_Pinwheel_Thickness=57,E_SLIDER_Pinwheel_Twist=-198&#x9;C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1&#x9;49000&#x9;61050&#x9;12&#x9;-1000&#x9;NO_PASTE_BY_CELL&#xA;" version="0006" xLightsVersion="2020.47"/>
+  </effects>
   <views>
-    <view name="Meiser Bros" models="All Pixels,Pixels Left,Pixels Right,House and Windows,AC All Chan Order"/>
+    <view name="Miser Bros" models="All Pixels,Pixels Left,Pixels Right,House and Windows,AC All Chan Order"/>
     <view name="All AC In Order" models="AC All Chan Order"/>
     <view name="XATW" models="All Pixels,Windows,Arches,Tree 01,Trees Small,Stakes"/>
+    <view name="Main" models="AC All,All Pixels"/>
   </views>
   <palettes/>
   <modelGroups>
-    <modelGroup selected="0" LayoutGroup="Default" versionNumber="2" name="AC All Chan Order" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" models="AC Bush 01,AC Bush 02,AC Bush 03,AC Bush 04,AC Bush 05,AC Snow Flakes 01,AC Snow Flakes 02,AC Bush 06,AC North Pole Sign,AC Helo Canes 03,AC Helo Canes 02,AC Helo Canes 01,AC Helo Canes 04,AC Bush 07,AC Cherry Wrap,AC Rope Lights,AC Cherry,AC Icicles 01,AC Door Office,AC Holly 02,AC Holly 01,AC Candy 02,AC Door Entry,AC Candy 06,AC Candy 05,AC Candy 01,AC Candy 03,AC Candy 04,AC Santa,AC Wrap 01,AC Tree,AC Angel,AC Wrap 02,AC Icicles 02,AC Package Blue 01,AC Package Green 01,AC Package Red 01,AC Package Blue 02,AC Package Green 02,AC Package Red 02">
+    <modelGroup selected="0" LayoutGroup="Default" versionNumber="2" name="AC All Chan Order" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" models="AC Bush 01,AC Bush 02,AC Bush 03,AC Bush 04,AC Bush 05,AC Snow Flakes 01,AC Snow Flakes 02,AC Bush 06,AC North Pole Sign,AC Helo Canes 03,AC Helo Canes 02,AC Helo Canes 01,AC Helo Canes 04,AC Bush 07,AC Cherry Wrap,AC Rope Lights,AC Cherry Icicles,AC Icicles 01,AC Door Office,AC Holly 02,AC Holly 01,AC Candy 02,AC Door Entry,AC Candy 06,AC Candy 05,AC Candy 01,AC Candy 03,AC Candy 04,AC Santa,AC Wrap 01,AC Tree,AC Angel,AC Wrap 02,AC Icicles 02,AC Package Blue 01,AC Package Green 01,AC Package Red 01,AC Package Blue 02,AC Package Green 02,AC Package Red 02">
       <ControllerConnection/>
     </modelGroup>
     <modelGroup selected="0" name="Arches" LayoutGroup="Default" models="Arches Left,Arches RIght" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" WorldPosX="193.0000" WorldPosY="20.0000" WorldPosZ="0.0000" ScaleX="1.8040" ScaleY="1.8040" ScaleZ="1.8040" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="">
@@ -422,9 +425,13 @@
     <modelGroup selected="0" name="Pixels Left" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Arch1,Arch2,Great Room 01,Great Room 02,Office,Tree Small 01"/>
     <modelGroup selected="0" name="Pixels Right" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Arch3,Arch4,Master 01,South West 01,South West 02"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Windows" name="House and Windows"/>
-    <modelGroup selected="0" name="AC All" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="AC Bushes,AC Candy Canes,AC Holly,AC Icicles,AC Packages,AC Packages Left,AC Packages Right,AC Wraps"/>
+    <modelGroup selected="0" name="AC All" LayoutGroup="Default" models="AC Candy Canes,AC Holly,AC Icicles,AC Packages,AC Wraps,AC Bushes All,AC Helo Canes,AC Snow Flakes,AC Angel,AC North Pole Sign,AC Santa,AC Tree,AC Cherry,AC Rope Lights" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="AC All,All Pixels" name="Everything"/>
     <modelGroup selected="0" name="Trees Small" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Tree Small 01,Tree Small 02"/>
+    <modelGroup selected="0" LayoutGroup="Default" name="AC Bushes All" models="AC Bush 01,AC Bush 02,AC Bush 03,AC Bush 04,AC Bush 05,AC Bush 06,AC Bush 07" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
+    <modelGroup selected="0" name="AC Helo Canes" LayoutGroup="Default" models="AC Helo Canes 01,AC Helo Canes 02,AC Helo Canes 03,AC Helo Canes 04" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
+    <modelGroup selected="0" name="AC Snow Flakes" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="AC Snow Flakes 01,AC Snow Flakes 02"/>
+    <modelGroup selected="0" name="AC Cherry" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="AC Cherry Icicles,AC Cherry Wrap"/>
   </modelGroups>
   <layoutGroups>
     <layoutGroup name="Windows" PaneWidth="1280" PaneHeight="960" PosX="100" PosY="156"/>

@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2020.47</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile></mediaFile>
+    <sequenceDuration>60</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox>
+    <Button Type="MLT" Description="" Tooltip="" Element="House Lights" Layer="1" Time="100" Number="1"/>
+  </Jukebox>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_CHECKBOX_Palette1=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette7=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#2D8B2D,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHOICE_Butterfly_Colors=Rainbow,E_CHOICE_Butterfly_Direction=Normal,E_SLIDER_Butterfly_Chunks=1,E_SLIDER_Butterfly_Skip=2,E_SLIDER_Butterfly_Speed=10,E_SLIDER_Butterfly_Style=1</Effect>
+    <Effect>E_CHECKBOX_Pinwheel_Rotation=1,E_CHOICE_Pinwheel_3D=None,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=100,E_SLIDER_Pinwheel_Arms=8,E_SLIDER_Pinwheel_Offset=0,E_SLIDER_Pinwheel_Speed=2,E_SLIDER_Pinwheel_Thickness=57,E_SLIDER_Pinwheel_Twist=-198</Effect>
+    <Effect>E_CHECKBOX_Pinwheel_Rotation=1,E_CHOICE_Pinwheel_3D=None,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=100,E_SLIDER_Pinwheel_Arms=8,E_SLIDER_Pinwheel_Offset=0,E_SLIDER_Pinwheel_Speed=2,E_SLIDER_Pinwheel_Thickness=57,E_SLIDER_Pinwheel_Twist=-198,T_TEXTCTRL_Fadeout=2.00</Effect>
+    <Effect></Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Model Default,E_CHECKBOX_Twinkle_ReRandom=0,E_CHECKBOX_Twinkle_Strobe=0,E_SLIDER_Twinkle_Count=3,E_SLIDER_Twinkle_Steps=30</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_End=0,E_TEXTCTRL_Eff_On_Start=100</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=16,E_SLIDER_Number_Chases=3,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
+    <Effect>E_CHECKBOX_Pinwheel_Rotation=1,E_CHOICE_Pinwheel_3D=None,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=100,E_SLIDER_Pinwheel_Arms=2,E_SLIDER_Pinwheel_Offset=0,E_SLIDER_Pinwheel_Speed=2,E_SLIDER_Pinwheel_Thickness=57,E_SLIDER_Pinwheel_Twist=-198,T_TEXTCTRL_Fadeout=2.00</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_End=100,E_TEXTCTRL_Eff_On_Start=0</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_End=0,E_TEXTCTRL_Eff_On_Start=80</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_End=100,E_TEXTCTRL_Eff_On_Start=66</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Right-Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=From Middle,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
+    <Effect>E_CHECKBOX_Fire_GrowWithMusic=0,E_CHOICE_Fire_Location=Bottom,E_SLIDER_Fire_Height=68,E_SLIDER_Fire_HueShift=54,E_TEXTCTRL_Fire_GrowthCycles=3.0</Effect>
+    <Effect>E_CHECKBOX_Spirals_3D=0,E_CHECKBOX_Spirals_Blend=0,E_CHECKBOX_Spirals_Grow=0,E_CHECKBOX_Spirals_Shrink=0,E_SLIDER_Spirals_Count=1,E_SLIDER_Spirals_Rotation=20,E_SLIDER_Spirals_Thickness=50,E_TEXTCTRL_Spirals_Movement=1.0</Effect>
+    <Effect>E_SLIDER_Life_Count=50,E_SLIDER_Life_Seed=0,E_SLIDER_Life_Speed=10</Effect>
+    <Effect>E_CHOICE_Plasma_Color=Normal,E_SLIDER_Plasma_Line_Density=3,E_SLIDER_Plasma_Speed=63,E_SLIDER_Plasma_Style=2</Effect>
+    <Effect>B_CHOICE_BufferStyle=Single Line,E_CHECKBOX_Ripple3D=0,E_CHOICE_Ripple_Movement=Explode,E_CHOICE_Ripple_Object_To_Draw=Circle,E_SLIDER_Ripple_Thickness=3,E_SLIDER_Ripple_XC=0,E_SLIDER_Ripple_YC=0,E_TEXTCTRL_Ripple_Cycles=1.0</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Model Per Preview,E_CHECKBOX_Meteors_UseMusic=0,E_CHOICE_Meteors_Effect=Icicles,E_CHOICE_Meteors_Type=Rainbow,E_SLIDER_Meteors_Count=7,E_SLIDER_Meteors_Length=25,E_SLIDER_Meteors_Speed=10,E_SLIDER_Meteors_Swirl_Intensity=0</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Model Per Preview,E_CHECKBOX_Meteors_UseMusic=0,E_CHOICE_Meteors_Effect=Down,E_CHOICE_Meteors_Type=Palette,E_SLIDER_Meteors_Count=21,E_SLIDER_Meteors_Length=25,E_SLIDER_Meteors_Speed=3,E_SLIDER_Meteors_Swirl_Intensity=0</Effect>
+    <Effect>E_CHECKBOX_Curtain_Repeat=0,E_CHOICE_Curtain_Edge=left,E_CHOICE_Curtain_Effect=close,E_SLIDER_Curtain_Swag=0,E_TEXTCTRL_Curtain_Speed=2.9,T_TEXTCTRL_Fadeout=1.00</Effect>
+    <Effect>E_CHOICE_Garlands_Direction=Up,E_SLIDER_Garlands_Spacing=53,E_SLIDER_Garlands_Type=0,E_TEXTCTRL_Garlands_Cycles=5.8</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="1" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="500ms Metronome" visible="1" views="Main" active="1"/>
+    <Element collapsed="0" type="timing" name="1000ms Metronome" visible="1" views="Main" active="0"/>
+    <Element collapsed="1" type="model" name="AC All" visible="1"/>
+    <Element collapsed="0" type="model" name="All Pixels" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Bushes" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Candy Canes" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Holly" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Icicles" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Packages" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Packages Left" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Packages Right" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Wraps" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Candy 01" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Candy 02" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Candy 03" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Candy 04" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Candy 05" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Candy 06" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Holly 02" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Holly 01" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bushes All" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Helo Canes" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Snow Flakes" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Angel" visible="0"/>
+    <Element collapsed="0" type="model" name="AC North Pole Sign" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Santa" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Tree" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Cherry" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Rope Lights" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Helo Canes 01" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Helo Canes 02" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Helo Canes 03" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Helo Canes 04" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Cherry Icicles" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Cherry Wrap" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bush 01" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bush 02" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bush 03" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bush 04" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bush 05" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bush 06" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bush 07" visible="0"/>
+    <Element collapsed="0" type="model" name="Arches" visible="0"/>
+    <Element collapsed="0" type="model" name="Windows" visible="0"/>
+    <Element collapsed="0" type="model" name="Stakes" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees" visible="0"/>
+    <Element collapsed="0" type="model" name="Arches Left" visible="0"/>
+    <Element collapsed="0" type="model" name="Arches RIght" visible="0"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="500ms Metronome" fixed="500">
+      <EffectLayer/>
+    </Element>
+    <Element type="timing" name="1000ms Metronome" fixed="1000">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC All">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="All Pixels">
+      <EffectLayer>
+        <Effect ref="0" name="Butterfly" startTime="0" endTime="8000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Bushes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Candy Canes">
+      <EffectLayer>
+        <Effect ref="1" name="Pinwheel" startTime="15000" endTime="30050" palette="0"/>
+        <Effect ref="2" name="Pinwheel" id="1" startTime="45000" endTime="60050" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Holly">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="5000" palette="1"/>
+        <Effect ref="4" name="Twinkle" id="1" startTime="5000" endTime="10000" palette="0"/>
+        <Effect ref="3" name="On" id="2" startTime="10000" endTime="15000" palette="1"/>
+        <Effect ref="4" name="Twinkle" id="3" startTime="15000" endTime="20000" palette="0"/>
+        <Effect ref="3" name="On" id="4" startTime="20000" endTime="25000" palette="1"/>
+        <Effect ref="4" name="Twinkle" id="5" startTime="25000" endTime="30000" palette="0"/>
+        <Effect ref="3" name="On" id="6" startTime="30000" endTime="35000" palette="1"/>
+        <Effect ref="4" name="Twinkle" id="7" startTime="35000" endTime="40000" palette="0"/>
+        <Effect ref="3" name="On" id="8" startTime="40000" endTime="45000" palette="1"/>
+        <Effect ref="4" name="Twinkle" id="9" startTime="45000" endTime="50000" palette="0"/>
+        <Effect ref="3" name="On" id="10" startTime="50000" endTime="55000" palette="1"/>
+        <Effect ref="4" name="Twinkle" id="11" startTime="55000" endTime="59000" palette="0"/>
+        <Effect ref="5" name="On" id="12" startTime="59000" endTime="60000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Icicles">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Packages">
+      <EffectLayer>
+        <Effect ref="6" name="SingleStrand" startTime="0" endTime="60000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Packages Left">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Packages Right">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Wraps">
+      <EffectLayer>
+        <Effect ref="4" name="Twinkle" startTime="0" endTime="5000" palette="0"/>
+        <Effect ref="4" name="Twinkle" id="1" startTime="43000" endTime="53500" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Candy 01">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="500" palette="1"/>
+        <Effect ref="3" name="On" id="1" startTime="2000" endTime="2500" palette="1"/>
+        <Effect ref="3" name="On" id="2" startTime="3000" endTime="3500" palette="1"/>
+        <Effect ref="3" name="On" id="3" startTime="6500" endTime="7000" palette="1"/>
+        <Effect ref="3" name="On" id="4" startTime="7500" endTime="8000" palette="1"/>
+        <Effect ref="3" name="On" id="5" startTime="11500" endTime="12000" palette="0"/>
+        <Effect ref="3" name="On" id="6" startTime="12500" endTime="13000" palette="0"/>
+        <Effect ref="3" name="On" id="7" startTime="30500" endTime="31000" palette="1"/>
+        <Effect ref="3" name="On" id="8" startTime="32500" endTime="33000" palette="1"/>
+        <Effect ref="3" name="On" id="9" startTime="33500" endTime="34000" palette="1"/>
+        <Effect ref="3" name="On" id="10" startTime="37000" endTime="37500" palette="1"/>
+        <Effect ref="3" name="On" id="11" startTime="38000" endTime="38500" palette="1"/>
+        <Effect ref="3" name="On" id="12" startTime="42000" endTime="42500" palette="0"/>
+        <Effect ref="3" name="On" id="13" startTime="43000" endTime="43500" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Candy 02">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="500" palette="1"/>
+        <Effect ref="3" name="On" id="1" startTime="2000" endTime="2500" palette="1"/>
+        <Effect ref="3" name="On" id="2" startTime="3500" endTime="4000" palette="1"/>
+        <Effect ref="3" name="On" id="3" startTime="7000" endTime="7500" palette="1"/>
+        <Effect ref="3" name="On" id="4" startTime="8000" endTime="8500" palette="1"/>
+        <Effect ref="3" name="On" id="5" startTime="11000" endTime="11500" palette="0"/>
+        <Effect ref="3" name="On" id="6" startTime="12500" endTime="13000" palette="0"/>
+        <Effect ref="3" name="On" id="7" startTime="30500" endTime="31000" palette="1"/>
+        <Effect ref="3" name="On" id="8" startTime="32500" endTime="33000" palette="1"/>
+        <Effect ref="3" name="On" id="9" startTime="34000" endTime="34500" palette="1"/>
+        <Effect ref="3" name="On" id="10" startTime="37500" endTime="38000" palette="1"/>
+        <Effect ref="3" name="On" id="11" startTime="38500" endTime="39000" palette="1"/>
+        <Effect ref="3" name="On" id="12" startTime="41500" endTime="42000" palette="0"/>
+        <Effect ref="3" name="On" id="13" startTime="43000" endTime="43500" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Candy 03">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="500" endTime="1000" palette="1"/>
+        <Effect ref="3" name="On" id="1" startTime="1500" endTime="2000" palette="1"/>
+        <Effect ref="3" name="On" id="2" startTime="4000" endTime="4500" palette="1"/>
+        <Effect ref="3" name="On" id="3" startTime="6500" endTime="7000" palette="1"/>
+        <Effect ref="3" name="On" id="4" startTime="7500" endTime="8000" palette="1"/>
+        <Effect ref="3" name="On" id="5" startTime="10500" endTime="11000" palette="0"/>
+        <Effect ref="3" name="On" id="6" startTime="13000" endTime="13500" palette="0"/>
+        <Effect ref="3" name="On" id="7" startTime="31000" endTime="31500" palette="1"/>
+        <Effect ref="3" name="On" id="8" startTime="32000" endTime="32500" palette="1"/>
+        <Effect ref="3" name="On" id="9" startTime="34500" endTime="35000" palette="1"/>
+        <Effect ref="3" name="On" id="10" startTime="37000" endTime="37500" palette="1"/>
+        <Effect ref="3" name="On" id="11" startTime="38000" endTime="38500" palette="1"/>
+        <Effect ref="3" name="On" id="12" startTime="41000" endTime="41500" palette="0"/>
+        <Effect ref="3" name="On" id="13" startTime="43500" endTime="44000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Candy 04">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="500" endTime="1000" palette="1"/>
+        <Effect ref="3" name="On" id="1" startTime="1500" endTime="2000" palette="1"/>
+        <Effect ref="3" name="On" id="2" startTime="4500" endTime="5000" palette="1"/>
+        <Effect ref="3" name="On" id="3" startTime="7000" endTime="7500" palette="1"/>
+        <Effect ref="3" name="On" id="4" startTime="8000" endTime="8500" palette="1"/>
+        <Effect ref="3" name="On" id="5" startTime="10000" endTime="10500" palette="0"/>
+        <Effect ref="3" name="On" id="6" startTime="13000" endTime="13500" palette="0"/>
+        <Effect ref="3" name="On" id="7" startTime="31000" endTime="31500" palette="1"/>
+        <Effect ref="3" name="On" id="8" startTime="32000" endTime="32500" palette="1"/>
+        <Effect ref="3" name="On" id="9" startTime="35000" endTime="35500" palette="1"/>
+        <Effect ref="3" name="On" id="10" startTime="37500" endTime="38000" palette="1"/>
+        <Effect ref="3" name="On" id="11" startTime="38500" endTime="39000" palette="1"/>
+        <Effect ref="3" name="On" id="12" startTime="40500" endTime="41000" palette="0"/>
+        <Effect ref="3" name="On" id="13" startTime="43500" endTime="44000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Candy 05">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="1000" endTime="1500" palette="1"/>
+        <Effect ref="3" name="On" id="1" startTime="5000" endTime="5500" palette="1"/>
+        <Effect ref="3" name="On" id="2" startTime="6500" endTime="7000" palette="1"/>
+        <Effect ref="3" name="On" id="3" startTime="7500" endTime="8000" palette="1"/>
+        <Effect ref="3" name="On" id="4" startTime="9500" endTime="10000" palette="0"/>
+        <Effect ref="3" name="On" id="5" startTime="13500" endTime="14000" palette="0"/>
+        <Effect ref="3" name="On" id="6" startTime="31500" endTime="32000" palette="1"/>
+        <Effect ref="3" name="On" id="7" startTime="35500" endTime="36000" palette="1"/>
+        <Effect ref="3" name="On" id="8" startTime="37000" endTime="37500" palette="1"/>
+        <Effect ref="3" name="On" id="9" startTime="38000" endTime="38500" palette="1"/>
+        <Effect ref="3" name="On" id="10" startTime="40000" endTime="40500" palette="0"/>
+        <Effect ref="3" name="On" id="11" startTime="44000" endTime="44500" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Candy 06">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="1000" endTime="1500" palette="1"/>
+        <Effect ref="3" name="On" id="1" startTime="5500" endTime="6000" palette="1"/>
+        <Effect ref="3" name="On" id="2" startTime="7000" endTime="7500" palette="1"/>
+        <Effect ref="3" name="On" id="3" startTime="8000" endTime="8500" palette="1"/>
+        <Effect ref="3" name="On" id="4" startTime="9000" endTime="9500" palette="0"/>
+        <Effect ref="3" name="On" id="5" startTime="13500" endTime="14000" palette="0"/>
+        <Effect ref="3" name="On" id="6" startTime="31500" endTime="32000" palette="1"/>
+        <Effect ref="3" name="On" id="7" startTime="36000" endTime="36500" palette="1"/>
+        <Effect ref="3" name="On" id="8" startTime="37500" endTime="38000" palette="1"/>
+        <Effect ref="3" name="On" id="9" startTime="38500" endTime="39000" palette="1"/>
+        <Effect ref="3" name="On" id="10" startTime="39500" endTime="40000" palette="0"/>
+        <Effect ref="3" name="On" id="11" startTime="44000" endTime="44500" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Holly 02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Holly 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Bushes All">
+      <EffectLayer>
+        <Effect ref="1" name="Pinwheel" startTime="18000" endTime="30050" palette="0"/>
+        <Effect ref="7" name="Pinwheel" id="1" startTime="49000" endTime="60050" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Helo Canes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Snow Flakes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Angel">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="10000" palette="0"/>
+        <Effect ref="8" name="On" id="1" startTime="12000" endTime="13250" palette="1"/>
+        <Effect ref="5" name="On" id="2" startTime="13250" endTime="14500" palette="1"/>
+        <Effect ref="8" name="On" id="3" startTime="14500" endTime="15250" palette="1"/>
+        <Effect ref="5" name="On" id="4" startTime="15250" endTime="16000" palette="1"/>
+        <Effect ref="5" name="On" id="5" startTime="17000" endTime="19500" palette="1"/>
+        <Effect ref="5" name="On" id="6" startTime="19500" endTime="21500" palette="1"/>
+        <Effect ref="3" name="Twinkle" id="7" startTime="21500" endTime="32000" palette="1"/>
+        <Effect ref="8" name="On" id="8" startTime="34000" endTime="35250" palette="1"/>
+        <Effect ref="5" name="On" id="9" startTime="35250" endTime="36500" palette="1"/>
+        <Effect ref="8" name="On" id="10" startTime="36500" endTime="37250" palette="1"/>
+        <Effect ref="5" name="On" id="11" startTime="37250" endTime="38000" palette="1"/>
+        <Effect ref="5" name="On" id="12" startTime="39000" endTime="41500" palette="1"/>
+        <Effect ref="5" name="On" id="13" startTime="41500" endTime="43500" palette="1"/>
+        <Effect ref="8" name="On" id="14" startTime="45500" endTime="46750" palette="1"/>
+        <Effect ref="5" name="On" id="15" startTime="46750" endTime="48000" palette="1"/>
+        <Effect ref="8" name="On" id="16" startTime="48000" endTime="48750" palette="1"/>
+        <Effect ref="5" name="On" id="17" startTime="48750" endTime="49500" palette="1"/>
+        <Effect ref="5" name="On" id="18" startTime="50500" endTime="53000" palette="1"/>
+        <Effect ref="5" name="On" id="19" startTime="53000" endTime="55000" palette="1"/>
+        <Effect ref="3" name="Twinkle" id="20" startTime="55000" endTime="59000" palette="1"/>
+        <Effect ref="5" name="On" id="21" startTime="59000" endTime="60000" palette="1"/>
+        <Effect ref="3" name="Twinkle" id="22" startTime="60000" endTime="65500" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC North Pole Sign">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="10000" palette="0"/>
+        <Effect ref="8" name="On" id="1" startTime="11000" endTime="12000" palette="1"/>
+        <Effect ref="5" name="On" id="2" startTime="12000" endTime="13000" palette="1"/>
+        <Effect ref="8" name="On" id="3" startTime="13000" endTime="14500" palette="1"/>
+        <Effect ref="5" name="On" id="4" startTime="14500" endTime="16000" palette="1"/>
+        <Effect ref="5" name="On" id="5" startTime="17000" endTime="19500" palette="1"/>
+        <Effect ref="5" name="On" id="6" startTime="19500" endTime="21500" palette="1"/>
+        <Effect ref="3" name="Twinkle" id="7" startTime="21500" endTime="32000" palette="1"/>
+        <Effect ref="8" name="On" id="8" startTime="33000" endTime="34000" palette="1"/>
+        <Effect ref="5" name="On" id="9" startTime="34000" endTime="35000" palette="1"/>
+        <Effect ref="8" name="On" id="10" startTime="35000" endTime="36500" palette="1"/>
+        <Effect ref="5" name="On" id="11" startTime="36500" endTime="38000" palette="1"/>
+        <Effect ref="5" name="On" id="12" startTime="39000" endTime="41500" palette="1"/>
+        <Effect ref="5" name="On" id="13" startTime="41500" endTime="43500" palette="1"/>
+        <Effect ref="8" name="On" id="14" startTime="44500" endTime="45500" palette="1"/>
+        <Effect ref="5" name="On" id="15" startTime="45500" endTime="46500" palette="1"/>
+        <Effect ref="8" name="On" id="16" startTime="46500" endTime="48000" palette="1"/>
+        <Effect ref="5" name="On" id="17" startTime="48000" endTime="49500" palette="1"/>
+        <Effect ref="5" name="On" id="18" startTime="50500" endTime="53000" palette="1"/>
+        <Effect ref="5" name="On" id="19" startTime="53000" endTime="55000" palette="1"/>
+        <Effect ref="3" name="Twinkle" id="20" startTime="55000" endTime="59000" palette="1"/>
+        <Effect ref="5" name="On" id="21" startTime="59000" endTime="60000" palette="1"/>
+        <Effect ref="3" name="Twinkle" id="22" startTime="60000" endTime="65500" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Santa">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="10000" palette="0"/>
+        <Effect ref="8" name="On" id="1" startTime="10000" endTime="11000" palette="1"/>
+        <Effect ref="5" name="On" id="2" startTime="11000" endTime="12000" palette="1"/>
+        <Effect ref="8" name="On" id="3" startTime="12000" endTime="13000" palette="1"/>
+        <Effect ref="5" name="On" id="4" startTime="13000" endTime="14000" palette="1"/>
+        <Effect ref="8" name="On" id="5" startTime="14000" endTime="15000" palette="1"/>
+        <Effect ref="5" name="On" id="6" startTime="15000" endTime="16000" palette="1"/>
+        <Effect ref="5" name="On" id="7" startTime="17000" endTime="19500" palette="1"/>
+        <Effect ref="5" name="On" id="8" startTime="19500" endTime="21500" palette="1"/>
+        <Effect ref="3" name="Twinkle" id="9" startTime="21500" endTime="32000" palette="1"/>
+        <Effect ref="8" name="On" id="10" startTime="32000" endTime="33000" palette="1"/>
+        <Effect ref="5" name="On" id="11" startTime="33000" endTime="34000" palette="1"/>
+        <Effect ref="8" name="On" id="12" startTime="34000" endTime="35000" palette="1"/>
+        <Effect ref="5" name="On" id="13" startTime="35000" endTime="36000" palette="1"/>
+        <Effect ref="8" name="On" id="14" startTime="36000" endTime="37000" palette="1"/>
+        <Effect ref="5" name="On" id="15" startTime="37000" endTime="38000" palette="1"/>
+        <Effect ref="5" name="On" id="16" startTime="39000" endTime="41500" palette="1"/>
+        <Effect ref="5" name="On" id="17" startTime="41500" endTime="43500" palette="1"/>
+        <Effect ref="8" name="On" id="18" startTime="43500" endTime="44500" palette="1"/>
+        <Effect ref="5" name="On" id="19" startTime="44500" endTime="45500" palette="1"/>
+        <Effect ref="8" name="On" id="20" startTime="45500" endTime="46500" palette="1"/>
+        <Effect ref="5" name="On" id="21" startTime="46500" endTime="47500" palette="1"/>
+        <Effect ref="8" name="On" id="22" startTime="47500" endTime="48500" palette="1"/>
+        <Effect ref="5" name="On" id="23" startTime="48500" endTime="49500" palette="1"/>
+        <Effect ref="5" name="On" id="24" startTime="50500" endTime="53000" palette="1"/>
+        <Effect ref="5" name="On" id="25" startTime="53000" endTime="55000" palette="1"/>
+        <Effect ref="3" name="Twinkle" id="26" startTime="55000" endTime="59000" palette="1"/>
+        <Effect ref="5" name="On" id="27" startTime="59000" endTime="60000" palette="1"/>
+        <Effect ref="3" name="Twinkle" id="28" startTime="60000" endTime="65500" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Tree">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="9000" palette="0"/>
+        <Effect ref="8" name="On" id="1" startTime="9000" endTime="10000" palette="1"/>
+        <Effect ref="5" name="On" id="2" startTime="10000" endTime="11000" palette="1"/>
+        <Effect ref="8" name="On" id="3" startTime="11000" endTime="12000" palette="1"/>
+        <Effect ref="5" name="On" id="4" startTime="12000" endTime="13000" palette="1"/>
+        <Effect ref="8" name="On" id="5" startTime="13000" endTime="14000" palette="1"/>
+        <Effect ref="5" name="On" id="6" startTime="14000" endTime="15000" palette="1"/>
+        <Effect ref="8" name="On" id="7" startTime="15000" endTime="16000" palette="1"/>
+        <Effect ref="5" name="On" id="8" startTime="16000" endTime="17000" palette="1"/>
+        <Effect ref="5" name="On" id="9" startTime="17000" endTime="19500" palette="1"/>
+        <Effect ref="5" name="On" id="10" startTime="19500" endTime="21500" palette="1"/>
+        <Effect ref="3" name="Twinkle" id="11" startTime="21500" endTime="32000" palette="1"/>
+        <Effect ref="5" name="On" id="12" startTime="32000" endTime="33000" palette="1"/>
+        <Effect ref="8" name="On" id="13" startTime="33000" endTime="34000" palette="1"/>
+        <Effect ref="5" name="On" id="14" startTime="34000" endTime="35000" palette="1"/>
+        <Effect ref="8" name="On" id="15" startTime="35000" endTime="36000" palette="1"/>
+        <Effect ref="5" name="On" id="16" startTime="36000" endTime="37000" palette="1"/>
+        <Effect ref="8" name="On" id="17" startTime="37000" endTime="38000" palette="1"/>
+        <Effect ref="5" name="On" id="18" startTime="38000" endTime="39000" palette="1"/>
+        <Effect ref="5" name="On" id="19" startTime="39000" endTime="41500" palette="1"/>
+        <Effect ref="5" name="On" id="20" startTime="41500" endTime="43500" palette="1"/>
+        <Effect ref="5" name="On" id="21" startTime="43500" endTime="44500" palette="1"/>
+        <Effect ref="8" name="On" id="22" startTime="44500" endTime="45500" palette="1"/>
+        <Effect ref="5" name="On" id="23" startTime="45500" endTime="46500" palette="1"/>
+        <Effect ref="8" name="On" id="24" startTime="46500" endTime="47500" palette="1"/>
+        <Effect ref="5" name="On" id="25" startTime="47500" endTime="48500" palette="1"/>
+        <Effect ref="8" name="On" id="26" startTime="48500" endTime="49500" palette="1"/>
+        <Effect ref="5" name="On" id="27" startTime="49500" endTime="50500" palette="1"/>
+        <Effect ref="5" name="On" id="28" startTime="50500" endTime="53000" palette="1"/>
+        <Effect ref="5" name="On" id="29" startTime="53000" endTime="55000" palette="1"/>
+        <Effect ref="3" name="Twinkle" id="30" startTime="55000" endTime="59000" palette="1"/>
+        <Effect ref="5" name="On" id="31" startTime="59000" endTime="60000" palette="1"/>
+        <Effect ref="3" name="Twinkle" id="32" startTime="60000" endTime="65500" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Cherry">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="5000" endTime="8500" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="9000" endTime="10000" palette="0"/>
+        <Effect ref="3" name="On" id="2" startTime="12000" endTime="14000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Rope Lights">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="5000" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="6000" endTime="8000" palette="0"/>
+        <Effect ref="9" name="On" id="2" startTime="32000" endTime="33000" palette="1"/>
+        <Effect ref="8" name="On" id="3" startTime="33000" endTime="33500" palette="1"/>
+        <Effect ref="5" name="On" id="4" startTime="33500" endTime="34000" palette="1"/>
+        <Effect ref="8" name="On" id="5" startTime="34000" endTime="34500" palette="1"/>
+        <Effect ref="5" name="On" id="6" startTime="34500" endTime="35000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Helo Canes 01">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="1000" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="4000" endTime="5000" palette="0"/>
+        <Effect ref="3" name="On" id="2" startTime="8000" endTime="9000" palette="0"/>
+        <Effect ref="3" name="On" id="3" startTime="12000" endTime="13000" palette="0"/>
+        <Effect ref="3" name="On" id="4" startTime="16000" endTime="17000" palette="0"/>
+        <Effect ref="3" name="On" id="5" startTime="20000" endTime="21000" palette="0"/>
+        <Effect ref="3" name="On" id="6" startTime="24000" endTime="25000" palette="0"/>
+        <Effect ref="3" name="On" id="7" startTime="28000" endTime="29000" palette="0"/>
+        <Effect ref="3" name="On" id="8" startTime="31000" endTime="32000" palette="0"/>
+        <Effect ref="3" name="On" id="9" startTime="35000" endTime="36000" palette="0"/>
+        <Effect ref="3" name="On" id="10" startTime="39000" endTime="40000" palette="0"/>
+        <Effect ref="3" name="On" id="11" startTime="43000" endTime="44000" palette="0"/>
+        <Effect ref="3" name="On" id="12" startTime="47000" endTime="48000" palette="0"/>
+        <Effect ref="3" name="On" id="13" startTime="51000" endTime="52000" palette="0"/>
+        <Effect ref="3" name="On" id="14" startTime="55000" endTime="56000" palette="0"/>
+        <Effect ref="3" name="On" id="15" startTime="59000" endTime="60000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Helo Canes 02">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="1000" endTime="2000" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="5000" endTime="6000" palette="0"/>
+        <Effect ref="3" name="On" id="2" startTime="9000" endTime="10000" palette="0"/>
+        <Effect ref="3" name="On" id="3" startTime="13000" endTime="14000" palette="0"/>
+        <Effect ref="3" name="On" id="4" startTime="17000" endTime="18000" palette="0"/>
+        <Effect ref="3" name="On" id="5" startTime="21000" endTime="22000" palette="0"/>
+        <Effect ref="3" name="On" id="6" startTime="25000" endTime="26000" palette="0"/>
+        <Effect ref="3" name="On" id="7" startTime="29000" endTime="30000" palette="0"/>
+        <Effect ref="3" name="On" id="8" startTime="30000" endTime="31000" palette="0"/>
+        <Effect ref="3" name="On" id="9" startTime="34000" endTime="35000" palette="0"/>
+        <Effect ref="3" name="On" id="10" startTime="38000" endTime="39000" palette="0"/>
+        <Effect ref="3" name="On" id="11" startTime="42000" endTime="43000" palette="0"/>
+        <Effect ref="3" name="On" id="12" startTime="46000" endTime="47000" palette="0"/>
+        <Effect ref="3" name="On" id="13" startTime="50000" endTime="51000" palette="0"/>
+        <Effect ref="3" name="On" id="14" startTime="54000" endTime="55000" palette="0"/>
+        <Effect ref="3" name="On" id="15" startTime="58000" endTime="59000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Helo Canes 03">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="2000" endTime="3000" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="6000" endTime="7000" palette="0"/>
+        <Effect ref="3" name="On" id="2" startTime="10000" endTime="11000" palette="0"/>
+        <Effect ref="3" name="On" id="3" startTime="14000" endTime="15000" palette="0"/>
+        <Effect ref="3" name="On" id="4" startTime="18000" endTime="19000" palette="0"/>
+        <Effect ref="3" name="On" id="5" startTime="22000" endTime="23000" palette="0"/>
+        <Effect ref="3" name="On" id="6" startTime="26000" endTime="27000" palette="0"/>
+        <Effect ref="3" name="On" id="7" startTime="33000" endTime="34000" palette="0"/>
+        <Effect ref="3" name="On" id="8" startTime="37000" endTime="38000" palette="0"/>
+        <Effect ref="3" name="On" id="9" startTime="41000" endTime="42000" palette="0"/>
+        <Effect ref="3" name="On" id="10" startTime="45000" endTime="46000" palette="0"/>
+        <Effect ref="3" name="On" id="11" startTime="49000" endTime="50000" palette="0"/>
+        <Effect ref="3" name="On" id="12" startTime="53000" endTime="54000" palette="0"/>
+        <Effect ref="3" name="On" id="13" startTime="57000" endTime="58000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Helo Canes 04">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="3000" endTime="4000" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="7000" endTime="8000" palette="0"/>
+        <Effect ref="3" name="On" id="2" startTime="11000" endTime="12000" palette="0"/>
+        <Effect ref="3" name="On" id="3" startTime="15000" endTime="16000" palette="0"/>
+        <Effect ref="3" name="On" id="4" startTime="19000" endTime="20000" palette="0"/>
+        <Effect ref="3" name="On" id="5" startTime="23000" endTime="24000" palette="0"/>
+        <Effect ref="3" name="On" id="6" startTime="27000" endTime="28000" palette="0"/>
+        <Effect ref="3" name="On" id="7" startTime="32000" endTime="33000" palette="0"/>
+        <Effect ref="3" name="On" id="8" startTime="36000" endTime="37000" palette="0"/>
+        <Effect ref="3" name="On" id="9" startTime="40000" endTime="41000" palette="0"/>
+        <Effect ref="3" name="On" id="10" startTime="44000" endTime="45000" palette="0"/>
+        <Effect ref="3" name="On" id="11" startTime="48000" endTime="49000" palette="0"/>
+        <Effect ref="3" name="On" id="12" startTime="52000" endTime="53000" palette="0"/>
+        <Effect ref="3" name="On" id="13" startTime="56000" endTime="57000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Cherry Icicles">
+      <EffectLayer>
+        <Effect ref="5" name="On" startTime="15000" endTime="17000" palette="1"/>
+        <Effect ref="3" name="On" id="1" startTime="18000" endTime="19500" palette="0"/>
+        <Effect ref="5" name="On" id="2" startTime="22000" endTime="24000" palette="1"/>
+        <Effect ref="8" name="On" id="3" startTime="25500" endTime="26500" palette="1"/>
+        <Effect ref="5" name="On" id="4" startTime="26500" endTime="27500" palette="1"/>
+        <Effect ref="8" name="On" id="5" startTime="27500" endTime="28500" palette="1"/>
+        <Effect ref="5" name="On" id="6" startTime="28500" endTime="29500" palette="1"/>
+        <Effect ref="8" name="On" id="7" startTime="29500" endTime="30000" palette="1"/>
+        <Effect ref="5" name="On" id="8" startTime="30000" endTime="30500" palette="1"/>
+        <Effect ref="8" name="On" id="9" startTime="30500" endTime="31000" palette="1"/>
+        <Effect ref="5" name="On" id="10" startTime="31000" endTime="31500" palette="1"/>
+        <Effect ref="8" name="On" id="11" startTime="31500" endTime="32000" palette="1"/>
+        <Effect ref="5" name="On" id="12" startTime="32000" endTime="32500" palette="1"/>
+        <Effect ref="8" name="On" id="13" startTime="32500" endTime="33750" palette="1"/>
+        <Effect ref="5" name="On" id="14" startTime="33750" endTime="35000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Cherry Wrap">
+      <EffectLayer>
+        <Effect ref="10" name="On" startTime="32000" endTime="32750" palette="1"/>
+        <Effect ref="5" name="On" id="1" startTime="32750" endTime="35000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Bush 01">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="2000" endTime="5000" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="9000" endTime="12000" palette="0"/>
+        <Effect ref="3" name="On" id="2" startTime="33000" endTime="36000" palette="0"/>
+        <Effect ref="3" name="On" id="3" startTime="40000" endTime="43000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Bush 02">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="3000" endTime="6000" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="10000" endTime="13000" palette="0"/>
+        <Effect ref="3" name="On" id="2" startTime="34000" endTime="37000" palette="0"/>
+        <Effect ref="3" name="On" id="3" startTime="41000" endTime="44000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Bush 03">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="4000" endTime="7000" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="11000" endTime="14000" palette="0"/>
+        <Effect ref="3" name="On" id="2" startTime="35000" endTime="38000" palette="0"/>
+        <Effect ref="3" name="On" id="3" startTime="42000" endTime="45000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Bush 04">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="5000" endTime="8000" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="12000" endTime="15000" palette="0"/>
+        <Effect ref="3" name="On" id="2" startTime="36000" endTime="39000" palette="0"/>
+        <Effect ref="3" name="On" id="3" startTime="43000" endTime="46000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Bush 05">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="6000" endTime="9000" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="13000" endTime="16000" palette="0"/>
+        <Effect ref="3" name="On" id="2" startTime="37000" endTime="40000" palette="0"/>
+        <Effect ref="3" name="On" id="3" startTime="44000" endTime="47000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Bush 06">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="3000" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="7000" endTime="10000" palette="0"/>
+        <Effect ref="3" name="On" id="2" startTime="14000" endTime="17000" palette="0"/>
+        <Effect ref="3" name="On" id="3" startTime="31000" endTime="34000" palette="0"/>
+        <Effect ref="3" name="On" id="4" startTime="38000" endTime="41000" palette="0"/>
+        <Effect ref="3" name="On" id="5" startTime="45000" endTime="48000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Bush 07">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="1000" endTime="4000" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="8000" endTime="11000" palette="0"/>
+        <Effect ref="3" name="On" id="2" startTime="15000" endTime="18000" palette="0"/>
+        <Effect ref="3" name="On" id="3" startTime="32000" endTime="35000" palette="0"/>
+        <Effect ref="3" name="On" id="4" startTime="39000" endTime="42000" palette="0"/>
+        <Effect ref="3" name="On" id="5" startTime="46000" endTime="49000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Arches">
+      <EffectLayer>
+        <Effect ref="11" name="SingleStrand" startTime="8000" endTime="12500" palette="2"/>
+        <Effect ref="12" name="SingleStrand" id="1" startTime="12500" endTime="18000" palette="3"/>
+        <Effect ref="13" name="SingleStrand" id="2" startTime="18000" endTime="21000" palette="4"/>
+        <Effect ref="14" name="Fire" id="3" startTime="21000" endTime="27000" palette="4"/>
+        <Effect ref="15" name="Spirals" id="4" startTime="27000" endTime="37000" palette="5"/>
+        <Effect ref="16" name="Life" id="5" startTime="41050" endTime="46050" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Windows">
+      <EffectLayer>
+        <Effect ref="17" name="Plasma" startTime="8000" endTime="19500" palette="6"/>
+        <Effect ref="18" name="Ripple" id="1" startTime="24500" endTime="38500" palette="7"/>
+        <Effect ref="19" name="Meteors" id="2" startTime="39000" endTime="43500" palette="0"/>
+        <Effect ref="20" name="Meteors" id="3" startTime="44000" endTime="48500" palette="8"/>
+        <Effect ref="21" name="Curtain" selected="1" id="4" startTime="49000" endTime="60000" palette="9"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Stakes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees">
+      <EffectLayer>
+        <Effect ref="22" name="Garlands" startTime="19500" endTime="28500" palette="5"/>
+        <Effect ref="3" name="Color Wash" id="1" startTime="28500" endTime="40500" palette="5"/>
+        <Effect ref="16" name="Life" id="2" startTime="43000" endTime="48000" palette="0"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="43000" endTime="48000" palette="10"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Arches Left">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Arches RIght">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>4</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
