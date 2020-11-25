@@ -2,6 +2,12 @@
 <!DOCTYPE html>
 <xrgb>
   <models>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" LayoutGroup="Default" Image="/home/techplex/projects/pers/lightshow/sequences/Images/Tune To Sign.jpg" name="AC Tune To" OffBrightness="20" CustomColor="#f0f0f0" StringType="Single Color Intensity" WorldPosX="391.1971" WorldPosY="15.1611" WorldPosZ="397.7599" ScaleX="41.3244" ScaleY="30.3222" ScaleZ="1.0000" RotateX="0.00000000" RotateY="25.45746040" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:16">
+      <ControllerConnection Port="1" Protocol="Renard" channel="16"/>
+    </model>
+    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" CustomColor="#e0e0e0" StringType="Single Color Intensity" TagColour="white" name="AC Bush 08" Controller="Renard" WorldPosX="852.0224" WorldPosY="16.9200" WorldPosZ="43.5550" ScaleX="0.0822" ScaleY="0.0564" ScaleZ="0.2381" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:53">
+      <ControllerConnection Port="1" Protocol="Renard" channel="53"/>
+    </model>
     <model DisplayAs="Custom" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" parm2="5" parm1="5" Depth="1" CustomModel=",,,,1;,1,,,;,,,,;,,,,;,,1,," CustomBkgLightness="0" CustomBkgImage="" Controller="Renard" name="AC Snow Flakes 01" CustomColor="#e0e0e0" StringType="Single Color Intensity" TagColour="white" WorldPosX="-103.2502" WorldPosY="44.0327" WorldPosZ="367.3999" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:6">
       <ControllerConnection Port="1" Protocol="Renard" channel="6"/>
     </model>
