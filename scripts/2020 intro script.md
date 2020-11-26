@@ -1,5 +1,5 @@
 
--> Lights are on: Wraps, Bushes, Holly
+-> Lights fade on: Wraps, Bushes, Holly
 
 -> Office door blinks to the volume of BB's voice
 -> Office01 blinks to the volume of EM's voice
