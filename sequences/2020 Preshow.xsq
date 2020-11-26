@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2020.47</version>
+    <version>2020.48.1</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -11,10 +11,10 @@
     <MusicURL></MusicURL>
     <comment></comment>
     <sequenceTiming>50 ms</sequenceTiming>
-    <sequenceType>Animation</sequenceType>
-    <mediaFile></mediaFile>
-    <sequenceDuration>60</sequenceDuration>
-    <imageDir></imageDir>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>/Users/techplex/projects/lightshow/sequences/Music/2020 Preshow.mp3</mediaFile>
+    <sequenceDuration>60.000</sequenceDuration>
+    <imageDir/>
   </head>
   <nextid>1</nextid>
   <Jukebox>
@@ -110,6 +110,8 @@
     <Element collapsed="0" type="model" name="Trees" visible="0"/>
     <Element collapsed="0" type="model" name="Arches Left" visible="0"/>
     <Element collapsed="0" type="model" name="Arches RIght" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree 01" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees Small" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="500ms Metronome" fixed="500">
@@ -613,7 +615,7 @@
         <Effect ref="18" name="Ripple" id="1" startTime="24500" endTime="38500" palette="7"/>
         <Effect ref="19" name="Meteors" id="2" startTime="39000" endTime="43500" palette="0"/>
         <Effect ref="20" name="Meteors" id="3" startTime="44000" endTime="48500" palette="8"/>
-        <Effect ref="21" name="Curtain" selected="1" id="4" startTime="49000" endTime="60000" palette="9"/>
+        <Effect ref="21" name="Curtain" id="4" startTime="49000" endTime="60000" palette="9"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Stakes">
@@ -633,6 +635,12 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Arches RIght">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees Small">
       <EffectLayer/>
     </Element>
   </ElementEffects>
