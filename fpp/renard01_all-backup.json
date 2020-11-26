@@ -97,7 +97,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 15724,
+        "StartChannel": 15705,
         "ChannelCount": 1,
         "Name": "AC_Angel"
       },
@@ -175,6 +175,16 @@
         "StartCorner": "BL",
         "StrandsPerString": 1,
         "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15713,
+        "ChannelCount": 1,
+        "Name": "AC_Bush_08"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
         "StartChannel": 15717,
@@ -239,7 +249,7 @@
         "ChannelCountPerNode": 1,
         "StartChannel": 15690,
         "ChannelCount": 1,
-        "Name": "AC_Cherry"
+        "Name": "AC_Cherry_Icicles"
       },
       {
         "StartCorner": "BL",
@@ -257,7 +267,7 @@
         "StringCount": 16,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 15712,
+        "StartChannel": 15704,
         "ChannelCount": 1,
         "Name": "AC_Door_Entry"
       },
@@ -267,7 +277,7 @@
         "StringCount": 16,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 15704,
+        "StartChannel": 15712,
         "ChannelCount": 1,
         "Name": "AC_Door_Office"
       },
@@ -472,6 +482,16 @@
         "StartChannel": 15723,
         "ChannelCount": 1,
         "Name": "AC_Tree"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 15724,
+        "ChannelCount": 1,
+        "Name": "AC_Tune_To"
       },
       {
         "StartCorner": "BL",
@@ -748,19 +768,7 @@
     ]
   },
   "show_setup": {
-    "events": {
-      "01_01.fevt": [
-        "{",
-        "    \"command\": \"All Lights Off\",",
-        "    \"multisyncCommand\": false,",
-        "    \"multisyncHosts\": \"\",",
-        "    \"args\": [],",
-        "    \"name\": \"all off\",",
-        "    \"majorId\": 1,",
-        "    \"minorId\": 1",
-        "}"
-      ]
-    },
+    "events": [],
     "playlist": [],
     "schedule": [
       [
