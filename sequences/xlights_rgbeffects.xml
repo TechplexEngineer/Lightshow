@@ -2,8 +2,8 @@
 <!DOCTYPE html>
 <xrgb>
   <models>
-    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" LayoutGroup="Default" Image="/home/techplex/projects/pers/lightshow/sequences/Images/Tune To Sign.jpg" name="AC Tune To" OffBrightness="20" CustomColor="#f0f0f0" StringType="Single Color Intensity" WorldPosX="391.1971" WorldPosY="15.1611" WorldPosZ="397.7599" ScaleX="41.3244" ScaleY="30.3222" ScaleZ="1.0000" RotateX="0.00000000" RotateY="25.45746040" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:16">
-      <ControllerConnection Port="1" Protocol="Renard" channel="16"/>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" LayoutGroup="Default" Image="/home/techplex/projects/pers/lightshow/sequences/Images/Tune To Sign.jpg" name="AC Tune To" OffBrightness="20" CustomColor="#f0f0f0" StringType="Single Color Intensity" Controller="Renard" WorldPosX="391.1971" WorldPosY="15.1611" WorldPosZ="397.7599" ScaleX="41.3244" ScaleY="30.3222" ScaleZ="1.0000" RotateX="0.00000000" RotateY="25.45746040" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:64">
+      <ControllerConnection channel="64" Port="1" Protocol="Renard"/>
     </model>
     <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" CustomColor="#e0e0e0" StringType="Single Color Intensity" TagColour="white" name="AC Bush 08" Controller="Renard" WorldPosX="852.0224" WorldPosY="16.9200" WorldPosZ="43.5550" ScaleX="0.0822" ScaleY="0.0564" ScaleZ="0.2381" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:53">
       <ControllerConnection Port="1" Protocol="Renard" channel="53"/>
@@ -11,8 +11,8 @@
     <model DisplayAs="Custom" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" parm2="5" parm1="5" Depth="1" CustomModel=",,,,1;,1,,,;,,,,;,,,,;,,1,," CustomBkgLightness="0" CustomBkgImage="" Controller="Renard" name="AC Snow Flakes 01" CustomColor="#e0e0e0" StringType="Single Color Intensity" TagColour="white" WorldPosX="-103.2502" WorldPosY="44.0327" WorldPosZ="367.3999" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:6">
       <ControllerConnection Port="1" Protocol="Renard" channel="6"/>
     </model>
-    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" LayoutGroup="Default" Image="/Users/techplex/Documents/xlights/lightshow-2019/sequences/Images/angel.png" Controller="Renard" name="AC Angel" TagColour="white" CustomColor="#e0e0e0" StringType="Single Color Intensity" WorldPosX="349.4946" WorldPosY="40.8200" WorldPosZ="291.4565" ScaleX="48.4477" ScaleY="81.6399" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:64">
-      <ControllerConnection Port="1" Protocol="Renard" channel="64"/>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" LayoutGroup="Default" Image="/Users/techplex/Documents/xlights/lightshow-2019/sequences/Images/angel.png" name="AC Angel" TagColour="white" CustomColor="#e0e0e0" StringType="Single Color Intensity" Controller="Renard" WorldPosX="349.4946" WorldPosY="40.8200" WorldPosZ="291.4565" ScaleX="48.4477" ScaleY="81.6399" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:45">
+      <ControllerConnection Port="1" Protocol="Renard" channel="45"/>
     </model>
     <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" Controller="Renard" TagColour="white" CustomColor="#e0e0e0" StringType="Single Color Intensity" name="AC Cherry Icicles" WorldPosX="0.7019" WorldPosY="86.2382" WorldPosZ="55.3890" ScaleX="0.2310" ScaleY="0.0205" ScaleZ="0.2000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:30">
       <ControllerConnection Port="1" Protocol="Renard" channel="30"/>
@@ -431,10 +431,10 @@
     <modelGroup selected="0" name="Pixels Left" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Arch1,Arch2,Great Room 01,Great Room 02,Office,Tree Small 01"/>
     <modelGroup selected="0" name="Pixels Right" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Arch3,Arch4,Master 01,South West 01,South West 02"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Windows" name="House and Windows"/>
-    <modelGroup selected="0" name="AC All" LayoutGroup="Default" models="AC Candy Canes,AC Holly,AC Icicles,AC Packages,AC Wraps,AC Bushes All,AC Helo Canes,AC Snow Flakes,AC Angel,AC North Pole Sign,AC Santa,AC Tree,AC Cherry,AC Rope Lights" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
+    <modelGroup selected="0" name="AC All" LayoutGroup="Default" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" models="AC Candy Canes,AC Holly,AC Icicles,AC Packages,AC Wraps,AC Bushes All,AC Helo Canes,AC Snow Flakes,AC Angel,AC North Pole Sign,AC Santa,AC Tree,AC Cherry,AC Rope Lights,AC Tune To"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="AC All,All Pixels" name="Everything"/>
     <modelGroup selected="0" name="Trees Small" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Tree Small 01,Tree Small 02"/>
-    <modelGroup selected="0" LayoutGroup="Default" name="AC Bushes All" models="AC Bush 01,AC Bush 02,AC Bush 03,AC Bush 04,AC Bush 05,AC Bush 06,AC Bush 07" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
+    <modelGroup selected="0" LayoutGroup="Default" name="AC Bushes All" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" models="AC Bush 01,AC Bush 02,AC Bush 03,AC Bush 04,AC Bush 05,AC Bush 06,AC Bush 07,AC Bush 08"/>
     <modelGroup selected="0" name="AC Helo Canes" LayoutGroup="Default" models="AC Helo Canes 01,AC Helo Canes 02,AC Helo Canes 03,AC Helo Canes 04" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
     <modelGroup selected="0" name="AC Snow Flakes" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="AC Snow Flakes 01,AC Snow Flakes 02"/>
     <modelGroup selected="0" name="AC Cherry" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="AC Cherry Icicles,AC Cherry Wrap"/>

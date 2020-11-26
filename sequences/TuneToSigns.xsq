@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2020.49</version>
+    <author/>
+    <author-email/>
+    <author-website/>
+    <song/>
+    <artist/>
+    <album/>
+    <MusicURL/>
+    <comment/>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile/>
+    <sequenceDuration>10.0</sequenceDuration>
+    <imageDir/>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox>
+    <Button Type="MLT" Description="" Tooltip="" Element="House Lights" Layer="1" Time="100" Number="1"/>
+  </Jukebox>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect></Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="1" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,Miser Bros,All AC In Order,XATW,Main" active="1"/>
+    <Element collapsed="0" type="model" name="AC All" visible="1"/>
+    <Element collapsed="0" type="model" name="All Pixels" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Candy Canes" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Holly" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Icicles" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Packages" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Wraps" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bushes All" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Helo Canes" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Snow Flakes" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Angel" visible="0"/>
+    <Element collapsed="0" type="model" name="AC North Pole Sign" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Santa" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Tree" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Cherry" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Rope Lights" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Tune To" visible="0"/>
+    <Element collapsed="0" type="model" name="Windows" visible="1"/>
+    <Element collapsed="0" type="model" name="Arches" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree 01" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees Small" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees" visible="0"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC All">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="All Pixels">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Candy Canes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Holly">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Icicles">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Packages">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Wraps">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Bushes All">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Helo Canes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Snow Flakes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Angel">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC North Pole Sign">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Santa">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Tree">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Cherry">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Rope Lights">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Tune To">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="10000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Windows">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Arches">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees Small">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>4</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
