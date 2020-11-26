@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2020.48.1</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>/Users/techplex/projects/lightshow/sequences/Music/The 12 Pains of Christmas.mp3</mediaFile>
+    <sequenceDuration>215.179</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes/>
+  <EffectDB/>
+  <DataLayers>
+    <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="12 Pains Lyrics" visible="1" views="Main" active="1"/>
+    <Element collapsed="0" type="model" name="AC All" visible="1"/>
+    <Element collapsed="0" type="model" name="All Pixels" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="12 Pains Lyrics">
+      <EffectLayer>
+        <Effect label="" startTime="0" endTime="4350"></Effect>
+        <Effect label="The first thing at Christmas that's such a pain to me" startTime="4350" endTime="7650"></Effect>
+        <Effect label="Is finding a Christmas tree" startTime="7650" endTime="11650"></Effect>
+        <Effect label="The second thing at Christmas that's such a pain to me" startTime="11650" endTime="14950"></Effect>
+        <Effect label="Rigging up the lights" startTime="14950" endTime="16800"></Effect>
+        <Effect label="And finding a Christmas tree" startTime="16800" endTime="20950"></Effect>
+        <Effect label="The third thing at Christmas that's such a pain to me" startTime="20950" endTime="24900"></Effect>
+        <Effect label="Hangovers" startTime="24900" endTime="26250"></Effect>
+        <Effect label="Rigging up the lights" startTime="26250" endTime="27650"></Effect>
+        <Effect label="And finding a Christmas tree" startTime="27650" endTime="31500"></Effect>
+        <Effect label="The fourth thing at Christmas that's such a pain to me" startTime="31500" endTime="35350"></Effect>
+        <Effect label="Sending Christmas cards" startTime="35350" endTime="37000"></Effect>
+        <Effect label="Hangovers" startTime="37000" endTime="38250"></Effect>
+        <Effect label="Rigging up the lights" startTime="38250" endTime="39800"></Effect>
+        <Effect label="And finding a Christmas tree" startTime="39800" endTime="43750"></Effect>
+        <Effect label="The fifth thing at Christmas that's such a pain to me" startTime="43750" endTime="47600"></Effect>
+        <Effect label="Five months of bills" startTime="47600" endTime="51050"></Effect>
+        <Effect label="Sending Christmas cards" startTime="51050" endTime="52800"></Effect>
+        <Effect label="Hangovers" startTime="52800" endTime="54300"></Effect>
+        <Effect label="Rigging up the lights" startTime="54300" endTime="55650"></Effect>
+        <Effect label="And finding a Christmas tree" startTime="55650" endTime="59500"></Effect>
+        <Effect label="The sixth thing at Christmas that's such a pain to me" startTime="59500" endTime="63500"></Effect>
+        <Effect label="Facing my in-laws" startTime="63500" endTime="65050"></Effect>
+        <Effect label="Five months of bills" startTime="65050" endTime="68050"></Effect>
+        <Effect label="I hate those Christmas cards!" startTime="68050" endTime="70200"></Effect>
+        <Effect label="Hangovers" startTime="70200" endTime="71350"></Effect>
+        <Effect label="Rigging up these lights" startTime="71350" endTime="72900"></Effect>
+        <Effect label="And finding a Christmas tree" startTime="72900" endTime="76750"></Effect>
+        <Effect label="The seventh thing at Christmas that's such a pain to me" startTime="76750" endTime="80600"></Effect>
+        <Effect label="Salvation Army" startTime="80600" endTime="82150"></Effect>
+        <Effect label="Facing my in-laws" startTime="82150" endTime="83650"></Effect>
+        <Effect label="Five months of bills" startTime="83650" endTime="87200"></Effect>
+        <Effect label="Sending Christmas cards" startTime="87200" endTime="88850"></Effect>
+        <Effect label="Aw geez" startTime="88850" endTime="89750"></Effect>
+        <Effect label="I'm trying to rig up these lights!" startTime="89750" endTime="91500"></Effect>
+        <Effect label="And finding a Christmas tree" startTime="91500" endTime="95750"></Effect>
+        <Effect label="The eighth thing at Christmas that's such a pain to me" startTime="95750" endTime="98700"></Effect>
+        <Effect label="I want ant farmer for Christmas" startTime="98700" endTime="101200"></Effect>
+        <Effect label="Charities, and what do you mean your inlaws?" startTime="101200" endTime="103650"></Effect>
+        <Effect label="Five months of bills" startTime="103650" endTime="106950"></Effect>
+        <Effect label="Ah, mailing out these cards!" startTime="106950" endTime="108750"></Effect>
+        <Effect label="Edith, get me a beer, huh!" startTime="108750" endTime="110350"></Effect>
+        <Effect label="What, we have no extension cords?!?" startTime="110350" endTime="112350"></Effect>
+        <Effect label="And finding a Christmas tree" startTime="112350" endTime="115600"></Effect>
+        <Effect label="The ninth thing at Christmas that's such a pain to me" startTime="115600" endTime="119350"></Effect>
+        <Effect label="Finding parking spaces" startTime="119350" endTime="120950"></Effect>
+        <Effect label="Daddy, I want some candy!" startTime="120950" endTime="122950"></Effect>
+        <Effect label="Donations!" startTime="122950" endTime="123950"></Effect>
+        <Effect label="Facing my in-laws" startTime="123950" endTime="125150"></Effect>
+        <Effect label="Five months of bills" startTime="125150" endTime="128450"></Effect>
+        <Effect label="Writing up those Christmas cards" startTime="128450" endTime="130150"></Effect>
+        <Effect label="Hangovers" startTime="130150" endTime="131300"></Effect>
+        <Effect label="Now why the hell are they blinking?" startTime="131300" endTime="132950"></Effect>
+        <Effect label="And finding a Christmas tree" startTime="132950" endTime="137050"></Effect>
+        <Effect label="The tenth thing at Christmas that's such a pain to me" startTime="137050" endTime="140700"></Effect>
+        <Effect label="Batteries not included" startTime="140700" endTime="142200"></Effect>
+        <Effect label="No parking spaces" startTime="142200" endTime="143350"></Effect>
+        <Effect label="Buy me something!" startTime="143350" endTime="144900"></Effect>
+        <Effect label="Get a job ya bum!" startTime="144900" endTime="146900"></Effect>
+        <Effect label="Facing the inlaws" startTime="146900" endTime="148100"></Effect>
+        <Effect label="Five months of bills" startTime="148100" endTime="151150"></Effect>
+        <Effect label="Yo ho, sending Christmas cards" startTime="151150" endTime="153050"></Effect>
+        <Effect label="Ah geez, look at this!" startTime="153050" endTime="154350"></Effect>
+        <Effect label="One light goes out, they all go out!" startTime="154350" endTime="156150"></Effect>
+        <Effect label="And finding a Christmas tree" startTime="156150" endTime="159550"></Effect>
+        <Effect label="The eleventh thing at Christmas that's such a pain to me" startTime="159550" endTime="163650"></Effect>
+        <Effect label="Stale TV specials" startTime="163650" endTime="165150"></Effect>
+        <Effect label="Batteries not included" startTime="165150" endTime="166450"></Effect>
+        <Effect label="No parking spaces" startTime="166450" endTime="167450"></Effect>
+        <Effect label="I gotta go to the bathroom" startTime="167450" endTime="169650"></Effect>
+        <Effect label="Charities" startTime="169650" endTime="170600"></Effect>
+        <Effect label="She's a witch, I hate her!" startTime="170600" endTime="172200"></Effect>
+        <Effect label="Five months of bills" startTime="172200" endTime="174500"></Effect>
+        <Effect label="Oh, I don't even know half these people!" startTime="174500" endTime="177300"></Effect>
+        <Effect label="Who's got the toilet paper?" startTime="177300" endTime="178600"></Effect>
+        <Effect label="Get a flashlight, I blew a fuse!" startTime="178600" endTime="180300"></Effect>
+        <Effect label="And finding a Christmas tree" startTime="180300" endTime="184000"></Effect>
+        <Effect label="The twelfth thing at Christmas that's such a pain to me" startTime="184000" endTime="187900"></Effect>
+        <Effect label="Singing Christmas Carols" startTime="187900" endTime="189500"></Effect>
+        <Effect label="Stale TV specials" startTime="189500" endTime="190850"></Effect>
+        <Effect label="Batteries not included" startTime="190850" endTime="192050"></Effect>
+        <Effect label="No parking" startTime="192050" endTime="193000"></Effect>
+        <Effect label="Waaah!" startTime="193000" endTime="195150"></Effect>
+        <Effect label="Charities" startTime="195150" endTime="196500"></Effect>
+        <Effect label="Gotta make 'em dinner" startTime="196500" endTime="197950"></Effect>
+        <Effect label="Five months of bills" startTime="197950" endTime="200600"></Effect>
+        <Effect label="I'm not sending them, Mister, that's it!" startTime="200600" endTime="202250"></Effect>
+        <Effect label="Shut up, you!" startTime="202250" endTime="204000"></Effect>
+        <Effect label="Fine, you're so smart, you rig up the lights!" startTime="204000" endTime="206500"></Effect>
+        <Effect label="And finding a Christmas tree" startTime="206500" endTime="215200"></Effect>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC All">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="All Pixels">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>4</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
