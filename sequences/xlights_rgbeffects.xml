@@ -433,7 +433,9 @@
     <modelGroup selected="0" name="Pixels Left" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Arch1,Arch2,Great Room 01,Great Room 02,Office,Tree Small 01"/>
     <modelGroup selected="0" name="Pixels Right" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Arch3,Arch4,Master 01,South West 01,South West 02"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Windows" name="House and Windows"/>
-    <modelGroup selected="0" name="AC All" LayoutGroup="Default" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" models="AC Candy Canes,AC Holly,AC Icicles,AC Packages,AC Wraps,AC Bushes All,AC Helo Canes,AC Snow Flakes,AC Angel,AC North Pole Sign,AC Santa,AC Tree,AC Cherry,AC Rope Lights,AC Tune To"/>
+    <modelGroup selected="0" name="AC All" LayoutGroup="Default" WorldPosX="200.0000" WorldPosY="18.0000" WorldPosZ="0.0000" ScaleX="1.6466" ScaleY="1.6466" ScaleZ="1.6466" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" models="AC Candy Canes,AC Holly,AC Icicles,AC Packages,AC Wraps,AC Bushes All,AC Helo Canes,AC Snow Flakes,AC Angel,AC North Pole Sign,AC Santa,AC Tree,AC Cherry,AC Rope Lights,AC Door Entry,AC Door Office" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid">
+      <ControllerConnection/>
+    </modelGroup>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="AC All,All Pixels" name="Everything"/>
     <modelGroup selected="0" name="Trees Small" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Tree Small 01,Tree Small 02"/>
     <modelGroup selected="0" LayoutGroup="Default" name="AC Bushes All" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" models="AC Bush 01,AC Bush 02,AC Bush 03,AC Bush 04,AC Bush 05,AC Bush 06,AC Bush 07,AC Bush 08"/>
