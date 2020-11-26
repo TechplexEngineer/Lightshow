@@ -460,8 +460,8 @@
     <storedLayoutGroup value="Default"/>
     <previewWidth value="1280"/>
     <previewHeight value="960"/>
-    <fseqDir value="/Users/techplex/projects/lightshow/sequences"/>
     <renderCacheDir value="/Users/techplex/projects/lightshow/sequences"/>
+    <fseqDir value="/Users/techplex/projects/lightshow/sequences/fseq"/>
   </settings>
   <colors>
     <EffectDefault Red="192" Green="192" Blue="192"/>
