@@ -22,6 +22,7 @@
   </Jukebox>
   <ColorPalettes>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_CHECKBOX_Palette1=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette4=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
@@ -67,6 +68,8 @@
     <Element collapsed="0" type="model" name="AC Door Office" visible="1"/>
     <Element collapsed="0" type="model" name="Tree 01" visible="1"/>
     <Element collapsed="0" type="model" name="Trees Small" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Holly 02" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Holly 01" visible="0"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="New Timing">
@@ -119,8 +122,9 @@
     </Element>
     <Element type="model" name="AC Icicles">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="33100" endTime="33900" palette="0"/>
-        <Effect ref="0" name="On" id="1" startTime="33900" endTime="37300" palette="0"/>
+        <Effect ref="2" name="On" startTime="20300" endTime="33100" palette="1"/>
+        <Effect ref="0" name="On" id="1" startTime="33100" endTime="33900" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="33900" endTime="37300" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="AC Packages">
@@ -223,8 +227,8 @@
     <Element type="model" name="Office">
       <EffectLayer/>
       <SubModelEffectLayer name="Office 01">
-        <Effect ref="4" name="VU Meter" startTime="7100" endTime="9200" palette="1"/>
-        <Effect ref="4" name="VU Meter" id="1" startTime="18650" endTime="21200" palette="1"/>
+        <Effect ref="4" name="VU Meter" startTime="7100" endTime="9200" palette="2"/>
+        <Effect ref="4" name="VU Meter" id="1" startTime="18650" endTime="21200" palette="2"/>
       </SubModelEffectLayer>
     </Element>
     <Element type="model" name="South West 01">
@@ -244,16 +248,22 @@
     </Element>
     <Element type="model" name="AC Door Office">
       <EffectLayer>
-        <Effect ref="4" name="VU Meter" startTime="9200" endTime="10900" palette="1"/>
-        <Effect ref="4" name="VU Meter" id="1" startTime="11200" endTime="13500" palette="1"/>
-        <Effect ref="4" name="VU Meter" id="2" startTime="15400" endTime="18650" palette="1"/>
-        <Effect ref="4" name="VU Meter" id="3" startTime="21200" endTime="34800" palette="1"/>
+        <Effect ref="4" name="VU Meter" startTime="9200" endTime="10900" palette="2"/>
+        <Effect ref="4" name="VU Meter" id="1" startTime="11200" endTime="13500" palette="2"/>
+        <Effect ref="4" name="VU Meter" id="2" startTime="15400" endTime="18650" palette="2"/>
+        <Effect ref="4" name="VU Meter" id="3" startTime="21200" endTime="34800" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Tree 01">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Trees Small">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Holly 02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Holly 01">
       <EffectLayer/>
     </Element>
   </ElementEffects>

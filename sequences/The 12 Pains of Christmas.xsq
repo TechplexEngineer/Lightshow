@@ -18,8 +18,69 @@
   </head>
   <nextid>1</nextid>
   <Jukebox/>
-  <ColorPalettes/>
-  <EffectDB/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_CHECKBOX_Palette1=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette7=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette5=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette7=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_TEXTCTRL_Eff_On_End=100,E_TEXTCTRL_Eff_On_Start=0</Effect>
+    <Effect>T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Right-Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Dual Bounce,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=To Middle,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
+    <Effect>E_CHECKBOX_Spirals_3D=0,E_CHECKBOX_Spirals_Blend=0,E_CHECKBOX_Spirals_Grow=0,E_CHECKBOX_Spirals_Shrink=0,E_SLIDER_Spirals_Count=1,E_SLIDER_Spirals_Rotation=20,E_SLIDER_Spirals_Thickness=50,E_TEXTCTRL_Spirals_Movement=1.0</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=From Middle,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
+    <Effect>E_CHECKBOX_Spirals_3D=0,E_CHECKBOX_Spirals_Blend=0,E_CHECKBOX_Spirals_Grow=0,E_CHECKBOX_Spirals_Shrink=0,E_SLIDER_Spirals_Count=1,E_SLIDER_Spirals_Rotation=51,E_SLIDER_Spirals_Thickness=17,E_TEXTCTRL_Spirals_Movement=-0.8</Effect>
+    <Effect>E_CHECKBOX_Curtain_Repeat=0,E_CHOICE_Curtain_Edge=center,E_CHOICE_Curtain_Effect=open,E_SLIDER_Curtain_Swag=3,E_TEXTCTRL_Curtain_Speed=1.0</Effect>
+    <Effect>E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Position,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=50,E_SLIDER_Shockwave_CenterY=50,E_SLIDER_Shockwave_End_Radius=250,E_SLIDER_Shockwave_End_Width=10,E_SLIDER_Shockwave_Start_Radius=1,E_SLIDER_Shockwave_Start_Width=5</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Model Single Line,E_CHECKBOX_Marquee_PixelOffsets=0,E_CHECKBOX_Marquee_Reverse=0,E_CHECKBOX_Marquee_WrapX=0,E_CHECKBOX_Marquee_WrapY=0,E_NOTEBOOK_Marquee=Settings,E_SLIDER_MarqueeXC=0,E_SLIDER_MarqueeYC=0,E_SLIDER_Marquee_Band_Size=3,E_SLIDER_Marquee_ScaleX=100,E_SLIDER_Marquee_ScaleY=100,E_SLIDER_Marquee_Skip_Size=0,E_SLIDER_Marquee_Speed=3,E_SLIDER_Marquee_Stagger=0,E_SLIDER_Marquee_Start=0,E_SLIDER_Marquee_Thickness=1</Effect>
+    <Effect>E_CHECKBOX_Pinwheel_Rotation=1,E_CHOICE_Pinwheel_3D=None,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=100,E_SLIDER_Pinwheel_Arms=3,E_SLIDER_Pinwheel_Offset=0,E_SLIDER_Pinwheel_Speed=10,E_SLIDER_Pinwheel_Thickness=27,E_SLIDER_Pinwheel_Twist=0</Effect>
+    <Effect>E_CHECKBOX_Curtain_Repeat=0,E_CHOICE_Curtain_Edge=center,E_CHOICE_Curtain_Effect=close,E_SLIDER_Curtain_Swag=3,E_TEXTCTRL_Curtain_Speed=1.8</Effect>
+    <Effect>E_CHOICE_Garlands_Direction=Down then Up,E_SLIDER_Garlands_Spacing=10,E_SLIDER_Garlands_Type=0,E_TEXTCTRL_Garlands_Cycles=1.0</Effect>
+    <Effect>E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Position,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=50,E_SLIDER_Shockwave_CenterY=50,E_SLIDER_Shockwave_End_Radius=250,E_SLIDER_Shockwave_End_Width=48,E_SLIDER_Shockwave_Start_Radius=1,E_SLIDER_Shockwave_Start_Width=5</Effect>
+    <Effect>E_CHECKBOX_Spirals_3D=0,E_CHECKBOX_Spirals_Blend=0,E_CHECKBOX_Spirals_Grow=0,E_CHECKBOX_Spirals_Shrink=0,E_SLIDER_Spirals_Count=1,E_SLIDER_Spirals_Rotation=-222,E_SLIDER_Spirals_Thickness=26,E_TEXTCTRL_Spirals_Movement=3.1</Effect>
+    <Effect>E_CHECKBOX_Meteors_UseMusic=0,E_CHOICE_Meteors_Effect=Left,E_CHOICE_Meteors_Type=Palette,E_SLIDER_Meteors_Count=10,E_SLIDER_Meteors_Length=25,E_SLIDER_Meteors_Speed=23,E_SLIDER_Meteors_Swirl_Intensity=0</Effect>
+    <Effect>E_CHOICE_Garlands_Direction=Up,E_SLIDER_Garlands_Spacing=10,E_SLIDER_Garlands_Type=2,E_TEXTCTRL_Garlands_Cycles=1.0</Effect>
+    <Effect>E_CHECKBOX_Pinwheel_Rotation=1,E_CHOICE_Pinwheel_3D=None,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=100,E_SLIDER_Pinwheel_Arms=3,E_SLIDER_Pinwheel_Offset=0,E_SLIDER_Pinwheel_Speed=10,E_SLIDER_Pinwheel_Thickness=0,E_SLIDER_Pinwheel_Twist=0</Effect>
+    <Effect>E_CHOICE_Butterfly_Colors=Rainbow,E_CHOICE_Butterfly_Direction=Normal,E_SLIDER_Butterfly_Chunks=1,E_SLIDER_Butterfly_Skip=2,E_SLIDER_Butterfly_Speed=10,E_SLIDER_Butterfly_Style=1</Effect>
+    <Effect>E_CHECKBOX_Circles_Bounce=0,E_CHECKBOX_Circles_Bubbles=0,E_CHECKBOX_Circles_Collide=0,E_CHECKBOX_Circles_Linear_Fade=0,E_CHECKBOX_Circles_Plasma=0,E_CHECKBOX_Circles_Radial=0,E_CHECKBOX_Circles_Radial_3D=0,E_CHECKBOX_Circles_Random_m=0,E_SLIDER_Circles_Count=9,E_SLIDER_Circles_Size=8,E_SLIDER_Circles_Speed=10</Effect>
+    <Effect>E_CHOICE_Falling=Falling &amp;amp; Accumulating,E_SLIDER_Snowflakes_Count=86,E_SLIDER_Snowflakes_Speed=10,E_SLIDER_Snowflakes_Type=1</Effect>
+    <Effect>E_CHECKBOX_Fire_GrowWithMusic=1,E_CHOICE_Fire_Location=Bottom,E_SLIDER_Fire_HueShift=56</Effect>
+    <Effect>E_CHOICE_Garlands_Direction=Up then Down,E_SLIDER_Garlands_Spacing=10,E_SLIDER_Garlands_Type=3,E_TEXTCTRL_Garlands_Cycles=1.0</Effect>
+    <Effect>E_CHECKBOX_Lines_FadeTrails=1,E_SLIDER_Lines_Objects=6,E_SLIDER_Lines_Segments=3,E_SLIDER_Lines_Speed=2,E_SLIDER_Lines_Thickness=3,E_SLIDER_Lines_Trails=1</Effect>
+    <Effect>E_CHECKBOX_Mirror_Wave=0,E_CHOICE_Fill_Colors=Palette,E_CHOICE_Wave_Direction=Right to Left,E_CHOICE_Wave_Type=Sine,E_SLIDER_Number_Waves=1945,E_SLIDER_Thickness_Percentage=32,E_SLIDER_Wave_Height=50,E_SLIDER_Wave_Speed=10,E_SLIDER_Wave_YOffset=0</Effect>
+    <Effect>E_CHECKBOX_Fan_Blend_Edges=1,E_CHECKBOX_Fan_Reverse=0,E_NOTEBOOK_Fan=Position,E_SLIDER_Fan_Accel=0,E_SLIDER_Fan_Blade_Angle=90,E_SLIDER_Fan_Blade_Width=100,E_SLIDER_Fan_CenterX=50,E_SLIDER_Fan_CenterY=50,E_SLIDER_Fan_Duration=80,E_SLIDER_Fan_Element_Width=100,E_SLIDER_Fan_End_Radius=10,E_SLIDER_Fan_Num_Blades=3,E_SLIDER_Fan_Num_Elements=1,E_SLIDER_Fan_Revolutions=720,E_SLIDER_Fan_Start_Angle=0,E_SLIDER_Fan_Start_Radius=1</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=1,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
+    <Effect>E_SLIDER_Snowstorm_Count=50,E_SLIDER_Snowstorm_Length=50,E_SLIDER_Snowstorm_Speed=10</Effect>
+    <Effect>E_CHECKBOX_Fire_GrowWithMusic=1,E_CHOICE_Fire_Location=Bottom,E_SLIDER_Fire_HueShift=30</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
+    <Effect>E_CHOICE_Plasma_Color=Normal,E_SLIDER_Plasma_Line_Density=4,E_SLIDER_Plasma_Speed=94,E_SLIDER_Plasma_Style=2</Effect>
+    <Effect></Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Model Per Preview,E_CHECKBOX_Fire_GrowWithMusic=0,E_CHOICE_Fire_Location=Bottom,E_SLIDER_Fire_Height=50,E_SLIDER_Fire_HueShift=0,E_TEXTCTRL_Fire_GrowthCycles=0.0</Effect>
+    <Effect>E_CHECKBOX_BottomBarrier=1,E_CHECKBOX_Enabled2=0,E_CHECKBOX_Enabled3=0,E_CHECKBOX_Enabled4=0,E_CHECKBOX_FlowMusic1=0,E_CHECKBOX_HoldColor=1,E_CHECKBOX_LeftBarrier=0,E_CHECKBOX_MixColors=0,E_CHECKBOX_RightBarrier=0,E_CHECKBOX_TopBarrier=0,E_CHOICE_ParticleType=Elastic,E_NOTEBOOK1=1,E_TEXTCTRL_Despeckle=0,E_TEXTCTRL_Direction1=270,E_TEXTCTRL_Flow1=100,E_TEXTCTRL_LifeTime=1000,E_TEXTCTRL_Liquid_Gravity=10.0,E_TEXTCTRL_Liquid_SourceSize1=0,E_TEXTCTRL_Size=500,E_TEXTCTRL_Velocity1=100,E_TEXTCTRL_WarmUpFrames=0,E_TEXTCTRL_X1=50,E_TEXTCTRL_Y1=100</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Model Per Preview,E_CHECKBOX_Circles_Bounce=0,E_CHECKBOX_Circles_Bubbles=0,E_CHECKBOX_Circles_Collide=0,E_CHECKBOX_Circles_Linear_Fade=0,E_CHECKBOX_Circles_Plasma=0,E_CHECKBOX_Circles_Radial=0,E_CHECKBOX_Circles_Radial_3D=0,E_CHECKBOX_Circles_Random_m=0,E_SLIDER_Circles_Count=5,E_SLIDER_Circles_Size=3,E_SLIDER_Circles_Speed=4</Effect>
+    <Effect>E_CHECKBOX_Spirals_3D=0,E_CHECKBOX_Spirals_Blend=0,E_CHECKBOX_Spirals_Grow=0,E_CHECKBOX_Spirals_Shrink=0,E_SLIDER_Spirals_Count=2,E_SLIDER_Spirals_Rotation=207,E_SLIDER_Spirals_Thickness=50,E_TEXTCTRL_Spirals_Movement=-4.5</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Model Single Line,E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=100,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=.5 </Effect>
+    <Effect>E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Position,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=50,E_SLIDER_Shockwave_CenterY=50,E_SLIDER_Shockwave_End_Radius=250,E_SLIDER_Shockwave_End_Width=241,E_SLIDER_Shockwave_Start_Radius=0,E_SLIDER_Shockwave_Start_Width=41</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_Start=25</Effect>
+    <Effect>E_CHECKBOX_PRE_2017_7=0,E_CHECKBOX_Shimmer_Use_All_Colors=0,E_SLIDER_Shimmer_Duty_Factor=50,E_TEXTCTRL_Shimmer_Cycles=5</Effect>
+    <Effect>E_CHECKBOX_PRE_2017_7=0,E_CHECKBOX_Shimmer_Use_All_Colors=0,E_SLIDER_Shimmer_Duty_Factor=35,E_TEXTCTRL_Shimmer_Cycles=7</Effect>
+    <Effect>E_CHECKBOX_PRE_2017_7=0,E_CHECKBOX_Shimmer_Use_All_Colors=0,E_SLIDER_Shimmer_Duty_Factor=50,E_TEXTCTRL_Shimmer_Cycles=7</Effect>
+    <Effect>E_CHECKBOX_PRE_2017_7=0,E_CHECKBOX_Shimmer_Use_All_Colors=0,E_SLIDER_Shimmer_Duty_Factor=35,E_TEXTCTRL_Shimmer_Cycles=5</Effect>
+    <Effect>E_CHECKBOX_PRE_2017_7=0,E_CHECKBOX_Shimmer_Use_All_Colors=0,E_SLIDER_Shimmer_Duty_Factor=35,E_TEXTCTRL_Shimmer_Cycles=4</Effect>
+  </EffectDB>
   <DataLayers>
     <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
   </DataLayers>
@@ -27,20 +88,49 @@
     <Element collapsed="0" type="timing" name="12 Pains Lyrics" visible="1" views="Main" active="1"/>
     <Element collapsed="0" type="model" name="AC All" visible="1"/>
     <Element collapsed="0" type="model" name="All Pixels" visible="1"/>
+    <Element collapsed="1" type="model" name="Arches" visible="0"/>
+    <Element collapsed="0" type="model" name="Windows" visible="0"/>
+    <Element collapsed="0" type="model" name="Stakes" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees" visible="0"/>
+    <Element collapsed="0" type="model" name="Stakes - Even" visible="0"/>
+    <Element collapsed="0" type="model" name="Stakes - Odd" visible="0"/>
+    <Element collapsed="0" type="model" name="Stakes (2)" visible="0"/>
+    <Element collapsed="0" type="model" name="Stakes (4)" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 01" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 02" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 03" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 04" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 05" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 06" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 07" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 08" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 09" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 10" visible="0"/>
+    <Element collapsed="0" type="model" name="Stakes (1) Bottom" visible="0"/>
+    <Element collapsed="0" type="model" name="Stakes (3)" visible="0"/>
+    <Element collapsed="0" type="model" name="Stakes (5) Top" visible="0"/>
+    <Element collapsed="0" type="model" name="Arches Left" visible="0"/>
+    <Element collapsed="0" type="model" name="Arches RIght" visible="0"/>
+    <Element collapsed="0" type="model" name="Great Room 01" visible="0"/>
+    <Element collapsed="0" type="model" name="Great Room 02" visible="0"/>
+    <Element collapsed="0" type="model" name="Office" visible="0"/>
+    <Element collapsed="0" type="model" name="South West 01" visible="0"/>
+    <Element collapsed="0" type="model" name="South West 02" visible="0"/>
+    <Element collapsed="0" type="model" name="Master 01" visible="0"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="12 Pains Lyrics">
       <EffectLayer>
         <Effect label="" startTime="0" endTime="4350"></Effect>
         <Effect label="The first thing at Christmas that's such a pain to me" startTime="4350" endTime="7650"></Effect>
-        <Effect label="Is finding a Christmas tree" startTime="7650" endTime="11650"></Effect>
-        <Effect label="The second thing at Christmas that's such a pain to me" startTime="11650" endTime="14950"></Effect>
-        <Effect label="Rigging up the lights" startTime="14950" endTime="16800"></Effect>
-        <Effect label="And finding a Christmas tree" startTime="16800" endTime="20950"></Effect>
-        <Effect label="The third thing at Christmas that's such a pain to me" startTime="20950" endTime="24900"></Effect>
+        <Effect label="Is finding a Christmas tree" startTime="7650" endTime="11050"></Effect>
+        <Effect label="The second thing at Christmas that's such a pain to me" startTime="11050" endTime="15400"></Effect>
+        <Effect label="Rigging up the lights" startTime="15400" endTime="17000"></Effect>
+        <Effect label="And finding a Christmas tree" startTime="17000" endTime="20800"></Effect>
+        <Effect label="The third thing at Christmas that's such a pain to me" startTime="20800" endTime="24900"></Effect>
         <Effect label="Hangovers" startTime="24900" endTime="26250"></Effect>
-        <Effect label="Rigging up the lights" startTime="26250" endTime="27650"></Effect>
-        <Effect label="And finding a Christmas tree" startTime="27650" endTime="31500"></Effect>
+        <Effect label="Rigging up the lights" startTime="26250" endTime="27750"></Effect>
+        <Effect label="And finding a Christmas tree" startTime="27750" endTime="31500"></Effect>
         <Effect label="The fourth thing at Christmas that's such a pain to me" startTime="31500" endTime="35350"></Effect>
         <Effect label="Sending Christmas cards" startTime="35350" endTime="37000"></Effect>
         <Effect label="Hangovers" startTime="37000" endTime="38250"></Effect>
@@ -68,7 +158,7 @@
         <Effect label="I'm trying to rig up these lights!" startTime="89750" endTime="91500"></Effect>
         <Effect label="And finding a Christmas tree" startTime="91500" endTime="95750"></Effect>
         <Effect label="The eighth thing at Christmas that's such a pain to me" startTime="95750" endTime="98700"></Effect>
-        <Effect label="I want ant farmer for Christmas" startTime="98700" endTime="101200"></Effect>
+        <Effect label="I want a transformer for Christmas" startTime="98700" endTime="101200"></Effect>
         <Effect label="Charities, and what do you mean your inlaws?" startTime="101200" endTime="103650"></Effect>
         <Effect label="Five months of bills" startTime="103650" endTime="106950"></Effect>
         <Effect label="Ah, mailing out these cards!" startTime="106950" endTime="108750"></Effect>
@@ -124,9 +214,183 @@
       </EffectLayer>
     </Element>
     <Element type="model" name="AC All">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="15400" endTime="17000" palette="0"/>
+        <Effect ref="1" name="On" id="1" startTime="17000" endTime="18000" palette="1"/>
+        <Effect ref="2" name="SingleStrand" id="2" startTime="24900" endTime="26250" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="3" startTime="38250" endTime="39800" palette="2"/>
+        <Effect ref="3" name="SingleStrand" id="4" startTime="54300" endTime="55650" palette="2"/>
+        <Effect ref="4" name="SingleStrand" id="5" startTime="70200" endTime="71350" palette="3"/>
+        <Effect ref="5" name="Spirals" id="6" startTime="71350" endTime="72900" palette="3"/>
+        <Effect ref="6" name="SingleStrand" id="7" startTime="87200" endTime="88850" palette="3"/>
+        <Effect ref="7" name="Spirals" id="8" startTime="95750" endTime="98700" palette="4"/>
+        <Effect ref="8" name="Curtain" id="9" startTime="98700" endTime="101200" palette="5"/>
+        <Effect ref="9" name="Shockwave" id="10" startTime="106950" endTime="108750" palette="1"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="All Pixels">
+      <EffectLayer>
+        <Effect ref="10" name="Marquee" startTime="0" endTime="4350" palette="6"/>
+        <Effect ref="11" name="Pinwheel" id="1" startTime="4350" endTime="7650" palette="6"/>
+        <Effect ref="12" name="Curtain" id="2" startTime="15400" endTime="17000" palette="7"/>
+        <Effect ref="13" name="Garlands" id="3" startTime="26250" endTime="27750" palette="8"/>
+        <Effect ref="14" name="Shockwave" id="4" startTime="35350" endTime="37000" palette="2"/>
+        <Effect ref="15" name="Spirals" id="5" startTime="37000" endTime="38250" palette="9"/>
+        <Effect ref="16" name="Meteors" id="6" startTime="43750" endTime="47600" palette="6"/>
+        <Effect ref="17" name="Garlands" id="7" startTime="47600" endTime="51050" palette="10"/>
+        <Effect ref="18" name="Pinwheel" id="8" startTime="51050" endTime="52800" palette="11"/>
+        <Effect ref="19" name="Butterfly" id="9" startTime="52800" endTime="54300" palette="11"/>
+        <Effect ref="20" name="Circles" id="10" startTime="54300" endTime="55650" palette="11"/>
+        <Effect ref="21" name="Snowflakes" id="11" startTime="55650" endTime="59500" palette="1"/>
+        <Effect ref="22" name="Fire" id="12" startTime="59500" endTime="63500" palette="2"/>
+        <Effect ref="23" name="Garlands" id="13" startTime="65050" endTime="68050" palette="10"/>
+        <Effect ref="14" name="Shockwave" id="14" startTime="68050" endTime="70200" palette="3"/>
+        <Effect ref="24" name="Lines" id="15" startTime="76750" endTime="80600" palette="6"/>
+        <Effect ref="25" name="Wave" id="16" startTime="80600" endTime="82150" palette="6"/>
+        <Effect ref="23" name="Garlands" id="17" startTime="83650" endTime="87200" palette="10"/>
+        <Effect ref="26" name="Fan" id="18" startTime="88850" endTime="89750" palette="3"/>
+        <Effect ref="27" name="SingleStrand" id="19" startTime="89750" endTime="91500" palette="3"/>
+        <Effect ref="28" name="Snowstorm" id="20" startTime="95750" endTime="98700" palette="4"/>
+        <Effect ref="8" name="Curtain" id="21" startTime="98700" endTime="101200" palette="5"/>
+        <Effect ref="29" name="Fire" id="22" startTime="101200" endTime="103650" palette="5"/>
+        <Effect ref="13" name="Garlands" id="23" startTime="103650" endTime="106950" palette="10"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="19" name="Butterfly" startTime="103650" endTime="106950" palette="10"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Arches">
+      <EffectLayer>
+        <Effect ref="30" name="SingleStrand" startTime="4350" endTime="7650" palette="6"/>
+        <Effect ref="31" name="Plasma" id="1" startTime="11050" endTime="15400" palette="6"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="32" name="Off" startTime="4350" endTime="7650" palette="6"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Windows">
+      <EffectLayer>
+        <Effect ref="33" name="Fire" startTime="20800" endTime="24900" palette="6"/>
+        <Effect ref="34" name="Liquid" id="1" startTime="31500" endTime="35350" palette="6"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Stakes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees">
+      <EffectLayer>
+        <Effect ref="35" name="Circles" startTime="73650" endTime="76750" palette="1"/>
+        <Effect ref="36" name="Spirals" id="1" startTime="91500" endTime="95750" palette="2"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="37" name="SingleStrand" startTime="7650" endTime="11050" palette="2"/>
+        <Effect ref="1" name="On" id="1" startTime="11050" endTime="13000" palette="2"/>
+        <Effect ref="37" name="SingleStrand" id="2" startTime="17000" endTime="20800" palette="2"/>
+        <Effect ref="1" name="On" id="3" startTime="20800" endTime="22750" palette="2"/>
+        <Effect ref="37" name="SingleStrand" id="4" startTime="27750" endTime="31500" palette="2"/>
+        <Effect ref="1" name="On" id="5" startTime="31500" endTime="33450" palette="2"/>
+        <Effect ref="37" name="SingleStrand" id="6" startTime="39800" endTime="43750" palette="2"/>
+        <Effect ref="1" name="On" id="7" startTime="43750" endTime="45700" palette="2"/>
+        <Effect ref="38" name="Shockwave" id="8" startTime="55650" endTime="56800" palette="2"/>
+        <Effect ref="38" name="Shockwave" id="9" startTime="56800" endTime="57950" palette="2"/>
+        <Effect ref="38" name="Shockwave" id="10" startTime="57950" endTime="59500" palette="2"/>
+        <Effect ref="39" name="On" id="11" startTime="72900" endTime="73650" palette="12"/>
+        <Effect ref="32" name="On" id="12" startTime="73650" endTime="76750" palette="12"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Stakes - Even">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes - Odd">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes (2)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes (4)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 03">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 04">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 05">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 06">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 07">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 08">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 09">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 10">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes (1) Bottom">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes (3)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes (5) Top">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Arches Left">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Arches RIght">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Great Room 01">
+      <EffectLayer>
+        <Effect ref="40" name="Shimmer" startTime="63500" endTime="65050" palette="2"/>
+        <Effect ref="40" name="Shimmer" id="1" startTime="82150" endTime="83650" palette="12"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Great Room 02">
+      <EffectLayer>
+        <Effect ref="41" name="Shimmer" startTime="63500" endTime="65050" palette="10"/>
+        <Effect ref="41" name="Shimmer" id="1" startTime="82150" endTime="83650" palette="9"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Office">
+      <EffectLayer/>
+      <SubModelEffectLayer name="Office 02">
+        <Effect ref="42" name="Shimmer" startTime="63500" endTime="65050" palette="2"/>
+        <Effect ref="42" name="Shimmer" id="1" startTime="82150" endTime="83650" palette="12"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Office 03">
+        <Effect ref="43" name="Shimmer" startTime="63500" endTime="65050" palette="10"/>
+        <Effect ref="43" name="Shimmer" id="1" startTime="82150" endTime="83650" palette="10"/>
+      </SubModelEffectLayer>
+    </Element>
+    <Element type="model" name="South West 01">
+      <EffectLayer>
+        <Effect ref="42" name="Shimmer" startTime="63500" endTime="65050" palette="2"/>
+        <Effect ref="42" name="Shimmer" id="1" startTime="82150" endTime="83650" palette="13"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="South West 02">
+      <EffectLayer>
+        <Effect ref="44" name="Shimmer" startTime="63500" endTime="65050" palette="10"/>
+        <Effect ref="44" name="Shimmer" id="1" startTime="82150" endTime="83650" palette="4"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Master 01">
       <EffectLayer/>
     </Element>
   </ElementEffects>
