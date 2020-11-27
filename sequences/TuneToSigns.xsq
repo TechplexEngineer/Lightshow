@@ -56,6 +56,7 @@
     <Element collapsed="0" type="model" name="Trees" visible="0"/>
     <Element collapsed="0" type="model" name="AC Door Entry" visible="0"/>
     <Element collapsed="0" type="model" name="AC Door Office" visible="0"/>
+    <Element collapsed="0" type="model" name="Office" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="New Timing">
@@ -136,6 +137,9 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="AC Door Office">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Office">
       <EffectLayer/>
     </Element>
   </ElementEffects>

@@ -399,6 +399,7 @@
     <view name="XATW" models="All Pixels,Windows,Arches,Tree 01,Trees Small,Stakes"/>
     <view name="Main" models="AC All,All Pixels"/>
     <view name="2020 Intro Talking" models="AC Door Office,Office"/>
+    <view name="Tune To" models="AC Tune To"/>
   </views>
   <palettes/>
   <modelGroups>

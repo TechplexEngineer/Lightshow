@@ -2,19 +2,19 @@
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
     <version>2020.48.1</version>
-    <author></author>
-    <author-email></author-email>
-    <author-website></author-website>
-    <song></song>
-    <artist></artist>
-    <album></album>
-    <MusicURL></MusicURL>
-    <comment></comment>
+    <author/>
+    <author-email/>
+    <author-website/>
+    <song/>
+    <artist/>
+    <album/>
+    <MusicURL/>
+    <comment/>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
     <mediaFile>/Users/techplex/projects/lightshow/sequences/Music/The 12 Pains of Christmas.mp3</mediaFile>
     <sequenceDuration>215.179</sequenceDuration>
-    <imageDir></imageDir>
+    <imageDir/>
   </head>
   <nextid>1</nextid>
   <Jukebox/>
@@ -117,6 +117,8 @@
     <Element collapsed="0" type="model" name="South West 01" visible="0"/>
     <Element collapsed="0" type="model" name="South West 02" visible="0"/>
     <Element collapsed="0" type="model" name="Master 01" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree 01" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees Small" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="12 Pains Lyrics">
@@ -391,6 +393,12 @@
       </EffectLayer>
     </Element>
     <Element type="model" name="Master 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees Small">
       <EffectLayer/>
     </Element>
   </ElementEffects>
