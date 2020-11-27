@@ -1,6 +1,7 @@
 *.xbkp
 Backup/
 *.fseq
+*.eseq
 ~*
 .DS_Store
 RenderCache
