@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2020.49</version>
+    <version>2020.48.1</version>
     <author/>
     <author-email/>
     <author-website/>
@@ -47,13 +47,15 @@
     <Element collapsed="0" type="model" name="AC Tree" visible="0"/>
     <Element collapsed="0" type="model" name="AC Cherry" visible="0"/>
     <Element collapsed="0" type="model" name="AC Rope Lights" visible="0"/>
-    <Element collapsed="0" type="model" name="AC Tune To" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Tune To" visible="1"/>
     <Element collapsed="0" type="model" name="Windows" visible="1"/>
     <Element collapsed="0" type="model" name="Arches" visible="1"/>
     <Element collapsed="0" type="model" name="Tree 01" visible="1"/>
     <Element collapsed="0" type="model" name="Trees Small" visible="1"/>
     <Element collapsed="0" type="model" name="Stakes" visible="1"/>
     <Element collapsed="0" type="model" name="Trees" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Door Entry" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Door Office" visible="0"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="New Timing">
@@ -130,8 +132,14 @@
     <Element type="model" name="Trees">
       <EffectLayer/>
     </Element>
+    <Element type="model" name="AC Door Entry">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Door Office">
+      <EffectLayer/>
+    </Element>
   </ElementEffects>
-  <lastView>4</lastView>
+  <lastView>6</lastView>
   <TimingTags>
     <Tag number="0" position="-1"/>
     <Tag number="1" position="-1"/>

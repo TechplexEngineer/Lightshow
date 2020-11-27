@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2020.47</version>
+    <version>2020.48.1</version>
     <author/>
     <author-email/>
     <author-website/>
@@ -527,7 +527,7 @@
         <Effect ref="4" name="VU Meter" id="1" startTime="8000" endTime="9300" palette="1"/>
         <Effect ref="4" name="VU Meter" id="2" startTime="9300" endTime="10500" palette="1"/>
         <Effect ref="4" name="VU Meter" id="3" startTime="10500" endTime="12800" palette="1"/>
-        <Effect ref="8" name="Butterfly" selected="1" id="4" startTime="149250" endTime="154050" palette="5"/>
+        <Effect ref="8" name="Butterfly" id="4" startTime="149250" endTime="154050" palette="5"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Great Room 01">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2020.44</version>
+    <version>2020.48.1</version>
     <author/>
     <author-email/>
     <author-website/>
@@ -867,7 +867,7 @@
         <Effect ref="4" name="On" id="20" startTime="67050" endTime="67150" palette="2"/>
         <Effect ref="4" name="On" id="21" startTime="67150" endTime="67350" palette="2"/>
         <Effect ref="3" name="On" id="22" startTime="75250" endTime="75900" palette="2"/>
-        <Effect ref="4" name="On" id="23" startTime="77150" endTime="77500" palette="2"/>
+        <Effect ref="10" name="On" selected="1" id="23" startTime="77150" endTime="77500" palette="2"/>
         <Effect ref="4" name="On" id="24" startTime="80050" endTime="80400" palette="2"/>
         <Effect ref="4" name="On" id="25" startTime="85250" endTime="85550" palette="2"/>
         <Effect ref="4" name="On" id="26" startTime="88100" endTime="88400" palette="2"/>

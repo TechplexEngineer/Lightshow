@@ -24,6 +24,7 @@
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_CHECKBOX_Palette1=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
     <Effect>E_TEXTCTRL_Eff_On_End=0,E_TEXTCTRL_Eff_On_Start=100</Effect>
@@ -122,7 +123,6 @@
     </Element>
     <Element type="model" name="AC Icicles">
       <EffectLayer>
-        <Effect ref="2" name="On" startTime="20300" endTime="33100" palette="1"/>
         <Effect ref="0" name="On" id="1" startTime="33100" endTime="33900" palette="0"/>
         <Effect ref="0" name="On" id="2" startTime="33900" endTime="37300" palette="0"/>
       </EffectLayer>
@@ -193,14 +193,16 @@
     </Element>
     <Element type="model" name="AC Cherry">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="33100" endTime="33900" palette="0"/>
-        <Effect ref="0" name="On" id="1" startTime="33900" endTime="37300" palette="0"/>
+        <Effect ref="2" name="On" startTime="21200" endTime="33100" palette="1"/>
+        <Effect ref="0" name="On" id="1" startTime="33100" endTime="33900" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="33900" endTime="37300" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="AC Rope Lights">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="33100" endTime="33900" palette="0"/>
-        <Effect ref="0" name="On" id="1" startTime="33900" endTime="37300" palette="0"/>
+        <Effect ref="2" name="On" startTime="21200" endTime="33100" palette="1"/>
+        <Effect ref="0" name="On" id="1" startTime="33100" endTime="33900" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="33900" endTime="37300" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="AC Tune To">
@@ -242,8 +244,9 @@
     </Element>
     <Element type="model" name="AC Door Entry">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="33100" endTime="33900" palette="0"/>
-        <Effect ref="0" name="On" id="1" startTime="33900" endTime="37300" palette="0"/>
+        <Effect ref="2" name="On" selected="1" startTime="21200" endTime="33100" palette="3"/>
+        <Effect ref="0" name="On" id="1" startTime="33100" endTime="33900" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="33900" endTime="37300" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="AC Door Office">
