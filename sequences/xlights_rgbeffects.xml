@@ -85,127 +85,127 @@
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 02" ModelChain="&gt;Stake 01" Controller="F8-B" WorldPosX="469.8711" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!F8-B:1504">
       <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
-      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1">
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="469.8711" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14332">
         <ControllerConnection/>
       </subModel>
-      <subModel name="2" layout="horizontal" type="ranges" line0="2">
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="469.8711" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14335">
         <ControllerConnection/>
       </subModel>
-      <subModel name="3" layout="horizontal" type="ranges" line0="3">
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="469.8711" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14338">
         <ControllerConnection/>
       </subModel>
-      <subModel name="4" layout="horizontal" type="ranges" line0="4">
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="469.8711" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14341">
         <ControllerConnection/>
       </subModel>
-      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5">
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="469.8711" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14344">
         <ControllerConnection/>
       </subModel>
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 03" ModelChain="&gt;Stake 02" Controller="F8-B" WorldPosX="550.4344" WorldPosY="0.0000" WorldPosZ="261.9470" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!F8-B:1519">
       <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
-      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1">
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="550.4344" WorldPosY="0.0000" WorldPosZ="261.9470" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14347">
         <ControllerConnection/>
       </subModel>
-      <subModel name="2" layout="horizontal" type="ranges" line0="2">
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="550.4344" WorldPosY="0.0000" WorldPosZ="261.9470" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14350">
         <ControllerConnection/>
       </subModel>
-      <subModel name="3" layout="horizontal" type="ranges" line0="3">
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="550.4344" WorldPosY="0.0000" WorldPosZ="261.9470" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14353">
         <ControllerConnection/>
       </subModel>
-      <subModel name="4" layout="horizontal" type="ranges" line0="4">
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="550.4344" WorldPosY="0.0000" WorldPosZ="261.9470" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14356">
         <ControllerConnection/>
       </subModel>
-      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5">
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="550.4344" WorldPosY="0.0000" WorldPosZ="261.9470" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14359">
         <ControllerConnection/>
       </subModel>
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 04" ModelChain="&gt;Stake 03" Controller="F8-B" WorldPosX="634.2415" WorldPosY="0.0000" WorldPosZ="338.9407" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!F8-B:1534">
       <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
-      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1">
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="634.2415" WorldPosY="0.0000" WorldPosZ="338.9407" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14362">
         <ControllerConnection/>
       </subModel>
-      <subModel name="2" layout="horizontal" type="ranges" line0="2">
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="634.2415" WorldPosY="0.0000" WorldPosZ="338.9407" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14365">
         <ControllerConnection/>
       </subModel>
-      <subModel name="3" layout="horizontal" type="ranges" line0="3">
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="634.2415" WorldPosY="0.0000" WorldPosZ="338.9407" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14368">
         <ControllerConnection/>
       </subModel>
-      <subModel name="4" layout="horizontal" type="ranges" line0="4">
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="634.2415" WorldPosY="0.0000" WorldPosZ="338.9407" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14371">
         <ControllerConnection/>
       </subModel>
-      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5">
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="634.2415" WorldPosY="0.0000" WorldPosZ="338.9407" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14374">
         <ControllerConnection/>
       </subModel>
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 05" ModelChain="&gt;Stake 04" Controller="F8-B" WorldPosX="683.8185" WorldPosY="0.0000" WorldPosZ="261.9470" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!F8-B:1549">
       <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
-      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1">
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="683.8185" WorldPosY="0.0000" WorldPosZ="261.9470" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14377">
         <ControllerConnection/>
       </subModel>
-      <subModel name="2" layout="horizontal" type="ranges" line0="2">
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="683.8185" WorldPosY="0.0000" WorldPosZ="261.9470" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14380">
         <ControllerConnection/>
       </subModel>
-      <subModel name="3" layout="horizontal" type="ranges" line0="3">
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="683.8185" WorldPosY="0.0000" WorldPosZ="261.9470" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14383">
         <ControllerConnection/>
       </subModel>
-      <subModel name="4" layout="horizontal" type="ranges" line0="4">
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="683.8185" WorldPosY="0.0000" WorldPosZ="261.9470" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14386">
         <ControllerConnection/>
       </subModel>
-      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5">
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="683.8185" WorldPosY="0.0000" WorldPosZ="261.9470" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14389">
         <ControllerConnection/>
       </subModel>
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 06" ModelChain="&gt;Stake 05" Controller="F8-B" WorldPosX="762.0678" WorldPosY="0.0000" WorldPosZ="296.0295" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!F8-B:1564">
       <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
-      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1">
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="762.0678" WorldPosY="0.0000" WorldPosZ="296.0295" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14392">
         <ControllerConnection/>
       </subModel>
-      <subModel name="2" layout="horizontal" type="ranges" line0="2">
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="762.0678" WorldPosY="0.0000" WorldPosZ="296.0295" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14395">
         <ControllerConnection/>
       </subModel>
-      <subModel name="3" layout="horizontal" type="ranges" line0="3">
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="762.0678" WorldPosY="0.0000" WorldPosZ="296.0295" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14398">
         <ControllerConnection/>
       </subModel>
-      <subModel name="4" layout="horizontal" type="ranges" line0="4">
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="762.0678" WorldPosY="0.0000" WorldPosZ="296.0295" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14401">
         <ControllerConnection/>
       </subModel>
-      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5">
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="762.0678" WorldPosY="0.0000" WorldPosZ="296.0295" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14404">
         <ControllerConnection/>
       </subModel>
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 07" ModelChain="&gt;Stake 06" Controller="F8-B" WorldPosX="832.2477" WorldPosY="0.0000" WorldPosZ="218.8001" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!F8-B:1579">
       <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
-      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1">
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="832.2477" WorldPosY="0.0000" WorldPosZ="218.8001" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14407">
         <ControllerConnection/>
       </subModel>
-      <subModel name="2" layout="horizontal" type="ranges" line0="2">
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="832.2477" WorldPosY="0.0000" WorldPosZ="218.8001" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14410">
         <ControllerConnection/>
       </subModel>
-      <subModel name="3" layout="horizontal" type="ranges" line0="3">
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="832.2477" WorldPosY="0.0000" WorldPosZ="218.8001" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14413">
         <ControllerConnection/>
       </subModel>
-      <subModel name="4" layout="horizontal" type="ranges" line0="4">
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="832.2477" WorldPosY="0.0000" WorldPosZ="218.8001" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14416">
         <ControllerConnection/>
       </subModel>
-      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5">
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="832.2477" WorldPosY="0.0000" WorldPosZ="218.8001" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14419">
         <ControllerConnection/>
       </subModel>
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08" ModelChain="&gt;Stake 07" Controller="F8-B" WorldPosX="936.8953" WorldPosY="2.2857" WorldPosZ="261.9470" X2="0.000000" Y2="32.107098" Z2="0.000000" versionNumber="5" StartChannel="!F8-B:1594">
       <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
-      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1">
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="936.8953" WorldPosY="2.2857" WorldPosZ="261.9470" X2="0.000000" Y2="32.107098" Z2="0.000000" versionNumber="5" StartChannel="14422">
         <ControllerConnection/>
       </subModel>
-      <subModel name="2" layout="horizontal" type="ranges" line0="2">
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="936.8953" WorldPosY="2.2857" WorldPosZ="261.9470" X2="0.000000" Y2="32.107098" Z2="0.000000" versionNumber="5" StartChannel="14425">
         <ControllerConnection/>
       </subModel>
-      <subModel name="3" layout="horizontal" type="ranges" line0="3">
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="936.8953" WorldPosY="2.2857" WorldPosZ="261.9470" X2="0.000000" Y2="32.107098" Z2="0.000000" versionNumber="5" StartChannel="14428">
         <ControllerConnection/>
       </subModel>
-      <subModel name="4" layout="horizontal" type="ranges" line0="4">
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="936.8953" WorldPosY="2.2857" WorldPosZ="261.9470" X2="0.000000" Y2="32.107098" Z2="0.000000" versionNumber="5" StartChannel="14431">
         <ControllerConnection/>
       </subModel>
-      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5">
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="936.8953" WorldPosY="2.2857" WorldPosZ="261.9470" X2="0.000000" Y2="32.107098" Z2="0.000000" versionNumber="5" StartChannel="14434">
         <ControllerConnection/>
       </subModel>
     </model>
@@ -259,37 +259,37 @@
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09" ModelChain="&gt;Stake 08" Controller="F8-B" WorldPosX="1005.3288" WorldPosY="0.0000" WorldPosZ="147.2780" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!F8-B:1609">
       <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
-      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1">
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="1005.3288" WorldPosY="0.0000" WorldPosZ="147.2780" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14437">
         <ControllerConnection/>
       </subModel>
-      <subModel name="2" layout="horizontal" type="ranges" line0="2">
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="1005.3288" WorldPosY="0.0000" WorldPosZ="147.2780" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14440">
         <ControllerConnection/>
       </subModel>
-      <subModel name="3" layout="horizontal" type="ranges" line0="3">
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="1005.3288" WorldPosY="0.0000" WorldPosZ="147.2780" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14443">
         <ControllerConnection/>
       </subModel>
-      <subModel name="4" layout="horizontal" type="ranges" line0="4">
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="1005.3288" WorldPosY="0.0000" WorldPosZ="147.2780" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14446">
         <ControllerConnection/>
       </subModel>
-      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5">
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="1005.3288" WorldPosY="0.0000" WorldPosZ="147.2780" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14449">
         <ControllerConnection/>
       </subModel>
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10" ModelChain="&gt;Stake 09" Controller="F8-B" WorldPosX="1100.0867" WorldPosY="0.0000" WorldPosZ="190.7353" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!F8-B:1624">
       <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
-      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1">
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="1100.0867" WorldPosY="0.0000" WorldPosZ="190.7353" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14452">
         <ControllerConnection/>
       </subModel>
-      <subModel name="2" layout="horizontal" type="ranges" line0="2">
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="1100.0867" WorldPosY="0.0000" WorldPosZ="190.7353" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14455">
         <ControllerConnection/>
       </subModel>
-      <subModel name="3" layout="horizontal" type="ranges" line0="3">
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="1100.0867" WorldPosY="0.0000" WorldPosZ="190.7353" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14458">
         <ControllerConnection/>
       </subModel>
-      <subModel name="4" layout="horizontal" type="ranges" line0="4">
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="1100.0867" WorldPosY="0.0000" WorldPosZ="190.7353" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14461">
         <ControllerConnection/>
       </subModel>
-      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5">
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="1100.0867" WorldPosY="0.0000" WorldPosZ="190.7353" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14464">
         <ControllerConnection/>
       </subModel>
     </model>
@@ -325,19 +325,19 @@
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 01" Controller="F8-B" WorldPosX="402.2692" WorldPosY="0.0000" WorldPosZ="227.0808" X2="0.000000" Y2="36.715561" Z2="0.000000" versionNumber="5" StartChannel="!F8-B:1489">
       <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
-      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1">
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="402.2692" WorldPosY="0.0000" WorldPosZ="227.0808" X2="0.000000" Y2="36.715561" Z2="0.000000" versionNumber="5" StartChannel="14317">
         <ControllerConnection/>
       </subModel>
-      <subModel name="2" layout="horizontal" type="ranges" line0="2">
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="402.2692" WorldPosY="0.0000" WorldPosZ="227.0808" X2="0.000000" Y2="36.715561" Z2="0.000000" versionNumber="5" StartChannel="14320">
         <ControllerConnection/>
       </subModel>
-      <subModel name="3" layout="horizontal" type="ranges" line0="3">
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="402.2692" WorldPosY="0.0000" WorldPosZ="227.0808" X2="0.000000" Y2="36.715561" Z2="0.000000" versionNumber="5" StartChannel="14323">
         <ControllerConnection/>
       </subModel>
-      <subModel name="4" layout="horizontal" type="ranges" line0="4">
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="402.2692" WorldPosY="0.0000" WorldPosZ="227.0808" X2="0.000000" Y2="36.715561" Z2="0.000000" versionNumber="5" StartChannel="14326">
         <ControllerConnection/>
       </subModel>
-      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5">
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="402.2692" WorldPosY="0.0000" WorldPosZ="227.0808" X2="0.000000" Y2="36.715561" Z2="0.000000" versionNumber="5" StartChannel="14329">
         <ControllerConnection/>
       </subModel>
     </model>
@@ -397,7 +397,7 @@
     <view name="Miser Bros" models="All Pixels,Pixels Left,Pixels Right,House and Windows,AC All Chan Order"/>
     <view name="All AC In Order" models="AC All Chan Order"/>
     <view name="XATW" models="All Pixels,Windows,Arches,Tree 01,Trees Small,Stakes"/>
-    <view name="Main" models="AC All,All Pixels"/>
+    <view name="Main" models="ALL Props,AC All,All Pixels,Arches Groups,Stakes Groups,Stakes OddEven,Matrix"/>
     <view name="2020 Intro Talking" models="AC Door Office,Office"/>
     <view name="Tune To" models="AC Tune To"/>
   </views>
@@ -406,10 +406,10 @@
     <modelGroup selected="0" LayoutGroup="Default" versionNumber="2" name="AC All Chan Order" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" models="AC Bush 01,AC Bush 02,AC Bush 03,AC Bush 04,AC Bush 05,AC Snow Flakes 01,AC Snow Flakes 02,AC Bush 06,AC North Pole Sign,AC Helo Canes 03,AC Helo Canes 02,AC Helo Canes 01,AC Helo Canes 04,AC Bush 07,AC Cherry Wrap,AC Rope Lights,AC Cherry Icicles,AC Icicles 01,AC Door Office,AC Holly 02,AC Holly 01,AC Candy 02,AC Door Entry,AC Candy 06,AC Candy 05,AC Candy 01,AC Candy 03,AC Candy 04,AC Santa,AC Wrap 01,AC Tree,AC Angel,AC Wrap 02,AC Icicles 02,AC Package Blue 01,AC Package Green 01,AC Package Red 01,AC Package Blue 02,AC Package Green 02,AC Package Red 02">
       <ControllerConnection/>
     </modelGroup>
-    <modelGroup selected="0" name="Arches" LayoutGroup="Default" models="Arches Left,Arches RIght" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" WorldPosX="193.0000" WorldPosY="20.0000" WorldPosZ="0.0000" ScaleX="1.8040" ScaleY="1.8040" ScaleZ="1.8040" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="">
+    <modelGroup selected="0" name="Arches" LayoutGroup="Default" WorldPosX="193.0000" WorldPosY="20.0000" WorldPosZ="0.0000" ScaleX="1.8040" ScaleY="1.8040" ScaleZ="1.8040" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="" models="Arch1,Arch2,Arch3,Arch4" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid">
       <ControllerConnection/>
     </modelGroup>
-    <modelGroup selected="0" name="Stakes" LayoutGroup="Default" models="Stakes - Even,Stakes - Odd" GridSize="400" layout="grid"/>
+    <modelGroup selected="0" name="Stakes" LayoutGroup="Default" models="Stake 01,Stake 02,Stake 03,Stake 04,Stake 05,Stake 06,Stake 07,Stake 08,Stake 09,Stake 10" GridSize="400" layout="grid"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stake 01/1 - Bottom,Stake 02/1 - Bottom,Stake 03/1 - Bottom,Stake 04/1 - Bottom,Stake 05/1 - Bottom,Stake 06/1 - Bottom,Stake 07/1 - Bottom,Stake 08/1 - Bottom,Stake 09/1 - Bottom,Stake 10/1 - Bottom" name="Stakes (1) Bottom"/>
     <modelGroup selected="0" name="Stakes (2)" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stake 01/2,Stake 02/2,Stake 03/2,Stake 04/2,Stake 05/2,Stake 06/2,Stake 07/2,Stake 08/2,Stake 09/2,Stake 10/2"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stake 01/3,Stake 02/3,Stake 03/3,Stake 04/3,Stake 05/3,Stake 06/3,Stake 07/3,Stake 08/3,Stake 09/3,Stake 10/3" name="Stakes (3)"/>
@@ -443,11 +443,15 @@
     <modelGroup selected="0" name="AC Helo Canes" LayoutGroup="Default" models="AC Helo Canes 01,AC Helo Canes 02,AC Helo Canes 03,AC Helo Canes 04" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
     <modelGroup selected="0" name="AC Snow Flakes" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="AC Snow Flakes 01,AC Snow Flakes 02"/>
     <modelGroup selected="0" name="AC Cherry" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="AC Cherry Icicles,AC Cherry Wrap"/>
+    <modelGroup selected="0" name="Arches Groups" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Arches Left,Arches RIght"/>
+    <modelGroup selected="0" name="Stakes Groups" LayoutGroup="Default" models="Stakes (1) Bottom,Stakes (2),Stakes (3),Stakes (4),Stakes (5) Top" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
+    <modelGroup selected="0" name="Stakes OddEven" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stakes - Even,Stakes - Odd"/>
+    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="AC All,All Pixels" name="ALL Props"/>
   </modelGroups>
   <layoutGroups>
     <layoutGroup name="Windows" PaneWidth="1280" PaneHeight="960" PosX="100" PosY="156"/>
   </layoutGroups>
-  <perspectives current="osx 2 screens">
+  <perspectives current="Default Perspective">
     <perspective name="Default Perspective" settings="layout2|name=ModelPreview;caption=Model Preview;state=6293500;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=HousePreview;caption=House Preview;state=6293500;dir=4;layer=1;row=0;pos=1;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=EffectAssist;caption=Effect Assist;state=2099196;dir=4;layer=1;row=0;pos=2;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DisplayElements;caption=Display Elements;state=6293503;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=600;besth=400;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=600;floath=400|name=Perspectives;caption=Perspectives;state=2099198;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=148;besth=151;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Effect;caption=Effect Settings;state=2099196;dir=4;layer=0;row=1;pos=0;prop=100000;bestw=415;besth=847;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectEffect;caption=Select Effects;state=2099198;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=367;besth=271;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=EffectDropper;caption=Effects;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=1026;besth=684;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ValueCurveDropper;caption=Value Curves;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=40;besth=40;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ColourDropper;caption=Colours;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Jukebox;caption=Jukebox;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=100;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Color;caption=Color;state=2099196;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=273;besth=344;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayerTiming;caption=Layer Blending;state=2099196;dir=1;layer=0;row=0;pos=1;prop=100000;bestw=248;besth=266;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayerSettings;caption=Layer Settings;state=2099196;dir=1;layer=0;row=0;pos=2;prop=100000;bestw=278;besth=453;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SequenceVideo;caption=Sequence Video;state=2099199;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=280;besth=191;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=0;floaty=0;floatw=288;floath=215|name=Main Sequencer;caption=Main Sequencer;state=768;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=120;besth=59;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,1,0)=252|dock_size(4,0,1)=349|dock_size(1,0,0)=137|dock_size(5,0,0)=122|" version="2.0"/>
     <perspective name="Peace" settings="layout2|name=ModelPreview;caption=Model Preview;state=6293500;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=783;floaty=232;floatw=258;floath=274|name=HousePreview;caption=House Preview;state=6293502;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=43;floaty=195;floatw=258;floath=274|name=EffectAssist;caption=Effect Assist;state=2099198;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DisplayElements;caption=Display Elements;state=6293503;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=600;besth=400;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=0;floaty=0;floatw=1000;floath=624|name=Perspectives;caption=Perspectives;state=2099198;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=148;besth=151;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Effect;caption=Effect Settings;state=2099196;dir=4;layer=0;row=1;pos=0;prop=100000;bestw=415;besth=847;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectEffect;caption=Select Effects;state=2099198;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=367;besth=271;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=EffectDropper;caption=Effects;state=2099198;dir=1;layer=0;row=0;pos=2;prop=100000;bestw=1026;besth=684;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ValueCurveDropper;caption=Value Curves;state=2099198;dir=1;layer=0;row=0;pos=2;prop=100000;bestw=40;besth=40;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ColourDropper;caption=Colours;state=2099198;dir=1;layer=0;row=0;pos=2;prop=100000;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Jukebox;caption=Jukebox;state=2099198;dir=1;layer=0;row=0;pos=2;prop=100000;bestw=100;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Color;caption=Color;state=2099196;dir=1;layer=0;row=0;pos=1;prop=100000;bestw=273;besth=344;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayerTiming;caption=Layer Blending;state=2099198;dir=1;layer=0;row=0;pos=2;prop=100000;bestw=248;besth=266;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayerSettings;caption=Layer Settings;state=2099196;dir=1;layer=0;row=0;pos=2;prop=100000;bestw=278;besth=453;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SequenceVideo;caption=Sequence Video;state=2099199;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=280;besth=191;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=0;floaty=0;floatw=288;floath=215|name=Main Sequencer;caption=Main Sequencer;state=768;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=120;besth=59;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,0,1)=516|dock_size(1,0,0)=410|dock_size(5,0,0)=122|" version="2.0"/>
     <perspective name="AC" settings="layout2|name=ModelPreview;caption=Model Preview;state=6293500;dir=4;layer=0;row=1;pos=0;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=1;floaty=132;floatw=258;floath=274|name=HousePreview;caption=House Preview;state=6293503;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=57;floaty=110;floatw=1240;floath=683|name=EffectAssist;caption=Effect Assist;state=1075841022;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DisplayElements;caption=Display Elements;state=6293503;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=600;besth=400;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=0;floaty=23;floatw=1000;floath=608|name=Perspectives;caption=Perspectives;state=1075841022;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=148;besth=151;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Effect;caption=Effect Settings;state=2099196;dir=4;layer=0;row=1;pos=2;prop=100000;bestw=415;besth=847;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=2;floaty=23;floatw=415;floath=850|name=SelectEffect;caption=Select Effects;state=1075841022;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=367;besth=271;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=EffectDropper;caption=Effects;state=1075841022;dir=1;layer=0;row=0;pos=2;prop=100000;bestw=1026;besth=684;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ValueCurveDropper;caption=Value Curves;state=1075841022;dir=1;layer=0;row=0;pos=2;prop=100000;bestw=40;besth=40;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ColourDropper;caption=Colours;state=1075841022;dir=1;layer=0;row=0;pos=2;prop=100000;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Jukebox;caption=Jukebox;state=1075841022;dir=1;layer=0;row=0;pos=2;prop=100000;bestw=100;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Color;caption=Color;state=2099196;dir=4;layer=0;row=1;pos=1;prop=100000;bestw=273;besth=344;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=1;floaty=132;floatw=273;floath=360|name=LayerTiming;caption=Layer Blending;state=1075841022;dir=1;layer=0;row=0;pos=2;prop=100000;bestw=248;besth=266;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayerSettings;caption=Layer Settings;state=2099198;dir=1;layer=0;row=0;pos=1;prop=100000;bestw=278;besth=453;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SequenceVideo;caption=Sequence Video;state=2099198;dir=4;layer=0;row=1;pos=3;prop=100000;bestw=280;besth=191;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=0;floaty=0;floatw=288;floath=215|name=Main Sequencer;caption=Main Sequencer;state=768;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=120;besth=59;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=122|dock_size(4,0,1)=359|" version="2.0"/>
