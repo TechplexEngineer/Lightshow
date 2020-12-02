@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2020.48.1</version>
+    <version>2020.51</version>
     <author/>
     <author-email/>
     <author-website/>
@@ -325,43 +325,43 @@
         <Effect ref="13" name="Pinwheel" id="1" startTime="4350" endTime="7650" palette="7"/>
         <Effect ref="14" name="Curtain" id="2" startTime="15400" endTime="17000" palette="8"/>
         <Effect ref="15" name="Garlands" id="3" startTime="26250" endTime="27750" palette="9"/>
-        <Effect ref="16" name="Spirals" id="5" startTime="37000" endTime="38250" palette="10"/>
-        <Effect ref="17" name="Meteors" id="6" startTime="43750" endTime="47600" palette="7"/>
-        <Effect ref="18" name="Garlands" id="7" startTime="47600" endTime="51050" palette="11"/>
-        <Effect ref="19" name="Pinwheel" id="8" startTime="51050" endTime="52800" palette="6"/>
-        <Effect ref="20" name="Butterfly" id="9" startTime="52800" endTime="54300" palette="6"/>
-        <Effect ref="21" name="Circles" id="10" startTime="54300" endTime="55650" palette="6"/>
-        <Effect ref="22" name="Snowflakes" id="11" startTime="55650" endTime="59500" palette="1"/>
-        <Effect ref="23" name="Fire" id="12" startTime="59500" endTime="63500" palette="2"/>
-        <Effect ref="24" name="Garlands" id="13" startTime="65050" endTime="68050" palette="11"/>
-        <Effect ref="25" name="Shockwave" id="14" startTime="68050" endTime="70200" palette="3"/>
-        <Effect ref="26" name="Lines" id="15" startTime="76750" endTime="80600" palette="7"/>
-        <Effect ref="27" name="Wave" id="16" startTime="80600" endTime="82150" palette="7"/>
-        <Effect ref="24" name="Garlands" id="17" startTime="83650" endTime="87200" palette="11"/>
-        <Effect ref="28" name="Fan" id="18" startTime="88850" endTime="89750" palette="3"/>
-        <Effect ref="29" name="SingleStrand" id="19" startTime="89750" endTime="91500" palette="3"/>
-        <Effect ref="30" name="Snowstorm" id="20" startTime="95750" endTime="98700" palette="4"/>
-        <Effect ref="8" name="Curtain" id="21" startTime="98700" endTime="101200" palette="5"/>
-        <Effect ref="31" name="Fire" id="22" startTime="101200" endTime="103650" palette="5"/>
-        <Effect ref="15" name="Garlands" id="23" startTime="103650" endTime="106950" palette="11"/>
-        <Effect ref="32" name="Meteors" id="24" startTime="108750" endTime="110350" palette="1"/>
-        <Effect ref="33" name="Pinwheel" id="25" startTime="122950" endTime="123950" palette="12"/>
-        <Effect ref="34" name="Snowflakes" id="26" startTime="125150" endTime="128450" palette="1"/>
-        <Effect ref="35" name="Spirals" id="27" startTime="130150" endTime="131300" palette="10"/>
-        <Effect ref="36" name="Snowflakes" id="28" startTime="137050" endTime="140700" palette="1"/>
-        <Effect ref="37" name="Fan" id="29" startTime="140700" endTime="142200" palette="13"/>
-        <Effect ref="38" name="Garlands" id="30" startTime="144900" endTime="146900" palette="14"/>
-        <Effect ref="10" name="On" id="31" startTime="154350" endTime="155000" palette="1"/>
-        <Effect ref="39" name="Ripple" id="32" startTime="166450" endTime="167450" palette="15"/>
-        <Effect ref="40" name="Tendril" id="33" startTime="167450" endTime="169650" palette="10"/>
-        <Effect ref="41" name="Meteors" id="34" startTime="169650" endTime="170600" palette="16"/>
-        <Effect ref="42" name="Fire" id="35" startTime="170600" endTime="172200" palette="17"/>
-        <Effect ref="43" name="Life" id="36" startTime="172200" endTime="174500" palette="6"/>
-        <Effect ref="44" name="Butterfly" id="37" startTime="184000" endTime="187900" palette="18"/>
-        <Effect ref="45" name="Fan" id="38" startTime="192050" endTime="193000" palette="19"/>
-        <Effect ref="46" name="Plasma" id="39" startTime="195150" endTime="196500" palette="20"/>
-        <Effect ref="38" name="Garlands" id="40" startTime="197950" endTime="200600" palette="11"/>
-        <Effect ref="20" name="Butterfly" id="41" startTime="200600" endTime="202250" palette="1"/>
+        <Effect ref="16" name="Spirals" id="4" startTime="37000" endTime="38250" palette="10"/>
+        <Effect ref="17" name="Meteors" id="5" startTime="43750" endTime="47600" palette="7"/>
+        <Effect ref="18" name="Garlands" id="6" startTime="47600" endTime="51050" palette="11"/>
+        <Effect ref="19" name="Pinwheel" id="7" startTime="51050" endTime="52800" palette="6"/>
+        <Effect ref="20" name="Butterfly" id="8" startTime="52800" endTime="54300" palette="6"/>
+        <Effect ref="21" name="Circles" id="9" startTime="54300" endTime="55650" palette="6"/>
+        <Effect ref="22" name="Snowflakes" id="10" startTime="55650" endTime="59500" palette="1"/>
+        <Effect ref="23" name="Fire" id="11" startTime="59500" endTime="63500" palette="2"/>
+        <Effect ref="24" name="Garlands" id="12" startTime="65050" endTime="68050" palette="11"/>
+        <Effect ref="25" name="Shockwave" id="13" startTime="68050" endTime="70200" palette="3"/>
+        <Effect ref="26" name="Lines" id="14" startTime="76750" endTime="80600" palette="7"/>
+        <Effect ref="27" name="Wave" id="15" startTime="80600" endTime="82150" palette="7"/>
+        <Effect ref="24" name="Garlands" id="16" startTime="83650" endTime="87200" palette="11"/>
+        <Effect ref="28" name="Fan" id="17" startTime="88850" endTime="89750" palette="3"/>
+        <Effect ref="29" name="SingleStrand" id="18" startTime="89750" endTime="91500" palette="3"/>
+        <Effect ref="30" name="Snowstorm" id="19" startTime="95750" endTime="98700" palette="4"/>
+        <Effect ref="8" name="Curtain" id="20" startTime="98700" endTime="101200" palette="5"/>
+        <Effect ref="31" name="Fire" id="21" startTime="101200" endTime="103650" palette="5"/>
+        <Effect ref="15" name="Garlands" id="22" startTime="103650" endTime="106950" palette="11"/>
+        <Effect ref="32" name="Meteors" id="23" startTime="108750" endTime="110350" palette="1"/>
+        <Effect ref="33" name="Pinwheel" id="24" startTime="122950" endTime="123950" palette="12"/>
+        <Effect ref="34" name="Snowflakes" id="25" startTime="125150" endTime="128450" palette="1"/>
+        <Effect ref="35" name="Spirals" id="26" startTime="130150" endTime="131300" palette="10"/>
+        <Effect ref="36" name="Snowflakes" id="27" startTime="137050" endTime="140700" palette="1"/>
+        <Effect ref="37" name="Fan" id="28" startTime="140700" endTime="142200" palette="13"/>
+        <Effect ref="38" name="Garlands" id="29" startTime="144900" endTime="146900" palette="14"/>
+        <Effect ref="10" name="On" id="30" startTime="154350" endTime="155000" palette="1"/>
+        <Effect ref="39" name="Ripple" id="31" startTime="166450" endTime="167450" palette="15"/>
+        <Effect ref="40" name="Tendril" id="32" startTime="167450" endTime="169650" palette="10"/>
+        <Effect ref="41" name="Meteors" id="33" startTime="169650" endTime="170600" palette="16"/>
+        <Effect ref="42" name="Fire" id="34" startTime="170600" endTime="172200" palette="17"/>
+        <Effect ref="43" name="Life" id="35" startTime="172200" endTime="174500" palette="6"/>
+        <Effect ref="44" name="Butterfly" id="36" startTime="184000" endTime="187900" palette="18"/>
+        <Effect ref="45" name="Fan" id="37" startTime="192050" endTime="193000" palette="19"/>
+        <Effect ref="46" name="Plasma" id="38" startTime="195150" endTime="196500" palette="20"/>
+        <Effect ref="38" name="Garlands" id="39" startTime="197950" endTime="200600" palette="11"/>
+        <Effect ref="20" name="Butterfly" id="40" startTime="200600" endTime="202250" palette="1"/>
       </EffectLayer>
       <EffectLayer>
         <Effect ref="20" name="Butterfly" startTime="103650" endTime="106950" palette="11"/>
@@ -689,7 +689,7 @@
         <Effect ref="82" name="VU Meter" id="5" startTime="128450" endTime="130150" palette="22"/>
         <Effect ref="10" name="On" id="6" startTime="151150" endTime="153050" palette="1"/>
         <Effect ref="82" name="VU Meter" id="7" startTime="174500" endTime="177300" palette="22"/>
-        <Effect ref="10" name="On" selected="1" id="8" startTime="200600" endTime="202250" palette="1"/>
+        <Effect ref="10" name="On" id="8" startTime="200600" endTime="202250" palette="1"/>
       </EffectLayer>
     </Element>
   </ElementEffects>
