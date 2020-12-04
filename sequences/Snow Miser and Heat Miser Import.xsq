@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2020.48.1</version>
+    <version>2020.51</version>
     <author/>
     <author-email/>
     <author-website/>
@@ -249,6 +249,9 @@
     <Effect>E_SLIDER_Snowstorm_Count=100,E_SLIDER_Snowstorm_Length=75,E_SLIDER_Snowstorm_Speed=39</Effect>
     <Effect>E_SLIDER_Snowstorm_Count=95,E_SLIDER_Snowstorm_Length=89,E_SLIDER_Snowstorm_Speed=18</Effect>
     <Effect>E_CHECKBOX_Curtain_Repeat=1,E_CHOICE_Curtain_Edge=middle,E_CHOICE_Curtain_Effect=open then close,E_SLIDER_Curtain_Swag=9,E_TEXTCTRL_Curtain_Speed=1.0</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_Start=0</Effect>
+    <Effect>B_CHOICE_BufferStyle=Single Line Model As A Pixel,E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=1,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=2.2</Effect>
+    <Effect>E_CHOICE_VUMeter_Type=On,E_SLIDER_VUMeter_Gain=83,E_TEXTCTRL_VUMeter_Gain=83</Effect>
   </EffectDB>
   <DataLayers>
     <DataLayer lor_params="105" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
@@ -257,6 +260,7 @@
     <Element collapsed="0" type="model" name="All Pixels" visible="1"/>
     <Element collapsed="1" type="timing" name="MrsClaus" visible="1" views="Meiser Bros" active="0"/>
     <Element collapsed="1" type="timing" name="Miser bros" visible="1" views="Meiser Bros" active="0"/>
+    <Element collapsed="0" type="timing" name="Empty" visible="1" views="" active="1"/>
     <Element collapsed="1" type="timing" name="background" visible="1" views="Meiser Bros" active="0"/>
     <Element collapsed="0" type="model" name="Windows" visible="0"/>
     <Element collapsed="0" type="model" name="Trees" visible="0"/>
@@ -264,6 +268,30 @@
     <Element collapsed="0" type="model" name="Pixels Right" visible="1"/>
     <Element collapsed="0" type="model" name="Stakes" visible="0"/>
     <Element collapsed="0" type="model" name="House and Windows" visible="1"/>
+    <Element collapsed="0" type="model" name="ALL Props" visible="1"/>
+    <Element collapsed="0" type="model" name="AC All" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Side Yard" visible="1"/>
+    <Element collapsed="0" type="model" name="Arches Groups" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes Groups" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes OddEven" visible="1"/>
+    <Element collapsed="0" type="model" name="Matrix" visible="1"/>
+    <Element collapsed="0" type="model" name="AC All Chan Order" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Candy Canes" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Holly" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Icicles" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Packages" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Wraps" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bushes All" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Helo Canes" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Snow Flakes" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Angel" visible="0"/>
+    <Element collapsed="0" type="model" name="AC North Pole Sign" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Santa" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Tree" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Cherry" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Rope Lights" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Door Entry" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Door Office" visible="0"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="model" name="All Pixels">
@@ -374,7 +402,7 @@
         <Effect ref="2" name="On" id="4" startTime="33250" endTime="33750" palette="2"/>
         <Effect ref="40" name="Galaxy" id="5" startTime="33750" endTime="34550" palette="0"/>
         <Effect ref="8" name="Life" id="6" startTime="35500" endTime="36050" palette="2"/>
-        <Effect ref="41" name="Shockwave" id="7" startTime="36900" endTime="38250" palette="0"/>
+        <Effect ref="41" name="Shockwave" id="7" startTime="36900" endTime="39600" palette="0"/>
         <Effect ref="2" name="On" id="8" startTime="49750" endTime="50100" palette="3"/>
         <Effect ref="25" name="Curtain" id="9" startTime="54850" endTime="56450" palette="31"/>
         <Effect ref="42" name="Garlands" id="10" startTime="56450" endTime="57050" palette="1"/>
@@ -1138,8 +1166,8 @@
         <Effect label="AI" startTime="49750" endTime="49800"></Effect>
         <Effect label="etc" startTime="49800" endTime="49850"></Effect>
         <Effect label="AI" startTime="49850" endTime="49900"></Effect>
-        <Effect label="etc" startTime="49900" endTime="49900"></Effect>
         <Effect label="AI" startTime="49900" endTime="49950"></Effect>
+        <Effect label="etc" startTime="49900" endTime="49900"></Effect>
         <Effect label="etc" startTime="49950" endTime="50000"></Effect>
         <Effect label="AI" startTime="50000" endTime="50050"></Effect>
         <Effect label="AI" startTime="53450" endTime="53700"></Effect>
@@ -1737,6 +1765,19 @@
         <Effect label="etc" startTime="201500" endTime="201550"></Effect>
       </EffectLayer>
     </Element>
+    <Element type="timing" name="Empty">
+      <EffectLayer>
+        <Effect label="" startTime="0" endTime="2750"></Effect>
+        <Effect label="" startTime="2750" endTime="8600"></Effect>
+        <Effect label="" startTime="8600" endTime="39600"></Effect>
+        <Effect label="" startTime="39600" endTime="91950"></Effect>
+        <Effect label="" startTime="91950" endTime="92100"></Effect>
+        <Effect label="" startTime="92100" endTime="92350"></Effect>
+        <Effect label="" startTime="92350" endTime="92500"></Effect>
+        <Effect label="" startTime="92500" endTime="92700"></Effect>
+        <Effect label="" selected="1" startTime="92700" endTime="92850"></Effect>
+      </EffectLayer>
+    </Element>
     <Element type="timing" name="background">
       <EffectLayer>
         <Effect label="He's Mister White Christmas" startTime="31950" endTime="34450"></Effect>
@@ -2303,6 +2344,85 @@
         <Effect ref="54" name="VU Meter" id="5" startTime="194150" endTime="195100" palette="15"/>
         <Effect ref="106" name="Wave" id="6" startTime="195950" endTime="196850" palette="74"/>
         <Effect ref="107" name="Lines" id="7" startTime="196850" endTime="197750" palette="75"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="ALL Props">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC All">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Side Yard">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Arches Groups">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes Groups">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes OddEven">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Matrix">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC All Chan Order">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Candy Canes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Holly">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Icicles">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Packages">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Wraps">
+      <EffectLayer>
+        <Effect ref="133" name="On" startTime="50" endTime="1350" palette="2"/>
+        <Effect ref="2" name="On" id="1" startTime="1350" endTime="2700" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Bushes All">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Helo Canes">
+      <EffectLayer>
+        <Effect ref="134" name="SingleStrand" startTime="2750" endTime="8600" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Snow Flakes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Angel">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC North Pole Sign">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Santa">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Tree">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Cherry">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Rope Lights">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Door Entry">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Door Office">
+      <EffectLayer>
+        <Effect ref="135" name="VU Meter" startTime="50" endTime="2700" palette="3"/>
       </EffectLayer>
     </Element>
   </ElementEffects>

@@ -400,7 +400,7 @@
     <view name="Miser Bros" models="All Pixels,Pixels Left,Pixels Right,House and Windows,AC All Chan Order"/>
     <view name="All AC In Order" models="AC All Chan Order"/>
     <view name="XATW" models="All Pixels,Windows,Arches,Tree 01,Trees Small,Stakes"/>
-    <view name="Main" models="ALL Props,AC All,All Pixels,Arches Groups,Stakes Groups,Stakes OddEven,Matrix"/>
+    <view name="Main" models="ALL Props,AC All,AC Side Yard,All Pixels,Arches Groups,Stakes Groups,Stakes OddEven,Matrix"/>
     <view name="2020 Intro Talking" models="AC Door Office,Office"/>
     <view name="Tune To" models="AC Tune To"/>
   </views>
@@ -427,7 +427,7 @@
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" name="AC Candy Canes" models="AC Candy 01,AC Candy 02,AC Candy 03,AC Candy 04,AC Candy 05,AC Candy 06"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" name="AC Bushes" models="AC Bush 01,AC Bush 02,AC Bush 03,AC Bush 04,AC Bush 05"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" name="AC Icicles" models="AC Icicles 01,AC Icicles 02"/>
-    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" name="AC Holly" models="AC Holly 02,AC Holly 01"/>
+    <modelGroup selected="0" LayoutGroup="Default" name="AC Holly" models="AC Holly 01,AC Holly 02,AC Bush 08" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
     <modelGroup selected="0" name="Office Outside" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Office/Office 01,Office/Office 03"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" name="AC Packages Left" models="AC Package Blue 01,AC Package Green 01,AC Package Red 01"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" name="AC Packages Right" models="AC Package Blue 02,AC Package Green 02,AC Package Red 02"/>
@@ -437,12 +437,12 @@
     <modelGroup selected="0" name="Pixels Left" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Arch1,Arch2,Great Room 01,Great Room 02,Office,Tree Small 01"/>
     <modelGroup selected="0" name="Pixels Right" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Arch3,Arch4,Master 01,South West 01,South West 02"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Windows" name="House and Windows"/>
-    <modelGroup selected="0" name="AC All" LayoutGroup="Default" WorldPosX="200.0000" WorldPosY="18.0000" WorldPosZ="0.0000" ScaleX="1.6466" ScaleY="1.6466" ScaleZ="1.6466" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" models="AC Candy Canes,AC Holly,AC Icicles,AC Packages,AC Wraps,AC Bushes All,AC Helo Canes,AC Snow Flakes,AC Angel,AC North Pole Sign,AC Santa,AC Tree,AC Cherry,AC Rope Lights,AC Door Entry,AC Door Office,AC Parking Space,AC Mailbox">
+    <modelGroup selected="0" name="AC All" LayoutGroup="Default" WorldPosX="200.0000" WorldPosY="18.0000" WorldPosZ="0.0000" ScaleX="1.6466" ScaleY="1.6466" ScaleZ="1.6466" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" models="AC Candy Canes,AC Holly,AC Icicles,AC Packages,AC Wraps,AC Bushes All,AC Helo Canes,AC Snow Flakes,AC Angel,AC North Pole Sign,AC Santa,AC Tree,AC Cherry,AC Rope Lights,AC Door Entry,AC Door Office" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid">
       <ControllerConnection/>
     </modelGroup>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="AC All,All Pixels" name="Everything"/>
     <modelGroup selected="0" name="Trees Small" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Tree Small 01,Tree Small 02"/>
-    <modelGroup selected="0" LayoutGroup="Default" name="AC Bushes All" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" models="AC Bush 01,AC Bush 02,AC Bush 03,AC Bush 04,AC Bush 05,AC Bush 06,AC Bush 07,AC Bush 08"/>
+    <modelGroup selected="0" LayoutGroup="Default" name="AC Bushes All" models="AC Bush 01,AC Bush 02,AC Bush 03,AC Bush 04,AC Bush 05,AC Bush 06,AC Bush 07" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
     <modelGroup selected="0" name="AC Helo Canes" LayoutGroup="Default" models="AC Helo Canes 01,AC Helo Canes 02,AC Helo Canes 03,AC Helo Canes 04" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
     <modelGroup selected="0" name="AC Snow Flakes" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="AC Snow Flakes 01,AC Snow Flakes 02"/>
     <modelGroup selected="0" name="AC Cherry" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="AC Cherry Icicles,AC Cherry Wrap"/>
@@ -450,6 +450,7 @@
     <modelGroup selected="0" name="Stakes Groups" LayoutGroup="Default" models="Stakes (1) Bottom,Stakes (2),Stakes (3),Stakes (4),Stakes (5) Top" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
     <modelGroup selected="0" name="Stakes OddEven" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stakes - Even,Stakes - Odd"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="AC All,All Pixels" name="ALL Props"/>
+    <modelGroup selected="0" name="AC Side Yard" LayoutGroup="Default" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" models="AC Bush 01,AC Bush 02,AC Bush 03,AC Bush 04,AC Bush 05,AC Bush 06,AC Bush 07,AC Cherry Wrap,AC Helo Canes 01,AC Helo Canes 02,AC Helo Canes 03,AC Helo Canes 04,AC North Pole Sign,AC Snow Flakes 01,AC Snow Flakes 02,AC Rope Lights"/>
   </modelGroups>
   <layoutGroups>
     <layoutGroup name="Windows" PaneWidth="1280" PaneHeight="960" PosX="100" PosY="156"/>
@@ -469,10 +470,10 @@
     <Display2DCenter0 value="0"/>
     <backgroundImage value=""/>
     <storedLayoutGroup value="Default"/>
+    <renderCacheDir value="/home/techplex/projects/pers/lightshow/sequences"/>
     <previewWidth value="1280"/>
     <previewHeight value="960"/>
-    <fseqDir value="/home/techplex/projects/pers/lightshow/sequences"/>
-    <renderCacheDir value="/home/techplex/projects/pers/lightshow/sequences"/>
+    <fseqDir value="/home/techplex/projects/pers/lightshow/sequences/fseq"/>
   </settings>
   <colors>
     <EffectDefault Red="192" Green="192" Blue="192"/>
@@ -505,5 +506,6 @@
   </colors>
   <Viewpoints>
     <Camera name="Default" posX="0.000000" posY="0.000000" posZ="0.000000" angleX="17.000000" angleY="346.000000" distance="-2000.000000" zoom="0.906028" panx="-326.000000" pany="64.000000" panz="0.000000" zoom_corrx="0.000000" zoom_corry="0.000000" is_3d="1"/>
+    <Camera name="Top" posX="0.000000" posY="0.000000" posZ="0.000000" angleX="86.000000" angleY="0.000000" distance="-2000.000000" zoom="1.284778" panx="-600.302490" pany="122.800003" panz="-136.926956" zoom_corrx="0.000000" zoom_corry="0.000000" is_3d="1"/>
   </Viewpoints>
 </xrgb>
