@@ -298,30 +298,66 @@
     </model>
     <model DisplayAs="Custom" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" name="Office" parm2="16" parm1="32" Depth="1" CustomModel="107,106,105,104,103,102,101,100,69,68,67,66,65,64,63,62,61,60,59,58,57,56,55,54,23,22,21,20,19,18,17,16;108,,,,,,,99,70,,,,,,,,,,,,,,,53,24,,,,,,,15;109,,,,,,,98,71,,,,,,,,,,,,,,,52,25,,,,,,,14;110,,,,,,,97,72,,,,,,,,,,,,,,,51,26,,,,,,,13;111,,,,,,,96,73,,,,,,,,,,,,,,,50,27,,,,,,,12;112,,,,,,,95,74,,,,,,,,,,,,,,,49,28,,,,,,,11;113,,,,,,,94,75,,,,,,,,,,,,,,,48,29,,,,,,,10;114,,,,,,,93,76,,,,,,,,,,,,,,,47,30,,,,,,,9;115,,,,,,,92,77,,,,,,,,,,,,,,,46,31,,,,,,,8;116,,,,,,,91,78,,,,,,,,,,,,,,,45,32,,,,,,,7;117,,,,,,,90,79,,,,,,,,,,,,,,,44,33,,,,,,,6;118,,,,,,,89,80,,,,,,,,,,,,,,,43,34,,,,,,,5;119,,,,,,,88,81,,,,,,,,,,,,,,,42,35,,,,,,,4;120,,,,,,,87,82,,,,,,,,,,,,,,,41,36,,,,,,,3;121,,,,,,,86,83,,,,,,,,,,,,,,,40,37,,,,,,,2;122,123,124,125,126,127,128,85,84,129,130,131,132,133,134,135,136,137,138,139,140,141,142,39,38,143,144,145,146,147,148,1" CustomBkgLightness="0" CustomBkgImage="" Controller="F8-B" WorldPosX="429.4749" WorldPosY="90.3929" WorldPosZ="50.4479" ScaleX="3.1423" ScaleY="3.1535" ScaleZ="3.1423" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:1639">
       <ControllerConnection Protocol="ws2811" Port="5" brightness="30"/>
-      <subModel name="Office 01" layout="horizontal" type="ranges" line0="85-128" WorldPosX="429.4749" WorldPosY="90.3929" WorldPosZ="50.4479" ScaleX="3.1423" ScaleY="3.1535" ScaleZ="3.1423" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="14993">
+      <subModel name="Office 01" layout="horizontal" type="ranges" line0="85-128">
         <ControllerConnection/>
       </subModel>
-      <subModel name="Office 02" layout="horizontal" type="ranges" line0="39-84,129-142" WorldPosX="429.4749" WorldPosY="90.3929" WorldPosZ="50.4479" ScaleX="3.1423" ScaleY="3.1535" ScaleZ="3.1423" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="14855">
+      <subModel name="Office 02" layout="horizontal" type="ranges" line0="39-84,129-142">
         <ControllerConnection/>
       </subModel>
-      <subModel name="Office 03" layout="horizontal" type="ranges" line0="1-38,143-148" WorldPosX="429.4749" WorldPosY="90.3929" WorldPosZ="50.4479" ScaleX="3.1423" ScaleY="3.1535" ScaleZ="3.1423" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="14741">
+      <subModel name="Office 03" layout="horizontal" type="ranges" line0="1-38,143-148">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="Vertical" layout="vertical" type="ranges" line0="121,,,,,,,86,83,,,,,,,,,,,,,,,40,37,,,,,,,2" line1="120,,,,,,,87,82,,,,,,,,,,,,,,,41,36,,,,,,,3" line2="119,,,,,,,88,81,,,,,,,,,,,,,,,42,35,,,,,,,4" line3="118,,,,,,,89,80,,,,,,,,,,,,,,,43,34,,,,,,,5" line4="117,,,,,,,90,79,,,,,,,,,,,,,,,44,33,,,,,,,6" line5="116,,,,,,,91,78,,,,,,,,,,,,,,,45,32,,,,,,,7" line6="115,,,,,,,92,77,,,,,,,,,,,,,,,46,31,,,,,,,8" line7="114,,,,,,,93,76,,,,,,,,,,,,,,,47,30,,,,,,,9" line8="113,,,,,,,94,75,,,,,,,,,,,,,,,48,29,,,,,,,10" line9="112,,,,,,,95,74,,,,,,,,,,,,,,,49,28,,,,,,,11" line10="111,,,,,,,96,73,,,,,,,,,,,,,,,50,27,,,,,,,12" line11="110,,,,,,,97,72,,,,,,,,,,,,,,,51,26,,,,,,,13" line12="109,,,,,,,98,71,,,,,,,,,,,,,,,52,25,,,,,,,14" line13="108,,,,,,,99,70,,,,,,,,,,,,,,,53,24,,,,,,,15">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="Horizontal" layout="horizontal" type="ranges" line0="122,123,124,125,126,127,128,85,84,129,130,131,132,133,134,135,136,137,138,139,140,141,142,39,38,143,144,145,146,147,148,1" line1=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," line2=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," line3=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," line4=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," line5=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," line6=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," line7=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," line8=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," line9=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," line10=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," line11=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," line12=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," line13=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," line14=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," line15="107,106,105,104,103,102,101,100,69,68,67,66,65,64,63,62,61,60,59,58,57,56,55,54,23,22,21,20,19,18,17,16">
         <ControllerConnection/>
       </subModel>
     </model>
     <model DisplayAs="Window Frame" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" name="Master 01" parm1="11" parm3="11" parm2="14" Dir="L" StartSide="B" Controller="F8-B" WorldPosX="749.8444" WorldPosY="90.5134" WorldPosZ="60.2156" ScaleX="2.7224" ScaleY="3.6339" ScaleZ="2.7224" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:2383">
       <ControllerConnection Protocol="ws2811" Port="7" brightness="30"/>
+      <subModel name="Vertical" layout="vertical" type="ranges" line0="2,,,,,,,,,,,,38" line1="3,,,,,,,,,,,,37" line2="4,,,,,,,,,,,,36" line3="5,,,,,,,,,,,,35" line4="6,,,,,,,,,,,,34" line5="7,,,,,,,,,,,,33" line6="8,,,,,,,,,,,,32" line7="9,,,,,,,,,,,,31" line8="10,,,,,,,,,,,,30" line9="11,,,,,,,,,,,,29" line10="12,,,,,,,,,,,,28" line11="13,,,,,,,,,,,,27">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="Horizontal" layout="horizontal" type="ranges" line0="1,50,49,48,47,46,45,44,43,42,41,40,39" line1=",,,,,,,,,,,," line2=",,,,,,,,,,,," line3=",,,,,,,,,,,," line4=",,,,,,,,,,,," line5=",,,,,,,,,,,," line6=",,,,,,,,,,,," line7=",,,,,,,,,,,," line8=",,,,,,,,,,,," line9=",,,,,,,,,,,," line10=",,,,,,,,,,,," line11=",,,,,,,,,,,," line12=",,,,,,,,,,,," line13="14,15,16,17,18,19,20,21,22,23,24,25,26">
+        <ControllerConnection/>
+      </subModel>
     </model>
     <model DisplayAs="Window Frame" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" parm1="10" parm2="15" parm3="10" name="South West 01" Dir="R" StartSide="B" Controller="F8-B" WorldPosX="582.1880" WorldPosY="89.3565" WorldPosZ="60.1784" ScaleX="2.6250" ScaleY="3.3750" ScaleZ="1.0002" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:2083">
       <ControllerConnection Protocol="ws2811" Port="6" brightness="30"/>
+      <subModel name="Vertical" layout="vertical" type="ranges" line0="13,,,,,,,,,,,50" line1="14,,,,,,,,,,,49" line2="15,,,,,,,,,,,48" line3="16,,,,,,,,,,,47" line4="17,,,,,,,,,,,46" line5="18,,,,,,,,,,,45" line6="19,,,,,,,,,,,44" line7="20,,,,,,,,,,,43" line8="21,,,,,,,,,,,42" line9="22,,,,,,,,,,,41" line10="23,,,,,,,,,,,40" line11="24,,,,,,,,,,,39" line12="25,,,,,,,,,,,38">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="Horizontal" layout="horizontal" type="ranges" line0="12,11,10,9,8,7,6,5,4,3,2,1" line1=",,,,,,,,,,," line2=",,,,,,,,,,," line3=",,,,,,,,,,," line4=",,,,,,,,,,," line5=",,,,,,,,,,," line6=",,,,,,,,,,," line7=",,,,,,,,,,," line8=",,,,,,,,,,," line9=",,,,,,,,,,," line10=",,,,,,,,,,," line11=",,,,,,,,,,," line12=",,,,,,,,,,," line13=",,,,,,,,,,," line14="26,27,28,29,30,31,32,33,34,35,36,37">
+        <ControllerConnection/>
+      </subModel>
     </model>
     <model DisplayAs="Window Frame" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" parm1="10" parm2="15" parm3="10" name="South West 02" Controller="F8-B" ModelChain="&gt;South West 01" WorldPosX="614.2549" WorldPosY="89.3565" WorldPosZ="60.1784" ScaleX="2.6250" ScaleY="3.3750" ScaleZ="1.0194" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:2233">
       <ControllerConnection Port="6" Protocol="ws2811" brightness="30"/>
+      <subModel name="Horizontal" layout="horizontal" type="ranges" line0="1,50,49,48,47,46,45,44,43,42,41,40" line1=",,,,,,,,,,," line2=",,,,,,,,,,," line3=",,,,,,,,,,," line4=",,,,,,,,,,," line5=",,,,,,,,,,," line6=",,,,,,,,,,," line7=",,,,,,,,,,," line8=",,,,,,,,,,," line9=",,,,,,,,,,," line10=",,,,,,,,,,," line11=",,,,,,,,,,," line12=",,,,,,,,,,," line13=",,,,,,,,,,," line14="15,16,17,18,19,20,21,22,23,24,25,26">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="Vertical" layout="vertical" type="ranges" line0="2,,,,,,,,,,,39" line1="3,,,,,,,,,,,38" line2="4,,,,,,,,,,,37" line3="5,,,,,,,,,,,36" line4="6,,,,,,,,,,,35" line5="7,,,,,,,,,,,34" line6="8,,,,,,,,,,,33" line7="9,,,,,,,,,,,32" line8="10,,,,,,,,,,,31" line9="11,,,,,,,,,,,30" line10="12,,,,,,,,,,,29" line11="13,,,,,,,,,,,28" line12="14,,,,,,,,,,,27">
+        <ControllerConnection/>
+      </subModel>
     </model>
     <model DisplayAs="Window Frame" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" parm1="10" parm2="15" parm3="10" name="Great Room 02" Dir="R" StartSide="B" Controller="F8-B" WorldPosX="243.6604" WorldPosY="91.2779" WorldPosZ="-47.8457" ScaleX="2.7500" ScaleY="3.6000" ScaleZ="2.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:2683">
       <ControllerConnection channel="156" Protocol="ws2811" Port="10" brightness="30"/>
+      <subModel name="Vertical" layout="vertical" type="ranges" line0="13,,,,,,,,,,,50" line1="14,,,,,,,,,,,49" line2="15,,,,,,,,,,,48" line3="16,,,,,,,,,,,47" line4="17,,,,,,,,,,,46" line5="18,,,,,,,,,,,45" line6="19,,,,,,,,,,,44" line7="20,,,,,,,,,,,43" line8="21,,,,,,,,,,,42" line9="22,,,,,,,,,,,41" line10="23,,,,,,,,,,,40" line11="24,,,,,,,,,,,39" line12="25,,,,,,,,,,,38">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="Horizontal" layout="horizontal" type="ranges" line0="12,11,10,9,8,7,6,5,4,3,2,1" line1=",,,,,,,,,,," line2=",,,,,,,,,,," line3=",,,,,,,,,,," line4=",,,,,,,,,,," line5=",,,,,,,,,,," line6=",,,,,,,,,,," line7=",,,,,,,,,,," line8=",,,,,,,,,,," line9=",,,,,,,,,,," line10=",,,,,,,,,,," line11=",,,,,,,,,,," line12=",,,,,,,,,,," line13=",,,,,,,,,,," line14="26,27,28,29,30,31,32,33,34,35,36,37">
+        <ControllerConnection/>
+      </subModel>
     </model>
     <model DisplayAs="Window Frame" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" name="Great Room 01" parm1="10" parm2="15" parm3="10" Dir="R" StartSide="B" Controller="F8-B" WorldPosX="177.4833" WorldPosY="91.7663" WorldPosZ="-47.6980" ScaleX="2.7500" ScaleY="3.6000" ScaleZ="2.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:2533">
       <ControllerConnection channel="6" Protocol="ws2811" Port="9" brightness="30"/>
+      <subModel name="Vertical" layout="vertical" type="ranges" line0="13,,,,,,,,,,,50" line1="14,,,,,,,,,,,49" line2="15,,,,,,,,,,,48" line3="16,,,,,,,,,,,47" line4="17,,,,,,,,,,,46" line5="18,,,,,,,,,,,45" line6="19,,,,,,,,,,,44" line7="20,,,,,,,,,,,43" line8="21,,,,,,,,,,,42" line9="22,,,,,,,,,,,41" line10="23,,,,,,,,,,,40" line11="24,,,,,,,,,,,39" line12="25,,,,,,,,,,,38">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="Horizontal" layout="horizontal" type="ranges" line0="12,11,10,9,8,7,6,5,4,3,2,1" line1=",,,,,,,,,,," line2=",,,,,,,,,,," line3=",,,,,,,,,,," line4=",,,,,,,,,,," line5=",,,,,,,,,,," line6=",,,,,,,,,,," line7=",,,,,,,,,,," line8=",,,,,,,,,,," line9=",,,,,,,,,,," line10=",,,,,,,,,,," line11=",,,,,,,,,,," line12=",,,,,,,,,,," line13=",,,,,,,,,,," line14="26,27,28,29,30,31,32,33,34,35,36,37">
+        <ControllerConnection/>
+      </subModel>
     </model>
     <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" name="Matrix" DisplayAs="Horiz Matrix" LayoutGroup="Default" parm1="32" parm2="128" WorldPosX="-142.7240" WorldPosY="246.0471" WorldPosZ="0.0000" ScaleX="1.5672" ScaleY="1.7685" ScaleZ="0.0079" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!matrix:1">
       <ControllerConnection Protocol="ws2811"/>
@@ -397,9 +433,9 @@
     <effect name="VU Talking" settings="CopyFormat1&#x9;0&#x9;1&#x9;1&#x9;0&#x9;1&#x9;PASTE_BY_CELL&#xA;VU Meter&#x9;E_CHOICE_VUMeter_Type=On,E_SLIDER_VUMeter_Gain=83,E_TEXTCTRL_VUMeter_Gain=83&#x9;C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette4=1&#x9;7100&#x9;9200&#x9;7&#x9;-1000&#x9;1&#x9;1&#x9;0&#x9;100&#xA;" version="0006" xLightsVersion="2020.48.1"/>
   </effects>
   <views>
-    <view name="Miser Bros" models="All Pixels,Pixels Left,Pixels Right,House and Windows,AC All Chan Order"/>
-    <view name="All AC In Order" models="AC All Chan Order"/>
-    <view name="XATW" models="All Pixels,Windows,Arches,Tree 01,Trees Small,Stakes"/>
+    <view name="Miser Bros" models="All Pixels,Pixels Left,Pixels Right,House and Windows"/>
+    <view name="All AC In Order" models=""/>
+    <view name="XATW" models="All Pixels,XATW House Face,XATW Outlines,Windows,Arches,Trees Small,Stakes,Tree 01"/>
     <view name="Main" models="ALL Props,AC All,AC Side Yard,All Pixels,Arches Groups,Stakes Groups,Stakes OddEven,Matrix"/>
     <view name="2020 Intro Talking" models="AC Door Office,Office"/>
     <view name="Tune To" models="AC Tune To"/>
@@ -451,6 +487,8 @@
     <modelGroup selected="0" name="Stakes OddEven" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stakes - Even,Stakes - Odd"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="AC All,All Pixels" name="ALL Props"/>
     <modelGroup selected="0" name="AC Side Yard" LayoutGroup="Default" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" models="AC Bush 01,AC Bush 02,AC Bush 03,AC Bush 04,AC Bush 05,AC Bush 06,AC Bush 07,AC Cherry Wrap,AC Helo Canes 01,AC Helo Canes 02,AC Helo Canes 03,AC Helo Canes 04,AC North Pole Sign,AC Snow Flakes 01,AC Snow Flakes 02,AC Rope Lights"/>
+    <modelGroup selected="0" name="XATW House Face" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Windows"/>
+    <modelGroup selected="0" name="XATW Outlines" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Office/Vertical,Office/Horizontal,Great Room 01/Vertical,Great Room 01/Horizontal,Great Room 02/Vertical,Great Room 02/Horizontal,Master 01/Vertical,Master 01/Horizontal,South West 01/Vertical,South West 01/Horizontal,South West 02/Horizontal,South West 02/Vertical"/>
   </modelGroups>
   <layoutGroups>
     <layoutGroup name="Windows" PaneWidth="1280" PaneHeight="960" PosX="100" PosY="156"/>
@@ -471,9 +509,9 @@
     <backgroundImage value=""/>
     <storedLayoutGroup value="Default"/>
     <renderCacheDir value="/home/techplex/projects/pers/lightshow/sequences"/>
+    <fseqDir value="/home/techplex/projects/pers/lightshow/sequences/fseq"/>
     <previewWidth value="1280"/>
     <previewHeight value="960"/>
-    <fseqDir value="/home/techplex/projects/pers/lightshow/sequences/fseq"/>
   </settings>
   <colors>
     <EffectDefault Red="192" Green="192" Blue="192"/>
