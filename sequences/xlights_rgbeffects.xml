@@ -435,7 +435,7 @@
   <views>
     <view name="Miser Bros" models="All Pixels,Pixels Left,Pixels Right,House and Windows"/>
     <view name="All AC In Order" models=""/>
-    <view name="XATW" models="All Pixels,XATW House Face,XATW Outlines,Windows,Arches,Trees Small,Stakes,Tree 01"/>
+    <view name="XATW" models="All Pixels,XATW House Face,XATW Outlines,Windows,Arches,Trees Small,Stakes,Tree 01,AC All,AC Side Yard,AC Santas Village,Matrix"/>
     <view name="Main" models="ALL Props,AC All,AC Side Yard,All Pixels,Arches Groups,Stakes Groups,Stakes OddEven,Matrix"/>
     <view name="2020 Intro Talking" models="AC Door Office,Office"/>
     <view name="Tune To" models="AC Tune To"/>
@@ -486,9 +486,10 @@
     <modelGroup selected="0" name="Stakes Groups" LayoutGroup="Default" models="Stakes (1) Bottom,Stakes (2),Stakes (3),Stakes (4),Stakes (5) Top" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
     <modelGroup selected="0" name="Stakes OddEven" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stakes - Even,Stakes - Odd"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="AC All,All Pixels" name="ALL Props"/>
-    <modelGroup selected="0" name="AC Side Yard" LayoutGroup="Default" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" models="AC Bush 01,AC Bush 02,AC Bush 03,AC Bush 04,AC Bush 05,AC Bush 06,AC Bush 07,AC Cherry Wrap,AC Helo Canes 01,AC Helo Canes 02,AC Helo Canes 03,AC Helo Canes 04,AC North Pole Sign,AC Snow Flakes 01,AC Snow Flakes 02,AC Rope Lights"/>
+    <modelGroup selected="0" name="AC Side Yard" LayoutGroup="Default" models="AC Bush 01,AC Bush 02,AC Bush 03,AC Bush 04,AC Bush 05,AC Bush 06,AC Bush 07,AC Helo Canes 01,AC Helo Canes 02,AC Helo Canes 03,AC Helo Canes 04,AC North Pole Sign,AC Snow Flakes 01,AC Snow Flakes 02,AC Rope Lights,AC Cherry" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
     <modelGroup selected="0" name="XATW House Face" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Windows"/>
     <modelGroup selected="0" name="XATW Outlines" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Office/Vertical,Office/Horizontal,Great Room 01/Vertical,Great Room 01/Horizontal,Great Room 02/Vertical,Great Room 02/Horizontal,Master 01/Vertical,Master 01/Horizontal,South West 01/Vertical,South West 01/Horizontal,South West 02/Horizontal,South West 02/Vertical"/>
+    <modelGroup selected="0" name="AC Santas Village" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="AC Package Blue 01,AC Package Blue 02,AC Package Green 01,AC Package Green 02,AC Package Red 01,AC Package Red 02,AC Santa,AC Tree"/>
   </modelGroups>
   <layoutGroups>
     <layoutGroup name="Windows" PaneWidth="1280" PaneHeight="960" PosX="100" PosY="156"/>
