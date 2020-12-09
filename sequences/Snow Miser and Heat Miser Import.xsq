@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2020.51</version>
+    <version>2020.54</version>
     <author/>
     <author-email/>
     <author-website/>
@@ -114,6 +114,7 @@
     <ColorPalette>C_BUTTON_Palette1=#FF0000,C_BUTTON_Palette2=#00FF00,C_BUTTON_Palette3=#FFFFFF,C_BUTTON_Palette4=#D90000,C_BUTTON_Palette5=#FF0000,C_BUTTON_Palette6=#FF4646,C_BUTTON_Palette7=#FF9393,C_BUTTON_Palette8=#000000,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette7=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FF0000,C_BUTTON_Palette2=#00FF00,C_BUTTON_Palette3=#FFFFFF,C_BUTTON_Palette4=#D90000,C_BUTTON_Palette5=#FF0000,C_BUTTON_Palette6=#FF4646,C_BUTTON_Palette7=#FF9393,C_BUTTON_Palette8=#000000,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=0,C_CHECKBOX_Palette6=0,C_CHECKBOX_Palette7=0,C_CHECKBOX_Palette8=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#000080,C_BUTTON_Palette2=#0000FF,C_BUTTON_Palette3=#3535FF,C_BUTTON_Palette4=#007DFB,C_BUTTON_Palette5=#46A3FF,C_BUTTON_Palette6=#63C9FA,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#AAFFFF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=0,C_CHECKBOX_Palette3=0,C_CHECKBOX_Palette4=0,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=0,C_CHECKBOX_Palette8=0</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_CHECKBOX_Palette1=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
     <Effect>E_SLIDER_Snowstorm_Count=100,E_SLIDER_Snowstorm_Length=96,E_SLIDER_Snowstorm_Speed=10</Effect>
@@ -249,7 +250,14 @@
     <Effect>E_SLIDER_Snowstorm_Count=100,E_SLIDER_Snowstorm_Length=75,E_SLIDER_Snowstorm_Speed=39</Effect>
     <Effect>E_SLIDER_Snowstorm_Count=95,E_SLIDER_Snowstorm_Length=89,E_SLIDER_Snowstorm_Speed=18</Effect>
     <Effect>E_CHECKBOX_Curtain_Repeat=1,E_CHOICE_Curtain_Edge=middle,E_CHOICE_Curtain_Effect=open then close,E_SLIDER_Curtain_Swag=9,E_TEXTCTRL_Curtain_Speed=1.0</Effect>
+    <Effect>E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Position,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=61,E_SLIDER_Shockwave_CenterY=50,E_SLIDER_Shockwave_End_Radius=88,E_SLIDER_Shockwave_End_Width=63,E_SLIDER_Shockwave_Start_Radius=1,E_SLIDER_Shockwave_Start_Width=5</Effect>
+    <Effect>E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Position,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=50,E_SLIDER_Shockwave_CenterY=50,E_SLIDER_Shockwave_End_Radius=178,E_SLIDER_Shockwave_End_Width=54,E_SLIDER_Shockwave_Start_Radius=1,E_SLIDER_Shockwave_Start_Width=5</Effect>
+    <Effect>E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Position,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=50,E_SLIDER_Shockwave_CenterY=50,E_SLIDER_Shockwave_End_Radius=88,E_SLIDER_Shockwave_End_Width=63,E_SLIDER_Shockwave_Start_Radius=1,E_SLIDER_Shockwave_Start_Width=5</Effect>
+    <Effect>E_CHOICE_VUMeter_Type=On,E_SLIDER_VUMeter_Gain=0,E_TEXTCTRL_VUMeter_Gain=0</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_End=0,E_TEXTCTRL_Eff_On_Start=100</Effect>
     <Effect>E_TEXTCTRL_Eff_On_Start=0</Effect>
+    <Effect>B_CHOICE_BufferStyle=Single Line Model As A Pixel,E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=1,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1</Effect>
+    <Effect>E_CHOICE_VUMeter_Type=On,E_SLIDER_VUMeter_Gain=93,E_TEXTCTRL_VUMeter_Gain=93</Effect>
     <Effect>B_CHOICE_BufferStyle=Single Line Model As A Pixel,E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=1,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=2.2</Effect>
     <Effect>E_CHOICE_VUMeter_Type=On,E_SLIDER_VUMeter_Gain=83,E_TEXTCTRL_VUMeter_Gain=83</Effect>
   </EffectDB>
@@ -259,8 +267,8 @@
   <DisplayElements>
     <Element collapsed="0" type="model" name="All Pixels" visible="1"/>
     <Element collapsed="1" type="timing" name="MrsClaus" visible="1" views="Meiser Bros" active="0"/>
-    <Element collapsed="1" type="timing" name="Miser bros" visible="1" views="Meiser Bros" active="0"/>
-    <Element collapsed="0" type="timing" name="Empty" visible="1" views="" active="1"/>
+    <Element collapsed="1" type="timing" name="Miser bros" visible="1" views="Meiser Bros" active="1"/>
+    <Element collapsed="0" type="timing" name="Empty" visible="1" views="" active="0"/>
     <Element collapsed="1" type="timing" name="background" visible="1" views="Meiser Bros" active="0"/>
     <Element collapsed="0" type="model" name="Windows" visible="0"/>
     <Element collapsed="0" type="model" name="Trees" visible="0"/>
@@ -269,7 +277,7 @@
     <Element collapsed="0" type="model" name="Stakes" visible="0"/>
     <Element collapsed="0" type="model" name="House and Windows" visible="1"/>
     <Element collapsed="0" type="model" name="ALL Props" visible="1"/>
-    <Element collapsed="0" type="model" name="AC All" visible="1"/>
+    <Element collapsed="1" type="model" name="AC All" visible="1"/>
     <Element collapsed="0" type="model" name="AC Side Yard" visible="1"/>
     <Element collapsed="0" type="model" name="Arches Groups" visible="1"/>
     <Element collapsed="0" type="model" name="Stakes Groups" visible="1"/>
@@ -292,6 +300,15 @@
     <Element collapsed="0" type="model" name="AC Rope Lights" visible="0"/>
     <Element collapsed="0" type="model" name="AC Door Entry" visible="0"/>
     <Element collapsed="0" type="model" name="AC Door Office" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Cherry Icicles" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Cherry Wrap" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bush 01" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bush 02" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bush 03" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bush 04" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bush 05" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bush 06" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bush 07" visible="0"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="model" name="All Pixels">
@@ -1768,14 +1785,22 @@
     <Element type="timing" name="Empty">
       <EffectLayer>
         <Effect label="" startTime="0" endTime="2750"></Effect>
-        <Effect label="" startTime="2750" endTime="8600"></Effect>
-        <Effect label="" startTime="8600" endTime="39600"></Effect>
+        <Effect label="" startTime="2750" endTime="6500"></Effect>
+        <Effect label="" startTime="6500" endTime="8600"></Effect>
+        <Effect label="" startTime="8600" endTime="10000"></Effect>
+        <Effect label="" startTime="10000" endTime="12450"></Effect>
+        <Effect label="" startTime="12450" endTime="13750"></Effect>
+        <Effect label="" startTime="13750" endTime="15400"></Effect>
+        <Effect label="" startTime="15400" endTime="16400"></Effect>
+        <Effect label="" startTime="16400" endTime="26850"></Effect>
+        <Effect label="" startTime="26850" endTime="28550"></Effect>
+        <Effect label="" startTime="28550" endTime="39600"></Effect>
         <Effect label="" startTime="39600" endTime="91950"></Effect>
         <Effect label="" startTime="91950" endTime="92100"></Effect>
         <Effect label="" startTime="92100" endTime="92350"></Effect>
         <Effect label="" startTime="92350" endTime="92500"></Effect>
         <Effect label="" startTime="92500" endTime="92700"></Effect>
-        <Effect label="" selected="1" startTime="92700" endTime="92850"></Effect>
+        <Effect label="" startTime="92700" endTime="92850"></Effect>
       </EffectLayer>
     </Element>
     <Element type="timing" name="background">
@@ -2350,7 +2375,10 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="AC All">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="133" name="Shockwave" startTime="26950" endTime="29000" palette="2"/>
+        <Effect ref="134" name="Shockwave" selected="1" id="1" startTime="47150" endTime="49050" palette="2"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="AC Side Yard">
       <EffectLayer/>
@@ -2371,29 +2399,43 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="AC Candy Canes">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="135" name="Shockwave" startTime="17100" endTime="19000" palette="2"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="AC Holly">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="136" name="VU Meter" startTime="21900" endTime="26600" palette="2"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="AC Icicles">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="137" name="On" startTime="10000" endTime="12450" palette="93"/>
+        <Effect ref="137" name="On" id="1" startTime="12450" endTime="13750" palette="93"/>
+        <Effect ref="137" name="On" id="2" startTime="15400" endTime="16400" palette="93"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="AC Packages">
       <EffectLayer/>
     </Element>
     <Element type="model" name="AC Wraps">
       <EffectLayer>
-        <Effect ref="133" name="On" startTime="50" endTime="1350" palette="2"/>
+        <Effect ref="138" name="On" startTime="50" endTime="1350" palette="2"/>
         <Effect ref="2" name="On" id="1" startTime="1350" endTime="2700" palette="2"/>
+        <Effect ref="137" name="On" id="2" startTime="10000" endTime="12450" palette="93"/>
+        <Effect ref="137" name="On" id="3" startTime="12450" endTime="13750" palette="93"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="AC Bushes All">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="139" name="SingleStrand" startTime="6500" endTime="9050" palette="2"/>
+        <Effect ref="140" name="VU Meter" id="1" startTime="31950" endTime="34450" palette="2"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="AC Helo Canes">
       <EffectLayer>
-        <Effect ref="134" name="SingleStrand" startTime="2750" endTime="8600" palette="2"/>
+        <Effect ref="141" name="SingleStrand" startTime="2750" endTime="8600" palette="2"/>
+        <Effect ref="140" name="VU Meter" id="1" startTime="44900" endTime="46500" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="AC Snow Flakes">
@@ -2412,7 +2454,9 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="AC Cherry">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="140" name="VU Meter" startTime="42350" endTime="44650" palette="2"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="AC Rope Lights">
       <EffectLayer/>
@@ -2422,7 +2466,51 @@
     </Element>
     <Element type="model" name="AC Door Office">
       <EffectLayer>
-        <Effect ref="135" name="VU Meter" startTime="50" endTime="2700" palette="3"/>
+        <Effect ref="142" name="VU Meter" startTime="50" endTime="2700" palette="3"/>
+        <Effect ref="136" name="VU Meter" id="1" startTime="19250" endTime="21600" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Cherry Icicles">
+      <EffectLayer>
+        <Effect ref="137" name="On" startTime="12450" endTime="13750" palette="93"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Cherry Wrap">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Bush 01">
+      <EffectLayer>
+        <Effect ref="140" name="VU Meter" startTime="34550" endTime="36300" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Bush 02">
+      <EffectLayer>
+        <Effect ref="140" name="VU Meter" startTime="36950" endTime="39600" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Bush 03">
+      <EffectLayer>
+        <Effect ref="140" name="VU Meter" startTime="39900" endTime="41650" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Bush 04">
+      <EffectLayer>
+        <Effect ref="140" name="VU Meter" startTime="34550" endTime="36300" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Bush 05">
+      <EffectLayer>
+        <Effect ref="140" name="VU Meter" startTime="36950" endTime="39600" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Bush 06">
+      <EffectLayer>
+        <Effect ref="140" name="VU Meter" startTime="39900" endTime="41650" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Bush 07">
+      <EffectLayer>
+        <Effect ref="140" name="VU Meter" startTime="39900" endTime="41650" palette="2"/>
       </EffectLayer>
     </Element>
   </ElementEffects>
