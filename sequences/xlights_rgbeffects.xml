@@ -509,10 +509,10 @@
     <Display2DCenter0 value="0"/>
     <backgroundImage value=""/>
     <storedLayoutGroup value="Default"/>
-    <previewWidth value="1280"/>
-    <previewHeight value="960"/>
     <fseqDir value="/Users/techplex/projects/lightshow/sequences"/>
     <renderCacheDir value="/Users/techplex/projects/lightshow/sequences"/>
+    <previewWidth value="1280"/>
+    <previewHeight value="960"/>
   </settings>
   <colors>
     <EffectDefault Red="192" Green="192" Blue="192"/>
@@ -535,7 +535,7 @@
     <Timing1 Red="0" Green="255" Blue="255"/>
     <Timing2 Red="255" Green="0" Blue="0"/>
     <Timing3 Red="0" Green="255" Blue="0"/>
-    <Timing4 Red="0" Green="0" Blue="255"/>
+    <Timing4 Red="71" Green="118" Blue="255"/>
     <Timing5 Red="255" Green="216" Blue="0"/>
     <TimingDefault Red="255" Green="255" Blue="255"/>
     <Waveform Red="130" Green="178" Blue="207"/>
