@@ -2,6 +2,9 @@
 <!DOCTYPE html>
 <xrgb>
   <models>
+    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" LayoutGroup="Default" name="MegaTree" TreeRotation="10.000000" parm3="2" TreePerspective="0.000000" TreeBottomTopRatio="10.000000" Controller="MegaTree" parm1="13" DisplayAs="Tree 280" parm2="150" WorldPosX="-33.5872" WorldPosY="104.4673" WorldPosZ="222.1430" ScaleX="0.7500" ScaleY="0.8340" ScaleZ="0.7500" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="&gt;AC Package Red 02:1">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
     <model DisplayAs="Single Line" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" PixelSize="100" Antialias="3" BlackTransparency="50" Controller="Renard" name="AC Mailbox" CustomColor="#f0f0f0" StringType="Single Color Intensity" WorldPosX="90.5628" WorldPosY="25.0341" WorldPosZ="688.9131" X2="0.622162" Y2="0.000000" Z2="0.000000" versionNumber="5" StartChannel="!Renard:16">
       <ControllerConnection Port="1" Protocol="Renard" channel="16"/>
     </model>
@@ -14,7 +17,7 @@
     <model DisplayAs="Custom" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" parm2="5" parm1="5" Depth="1" CustomModel=",,,,1;,1,,,;,,,,;,,,,;,,1,," CustomBkgLightness="0" CustomBkgImage="" Controller="Renard" name="AC Snow Flakes 01" CustomColor="#e0e0e0" StringType="Single Color Intensity" TagColour="white" WorldPosX="-103.2502" WorldPosY="44.0327" WorldPosZ="367.3999" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:6">
       <ControllerConnection Port="1" Protocol="Renard" channel="6"/>
     </model>
-    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" LayoutGroup="Default" Image="/Users/techplex/Documents/xlights/lightshow-2019/sequences/Images/angel.png" name="AC Angel" TagColour="white" CustomColor="#e0e0e0" StringType="Single Color Intensity" Controller="Renard" WorldPosX="349.4946" WorldPosY="40.8200" WorldPosZ="291.4565" ScaleX="48.4477" ScaleY="81.6399" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:45">
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" LayoutGroup="Default" name="AC Angel" TagColour="white" CustomColor="#e0e0e0" StringType="Single Color Intensity" Controller="Renard" Image="/home/techplex/projects/pers/lightshow/sequences/Images/angel.png" WorldPosX="349.4946" WorldPosY="40.8200" WorldPosZ="291.4565" ScaleX="48.4477" ScaleY="81.6399" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:45">
       <ControllerConnection Port="1" Protocol="Renard" channel="45"/>
     </model>
     <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" Controller="Renard" TagColour="white" CustomColor="#e0e0e0" StringType="Single Color Intensity" name="AC Cherry Icicles" WorldPosX="0.7019" WorldPosY="86.2382" WorldPosZ="55.3890" ScaleX="0.2310" ScaleY="0.0205" ScaleZ="0.2000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:30">
@@ -26,7 +29,7 @@
     <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" parm1="1" parm2="200" TreeBottomTopRatio="0.000000" TreeSpiralRotations="6.000000" Controller="Renard" name="AC Bush 07" CustomColor="#e0e0e0" StringType="Single Color Intensity" TagColour="white" WorldPosX="-426.8324" WorldPosY="16.9200" WorldPosZ="431.6393" ScaleX="0.0822" ScaleY="0.0564" ScaleZ="0.0943" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:22">
       <ControllerConnection Port="1" Protocol="Renard" channel="22"/>
     </model>
-    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" LayoutGroup="Default" Image="/Users/techplex/Documents/xlights/lightshow-2019/sequences/Images/north pole sign.png" Controller="Renard" name="AC North Pole Sign" CustomColor="#e0e0e0" StringType="Single Color Intensity" TagColour="white" WorldPosX="76.4501" WorldPosY="33.8531" WorldPosZ="493.5953" ScaleX="32.8559" ScaleY="67.7061" ScaleZ="2.7943" RotateX="0.00000000" RotateY="39.40361404" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:9">
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" LayoutGroup="Default" Controller="Renard" name="AC North Pole Sign" CustomColor="#e0e0e0" StringType="Single Color Intensity" TagColour="white" Image="/home/techplex/projects/pers/lightshow/sequences/Images/north pole sign.png" WorldPosX="76.4501" WorldPosY="33.8531" WorldPosZ="493.5953" ScaleX="32.8559" ScaleY="67.7061" ScaleZ="2.7943" RotateX="0.00000000" RotateY="39.40361404" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:9">
       <ControllerConnection Port="1" Protocol="Renard" channel="9"/>
     </model>
     <model DisplayAs="Candy Canes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm2="18" LayoutGroup="Default" CandyCaneReverse="false" CandyCaneSticks="false" AlternateNodes="false" Controller="Renard" parm1="1" name="AC Helo Canes 04" TagColour="white" CustomColor="#e0e0e0" StringType="Single Color Intensity" WorldPosX="-172.0449" WorldPosY="0.0000" WorldPosZ="306.4551" X2="1.000000" Y2="0.000000" Z2="15.162643" RotateX="0.00000000" Height="1.000000" Angle="0" versionNumber="5" StartChannel="!Renard:14">
@@ -50,7 +53,7 @@
     <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" parm1="10" parm2="10" parm3="10" Controller="Renard" name="AC Package Blue 02" TagColour="white" CustomColor="#0000fa" StringType="Single Color Intensity" WorldPosX="1098.2191" WorldPosY="11.4745" WorldPosZ="432.7965" ScaleX="1.5207" ScaleY="2.0276" ScaleZ="0.3481" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:70">
       <ControllerConnection Port="1" Protocol="Renard" channel="70"/>
     </model>
-    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" LayoutGroup="Default" Image="/Users/techplex/Documents/xlights/lightshow-2019/sequences/Images/tinsel-santa.png" Controller="Renard" name="AC Santa" TagColour="white" CustomColor="#fa0000" StringType="Single Color Intensity" WorldPosX="1014.4416" WorldPosY="37.6045" WorldPosZ="380.5199" ScaleX="60.5648" ScaleY="75.2090" ScaleZ="0.6173" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:61">
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" LayoutGroup="Default" Controller="Renard" name="AC Santa" TagColour="white" CustomColor="#fa0000" StringType="Single Color Intensity" Image="/home/techplex/projects/pers/lightshow/sequences/Images/tinsel-santa.png" WorldPosX="1014.4416" WorldPosY="37.6045" WorldPosZ="380.5199" ScaleX="60.5648" ScaleY="75.2090" ScaleZ="0.6173" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:61">
       <ControllerConnection Port="1" Protocol="Renard" channel="61"/>
     </model>
     <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" DisplayAs="Tree 360" parm1="1" TreeSpiralRotations="8.000000" parm2="100" Controller="Renard" name="AC Tree" TagColour="white" CustomColor="#e0e0e0" StringType="Single Color Intensity" WorldPosX="1075.0970" WorldPosY="37.9050" WorldPosZ="364.0200" ScaleX="0.1875" ScaleY="0.2527" ScaleZ="0.1875" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Renard:63">
@@ -342,7 +345,7 @@
       </subModel>
     </model>
     <model DisplayAs="Window Frame" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" parm1="10" parm2="15" parm3="10" name="Great Room 02" Dir="R" StartSide="B" Controller="F8-B" WorldPosX="243.6604" WorldPosY="91.2779" WorldPosZ="-47.8457" ScaleX="2.7500" ScaleY="3.6000" ScaleZ="2.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:2683">
-      <ControllerConnection channel="156" Protocol="ws2811" Port="10" brightness="30"/>
+      <ControllerConnection Protocol="ws2811" Port="10" brightness="30"/>
       <subModel name="Vertical" layout="vertical" type="ranges" line0="13,,,,,,,,,,,50" line1="14,,,,,,,,,,,49" line2="15,,,,,,,,,,,48" line3="16,,,,,,,,,,,47" line4="17,,,,,,,,,,,46" line5="18,,,,,,,,,,,45" line6="19,,,,,,,,,,,44" line7="20,,,,,,,,,,,43" line8="21,,,,,,,,,,,42" line9="22,,,,,,,,,,,41" line10="23,,,,,,,,,,,40" line11="24,,,,,,,,,,,39" line12="25,,,,,,,,,,,38">
         <ControllerConnection/>
       </subModel>
@@ -351,7 +354,7 @@
       </subModel>
     </model>
     <model DisplayAs="Window Frame" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" name="Great Room 01" parm1="10" parm2="15" parm3="10" Dir="R" StartSide="B" Controller="F8-B" WorldPosX="177.4833" WorldPosY="91.7663" WorldPosZ="-47.6980" ScaleX="2.7500" ScaleY="3.6000" ScaleZ="2.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!F8-B:2533">
-      <ControllerConnection channel="6" Protocol="ws2811" Port="9" brightness="30"/>
+      <ControllerConnection Protocol="ws2811" Port="9" brightness="30"/>
       <subModel name="Vertical" layout="vertical" type="ranges" line0="13,,,,,,,,,,,50" line1="14,,,,,,,,,,,49" line2="15,,,,,,,,,,,48" line3="16,,,,,,,,,,,47" line4="17,,,,,,,,,,,46" line5="18,,,,,,,,,,,45" line6="19,,,,,,,,,,,44" line7="20,,,,,,,,,,,43" line8="21,,,,,,,,,,,42" line9="22,,,,,,,,,,,41" line10="23,,,,,,,,,,,40" line11="24,,,,,,,,,,,39" line12="25,,,,,,,,,,,38">
         <ControllerConnection/>
       </subModel>
@@ -424,11 +427,11 @@
     </model>
   </models>
   <view_objects>
-    <view_object DisplayAs="Image" LayoutGroup="Default" name="House Top View" Image="/Users/techplex/Documents/xlights/lightshow-2019/sequences/Images/Putney Top View.jpeg" Active="1" Brightness="30" WorldPosX="368.4728" WorldPosY="0.0000" WorldPosZ="90.2954" ScaleX="2.9326" ScaleY="2.9326" ScaleZ="2.9326" RotateX="90.00000000" RotateY="90.00000000" RotateZ="180.00000000" Locked="1" versionNumber="5"/>
-    <view_object DisplayAs="Mesh" LayoutGroup="Default" ObjFile="/Users/techplex/Documents/xlights/lightshow-2019/sequences/3D/putney facade v4.obj" name="House" Brightness="30" Active="1" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" Locked="1" versionNumber="5"/>
+    <view_object DisplayAs="Image" LayoutGroup="Default" name="House Top View" Active="1" Brightness="30" Image="/home/techplex/projects/pers/lightshow/sequences/Images/Putney Top View.jpeg" WorldPosX="368.4728" WorldPosY="0.0000" WorldPosZ="90.2954" ScaleX="2.9326" ScaleY="2.9326" ScaleZ="2.9326" RotateX="90.00000000" RotateY="90.00000000" RotateZ="180.00000000" Locked="1" versionNumber="5"/>
+    <view_object DisplayAs="Mesh" LayoutGroup="Default" name="House" Brightness="30" Active="1" ObjFile="/home/techplex/projects/pers/lightshow/sequences/3D/putney facade v4.obj" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" Locked="1" versionNumber="5"/>
     <view_object DisplayAs="Gridlines" LayoutGroup="Default" name="Gridlines" GridLineSpacing="50" GridWidth="2000.0" GridHeight="1000.0" Active="0" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="-90.00000000" RotateY="-0.00000000" RotateZ="0.00000000" Locked="1" versionNumber="5"/>
   </view_objects>
-  <effects version="0006">
+  <effects version="0007">
     <effect name="Pinwheel - Bush" settings="CopyFormat1&#x9;0&#x9;1&#x9;2&#x9;0&#x9;98&#x9;PASTE_BY_CELL&#xA;Pinwheel&#x9;E_CHECKBOX_Pinwheel_Rotation=1,E_CHOICE_Pinwheel_3D=None,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=100,E_SLIDER_Pinwheel_Arms=2,E_SLIDER_Pinwheel_Offset=0,E_SLIDER_Pinwheel_Speed=2,E_SLIDER_Pinwheel_Thickness=57,E_SLIDER_Pinwheel_Twist=-198&#x9;C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1&#x9;49000&#x9;61050&#x9;12&#x9;-1000&#x9;NO_PASTE_BY_CELL&#xA;" version="0006" xLightsVersion="2020.47"/>
     <effect name="VU Talking" settings="CopyFormat1&#x9;0&#x9;1&#x9;1&#x9;0&#x9;1&#x9;PASTE_BY_CELL&#xA;VU Meter&#x9;E_CHOICE_VUMeter_Type=On,E_SLIDER_VUMeter_Gain=83,E_TEXTCTRL_VUMeter_Gain=83&#x9;C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette4=1&#x9;7100&#x9;9200&#x9;7&#x9;-1000&#x9;1&#x9;1&#x9;0&#x9;100&#xA;" version="0006" xLightsVersion="2020.48.1"/>
   </effects>
