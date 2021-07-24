@@ -95,4 +95,19 @@
   <keybinding keycode="F" alt="FALSE" control="FALSE" shift="TRUE" type="EFFECT" effect="Fan" xLightsVersion="2019.68"></keybinding>
   <keybinding keycode="U" alt="FALSE" control="FALSE" shift="TRUE" type="APPLYSETTING" xLightsVersion="2019.68">T_TEXTCTRL_Fadein=1.00</keybinding>
   <keybinding keycode="D" alt="FALSE" control="FALSE" shift="TRUE" type="APPLYSETTING" xLightsVersion="2019.68">T_TEXTCTRL_Fadeout=1.00</keybinding>
+  <keybinding keycode="PAUSE" alt="FALSE" control="FALSE" shift="FALSE" type="PAUSE"/>
+  <keybinding keycode="." alt="FALSE" control="FALSE" rawControl="TRUE" shift="FALSE" type="MARK_SPOT"/>
+  <keybinding keycode="/" alt="FALSE" control="FALSE" rawControl="TRUE" shift="FALSE" type="RETURN_TO_SPOT"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="EXPORT_MODEL_CAD"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="EXPORT_LAYOUT_DXF"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="AUDIO_FULL_SPEED"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="AUDIO_F_1_5_SPEED"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="AUDIO_F_2_SPEED"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="AUDIO_F_3_SPEED"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="AUDIO_F_4_SPEED"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="AUDIO_S_3_4_SPEED"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="AUDIO_S_1_2_SPEED"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="AUDIO_S_1_4_SPEED"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="PRIOR_TAG"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="NEXT_TAG"/>
 </keybindings>
