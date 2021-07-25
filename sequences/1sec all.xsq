@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2020.54</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile></mediaFile>
+    <sequenceDuration>1</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect></Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="664" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,Miser Bros,All AC In Order,XATW,Main,2020 Intro Talking,Tune To" active="0"/>
+    <Element collapsed="0" type="timing" name="50ms" visible="1" views="" active="1"/>
+    <Element collapsed="0" type="model" name="ALL Props" visible="1"/>
+    <Element collapsed="0" type="model" name="AC All Chan Order" visible="1"/>
+    <Element collapsed="0" type="model" name="Arches" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes (1) Bottom" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes (2)" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes (3)" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes (4)" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes (5) Top" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes - Odd" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes - Even" visible="1"/>
+    <Element collapsed="0" type="model" name="All Pixels" visible="1"/>
+    <Element collapsed="0" type="model" name="Windows" visible="1"/>
+    <Element collapsed="0" type="model" name="Arches Left" visible="1"/>
+    <Element collapsed="0" type="model" name="Arches RIght" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Candy Canes" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Bushes" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Icicles" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Holly" visible="1"/>
+    <Element collapsed="0" type="model" name="Office Outside" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Packages Left" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Packages Right" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Packages" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Wraps" visible="1"/>
+    <Element collapsed="0" type="model" name="Pixels Left" visible="1"/>
+    <Element collapsed="0" type="model" name="Pixels Right" visible="1"/>
+    <Element collapsed="0" type="model" name="House and Windows" visible="1"/>
+    <Element collapsed="0" type="model" name="AC All" visible="1"/>
+    <Element collapsed="0" type="model" name="Everything" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees Small" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Bushes All" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Helo Canes" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Snow Flakes" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Cherry" visible="1"/>
+    <Element collapsed="0" type="model" name="Arches Groups" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes Groups" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes OddEven" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Side Yard" visible="1"/>
+    <Element collapsed="0" type="model" name="XATW House Face" visible="1"/>
+    <Element collapsed="0" type="model" name="XATW Outlines" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Santas Village" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Mailbox" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Parking Space" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Bush 08" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Snow Flakes 01" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Angel" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Cherry Icicles" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Bush 06" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Bush 07" visible="1"/>
+    <Element collapsed="0" type="model" name="AC North Pole Sign" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Helo Canes 04" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Helo Canes 03" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Helo Canes 02" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Helo Canes 01" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Package Red 02" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Package Green 02" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Package Blue 02" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Santa" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Tree" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Package Blue 01" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Package Green 01" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Package Red 01" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Cherry Wrap" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Candy 04" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Candy 02" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Candy 05" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Candy 03" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Candy 01" visible="1"/>
+    <Element collapsed="0" type="model" name="Stake 02" visible="1"/>
+    <Element collapsed="0" type="model" name="Stake 03" visible="1"/>
+    <Element collapsed="0" type="model" name="Stake 04" visible="1"/>
+    <Element collapsed="0" type="model" name="Stake 05" visible="1"/>
+    <Element collapsed="0" type="model" name="Stake 06" visible="1"/>
+    <Element collapsed="0" type="model" name="Stake 07" visible="1"/>
+    <Element collapsed="0" type="model" name="Stake 08" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Rope Lights" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Door Entry" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Door Office" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Holly 01" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Holly 02" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Bush 05" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Bush 04" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Bush 03" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Bush 02" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Bush 01" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Wrap 02" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Wrap 01" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree Small 02" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree Small 01" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Icicles 02" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Icicles 01" visible="1"/>
+    <Element collapsed="0" type="model" name="Stake 09" visible="1"/>
+    <Element collapsed="0" type="model" name="Stake 10" visible="1"/>
+    <Element collapsed="0" type="model" name="Office" visible="1"/>
+    <Element collapsed="0" type="model" name="Master 01" visible="1"/>
+    <Element collapsed="0" type="model" name="South West 01" visible="1"/>
+    <Element collapsed="0" type="model" name="South West 02" visible="1"/>
+    <Element collapsed="0" type="model" name="Great Room 02" visible="1"/>
+    <Element collapsed="0" type="model" name="Great Room 01" visible="1"/>
+    <Element collapsed="0" type="model" name="Matrix" visible="1"/>
+    <Element collapsed="0" type="model" name="Stake 01" visible="1"/>
+    <Element collapsed="0" type="model" name="Arch2" visible="1"/>
+    <Element collapsed="0" type="model" name="Arch3" visible="1"/>
+    <Element collapsed="0" type="model" name="Arch4" visible="1"/>
+    <Element collapsed="0" type="model" name="Arch1" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree 01" visible="1"/>
+    <Element collapsed="0" type="model" name="Characters" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Candy 06" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Snow Flakes 02" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="timing" name="50ms" fixed="50">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="ALL Props">
+      <EffectLayer>
+        <Effect ref="0" name="On" selected="1" startTime="200" endTime="800" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC All Chan Order">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Arches">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes (1) Bottom">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes (2)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes (3)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes (4)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes (5) Top">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes - Odd">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes - Even">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="All Pixels">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Windows">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Arches Left">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Arches RIght">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Candy Canes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Bushes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Icicles">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Holly">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Office Outside">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Packages Left">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Packages Right">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Packages">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Wraps">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Pixels Left">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Pixels Right">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="House and Windows">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC All">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Everything">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees Small">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Bushes All">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Helo Canes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Snow Flakes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Cherry">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Arches Groups">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes Groups">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes OddEven">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Side Yard">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="XATW House Face">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="XATW Outlines">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Santas Village">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Mailbox">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Parking Space">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Bush 08">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Snow Flakes 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Angel">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Cherry Icicles">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Bush 06">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Bush 07">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC North Pole Sign">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Helo Canes 04">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Helo Canes 03">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Helo Canes 02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Helo Canes 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Package Red 02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Package Green 02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Package Blue 02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Santa">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Tree">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Package Blue 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Package Green 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Package Red 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Cherry Wrap">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Candy 04">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Candy 02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Candy 05">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Candy 03">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Candy 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 03">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 04">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 05">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 06">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 07">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 08">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Rope Lights">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Door Entry">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Door Office">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Holly 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Holly 02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Bush 05">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Bush 04">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Bush 03">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Bush 02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Bush 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Wrap 02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Wrap 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree Small 02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree Small 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Icicles 02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Icicles 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 09">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 10">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Office">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Master 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="South West 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="South West 02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Great Room 02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Great Room 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Matrix">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Arch2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Arch3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Arch4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Arch1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Characters">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Candy 06">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Snow Flakes 02">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
