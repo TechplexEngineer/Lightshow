@@ -7,13 +7,13 @@
     <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="espixel-01" BaudRate="2" NetworkType="DDP" MaxChannels="540"/>
   </Controller>
   <Controller Id="3" Name="Pixels" Description="" Type="Ethernet" Vendor="KulpLights" Model="F8-B" Variant="No Serial w/ Expansion" AutoSize="1" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="1" AutoUpload="1" SuppressDuplicates="0" IP="pixels" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
-    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="pixels" BaudRate="3" NetworkType="DDP" MaxChannels="4002"/>
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="pixels" BaudRate="3" NetworkType="DDP" MaxChannels="2514"/>
   </Controller>
   <Controller Id="4" Name="MegaTree" Description="" Type="Ethernet" Vendor="KulpLights" Model="K16A-B" Variant="No Expansion" AutoSize="1" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="1" AutoUpload="1" SuppressDuplicates="0" IP="megatree" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
-    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="megatree" BaudRate="4" NetworkType="DDP" MaxChannels="11721"/>
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="megatree" BaudRate="4" NetworkType="DDP" MaxChannels="6321"/>
   </Controller>
   <Controller Id="5" Name="PeaceStakes" Description="" Type="Ethernet" Vendor="KulpLights" Model="K8-B" Variant="No Expansion" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="peacestakes" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
-    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="peacestakes" BaudRate="5" NetworkType="DDP" MaxChannels="1"/>
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="peacestakes" BaudRate="5" NetworkType="DDP" MaxChannels="2088"/>
   </Controller>
   <Controller Id="6" Name="Renard01" Description="" Type="Ethernet" Vendor="FPP" Model="Pi Hat" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="renard01" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
     <network ChannelsPerPacket="1440" KeepChannelNumbers="0" ComPort="renard01" BaudRate="6" NetworkType="DDP" MaxChannels="72"/>
