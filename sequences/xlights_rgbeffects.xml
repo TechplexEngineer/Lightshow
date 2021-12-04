@@ -110,7 +110,187 @@
     <model DisplayAs="Candy Canes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm2="18" LayoutGroup="Default" parm1="1" CandyCaneSticks="false" name="AC Candy 01" TagColour="white" CustomColor="#fa0000" StringType="Single Color Intensity" Controller="Renard01" WorldPosX="489.3934" WorldPosY="28.5681" WorldPosZ="83.3244" X2="1.000000" Y2="0.000000" Z2="15.000000" RotateX="0.00000000" Height="1.483554" Angle="-1" versionNumber="5" StartChannel="!Renard01:9">
       <ControllerConnection Port="1" Protocol="Renard" channel="9"/>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 02" ModelChain="&gt;Stake 01" Controller="Pixels" WorldPosX="469.8711" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:1504">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 02_01" Controller="PeaceStakes" WorldPosX="470.0000" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!PeaceStakes:1">
+      <ControllerConnection Protocol="ws2811" brightness="30" Port="1"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 02_02" WorldPosX="471.0000" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 02_03" WorldPosX="472.0000" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 02_04" WorldPosX="473.0000" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 02_05" WorldPosX="474.0000" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 02_06" WorldPosX="475.0000" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 02_07" WorldPosX="476.0000" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 02_08" WorldPosX="477.0000" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 02_09" WorldPosX="478.0000" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 02_10" WorldPosX="479.0000" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 01_02" ModelChain="&gt;Stake 01_01" Controller="Pixels" WorldPosX="469.8711" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:1504">
       <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="469.8711" WorldPosY="0.0000" WorldPosZ="335.3325" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14332">
         <ControllerConnection/>
@@ -128,7 +308,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 03" ModelChain="&gt;Stake 02" Controller="Pixels" WorldPosX="550.4344" WorldPosY="0.0000" WorldPosZ="261.9470" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:1519">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 01_03" ModelChain="&gt;Stake 01_02" Controller="Pixels" WorldPosX="550.4344" WorldPosY="0.0000" WorldPosZ="261.9470" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:1519">
       <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="550.4344" WorldPosY="0.0000" WorldPosZ="261.9470" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14347">
         <ControllerConnection/>
@@ -146,7 +326,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 04" ModelChain="&gt;Stake 03" Controller="Pixels" WorldPosX="634.2415" WorldPosY="0.0000" WorldPosZ="338.9407" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:1534">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 01_04" ModelChain="&gt;Stake 01_03" Controller="Pixels" WorldPosX="634.2415" WorldPosY="0.0000" WorldPosZ="338.9407" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:1534">
       <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="634.2415" WorldPosY="0.0000" WorldPosZ="338.9407" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14362">
         <ControllerConnection/>
@@ -164,7 +344,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 05" ModelChain="&gt;Stake 04" Controller="Pixels" WorldPosX="683.8185" WorldPosY="0.0000" WorldPosZ="261.9470" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:1549">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 01_05" ModelChain="&gt;Stake 01_04" Controller="Pixels" WorldPosX="683.8185" WorldPosY="0.0000" WorldPosZ="261.9470" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:1549">
       <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="683.8185" WorldPosY="0.0000" WorldPosZ="261.9470" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14377">
         <ControllerConnection/>
@@ -182,7 +362,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 06" ModelChain="&gt;Stake 05" Controller="Pixels" WorldPosX="762.0678" WorldPosY="0.0000" WorldPosZ="296.0295" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:1564">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 01_06" ModelChain="&gt;Stake 01_05" Controller="Pixels" WorldPosX="762.0678" WorldPosY="0.0000" WorldPosZ="296.0295" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:1564">
       <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="762.0678" WorldPosY="0.0000" WorldPosZ="296.0295" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14392">
         <ControllerConnection/>
@@ -200,7 +380,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 07" ModelChain="&gt;Stake 06" Controller="Pixels" WorldPosX="832.2477" WorldPosY="0.0000" WorldPosZ="218.8001" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:1579">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 01_07" ModelChain="&gt;Stake 01_06" Controller="Pixels" WorldPosX="832.2477" WorldPosY="0.0000" WorldPosZ="218.8001" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:1579">
       <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="832.2477" WorldPosY="0.0000" WorldPosZ="218.8001" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14407">
         <ControllerConnection/>
@@ -218,7 +398,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08" ModelChain="&gt;Stake 07" Controller="Pixels" WorldPosX="936.8953" WorldPosY="2.2857" WorldPosZ="261.9470" X2="0.000000" Y2="32.107098" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:1594">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 01_08" ModelChain="&gt;Stake 01_07" Controller="Pixels" WorldPosX="936.8953" WorldPosY="2.2857" WorldPosZ="261.9470" X2="0.000000" Y2="32.107098" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:1594">
       <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="936.8953" WorldPosY="2.2857" WorldPosZ="261.9470" X2="0.000000" Y2="32.107098" Z2="0.000000" versionNumber="5" StartChannel="14422">
         <ControllerConnection/>
@@ -236,6 +416,1649 @@
         <ControllerConnection/>
       </subModel>
     </model>
+
+
+        <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 03_01" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 03_02" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 03_03" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 03_04" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 03_05" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 03_06" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 03_07" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 03_08" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 03_09" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 03_10" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="320" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 04_01" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 04_02" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 04_03" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 04_04" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 04_05" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 04_06" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 04_07" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 04_08" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 04_09" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 04_10" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+
+        <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 05_01" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 05_02" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 05_03" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 05_04" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 05_05" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 05_06" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 05_07" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 05_08" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 05_09" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 05_10" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="300" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+
+        <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 06_01" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 06_02" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 06_03" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 06_04" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 06_05" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 06_06" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 06_07" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 06_08" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 06_09" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 06_10" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="290" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+
+        <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 07_01" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 07_02" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 07_03" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 07_04" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 07_05" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 07_06" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 07_07" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 07_08" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 07_09" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 07_10" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="280" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+
+        <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_01" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_02" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_03" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_04" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_05" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_06" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_07" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_08" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_09" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_10" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+
+        <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_01" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_02" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_03" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_04" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_05" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_06" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_07" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_08" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_09" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_10" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+
+        <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_01" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_02" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_03" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_04" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_05" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_06" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_07" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_08" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_09" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_10" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+
+
+
+        <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 04_01" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="470" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 04_02" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="471" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 04_03" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="472" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 04_04" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="473" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 04_05" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="474" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 04_06" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="475" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 04_07" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="476" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 04_08" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="477" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 04_09" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="478" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 04_10" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+      <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
+      <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="2" layout="horizontal" type="ranges" line0="2" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="3" layout="horizontal" type="ranges" line0="3" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="4" layout="horizontal" type="ranges" line0="4" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="5 - Top" layout="horizontal" type="ranges" line0="5" WorldPosX="479" WorldPosY="0.0000" WorldPosZ="310" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+
+
+
+
+
+
+
+
+
+
+
     <model DisplayAs="Poly Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="200" name="AC Rope Lights" TagColour="white" CustomColor="#fa0000" StringType="Single Color Intensity" Controller="Renard01" WorldPosX="343.1693" WorldPosY="47.4697" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="7" PointData="0.000000,22.530300,0.000000,-48.362518,22.530300,0.000000,-49.102051,77.530304,0.000000,-93.169312,77.530304,0.000000,-93.169312,22.530300,0.000000,-333.169312,22.530300,0.000000,-333.169312,22.530300,-250.000000" cPointData="" versionNumber="5" StartChannel="!Renard01:15">
       <ControllerConnection Port="1" Protocol="Renard" channel="15"/>
     </model>
@@ -284,7 +2107,7 @@
     <model DisplayAs="Icicles" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" DropPattern="3,4,5,4" LayoutGroup="Default" parm2="150" name="AC Icicles 01" TagColour="white" CustomColor="#e0e0e0" StringType="Single Color Intensity" Controller="Renard01" WorldPosX="113.9701" WorldPosY="129.4734" WorldPosZ="22.0519" X2="246.431656" Y2="0.000000" Z2="2.090658" RotateX="0.00000000" Height="-0.306570" Shear="-0.018487" versionNumber="5" StartChannel="!Renard01:8">
       <ControllerConnection Port="1" Protocol="Renard" channel="8"/>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09" ModelChain="&gt;Stake 08" Controller="Pixels" WorldPosX="1005.3288" WorldPosY="0.0000" WorldPosZ="147.2780" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:1609">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 01_09" ModelChain="&gt;Stake 01_08" Controller="Pixels" WorldPosX="1005.3288" WorldPosY="0.0000" WorldPosZ="147.2780" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:1609">
       <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="1005.3288" WorldPosY="0.0000" WorldPosZ="147.2780" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14437">
         <ControllerConnection/>
@@ -302,7 +2125,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10" ModelChain="&gt;Stake 09" Controller="Pixels" WorldPosX="1100.0867" WorldPosY="0.0000" WorldPosZ="190.7353" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:1624">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 01_10" ModelChain="&gt;Stake 01_09" Controller="Pixels" WorldPosX="1100.0867" WorldPosY="0.0000" WorldPosZ="190.7353" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:1624">
       <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="1100.0867" WorldPosY="0.0000" WorldPosZ="190.7353" X2="0.000000" Y2="36.678558" Z2="0.000000" versionNumber="5" StartChannel="14452">
         <ControllerConnection/>
@@ -386,7 +2209,7 @@
     <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" name="Matrix" DisplayAs="Horiz Matrix" LayoutGroup="Default" parm1="32" parm2="128" WorldPosX="-142.7240" WorldPosY="246.0471" WorldPosZ="0.0000" ScaleX="1.5672" ScaleY="1.7685" ScaleZ="0.0079" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!matrix:1">
       <ControllerConnection Protocol="ws2811"/>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 01" Controller="Pixels" WorldPosX="402.2692" WorldPosY="0.0000" WorldPosZ="227.0808" X2="0.000000" Y2="36.715561" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:1489">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 01_01" Controller="Pixels" WorldPosX="402.2692" WorldPosY="0.0000" WorldPosZ="227.0808" X2="0.000000" Y2="36.715561" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:1489">
       <ControllerConnection Port="3" Protocol="ws2811" brightness="30"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="402.2692" WorldPosY="0.0000" WorldPosZ="227.0808" X2="0.000000" Y2="36.715561" Z2="0.000000" versionNumber="5" StartChannel="14317">
         <ControllerConnection/>
@@ -469,12 +2292,28 @@
     <modelGroup selected="0" name="Arches" LayoutGroup="Default" WorldPosX="193.0000" WorldPosY="20.0000" WorldPosZ="0.0000" ScaleX="1.8040" ScaleY="1.8040" ScaleZ="1.8040" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="" models="Arch1,Arch2,Arch3,Arch4" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid">
       <ControllerConnection/>
     </modelGroup>
-    <modelGroup selected="0" name="Stakes" LayoutGroup="Default" models="Stake 01,Stake 02,Stake 03,Stake 04,Stake 05,Stake 06,Stake 07,Stake 08,Stake 09,Stake 10" GridSize="400" layout="grid"/>
-    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stake 01/1 - Bottom,Stake 02/1 - Bottom,Stake 03/1 - Bottom,Stake 04/1 - Bottom,Stake 05/1 - Bottom,Stake 06/1 - Bottom,Stake 07/1 - Bottom,Stake 08/1 - Bottom,Stake 09/1 - Bottom,Stake 10/1 - Bottom" name="Stakes (1) Bottom"/>
-    <modelGroup selected="0" name="Stakes (2)" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stake 01/2,Stake 02/2,Stake 03/2,Stake 04/2,Stake 05/2,Stake 06/2,Stake 07/2,Stake 08/2,Stake 09/2,Stake 10/2"/>
-    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stake 01/3,Stake 02/3,Stake 03/3,Stake 04/3,Stake 05/3,Stake 06/3,Stake 07/3,Stake 08/3,Stake 09/3,Stake 10/3" name="Stakes (3)"/>
-    <modelGroup selected="0" name="Stakes (4)" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stake 01/4,Stake 02/4,Stake 03/4,Stake 04/4,Stake 05/4,Stake 06/4,Stake 07/4,Stake 08/4,Stake 09/4,Stake 10/4"/>
-    <modelGroup selected="0" name="Stakes (5) Top" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stake 01/5 - Top,Stake 02/5 - Top,Stake 03/5 - Top,Stake 04/5 - Top,Stake 05/5 - Top,Stake 06/5 - Top,Stake 07/5 - Top,Stake 08/5 - Top,Stake 09/5 - Top,Stake 10/5 - Top"/>
+    <modelGroup selected="0" name="Stakes" LayoutGroup="Default" models="Stake 01_01,Stake 01_02,Stake 01_03,Stake 01_04,Stake 01_05,Stake 01_06,Stake 01_07,Stake 01_08,Stake 01_09,Stake 01_10,Stake 02_01,Stake 02_02,Stake 02_03,Stake 02_04,Stake 02_05,Stake 02_06,Stake 02_07,Stake 02_08,Stake 02_09,Stake 02_10,Stake 03_01,Stake 03_03,Stake 03_03,Stake 03_04,Stake 03_05,Stake 03_06,Stake 03_07,Stake 03_08,Stake 03_09,Stake 03_10,Stake 04_01,Stake 04_04,Stake 04_03,Stake 04_04,Stake 04_05,Stake 04_06,Stake 04_07,Stake 04_08,Stake 04_09,Stake 04_10,Stake 05_01,Stake 05_05,Stake 05_03,Stake 05_04,Stake 05_05,Stake 05_06,Stake 05_07,Stake 05_08,Stake 05_09,Stake 05_10,Stake 06_01,Stake 06_06,Stake 06_03,Stake 06_04,Stake 06_05,Stake 06_06,Stake 06_07,Stake 06_08,Stake 06_09,Stake 06_10,Stake 07_01,Stake 07_07,Stake 07_03,Stake 07_04,Stake 07_05,Stake 07_06,Stake 07_07,Stake 07_08,Stake 07_09,Stake 07_10,Stake 08_01,Stake 08_08,Stake 08_03,Stake 08_04,Stake 08_05,Stake 08_06,Stake 08_07,Stake 08_08,Stake 08_09,Stake 08_10,Stake 09_01,Stake 09_09,Stake 09_03,Stake 09_04,Stake 09_05,Stake 09_06,Stake 09_07,Stake 09_08,Stake 09_09,Stake 09_10,Stake 10_01,Stake 10_10,Stake 10_03,Stake 10_04,Stake 10_05,Stake 10_06,Stake 10_07,Stake 10_08,Stake 10_09,Stake 10_10" GridSize="400" layout="grid"/>
+    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stake 01_01/1 - Bottom,Stake 01_02/1 - Bottom,Stake 01_03/1 - Bottom,Stake 01_04/1 - Bottom,Stake 01_05/1 - Bottom,Stake 01_06/1 - Bottom,Stake 01_07/1 - Bottom,Stake 01_08/1 - Bottom,Stake 01_09/1 - Bottom,Stake 01_10/1 - Bottom,
+Stake 02_01/1 - Bottom,Stake 02_02/1 - Bottom,Stake 02_03/1 - Bottom,Stake 02_04/1 - Bottom,Stake 02_05/1 - Bottom,Stake 02_06/1 - Bottom,Stake 02_07/1 - Bottom,Stake 02_08/1 - Bottom,Stake 02_09/1 - Bottom,Stake 02_10/1 - Bottom,Stake 03_01/1 - Bottom,Stake 03_03/1 - Bottom,Stake 03_03/1 - Bottom,Stake 03_04/1 - Bottom,Stake 03_05/1 - Bottom,Stake 03_06/1 - Bottom,Stake 03_07/1 - Bottom,Stake 03_08/1 - Bottom,Stake 03_09/1 - Bottom,Stake 03_10/1 - Bottom,Stake 04_01/1 - Bottom,Stake 04_04/1 - Bottom,Stake 04_03/1 - Bottom,Stake 04_04/1 - Bottom,Stake 04_05/1 - Bottom,Stake 04_06/1 - Bottom,Stake 04_07/1 - Bottom,Stake 04_08/1 - Bottom,Stake 04_09/1 - Bottom,Stake 04_10/1 - Bottom,Stake 05_01/1 - Bottom,Stake 05_05/1 - Bottom,Stake 05_03/1 - Bottom,Stake 05_04/1 - Bottom,Stake 05_05/1 - Bottom,Stake 05_06/1 - Bottom,Stake 05_07/1 - Bottom,Stake 05_08/1 - Bottom,Stake 05_09/1 - Bottom,Stake 05_10/1 - Bottom,Stake 06_01/1 - Bottom,Stake 06_06/1 - Bottom,Stake 06_03/1 - Bottom,Stake 06_04/1 - Bottom,Stake 06_05/1 - Bottom,Stake 06_06/1 - Bottom,Stake 06_07/1 - Bottom,Stake 06_08/1 - Bottom,Stake 06_09/1 - Bottom,Stake 06_10/1 - Bottom,Stake 07_01/1 - Bottom,Stake 07_07/1 - Bottom,Stake 07_03/1 - Bottom,Stake 07_04/1 - Bottom,Stake 07_05/1 - Bottom,Stake 07_06/1 - Bottom,Stake 07_07/1 - Bottom,Stake 07_08/1 - Bottom,Stake 07_09/1 - Bottom,Stake 07_10/1 - Bottom,Stake 08_01/1 - Bottom,Stake 08_08/1 - Bottom,Stake 08_03/1 - Bottom,Stake 08_04/1 - Bottom,Stake 08_05/1 - Bottom,Stake 08_06/1 - Bottom,Stake 08_07/1 - Bottom,Stake 08_08/1 - Bottom,Stake 08_09/1 - Bottom,Stake 08_10/1 - Bottom,Stake 09_01/1 - Bottom,Stake 09_09/1 - Bottom,Stake 09_03/1 - Bottom,Stake 09_04/1 - Bottom,Stake 09_05/1 - Bottom,Stake 09_06/1 - Bottom,Stake 09_07/1 - Bottom,Stake 09_08/1 - Bottom,Stake 09_09/1 - Bottom,Stake 09_10/1 - Bottom,Stake 10_01/1 - Bottom,Stake 10_10/1 - Bottom,Stake 10_03/1 - Bottom,Stake 10_04/1 - Bottom,Stake 10_05/1 - Bottom,Stake 10_06/1 - Bottom,Stake 10_07/1 - Bottom,Stake 10_08/1 - Bottom,Stake 10_09/1 - Bottom,Stake 10_10/1 - Bottom" name="Stakes (1) Bottom"/>
+
+
+
+    <modelGroup selected="0" name="Stakes (2)" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stake 01_01/2,Stake 01_02/2,Stake 01_03/2,Stake 01_04/2,Stake 01_05/2,Stake 01_06/2,Stake 01_07/2,Stake 01_08/2,Stake 01_09/2,Stake 01_10/2,Stake 02_01/2,Stake 02_02/2,Stake 02_03/2,Stake 02_04/2,Stake 02_05/2,Stake 02_06/2,Stake 02_07/2,Stake 02_08/2,Stake 02_09/2,Stake 02_10/2,Stake 03_01/2,Stake 03_03/2,Stake 03_03/2,Stake 03_04/2,Stake 03_05/2,Stake 03_06/2,Stake 03_07/2,Stake 03_08/2,Stake 03_09/2,Stake 03_10/2,Stake 04_01/2,Stake 04_04/2,Stake 04_03/2,Stake 04_04/2,Stake 04_05/2,Stake 04_06/2,Stake 04_07/2,Stake 04_08/2,Stake 04_09/2,Stake 04_10/2,Stake 05_01/2,Stake 05_05/2,Stake 05_03/2,Stake 05_04/2,Stake 05_05/2,Stake 05_06/2,Stake 05_07/2,Stake 05_08/2,Stake 05_09/2,Stake 05_10/2,Stake 06_01/2,Stake 06_06/2,Stake 06_03/2,Stake 06_04/2,Stake 06_05/2,Stake 06_06/2,Stake 06_07/2,Stake 06_08/2,Stake 06_09/2,Stake 06_10/2,Stake 07_01/2,Stake 07_07/2,Stake 07_03/2,Stake 07_04/2,Stake 07_05/2,Stake 07_06/2,Stake 07_07/2,Stake 07_08/2,Stake 07_09/2,Stake 07_10/2,Stake 08_01/2,Stake 08_08/2,Stake 08_03/2,Stake 08_04/2,Stake 08_05/2,Stake 08_06/2,Stake 08_07/2,Stake 08_08/2,Stake 08_09/2,Stake 08_10/2,Stake 09_01/2,Stake 09_09/2,Stake 09_03/2,Stake 09_04/2,Stake 09_05/2,Stake 09_06/2,Stake 09_07/2,Stake 09_08/2,Stake 09_09/2,Stake 09_10/2,Stake 10_01/2,Stake 10_10/2,Stake 10_03/2,Stake 10_04/2,Stake 10_05/2,Stake 10_06/2,Stake 10_07/2,Stake 10_08/2,Stake 10_09/2,Stake 10_10/2"/>
+
+
+
+    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stake 01_01/3,Stake 01_02/3,Stake 01_03/3,Stake 01_04/3,Stake 01_05/3,Stake 01_06/3,Stake 01_07/3,Stake 01_08/3,Stake 01_09/3,Stake 01_10/3,Stake 02_01/3,Stake 02_02/3,Stake 02_03/3,Stake 02_04/3,Stake 02_05/3,Stake 02_06/3,Stake 02_07/3,Stake 02_08/3,Stake 02_09/3,Stake 02_10/3,Stake 03_01/3,Stake 03_03/3,Stake 03_03/3,Stake 03_04/3,Stake 03_05/3,Stake 03_06/3,Stake 03_07/3,Stake 03_08/3,Stake 03_09/3,Stake 03_13/3,Stake 04_01/3,Stake 04_04/3,Stake 04_03/3,Stake 04_04/3,Stake 04_05/3,Stake 04_06/3,Stake 04_07/3,Stake 04_08/3,Stake 04_09/3,Stake 04_10/3,Stake 05_01/3,Stake 05_05/3,Stake 05_03/3,Stake 05_04/3,Stake 05_05/3,Stake 05_06/3,Stake 05_07/3,Stake 05_08/3,Stake 05_09/3,Stake305_10/3,Stake 06_01/3,Stake 06_06/3,Stake 06_03/3,Stake 06_04/3,Stake 06_05/3,Stake 06_06/3,Stake 06_07/3,Stake 06_08/3,Stake 06_09/3,Stake 06_10/3,Stake 07_01/3,Stake 07_07/3,Stake 07_03/3,Stake 07_04/3,Stake 07_05/3,Stake 07_06/3,Stake 07_07/3,Stake 07_08/3,Stake 07_0933,Stake 07_10/3,Stake 08_01/3,Stake 08_08/3,Stake 08_03/3,Stake 08_04/3,Stake 08_05/3,Stake 08_06/3,Stake 08_07/3,Stake 08_08/3,Stake 08_09/3,Stake 08_10/3,Stake 09_01/3,Stake 09_09/3,Stake 09_03/3,Stake 09_04/3,Stake 09_05/3,Stake 09_06/3,Stake 09_07/3,Stake 09_08/3,Stake309_09/3,Stake 09_10/3,Stake 10_01/3,Stake 10_10/3,Stake 10_03/3,Stake 10_04/3,Stake 10_05/3,Stake 10_06/3,Stake 10_07/3,Stake 10_08/3,Stake 10_09/3,Stake 10_10/3" name="Stakes (3)"/>
+
+
+
+    <modelGroup selected="0" name="Stakes (4)" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stake 01_01/4,Stake 01_02/4,Stake 01_03/4,Stake 01_04/4,Stake 01_05/4,Stake 01_06/4,Stake 01_07/4,Stake 01_08/4,Stake 01_09/4,Stake 01_10/4,Stake 02_01/4,Stake 02_02/4,Stake 02_03/4,Stake 02_04/4,Stake 02_05/4,Stake 02_06/4,Stake 02_07/4,Stake 02_08/4,Stake 02_09/4,Stake 02_10/4,Stake 03_01/4,Stake 03_03/4,Stake 03_03/4,Stake 03_04/4,Stake 03_05/4,Stake 03_06/4,Stake 03_07/4,Stake 03_08/4,Stake 03_09/4,Stake 03_13/4,Stake 04_01/4,Stake 04_04/4,Stake 04_03/4,Stake 04_04/4,Stake 04_05/4,Stake 04_06/4,Stake 04_07/4,Stake 04_08/4,Stake 04_09/4,Stake 04_10/4,Stake 05_01/4,Stake 05_05/4,Stake 05_03/4,Stake 05_04/4,Stake 05_05/4,Stake 05_06/4,Stake 05_07/4,Stake 05_08/4,Stake 05_09/4,Stake305_10/4,Stake 06_01/4,Stake 06_06/4,Stake 06_03/4,Stake 06_04/4,Stake 06_05/4,Stake 06_06/4,Stake 06_07/4,Stake 06_08/4,Stake 06_09/4,Stake 06_10/4,Stake 07_01/4,Stake 07_07/4,Stake 07_03/4,Stake 07_04/4,Stake 07_05/4,Stake 07_06/4,Stake 07_07/4,Stake 07_08/4,Stake 07_0933,Stake 07_10/4,Stake 08_01/4,Stake 08_08/4,Stake 08_03/4,Stake 08_04/4,Stake 08_05/4,Stake 08_06/4,Stake 08_07/4,Stake 08_08/4,Stake 08_09/4,Stake 08_10/4,Stake 09_01/4,Stake 09_09/4,Stake 09_03/4,Stake 09_04/4,Stake 09_05/4,Stake 09_06/4,Stake 09_07/4,Stake 09_08/4,Stake309_09/4,Stake 09_10/4,Stake 10_01/4,Stake 10_10/4,Stake 10_03/4,Stake 10_04/4,Stake 10_05/4,Stake 10_06/4,Stake 10_07/4,Stake 10_08/4,Stake 10_09/4,Stake 10_10/4"/>
+
+
+
+    <modelGroup selected="0" name="Stakes (5) Top" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stake 01_01/5 - Top,Stake 01_02/5 - Top,Stake 01_03/5 - Top,Stake 01_04/5 - Top,Stake 01_05/5 - Top,Stake 01_06/5 - Top,Stake 01_07/5 - Top,Stake 01_08/5 - Top,Stake 01_09/5 - Top,Stake 01_10/5 - Top,Stake 02_01/5 - Top,Stake 02_02/5 - Top,Stake 02_03/5 - Top,Stake 02_04/5 - Top,Stake 02_05/5 - Top,Stake 02_06/5 - Top,Stake 02_07/5 - Top,Stake 02_08/5 - Top,Stake 02_09/5 - Top,Stake 02_10/5 - Top,Stake 03_01/5 - Top,Stake 03_03/5 - Top,Stake 03_03/5 - Top,Stake 03_04/5 - Top,Stake 03_05/5 - Top,Stake 03_06/5 - Top,Stake 03_07/5 - Top,Stake 03_08/5 - Top,Stake 03_09/5 - Top,Stake 03_13/5 - Top,Stake 04_01/5 - Top,Stake 04_04/5 - Top,Stake 04_03/5 - Top,Stake 04_04/5 - Top,Stake 04_05/5 - Top,Stake 04_06/5 - Top,Stake 04_07/5 - Top,Stake 04_08/5 - Top,Stake 04_09/5 - Top,Stake 04_10/5 - Top,Stake 05_01/5 - Top,Stake 05_05/5 - Top,Stake 05_03/5 - Top,Stake 05_04/5 - Top,Stake 05_05/5 - Top,Stake 05_06/5 - Top,Stake 05_07/5 - Top,Stake 05_08/5 - Top,Stake 05_09/5 - Top,Stake305_10/5 - Top,Stake 06_01/5 - Top,Stake 06_06/5 - Top,Stake 06_03/5 - Top,Stake 06_04/5 - Top,Stake 06_05/5 - Top,Stake 06_06/5 - Top,Stake 06_07/5 - Top,Stake 06_08/5 - Top,Stake 06_09/5 - Top,Stake 06_10/5 - Top,Stake 07_01/5 - Top,Stake 07_07/5 - Top,Stake 07_03/5 - Top,Stake 07_04/5 - Top,Stake 07_05/5 - Top,Stake 07_06/5 - Top,Stake 07_07/5 - Top,Stake 07_08/5 - Top,Stake 07_0933,Stake 07_10/5 - Top,Stake 08_01/5 - Top,Stake 08_08/5 - Top,Stake 08_03/5 - Top,Stake 08_04/5 - Top,Stake 08_05/5 - Top,Stake 08_06/5 - Top,Stake 08_07/5 - Top,Stake 08_08/5 - Top,Stake 08_09/5 - Top,Stake 08_10/5 - Top,Stake 09_01/5 - Top,Stake 09_09/5 - Top,Stake 09_03/5 - Top,Stake 09_04/5 - Top,Stake 09_05/5 - Top,Stake 09_06/5 - Top,Stake 09_07/5 - Top,Stake 09_08/5 - Top,Stake309_09/5 - Top,Stake 09_10/5 - Top,Stake 10_01/5 - Top,Stake 10_10/5 - Top,Stake 10_03/5 - Top,Stake 10_04/5 - Top,Stake 10_05/5 - Top,Stake 10_06/5 - Top,Stake 10_07/5 - Top,Stake 10_08/5 - Top,Stake 10_09/5 - Top,Stake 10_10/5 - Top"/>
+
+
+
     <modelGroup selected="0" name="Stakes - Odd" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stakes (1) Bottom,Stakes (3),Stakes (5) Top"/>
     <modelGroup selected="0" name="Stakes - Even" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stakes (2),Stakes (4)"/>
     <modelGroup selected="0" LayoutGroup="Default" name="All Pixels" models="Arches,Windows,Stakes,Trees,MegaTree" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
@@ -530,10 +2369,10 @@
     <Display2DCenter0 value="0"/>
     <backgroundImage value=""/>
     <storedLayoutGroup value="Default"/>
-    <previewWidth value="1280"/>
-    <previewHeight value="960"/>
     <fseqDir value="/home/techplex/projects/pers/lightshow/sequences"/>
     <renderCacheDir value="/home/techplex/projects/pers/lightshow/sequences"/>
+    <previewWidth value="1280"/>
+    <previewHeight value="960"/>
   </settings>
   <colors>
     <EffectDefault Red="192" Green="192" Blue="192"/>
