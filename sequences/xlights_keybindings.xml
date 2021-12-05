@@ -112,4 +112,6 @@
   <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="NEXT_TAG"/>
   <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_FLIP_HORIZ"/>
   <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_FLIP_VERT"/>
+  <keybinding keycode="." alt="FALSE" control="FALSE" rawControl="TRUE" shift="FALSE" type="MARK_SPOT"/>
+  <keybinding keycode="/" alt="FALSE" control="FALSE" rawControl="TRUE" shift="FALSE" type="RETURN_TO_SPOT"/>
 </keybindings>

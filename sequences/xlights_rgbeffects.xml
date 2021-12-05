@@ -107,8 +107,8 @@
     <model DisplayAs="Candy Canes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm2="18" LayoutGroup="Default" parm1="1" CandyCaneSticks="false" name="AC Candy 03" TagColour="white" CustomColor="#fa0000" StringType="Single Color Intensity" Controller="Renard01" WorldPosX="489.3934" WorldPosY="14.5360" WorldPosZ="108.0835" X2="1.000000" Y2="0.000000" Z2="15.000000" RotateX="0.00000000" Height="1.483554" Angle="-1" versionNumber="5" StartChannel="!Renard01:10">
       <ControllerConnection Port="1" Protocol="Renard" channel="10"/>
     </model>
-    <model DisplayAs="Candy Canes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm2="18" LayoutGroup="Default" parm1="1" CandyCaneSticks="false" name="AC Candy 01" TagColour="white" CustomColor="#fa0000" StringType="Single Color Intensity" Controller="Renard01" WorldPosX="489.3934" WorldPosY="28.5681" WorldPosZ="83.3244" X2="1.000000" Y2="0.000000" Z2="15.000000" RotateX="0.00000000" Height="1.483554" Angle="-1" versionNumber="5" StartChannel="!Renard01:9">
-      <ControllerConnection Port="1" Protocol="Renard" channel="9"/>
+    <model DisplayAs="Candy Canes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm2="18" LayoutGroup="Default" parm1="1" CandyCaneSticks="false" name="AC Candy 01" TagColour="white" CustomColor="#fa0000" StringType="Single Color Intensity" Controller="Renard01" WorldPosX="489.3934" WorldPosY="28.5681" WorldPosZ="83.3244" X2="1.000000" Y2="0.000000" Z2="15.000000" RotateX="0.00000000" Height="1.483554" Angle="-1" versionNumber="5" StartChannel="!Renard01:25">
+      <ControllerConnection Port="1" Protocol="Renard" channel="25"/>
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 02_01" Controller="PeaceStakes" WorldPosX="507.2618" WorldPosY="0.0000" WorldPosZ="539.2823" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!PeaceStakes:1639">
       <ControllerConnection Protocol="ws2811" brightness="30" Port="5"/>
@@ -2259,7 +2259,7 @@
     <view name="XATW" models="All Pixels,XATW House Face,XATW Outlines,Windows,Arches,Trees Small,Stakes,Tree 01,AC All,AC Side Yard,AC Santas Village,Matrix"/>
     <view name="Main" models="ALL Props,AC All,AC Side Yard,All Pixels,Arches Groups,Stakes Groups,Stakes OddEven,Matrix,MegaTree"/>
     <view name="2020 Intro Talking" models="Office,Door Office"/>
-    <view name="Tune To" models="AC Tune To"/>
+    <view name="Tune To" models=""/>
   </views>
   <palettes/>
   <modelGroups>
@@ -2277,7 +2277,7 @@
     <modelGroup selected="0" name="Stakes (5) Top" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stake 01_01/5 - Top,Stake 01_02/5 - Top,Stake 01_03/5 - Top,Stake 01_04/5 - Top,Stake 01_05/5 - Top,Stake 01_06/5 - Top,Stake 01_07/5 - Top,Stake 01_08/5 - Top,Stake 01_09/5 - Top,Stake 01_10/5 - Top,Stake 02_01/5 - Top,Stake 02_02/5 - Top,Stake 02_03/5 - Top,Stake 02_04/5 - Top,Stake 02_05/5 - Top,Stake 02_06/5 - Top,Stake 02_07/5 - Top,Stake 02_08/5 - Top,Stake 02_09/5 - Top,Stake 02_10/5 - Top,Stake 03_01/5 - Top,Stake 03_03/5 - Top,Stake 03_03/5 - Top,Stake 03_04/5 - Top,Stake 03_05/5 - Top,Stake 03_06/5 - Top,Stake 03_07/5 - Top,Stake 03_08/5 - Top,Stake 03_09/5 - Top,Stake 04_01/5 - Top,Stake 04_04/5 - Top,Stake 04_03/5 - Top,Stake 04_04/5 - Top,Stake 04_05/5 - Top,Stake 04_06/5 - Top,Stake 04_07/5 - Top,Stake 04_08/5 - Top,Stake 04_09/5 - Top,Stake 04_10/5 - Top,Stake 05_01/5 - Top,Stake 05_05/5 - Top,Stake 05_03/5 - Top,Stake 05_04/5 - Top,Stake 05_05/5 - Top,Stake 05_06/5 - Top,Stake 05_07/5 - Top,Stake 05_08/5 - Top,Stake 05_09/5 - Top,Stake 06_01/5 - Top,Stake 06_06/5 - Top,Stake 06_03/5 - Top,Stake 06_04/5 - Top,Stake 06_05/5 - Top,Stake 06_06/5 - Top,Stake 06_07/5 - Top,Stake 06_08/5 - Top,Stake 06_09/5 - Top,Stake 06_10/5 - Top,Stake 07_01/5 - Top,Stake 07_07/5 - Top,Stake 07_03/5 - Top,Stake 07_04/5 - Top,Stake 07_05/5 - Top,Stake 07_06/5 - Top,Stake 07_07/5 - Top,Stake 07_08/5 - Top,Stake 07_10/5 - Top,Stake 08_01/5 - Top,Stake 08_08/5 - Top,Stake 08_03/5 - Top,Stake 08_04/5 - Top,Stake 08_05/5 - Top,Stake 08_06/5 - Top,Stake 08_07/5 - Top,Stake 08_08/5 - Top,Stake 08_09/5 - Top,Stake 08_10/5 - Top,Stake 09_01/5 - Top,Stake 09_09/5 - Top,Stake 09_03/5 - Top,Stake 09_04/5 - Top,Stake 09_05/5 - Top,Stake 09_06/5 - Top,Stake 09_07/5 - Top,Stake 09_08/5 - Top,Stake 09_10/5 - Top,Stake 10_01/5 - Top,Stake 10_10/5 - Top,Stake 10_03/5 - Top,Stake 10_04/5 - Top,Stake 10_05/5 - Top,Stake 10_06/5 - Top,Stake 10_07/5 - Top,Stake 10_08/5 - Top,Stake 10_09/5 - Top,Stake 10_10/5 - Top"/>
     <modelGroup selected="0" name="Stakes - Odd" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stakes (1) Bottom,Stakes (3),Stakes (5) Top"/>
     <modelGroup selected="0" name="Stakes - Even" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stakes (2),Stakes (4)"/>
-    <modelGroup selected="0" LayoutGroup="Default" name="All Pixels" models="Arches,Windows,Stakes,Trees,MegaTree" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
+    <modelGroup selected="0" LayoutGroup="Default" name="All Pixels" models="Arches,Windows,Stakes,Trees,MegaTree,Candy Canes" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
     <modelGroup selected="0" name="Windows" LayoutGroup="Default" models="Great Room 01,Great Room 02,Office/Office 01,Office/Office 02,Office/Office 03,South West 01,South West 02,Master 01" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
     <modelGroup selected="0" name="Arches Left" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Arch1,Arch2"/>
     <modelGroup selected="0" name="Arches RIght" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Arch3,Arch4"/>
@@ -2291,8 +2291,8 @@
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" name="AC Packages" models="AC Packages Left,AC Packages Right"/>
     <modelGroup selected="0" name="Trees" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Tree 01,Tree Small 01,Tree Small 02"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" name="AC Wraps" models="AC Wrap 01,AC Wrap 02"/>
-    <modelGroup selected="0" name="Pixels Left" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Arch1,Arch2,Great Room 01,Great Room 02,Office,Tree Small 01"/>
-    <modelGroup selected="0" name="Pixels Right" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Arch3,Arch4,Master 01,South West 01,South West 02"/>
+    <modelGroup selected="0" name="Pixels Left" LayoutGroup="Default" models="Arch1,Arch2,Great Room 01,Great Room 02,Office,Tree Small 01,Candy Canes Left" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
+    <modelGroup selected="0" name="Pixels Right" LayoutGroup="Default" models="Arch3,Arch4,Master 01,South West 01,South West 02,Candy Canes Right" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Windows" name="House and Windows"/>
     <modelGroup selected="0" name="AC All" LayoutGroup="Default" WorldPosX="200.0000" WorldPosY="18.0000" WorldPosZ="0.0000" ScaleX="1.6466" ScaleY="1.6466" ScaleZ="1.6466" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" models="AC Candy Canes,AC Holly,AC Icicles,AC Packages,AC Wraps,AC Bushes All,AC Helo Canes,AC Snow Flakes,AC Angel,AC North Pole Sign,AC Santa,AC Tree,AC Cherry,AC Rope Lights,Door Entry,Door Office">
       <ControllerConnection/>
@@ -2311,6 +2311,10 @@
     <modelGroup selected="0" name="XATW House Face" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Windows"/>
     <modelGroup selected="0" name="XATW Outlines" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Office/Vertical,Office/Horizontal,Great Room 01/Vertical,Great Room 01/Horizontal,Great Room 02/Vertical,Great Room 02/Horizontal,Master 01/Vertical,Master 01/Horizontal,South West 01/Vertical,South West 01/Horizontal,South West 02/Horizontal,South West 02/Vertical"/>
     <modelGroup selected="0" name="AC Santas Village" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="AC Package Blue 01,AC Package Blue 02,AC Package Green 01,AC Package Green 02,AC Package Red 01,AC Package Red 02,AC Santa,AC Tree"/>
+    <modelGroup selected="0" name="Candy Canes" LayoutGroup="Default" models="Candy Canes Left,Candy Canes Right" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
+    <modelGroup selected="0" name="Candy Canes Left" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Large Cane 01,Mini Cane 01,Mini Cane 02"/>
+    <modelGroup selected="0" name="Candy Canes Right" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Large Cane 02,Mini Cane 03,Mini Cane 04"/>
+    <modelGroup selected="0" name="Gumdrops" models="" layout="minimalGrid" GridSize="400" LayoutGroup="Default"/>
   </modelGroups>
   <layoutGroups>
     <layoutGroup name="Windows" PaneWidth="1280" PaneHeight="960" PosX="100" PosY="156"/>

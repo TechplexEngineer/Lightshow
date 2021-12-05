@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2021.23</version>
+    <version>2021.38</version>
     <author/>
     <author-email/>
     <author-website/>
@@ -198,8 +198,8 @@
     <Element collapsed="0" type="model" name="AC Tree" visible="0"/>
     <Element collapsed="0" type="model" name="AC Cherry" visible="0"/>
     <Element collapsed="0" type="model" name="AC Rope Lights" visible="0"/>
-    <Element collapsed="0" type="model" name="AC Door Entry" visible="0"/>
-    <Element collapsed="0" type="model" name="AC Door Office" visible="0"/>
+    <Element collapsed="0" type="model" name="Door Entry" visible="0"/>
+    <Element collapsed="0" type="model" name="Door Office" visible="0"/>
     <Element collapsed="0" type="model" name="AC Parking Space" visible="0"/>
     <Element collapsed="0" type="model" name="AC Mailbox" visible="0"/>
     <Element collapsed="0" type="model" name="AC Bush 02" visible="0"/>
@@ -441,7 +441,7 @@
         <Effect ref="69" name="Spirals" id="2" startTime="132950" endTime="137050" palette="7"/>
         <Effect ref="4" name="Off" id="3" startTime="167450" endTime="169650" palette="0"/>
         <Effect ref="70" name="SingleStrand" id="4" startTime="180300" endTime="184000" palette="7"/>
-        <Effect ref="71" name="On" selected="1" id="5" startTime="209508" endTime="212031" palette="7"/>
+        <Effect ref="71" name="On" id="5" startTime="209500" endTime="212050" palette="7"/>
       </EffectLayer>
       <EffectLayer>
         <Effect ref="70" name="SingleStrand" startTime="7650" endTime="11000" palette="7"/>
@@ -611,7 +611,7 @@
         <Effect ref="9" name="On" id="3" startTime="112350" endTime="114000" palette="8"/>
         <Effect ref="10" name="On" id="4" startTime="114000" endTime="115600" palette="8"/>
         <Effect ref="93" name="VU Meter" id="5" startTime="120950" endTime="122950" palette="2"/>
-        <Effect ref="16" name="Spirals" selected="1" id="6" startTime="143350" endTime="144900" palette="24"/>
+        <Effect ref="16" name="Spirals" id="6" startTime="143350" endTime="144900" palette="24"/>
         <Effect ref="99" name="VU Meter" id="7" startTime="193000" endTime="195150" palette="1"/>
       </EffectLayer>
     </Element>
@@ -752,13 +752,13 @@
         <Effect ref="108" name="Twinkle" startTime="59500" endTime="63500" palette="1"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="AC Door Entry">
+    <Element type="model" name="Door Entry">
       <EffectLayer>
         <Effect ref="107" name="Twinkle" startTime="63500" endTime="65050" palette="1"/>
         <Effect ref="93" name="VU Meter" id="1" startTime="119350" endTime="120950" palette="2"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="AC Door Office">
+    <Element type="model" name="Door Office">
       <EffectLayer>
         <Effect ref="93" name="VU Meter" startTime="110350" endTime="112350" palette="2"/>
         <Effect ref="93" name="VU Meter" id="1" startTime="119350" endTime="120950" palette="2"/>

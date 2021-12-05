@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2020.48.1</version>
+    <version>2021.38</version>
     <author/>
     <author-email/>
     <author-website/>
@@ -54,7 +54,6 @@
     <Element collapsed="0" type="model" name="AC Tree" visible="0"/>
     <Element collapsed="0" type="model" name="AC Cherry" visible="0"/>
     <Element collapsed="0" type="model" name="AC Rope Lights" visible="0"/>
-    <Element collapsed="0" type="model" name="AC Tune To" visible="0"/>
     <Element collapsed="0" type="model" name="Arches" visible="0"/>
     <Element collapsed="0" type="model" name="Windows" visible="0"/>
     <Element collapsed="0" type="model" name="Stakes" visible="0"/>
@@ -65,12 +64,22 @@
     <Element collapsed="0" type="model" name="South West 01" visible="0"/>
     <Element collapsed="0" type="model" name="South West 02" visible="0"/>
     <Element collapsed="0" type="model" name="Master 01" visible="0"/>
-    <Element collapsed="0" type="model" name="AC Door Entry" visible="0"/>
-    <Element collapsed="0" type="model" name="AC Door Office" visible="1"/>
+    <Element collapsed="0" type="model" name="Door Entry" visible="0"/>
+    <Element collapsed="0" type="model" name="Door Office" visible="1"/>
     <Element collapsed="0" type="model" name="Tree 01" visible="1"/>
     <Element collapsed="0" type="model" name="Trees Small" visible="1"/>
     <Element collapsed="0" type="model" name="AC Holly 02" visible="0"/>
     <Element collapsed="0" type="model" name="AC Holly 01" visible="0"/>
+    <Element collapsed="0" type="model" name="XATW House Face" visible="1"/>
+    <Element collapsed="0" type="model" name="XATW Outlines" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Side Yard" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Santas Village" visible="1"/>
+    <Element collapsed="0" type="model" name="Matrix" visible="1"/>
+    <Element collapsed="0" type="model" name="ALL Props" visible="1"/>
+    <Element collapsed="0" type="model" name="Arches Groups" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes Groups" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes OddEven" visible="1"/>
+    <Element collapsed="0" type="model" name="MegaTree" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="New Timing">
@@ -123,8 +132,8 @@
     </Element>
     <Element type="model" name="AC Icicles">
       <EffectLayer>
-        <Effect ref="0" name="On" id="1" startTime="33100" endTime="33900" palette="0"/>
-        <Effect ref="0" name="On" id="2" startTime="33900" endTime="37300" palette="0"/>
+        <Effect ref="0" name="On" startTime="33100" endTime="33900" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="33900" endTime="37300" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="AC Packages">
@@ -205,9 +214,6 @@
         <Effect ref="0" name="On" id="2" startTime="33900" endTime="37300" palette="0"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="AC Tune To">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Arches">
       <EffectLayer/>
     </Element>
@@ -242,14 +248,14 @@
     <Element type="model" name="Master 01">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="AC Door Entry">
+    <Element type="model" name="Door Entry">
       <EffectLayer>
-        <Effect ref="2" name="On" selected="1" startTime="21200" endTime="33100" palette="3"/>
+        <Effect ref="2" name="On" startTime="21200" endTime="33100" palette="3"/>
         <Effect ref="0" name="On" id="1" startTime="33100" endTime="33900" palette="0"/>
         <Effect ref="0" name="On" id="2" startTime="33900" endTime="37300" palette="0"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="AC Door Office">
+    <Element type="model" name="Door Office">
       <EffectLayer>
         <Effect ref="4" name="VU Meter" startTime="9200" endTime="10900" palette="2"/>
         <Effect ref="4" name="VU Meter" id="1" startTime="11200" endTime="13500" palette="2"/>
@@ -267,6 +273,36 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="AC Holly 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="XATW House Face">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="XATW Outlines">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Side Yard">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Santas Village">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Matrix">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="ALL Props">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Arches Groups">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes Groups">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes OddEven">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="MegaTree">
       <EffectLayer/>
     </Element>
   </ElementEffects>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2020.48.1</version>
+    <version>2021.38</version>
     <author/>
     <author-email/>
     <author-website/>
@@ -53,7 +53,7 @@
     <Element collapsed="0" type="model" name="Windows" visible="1"/>
     <Element collapsed="0" type="model" name="Arches Left" visible="1"/>
     <Element collapsed="0" type="model" name="Arches RIght" visible="1"/>
-    <Element collapsed="0" type="model" name="AC Door Office" visible="1"/>
+    <Element collapsed="0" type="model" name="Door Office" visible="1"/>
     <Element collapsed="0" type="model" name="AC Holly 02" visible="1"/>
     <Element collapsed="0" type="model" name="AC Holly 01" visible="1"/>
     <Element collapsed="0" type="model" name="AC Wrap 02" visible="1"/>
@@ -95,7 +95,7 @@
     <Element type="model" name="Arches RIght">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="AC Door Office">
+    <Element type="model" name="Door Office">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="13500" endTime="14250" palette="0"/>
         <Effect ref="1" name="On" id="1" startTime="14250" endTime="15000" palette="0"/>
@@ -867,7 +867,7 @@
         <Effect ref="4" name="On" id="20" startTime="67050" endTime="67150" palette="2"/>
         <Effect ref="4" name="On" id="21" startTime="67150" endTime="67350" palette="2"/>
         <Effect ref="3" name="On" id="22" startTime="75250" endTime="75900" palette="2"/>
-        <Effect ref="10" name="On" selected="1" id="23" startTime="77150" endTime="77500" palette="2"/>
+        <Effect ref="10" name="On" id="23" startTime="77150" endTime="77500" palette="2"/>
         <Effect ref="4" name="On" id="24" startTime="80050" endTime="80400" palette="2"/>
         <Effect ref="4" name="On" id="25" startTime="85250" endTime="85550" palette="2"/>
         <Effect ref="4" name="On" id="26" startTime="88100" endTime="88400" palette="2"/>

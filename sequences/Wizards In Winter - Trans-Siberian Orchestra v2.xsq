@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2020.48.1</version>
+    <version>2021.38</version>
     <author/>
     <author-email/>
     <author-website/>
@@ -47,7 +47,6 @@
     <DataLayer lor_params="7602281" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
   </DataLayers>
   <DisplayElements>
-    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,Stakes,Whole House,Windows,Soldiers,Characters,Great Room,South West,Example,2019" active="0"/>
     <Element collapsed="0" type="model" name="AC Holly" visible="1"/>
     <Element collapsed="0" type="model" name="AC Icicles" visible="1"/>
     <Element collapsed="0" type="model" name="Great Room 01" visible="1"/>
@@ -55,32 +54,29 @@
     <Element collapsed="0" type="model" name="Office" visible="1"/>
     <Element collapsed="0" type="model" name="Office Outside" visible="1"/>
     <Element collapsed="0" type="model" name="AC Candy Canes" visible="1"/>
-    <Element collapsed="0" type="model" name="AC Door Office" visible="1"/>
+    <Element collapsed="0" type="model" name="Door Office" visible="1"/>
     <Element collapsed="0" type="model" name="South West 01" visible="1"/>
     <Element collapsed="0" type="model" name="South West 02" visible="1"/>
     <Element collapsed="0" type="model" name="Master 01" visible="1"/>
     <Element collapsed="0" type="model" name="AC Rope Lights" visible="1"/>
-    <Element collapsed="0" type="timing" name="Tempo - Beats - Complex" visible="1" views="" active="0"/>
-    <Element collapsed="0" type="timing" name="Tempo - Beats - Broadband" visible="1" views="" active="0"/>
-    <Element collapsed="0" type="timing" name="Bars" visible="1" views="" active="0"/>
-    <Element collapsed="1" type="timing" name="Beats" visible="1" views="" active="0"/>
-    <Element collapsed="0" type="timing" name="Tempo - Beats - Freq" visible="1" views="" active="0"/>
-    <Element collapsed="0" type="timing" name="Beat Spectral Difference" visible="1" views="" active="0"/>
-    <Element collapsed="1" type="timing" name="Note Onsets" visible="1" views="" active="0"/>
-    <Element collapsed="0" type="timing" name="Tempo - Beats - Complex-1" visible="1" views="" active="0"/>
-    <Element collapsed="0" type="timing" name="Tempo - Beats - Broadband-1" visible="1" views="" active="0"/>
-    <Element collapsed="0" type="timing" name="Bars-1" visible="1" views="" active="0"/>
-    <Element collapsed="1" type="timing" name="Beats-1" visible="1" views="" active="0"/>
-    <Element collapsed="0" type="timing" name="Tempo - Beats - Freq-1" visible="1" views="" active="0"/>
-    <Element collapsed="0" type="timing" name="Beat Spectral Difference-1" visible="1" views="" active="0"/>
-    <Element collapsed="1" type="timing" name="Note Onsets-1" visible="1" views="" active="0"/>
+    <Element collapsed="0" type="timing" name="Tempo - Beats - Complex" visible="0" views="" active="0"/>
+    <Element collapsed="0" type="timing" name="Tempo - Beats - Broadband" visible="0" views="" active="0"/>
+    <Element collapsed="0" type="timing" name="Bars" visible="0" views="" active="0"/>
+    <Element collapsed="1" type="timing" name="Beats" visible="0" views="" active="0"/>
+    <Element collapsed="0" type="timing" name="Tempo - Beats - Freq" visible="0" views="" active="0"/>
+    <Element collapsed="0" type="timing" name="Beat Spectral Difference" visible="0" views="" active="0"/>
+    <Element collapsed="1" type="timing" name="Note Onsets" visible="0" views="" active="0"/>
+    <Element collapsed="0" type="timing" name="Tempo - Beats - Complex-1" visible="0" views="" active="0"/>
+    <Element collapsed="0" type="timing" name="Tempo - Beats - Broadband-1" visible="0" views="" active="0"/>
+    <Element collapsed="0" type="timing" name="Bars-1" visible="0" views="" active="0"/>
+    <Element collapsed="1" type="timing" name="Beats-1" visible="0" views="" active="0"/>
+    <Element collapsed="0" type="timing" name="Tempo - Beats - Freq-1" visible="0" views="" active="0"/>
+    <Element collapsed="0" type="timing" name="Beat Spectral Difference-1" visible="0" views="" active="0"/>
+    <Element collapsed="1" type="timing" name="Note Onsets-1" visible="0" views="" active="0"/>
     <Element collapsed="0" type="model" name="All Pixels" visible="1"/>
     <Element collapsed="0" type="model" name="AC All" visible="1"/>
   </DisplayElements>
   <ElementEffects>
-    <Element type="timing" name="New Timing">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="AC Holly">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="26100" endTime="26300" palette="0"/>
@@ -1158,7 +1154,7 @@
         <Effect ref="1" name="On" id="161" startTime="181350" endTime="181900" palette="0"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="AC Door Office">
+    <Element type="model" name="Door Office">
       <EffectLayer>
         <Effect ref="1" name="On" startTime="1100" endTime="1400" palette="0"/>
         <Effect ref="1" name="On" id="1" startTime="1650" endTime="1950" palette="0"/>
@@ -2945,8 +2941,8 @@
         <Effect label="73" startTime="116650" endTime="118250"></Effect>
         <Effect label="74" startTime="118250" endTime="119900"></Effect>
         <Effect label="75" startTime="119900" endTime="121500"></Effect>
-        <Effect label="76" startTime="121500" endTime="123100"></Effect>
-        <Effect label="77" startTime="123100" endTime="124700"></Effect>
+        <Effect label="76" selected="1" startTime="121500" endTime="123200"></Effect>
+        <Effect label="77" startTime="123200" endTime="124700"></Effect>
         <Effect label="78" startTime="124700" endTime="126350"></Effect>
         <Effect label="79" startTime="126350" endTime="127950"></Effect>
         <Effect label="80" startTime="127950" endTime="129600"></Effect>

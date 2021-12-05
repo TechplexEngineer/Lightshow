@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2020.53</version>
+    <version>2021.38</version>
     <author/>
     <author-email/>
     <author-website/>
@@ -47,7 +47,7 @@
     <ColorPalette>C_BUTTON_Palette1=#C8C8C8,C_BUTTON_Palette2=#1958A7,C_BUTTON_Palette3=#22806F,C_BUTTON_Palette4=#00FFFF,C_BUTTON_Palette5=#B41FB8,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette4=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
-    <Effect>E_CHECKBOX_Twinkle_ReRandom=1,E_CHECKBOX_Twinkle_Strobe=1,E_SLIDER_Twinkle_Count=40,E_SLIDER_Twinkle_Steps=30,T_TEXTCTRL_Fadeout=3</Effect>
+    <Effect>E_CHECKBOX_Twinkle_ReRandom=1,E_CHECKBOX_Twinkle_Strobe=1,E_CHOICE_Twinkle_Style=Old Render Method,E_SLIDER_Twinkle_Count=40,E_SLIDER_Twinkle_Steps=30,T_TEXTCTRL_Fadeout=3</Effect>
     <Effect>T_TEXTCTRL_Fadeout=.25</Effect>
     <Effect>T_TEXTCTRL_Fadeout=.5</Effect>
     <Effect>E_CHECKBOX_On_Shimmer=1,T_TEXTCTRL_Fadeout=.25</Effect>
@@ -56,10 +56,10 @@
     <Effect>E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Position,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=50,E_SLIDER_Shockwave_CenterY=50,E_SLIDER_Shockwave_End_Radius=250,E_SLIDER_Shockwave_End_Width=100,E_SLIDER_Shockwave_Start_Radius=1,E_SLIDER_Shockwave_Start_Width=20</Effect>
     <Effect>E_CHECKBOX_On_Shimmer=1,T_TEXTCTRL_Fadeout=4</Effect>
     <Effect>B_CHOICE_BufferStyle=Per Model Default,E_CHECKBOX_Morph_End_Link=0,E_CHECKBOX_Morph_Start_Link=0,E_CHECKBOX_ShowHeadAtStart=0,E_NOTEBOOK_Morph=Start,E_SLIDER_MorphAccel=0,E_SLIDER_MorphDuration=20,E_SLIDER_MorphEndLength=1,E_SLIDER_MorphStartLength=1,E_SLIDER_Morph_End_X1=0,E_SLIDER_Morph_End_X2=100,E_SLIDER_Morph_End_Y1=0,E_SLIDER_Morph_End_Y2=0,E_SLIDER_Morph_Repeat_Count=0,E_SLIDER_Morph_Repeat_Skip=1,E_SLIDER_Morph_Stagger=0,E_SLIDER_Morph_Start_X1=0,E_SLIDER_Morph_Start_X2=100,E_SLIDER_Morph_Start_Y1=100,E_SLIDER_Morph_Start_Y2=100</Effect>
-    <Effect>E_CHECKBOX_Twinkle_ReRandom=1,E_CHECKBOX_Twinkle_Strobe=1,E_SLIDER_Twinkle_Count=40,E_SLIDER_Twinkle_Steps=30</Effect>
+    <Effect>E_CHECKBOX_Twinkle_ReRandom=1,E_CHECKBOX_Twinkle_Strobe=1,E_CHOICE_Twinkle_Style=Old Render Method,E_SLIDER_Twinkle_Count=40,E_SLIDER_Twinkle_Steps=30</Effect>
     <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/lightshow/sequences/imports/xLights ATW Into The Unknown/Video/BlueCrystalBoxes.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0</Effect>
     <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/lightshow/sequences/imports/xLights ATW Into The Unknown/Video/BlueCrystalBoxes.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadeout=.25</Effect>
-    <Effect>E_CHECKBOX_Twinkle_ReRandom=1,E_CHECKBOX_Twinkle_Strobe=1,E_SLIDER_Twinkle_Count=40,E_SLIDER_Twinkle_Steps=30,T_TEXTCTRL_Fadein=1,T_TEXTCTRL_Fadeout=2</Effect>
+    <Effect>E_CHECKBOX_Twinkle_ReRandom=1,E_CHECKBOX_Twinkle_Strobe=1,E_CHOICE_Twinkle_Style=Old Render Method,E_SLIDER_Twinkle_Count=40,E_SLIDER_Twinkle_Steps=30,T_TEXTCTRL_Fadein=1,T_TEXTCTRL_Fadeout=2</Effect>
     <Effect>E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Position,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=50,E_SLIDER_Shockwave_CenterY=50,E_SLIDER_Shockwave_End_Radius=250,E_SLIDER_Shockwave_End_Width=100,E_SLIDER_Shockwave_Start_Width=20,E_VALUECURVE_Shockwave_Start_Radius=Active=TRUE|Id=ID_VALUECURVE_Shockwave_Start_Radius|Type=Custom|Min=0.00|Max=250.00|RV=TRUE|Values=0.00:1.00;0.08:0.00;1.00:0.00|,T_CHOICE_LayerMethod=1 is Unmask</Effect>
     <Effect>E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Position,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=50,E_SLIDER_Shockwave_CenterY=50,E_SLIDER_Shockwave_End_Radius=250,E_SLIDER_Shockwave_End_Width=100,E_SLIDER_Shockwave_Start_Radius=0,E_SLIDER_Shockwave_Start_Width=171,T_CHOICE_LayerMethod=1 is Unmask</Effect>
     <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Manual and Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/lightshow/sequences/imports/xLights ATW Into The Unknown/Video/colorful-flashing-of-multicolored-spotlights-5PHFANC.m4v,E_TEXTCTRL_Duration=0:10.010,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Speed=.25,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadein=2</Effect>
@@ -82,7 +82,7 @@
     <Effect>E_CHOICE_VUMeter_TimingTrack=Beats,E_CHOICE_VUMeter_Type=Timing Event Pulse,E_SLIDER_VUMeter_Bars=6,T_TEXTCTRL_Fadeout=0</Effect>
     <Effect>E_CHOICE_VUMeter_TimingTrack=Beats,E_CHOICE_VUMeter_Type=Timing Event Pulse,E_SLIDER_VUMeter_Bars=6,T_TEXTCTRL_Fadeout=.25</Effect>
     <Effect>E_TEXTCTRL_Eff_On_End=0,T_TEXTCTRL_Fadeout=1</Effect>
-    <Effect>B_CHOICE_BufferStyle=Per Model Per Preview,E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Dual Bounce,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=4,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Model Per Preview,E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Dual Chase,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=4,T_TEXTCTRL_Fadeout=1</Effect>
     <Effect>B_CHOICE_BufferStyle=Per Model Default,E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Bounce from Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=16,T_TEXTCTRL_Fadein=.5</Effect>
     <Effect>E_CHOICE_VUMeter_TimingTrack=Beats,E_CHOICE_VUMeter_Type=Timing Event Pulse,E_SLIDER_VUMeter_Bars=8</Effect>
     <Effect>E_CHECKBOX_Morph_End_Link=0,E_CHECKBOX_Morph_Start_Link=0,E_CHECKBOX_ShowHeadAtStart=0,E_NOTEBOOK_Morph=Options,E_SLIDER_MorphAccel=0,E_SLIDER_MorphDuration=54,E_SLIDER_MorphEndLength=1,E_SLIDER_MorphStartLength=1,E_SLIDER_Morph_End_X1=0,E_SLIDER_Morph_End_X2=100,E_SLIDER_Morph_End_Y1=100,E_SLIDER_Morph_End_Y2=100,E_SLIDER_Morph_Repeat_Count=0,E_SLIDER_Morph_Repeat_Skip=1,E_SLIDER_Morph_Stagger=0,E_SLIDER_Morph_Start_X1=0,E_SLIDER_Morph_Start_X2=100,E_SLIDER_Morph_Start_Y1=0,E_SLIDER_Morph_Start_Y2=0</Effect>
@@ -104,13 +104,13 @@
     <Effect>B_CHOICE_BufferStyle=Per Model Default,E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Bounce from Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=50,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=4</Effect>
     <Effect>B_CHOICE_BufferStyle=Per Model Default,E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Bounce from Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=50,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=8,T_TEXTCTRL_Fadeout=1</Effect>
     <Effect>B_CHOICE_BufferStyle=Per Model Default,E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Bounce from Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=50,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=8,T_TEXTCTRL_Fadeout=0</Effect>
-    <Effect>B_CHOICE_BufferStyle=Per Model Per Preview,E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Dual Bounce,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=4,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Model Per Preview,E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Dual Chase,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=4,T_TEXTCTRL_Fadeout=1</Effect>
     <Effect>B_CHOICE_BufferStyle=Per Model Per Preview,E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Bounce from Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=16,T_TEXTCTRL_Fadein=.5</Effect>
     <Effect>B_CHOICE_BufferStyle=Per Model Per Preview,B_CHOICE_BufferTransform=Rotate CC 90,E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=From Middle,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=40,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=16</Effect>
     <Effect>B_CHOICE_BufferStyle=Per Model Per Preview,E_CHOICE_VUMeter_TimingTrack=Beats,E_CHOICE_VUMeter_Type=Timing Event Pulse Color,E_SLIDER_VUMeter_Bars=8,T_TEXTCTRL_Fadeout=1</Effect>
     <Effect>B_CHOICE_BufferStyle=Per Model Per Preview,E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Bounce from Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=4</Effect>
     <Effect>B_CHOICE_BufferStyle=Per Model Per Preview,B_CHOICE_BufferTransform=Rotate CC 90,E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=From Middle,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=40,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=8</Effect>
-    <Effect>B_CHOICE_BufferStyle=Per Model Per Preview,E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Dual Bounce,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=4</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Model Per Preview,E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Dual Chase,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=4</Effect>
     <Effect>E_CHOICE_VUMeter_TimingTrack=Beats,E_CHOICE_VUMeter_Type=Timing Event Pulse Color,E_SLIDER_VUMeter_Bars=8,T_TEXTCTRL_Fadeout=0</Effect>
     <Effect>E_CHECKBOX_Fill_Color_Time=0,E_CHECKBOX_Fill_Offset_In_Pixels=1,E_CHECKBOX_Fill_Wrap=1,E_CHOICE_Fill_Direction=Down,E_SLIDER_Fill_Band_Size=0,E_SLIDER_Fill_Offset=0,E_SLIDER_Fill_Skip_Size=0,E_VALUECURVE_Fill_Position=Active=TRUE|Id=ID_VALUECURVE_Fill_Position|Type=Saw Tooth|Min=0.00|Max=100.00|P2=100.00|P3=8.00|RV=TRUE|,T_TEXTCTRL_Fadein=.5</Effect>
     <Effect>E_CHECKBOX_Fire_GrowWithMusic=1,E_CHOICE_Fire_Location=Bottom,E_SLIDER_Fire_HueShift=55,T_TEXTCTRL_Fadeout=1</Effect>
@@ -195,8 +195,6 @@
     <Element collapsed="0" type="model" name="AC Tree" visible="0"/>
     <Element collapsed="0" type="model" name="AC Cherry" visible="0"/>
     <Element collapsed="0" type="model" name="AC Rope Lights" visible="0"/>
-    <Element collapsed="0" type="model" name="AC Door Entry" visible="0"/>
-    <Element collapsed="0" type="model" name="AC Door Office" visible="0"/>
     <Element collapsed="0" type="model" name="AC Bush 01" visible="0"/>
     <Element collapsed="0" type="model" name="AC Bush 02" visible="0"/>
     <Element collapsed="0" type="model" name="AC Bush 03" visible="0"/>
@@ -1830,8 +1828,8 @@
         <Effect label="L" startTime="28700" endTime="28800"></Effect>
         <Effect label="U" startTime="28800" endTime="28900"></Effect>
         <Effect label="etc" startTime="28900" endTime="28950"></Effect>
-        <Effect label="FV" startTime="28950" endTime="28950"></Effect>
         <Effect label="O" startTime="28950" endTime="29000"></Effect>
+        <Effect label="FV" startTime="28950" endTime="28950"></Effect>
         <Effect label="etc" startTime="29000" endTime="29050"></Effect>
         <Effect label="etc" startTime="29050" endTime="29100"></Effect>
         <Effect label="AI" startTime="29100" endTime="29250"></Effect>
@@ -3094,17 +3092,17 @@
         <Effect ref="1" name="On" startTime="119350" endTime="119900" palette="1"/>
         <Effect ref="2" name="On" id="1" startTime="119900" endTime="120900" palette="1"/>
         <Effect ref="76" name="On" id="2" startTime="176300" endTime="181350" palette="25"/>
-        <Effect ref="97" name="On" id="3" startTime="181350" endTime="182279" palette="25"/>
+        <Effect ref="97" name="On" id="3" startTime="181350" endTime="182300" palette="25"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="AC Side Yard">
       <EffectLayer>
         <Effect ref="98" name="SingleStrand" startTime="2300" endTime="4300" palette="11"/>
         <Effect ref="98" name="SingleStrand" id="1" startTime="6650" endTime="8650" palette="11"/>
-        <Effect ref="98" name="SingleStrand" id="2" startTime="10823" endTime="12750" palette="11"/>
-        <Effect ref="98" name="SingleStrand" id="3" startTime="14896" endTime="16800" palette="11"/>
-        <Effect ref="98" name="SingleStrand" id="4" startTime="18999" endTime="20950" palette="11"/>
-        <Effect ref="98" name="SingleStrand" id="5" startTime="23096" endTime="25000" palette="11"/>
+        <Effect ref="98" name="SingleStrand" id="2" startTime="10800" endTime="12750" palette="11"/>
+        <Effect ref="98" name="SingleStrand" id="3" startTime="14900" endTime="16800" palette="11"/>
+        <Effect ref="98" name="SingleStrand" id="4" startTime="19000" endTime="20950" palette="11"/>
+        <Effect ref="98" name="SingleStrand" id="5" startTime="23100" endTime="25000" palette="11"/>
         <Effect ref="99" name="Shockwave" id="6" startTime="61850" endTime="64000" palette="20"/>
         <Effect ref="99" name="Shockwave" id="7" startTime="64000" endTime="66000" palette="20"/>
         <Effect ref="98" name="SingleStrand" id="8" startTime="96700" endTime="97550" palette="11"/>
@@ -3159,7 +3157,7 @@
         <Effect ref="32" name="VU Meter" id="1" startTime="129650" endTime="133750" palette="14"/>
         <Effect ref="76" name="On" id="2" startTime="140500" endTime="141450" palette="20"/>
         <Effect ref="76" name="On" id="3" startTime="141450" endTime="143550" palette="20"/>
-        <Effect ref="102" name="SingleStrand" selected="1" id="4" startTime="164450" endTime="169750" palette="20"/>
+        <Effect ref="102" name="SingleStrand" id="4" startTime="164450" endTime="169750" palette="20"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="AC Helo Canes">
@@ -3306,12 +3304,6 @@
         <Effect ref="76" name="On" startTime="141450" endTime="143550" palette="20"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="AC Door Entry">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="AC Door Office">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="AC Bush 01">
       <EffectLayer/>
     </Element>
@@ -3367,10 +3359,10 @@
       <EffectLayer>
         <Effect ref="104" name="SingleStrand" startTime="2300" endTime="4300" palette="11"/>
         <Effect ref="104" name="SingleStrand" id="1" startTime="6650" endTime="8650" palette="11"/>
-        <Effect ref="104" name="SingleStrand" id="2" startTime="10823" endTime="12750" palette="11"/>
-        <Effect ref="104" name="SingleStrand" id="3" startTime="14896" endTime="16800" palette="11"/>
-        <Effect ref="104" name="SingleStrand" id="4" startTime="18999" endTime="20950" palette="11"/>
-        <Effect ref="104" name="SingleStrand" id="5" startTime="23096" endTime="25000" palette="11"/>
+        <Effect ref="104" name="SingleStrand" id="2" startTime="10800" endTime="12750" palette="11"/>
+        <Effect ref="104" name="SingleStrand" id="3" startTime="14900" endTime="16800" palette="11"/>
+        <Effect ref="104" name="SingleStrand" id="4" startTime="19000" endTime="20950" palette="11"/>
+        <Effect ref="104" name="SingleStrand" id="5" startTime="23100" endTime="25000" palette="11"/>
         <Effect ref="105" name="SingleStrand" id="6" startTime="73300" endTime="76950" palette="17"/>
         <Effect ref="105" name="SingleStrand" id="7" startTime="77650" endTime="81300" palette="17"/>
         <Effect ref="105" name="SingleStrand" id="8" startTime="82150" endTime="85800" palette="17"/>
