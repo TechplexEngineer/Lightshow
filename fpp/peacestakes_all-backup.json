@@ -1,0 +1,1177 @@
+{
+  "channelInputs": {
+    "channelInputs": [
+      {
+        "universes": [],
+        "startChannel": 1,
+        "timeout": 1000,
+        "channelCount": -1,
+        "enabled": 1,
+        "type": "universes"
+      }
+    ]
+  },
+  "channelOutputs": {
+    "universes": [
+      null
+    ],
+    "falcon_pixelnet_DMX": [
+      []
+    ],
+    "pixel_strings": [
+      null
+    ],
+    "bbb_strings": [
+      {
+        "channelOutputs": [
+          {
+            "serialInUse": false,
+            "outputs": [
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "GRB",
+                    "pixelCount": 74,
+                    "startChannel": 9657,
+                    "description": "Arch1"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "GRB",
+                    "pixelCount": 74,
+                    "startChannel": 9879,
+                    "description": "Arch2"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "GRB",
+                    "pixelCount": 74,
+                    "startChannel": 10101,
+                    "description": "Arch3"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "GRB",
+                    "pixelCount": 74,
+                    "startChannel": 10323,
+                    "description": "Arch4"
+                  }
+                ],
+                "portNumber": 0
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 50,
+                    "startChannel": 10545,
+                    "description": "Tree Small 01"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 100,
+                    "startChannel": 10695,
+                    "description": "Tree 01"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 50,
+                    "startChannel": 10995,
+                    "description": "Tree Small 02"
+                  }
+                ],
+                "portNumber": 1
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
+                "portNumber": 2
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11145,
+                    "description": "Stake 01_01"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11160,
+                    "description": "Stake 01_02"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11175,
+                    "description": "Stake 01_03"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11190,
+                    "description": "Stake 01_04"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11205,
+                    "description": "Stake 01_05"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11220,
+                    "description": "Stake 01_06"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11235,
+                    "description": "Stake 01_07"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11250,
+                    "description": "Stake 01_08"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11265,
+                    "description": "Stake 01_09"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11280,
+                    "description": "Stake 01_10"
+                  }
+                ],
+                "portNumber": 3
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11295,
+                    "description": "Stake 02_01"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11310,
+                    "description": "Stake 02_02"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11325,
+                    "description": "Stake 02_03"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11340,
+                    "description": "Stake 02_04"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11355,
+                    "description": "Stake 02_05"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11370,
+                    "description": "Stake 02_06"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11385,
+                    "description": "Stake 02_07"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11400,
+                    "description": "Stake 02_08"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11415,
+                    "description": "Stake 02_09"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11430,
+                    "description": "Stake 02_10"
+                  }
+                ],
+                "portNumber": 4
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11445,
+                    "description": "Stake 03_01"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11460,
+                    "description": "Stake 03_02"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11475,
+                    "description": "Stake 03_03"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11490,
+                    "description": "Stake 03_04"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11505,
+                    "description": "Stake 03_05"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11520,
+                    "description": "Stake 03_06"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11535,
+                    "description": "Stake 03_07"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11550,
+                    "description": "Stake 03_08"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11565,
+                    "description": "Stake 03_09"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11580,
+                    "description": "Stake 03_10"
+                  }
+                ],
+                "portNumber": 5
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11595,
+                    "description": "Stake 04_01"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11610,
+                    "description": "Stake 04_02"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11625,
+                    "description": "Stake 04_03"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11640,
+                    "description": "Stake 04_04"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11655,
+                    "description": "Stake 04_05"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11670,
+                    "description": "Stake 04_06"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11685,
+                    "description": "Stake 04_07"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11700,
+                    "description": "Stake 04_08"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11715,
+                    "description": "Stake 04_09"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11730,
+                    "description": "Stake 04_10"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11745,
+                    "description": "Stake 05_01"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11760,
+                    "description": "Stake 05_02"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11775,
+                    "description": "Stake 05_03"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11790,
+                    "description": "Stake 05_04"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11805,
+                    "description": "Stake 05_05"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11820,
+                    "description": "Stake 05_06"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11835,
+                    "description": "Stake 05_07"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11850,
+                    "description": "Stake 05_08"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11865,
+                    "description": "Stake 05_09"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11880,
+                    "description": "Stake 05_10"
+                  }
+                ],
+                "portNumber": 6
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
+                "portNumber": 7
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
+                "portNumber": 8
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
+                "portNumber": 9
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
+                "portNumber": 10
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
+                "portNumber": 11
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
+                "portNumber": 12
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
+                "portNumber": 13
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
+                "portNumber": 14
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
+                "portNumber": 15
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
+                "portNumber": 16
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
+                "portNumber": 17
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
+                "portNumber": 18
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
+                "portNumber": 19
+              },
+              {
+                "expansionType": -1,
+                "portNumber": 20
+              }
+            ],
+            "outputCount": 7,
+            "type": "BBB48String",
+            "pinoutVersion": "1.x",
+            "subType": "K8-B",
+            "startChannel": 1,
+            "channelCount": -1,
+            "enabled": 1
+          }
+        ]
+      }
+    ],
+    "led_panels": [
+      null
+    ],
+    "other": [
+      {
+        "channelOutputs": [
+          {
+            "enabled": 0,
+            "type": "DMX-Open",
+            "startChannel": 1,
+            "channelCount": 512,
+            "device": "ttyS1"
+          },
+          {
+            "enabled": 0,
+            "type": "DMX-Open",
+            "startChannel": 1,
+            "channelCount": 512,
+            "device": "ttyS2"
+          }
+        ]
+      }
+    ]
+  },
+  "model-overlays": {
+    "models": [],
+    "autoCreate": true
+  },
+  "misc_configs": {
+    "configs": [
+      []
+    ]
+  },
+  "show_setup": {
+    "events": [],
+    "playlist": [],
+    "schedule": [
+      [
+        ""
+      ]
+    ],
+    "scripts": []
+  },
+  "settings": {
+    "system_settings": [
+      {
+        "storageDevice": "mmcblk0p1",
+        "LastBlock": "62325760",
+        "rebootFlag": "0",
+        "AudioOutput": "0",
+        "volume": "70",
+        "AudioCard0Type": "unknown",
+        "AudioMixerDevice": "Master",
+        "AudioCardType": "Dummy",
+        "HostName": "PeaceStakes",
+        "restartFlag": "0",
+        "LEDDisplayType": "7",
+        "piRTC": "4",
+        "showAllOptions": "0",
+        "initialSetup": "1",
+        "TimeZone": "America/New_York",
+        "Locale": "USA",
+        "EnableTethering": "2",
+        "TetherSSID": "FPP",
+        "TetherPSK": "Christmas",
+        "statsPublish": "Enabled",
+        "Latitude": "42.5511",
+        "Longitude": "-71.256",
+        "temperatureInF": "1",
+        "backgroundColor": "da92e1",
+        "uiLevel": "3",
+        "fppMode": "remote"
+      }
+    ],
+    "commandPresets": [
+      {
+        "commands": []
+      }
+    ],
+    "proxies": [
+      [
+        ""
+      ]
+    ],
+    "timezone": [
+      "America/New_York"
+    ]
+  },
+  "network": {
+    "wired_network": [
+      [
+        ""
+      ]
+    ],
+    "wifi_network": [
+      [
+        ""
+      ]
+    ],
+    "dns": [
+      [
+        ""
+      ]
+    ]
+  },
+  "protected": true,
+  "platform": "BeagleBone Black",
+  "fpp_backup_version": "5"
+}

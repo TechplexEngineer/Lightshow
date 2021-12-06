@@ -1,74 +1,193 @@
 {
+  "channelInputs": {
+    "channelInputs": [
+      {
+        "universes": [],
+        "startChannel": 1,
+        "timeout": 1000,
+        "channelCount": -1,
+        "enabled": 1,
+        "type": "universes"
+      }
+    ]
+  },
   "channelOutputs": {
     "universes": [
       null
     ],
     "falcon_pixelnet_DMX": [
-      [
-        {
-          "active": 1,
-          "type": 0,
-          "startAddress": 1
-        },
-        {
-          "active": 1,
-          "type": 0,
-          "startAddress": 4097
-        },
-        {
-          "active": 1,
-          "type": 0,
-          "startAddress": 8193
-        },
-        {
-          "active": 1,
-          "type": 0,
-          "startAddress": 12289
-        },
-        {
-          "active": 1,
-          "type": 0,
-          "startAddress": 16385
-        },
-        {
-          "active": 1,
-          "type": 0,
-          "startAddress": 20481
-        },
-        {
-          "active": 1,
-          "type": 0,
-          "startAddress": 24577
-        },
-        {
-          "active": 1,
-          "type": 0,
-          "startAddress": 28673
-        },
-        {
-          "active": 1,
-          "type": 1,
-          "startAddress": 1
-        },
-        {
-          "active": 1,
-          "type": 1,
-          "startAddress": 513
-        },
-        {
-          "active": 1,
-          "type": 1,
-          "startAddress": 1025
-        },
-        {
-          "active": 1,
-          "type": 1,
-          "startAddress": 1537
-        }
-      ]
+      []
     ],
     "pixel_strings": [
-      null
+      {
+        "channelOutputs": [
+          {
+            "serialInUse": false,
+            "outputs": [
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11943,
+                    "description": "Stake 06_01"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11958,
+                    "description": "Stake 06_02"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11973,
+                    "description": "Stake 06_03"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 11988,
+                    "description": "Stake 06_04"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 12003,
+                    "description": "Stake 06_05"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 12018,
+                    "description": "Stake 06_06"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 12033,
+                    "description": "Stake 06_07"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 12048,
+                    "description": "Stake 06_08"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 12063,
+                    "description": "Stake 06_09"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 12078,
+                    "description": "Stake 06_10"
+                  }
+                ],
+                "portNumber": 0
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
+                "portNumber": 1
+              }
+            ],
+            "outputCount": 1,
+            "type": "RPIWS281X",
+            "pinoutVersion": "1.x",
+            "subType": "PiHat",
+            "startChannel": 1,
+            "channelCount": -1,
+            "enabled": 1
+          }
+        ]
+      }
     ],
     "led_panels": [
       null
@@ -78,20 +197,12 @@
         "channelOutputs": [
           {
             "enabled": 1,
-            "type": "Renard",
-            "startChannel": 15661,
-            "channelCount": 72,
-            "device": "ttyUSB0",
-            "renardspeed": 57600,
-            "renardparm": "8N1"
-          },
-          {
-            "enabled": 0,
-            "type": "Renard",
-            "startChannel": 15661,
-            "channelCount": 72,
+            "channelCount": 48,
             "device": "ttyAMA0",
+            "type": "Renard",
+            "startChannel": 11896,
             "renardspeed": 57600,
+            "description": "",
             "renardparm": "8N1"
           }
         ]
@@ -101,713 +212,265 @@
   "model-overlays": {
     "models": [
       {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15705,
+        "Name": "AC_Bush_08",
+        "StartChannel": 11904,
         "ChannelCount": 1,
-        "Name": "AC_Angel"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
         "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15661,
-        "ChannelCount": 1,
-        "Name": "AC_Bush_01"
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
       },
       {
+        "Name": "AC_Candy_01",
+        "StartChannel": 11932,
+        "ChannelCount": 1,
+        "Orientation": "horizontal",
         "StartCorner": "BL",
-        "StrandsPerString": 1,
         "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
+      },
+      {
+        "Name": "AC_Candy_02",
+        "StartChannel": 11938,
+        "ChannelCount": 1,
+        "Orientation": "horizontal",
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
+      },
+      {
+        "Name": "AC_Candy_03",
+        "StartChannel": 11933,
+        "ChannelCount": 1,
+        "Orientation": "horizontal",
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
+      },
+      {
+        "Name": "AC_Candy_04",
+        "StartChannel": 11936,
+        "ChannelCount": 1,
+        "Orientation": "horizontal",
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
+      },
+      {
+        "Name": "AC_Candy_05",
+        "StartChannel": 11934,
+        "ChannelCount": 1,
+        "Orientation": "horizontal",
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
+      },
+      {
+        "Name": "AC_Candy_06",
+        "StartChannel": 11935,
+        "ChannelCount": 1,
+        "Orientation": "horizontal",
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
+      },
+      {
+        "Name": "AC_Cherry_Icicles",
+        "StartChannel": 11927,
+        "ChannelCount": 1,
         "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15662,
-        "ChannelCount": 1,
-        "Name": "AC_Bush_02"
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
       },
       {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
+        "Name": "AC_Cherry_Wrap",
+        "StartChannel": 11927,
+        "ChannelCount": 1,
         "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15663,
-        "ChannelCount": 1,
-        "Name": "AC_Bush_03"
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
       },
       {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
+        "Name": "AC_Holly_01",
+        "StartChannel": 11925,
+        "ChannelCount": 1,
         "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15664,
-        "ChannelCount": 1,
-        "Name": "AC_Bush_04"
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
       },
       {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
+        "Name": "AC_Holly_02",
+        "StartChannel": 11921,
+        "ChannelCount": 1,
         "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15665,
-        "ChannelCount": 1,
-        "Name": "AC_Bush_05"
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
       },
       {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15668,
+        "Name": "AC_Icicles_01",
+        "StartChannel": 11931,
         "ChannelCount": 1,
-        "Name": "AC_Bush_06"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15682,
-        "ChannelCount": 1,
-        "Name": "AC_Bush_07"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15713,
-        "ChannelCount": 1,
-        "Name": "AC_Bush_08"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
         "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15717,
-        "ChannelCount": 1,
-        "Name": "AC_Candy_01"
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
       },
       {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
+        "Name": "AC_Icicles_02",
+        "StartChannel": 11902,
+        "ChannelCount": 1,
         "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15711,
-        "ChannelCount": 1,
-        "Name": "AC_Candy_02"
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
       },
       {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
+        "Name": "AC_North_Pole_Sign",
+        "StartChannel": 11939,
+        "ChannelCount": 1,
         "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15718,
-        "ChannelCount": 1,
-        "Name": "AC_Candy_03"
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
       },
       {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
+        "Name": "AC_Package_Blue_01",
+        "StartChannel": 11899,
+        "ChannelCount": 1,
         "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15720,
-        "ChannelCount": 1,
-        "Name": "AC_Candy_04"
-      },
-      {
         "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15715,
-        "ChannelCount": 1,
-        "Name": "AC_Candy_05"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15714,
-        "ChannelCount": 1,
-        "Name": "AC_Candy_06"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15690,
-        "ChannelCount": 1,
-        "Name": "AC_Cherry_Icicles"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15685,
-        "ChannelCount": 1,
-        "Name": "AC_Cherry_Wrap"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 16,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15704,
-        "ChannelCount": 1,
-        "Name": "AC_Door_Entry"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 16,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15712,
-        "ChannelCount": 1,
-        "Name": "AC_Door_Office"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15672,
-        "ChannelCount": 1,
-        "Name": "AC_Helo_Canes_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15671,
-        "ChannelCount": 1,
-        "Name": "AC_Helo_Canes_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15670,
-        "ChannelCount": 1,
-        "Name": "AC_Helo_Canes_03"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15674,
-        "ChannelCount": 1,
-        "Name": "AC_Helo_Canes_04"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15710,
-        "ChannelCount": 1,
-        "Name": "AC_Holly_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15709,
-        "ChannelCount": 1,
-        "Name": "AC_Holly_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15703,
-        "ChannelCount": 1,
-        "Name": "AC_Icicles_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15726,
-        "ChannelCount": 1,
-        "Name": "AC_Icicles_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15669,
-        "ChannelCount": 1,
-        "Name": "AC_North_Pole_Sign"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
         "StringCount": 10,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15727,
-        "ChannelCount": 1,
-        "Name": "AC_Package_Blue_01"
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
       },
       {
+        "Name": "AC_Package_Blue_02",
+        "StartChannel": 11906,
+        "ChannelCount": 1,
+        "Orientation": "horizontal",
         "StartCorner": "BL",
-        "StrandsPerString": 1,
         "StringCount": 10,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15730,
-        "ChannelCount": 1,
-        "Name": "AC_Package_Blue_02"
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
       },
       {
+        "Name": "AC_Package_Green_01",
+        "StartChannel": 11898,
+        "ChannelCount": 1,
+        "Orientation": "horizontal",
         "StartCorner": "BL",
-        "StrandsPerString": 1,
         "StringCount": 10,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15728,
-        "ChannelCount": 1,
-        "Name": "AC_Package_Green_01"
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
       },
       {
+        "Name": "AC_Package_Green_02",
+        "StartChannel": 11901,
+        "ChannelCount": 1,
+        "Orientation": "horizontal",
         "StartCorner": "BL",
-        "StrandsPerString": 1,
         "StringCount": 10,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15731,
-        "ChannelCount": 1,
-        "Name": "AC_Package_Green_02"
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
       },
       {
+        "Name": "AC_Package_Red_01",
+        "StartChannel": 11897,
+        "ChannelCount": 1,
+        "Orientation": "horizontal",
         "StartCorner": "BL",
-        "StrandsPerString": 1,
         "StringCount": 10,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15729,
-        "ChannelCount": 1,
-        "Name": "AC_Package_Red_01"
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
       },
       {
+        "Name": "AC_Package_Red_02",
+        "StartChannel": 11900,
+        "ChannelCount": 1,
+        "Orientation": "horizontal",
         "StartCorner": "BL",
-        "StrandsPerString": 1,
         "StringCount": 10,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
+      },
+      {
+        "Name": "AC_Rope_Lights",
+        "StartChannel": 11940,
+        "ChannelCount": 1,
         "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15732,
-        "ChannelCount": 1,
-        "Name": "AC_Package_Red_02"
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
       },
       {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
+        "Name": "AC_Santa",
+        "StartChannel": 11896,
+        "ChannelCount": 1,
         "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15687,
-        "ChannelCount": 1,
-        "Name": "AC_Rope_Lights"
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
       },
       {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15721,
+        "Name": "AC_Tree",
+        "StartChannel": 11908,
         "ChannelCount": 1,
-        "Name": "AC_Santa"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "custom",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15666,
-        "ChannelCount": 1,
-        "data": ",,,,1;,1,,,;,,,,;,,,,;,,1,,",
-        "Name": "AC_Snow_Flakes_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "custom",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15667,
-        "ChannelCount": 1,
-        "data": ",,,,1;,1,,,;,,,,;,,,,;,,1,,",
-        "Name": "AC_Snow_Flakes_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
         "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15723,
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
+      },
+      {
+        "Name": "AC_Wrap_01",
+        "StartChannel": 11943,
         "ChannelCount": 1,
-        "Name": "AC_Tree"
+        "Orientation": "vertical",
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
       },
       {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15724,
+        "Name": "AC_Wrap_02",
+        "StartChannel": 11926,
         "ChannelCount": 1,
-        "Name": "AC_Tune_To"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
         "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15722,
-        "ChannelCount": 1,
-        "Name": "AC_Wrap_01"
-      },
-      {
         "StartCorner": "BL",
-        "StrandsPerString": 1,
         "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 15725,
-        "ChannelCount": 1,
-        "Name": "AC_Wrap_02"
-      },
-      {
-        "StartCorner": "BL",
         "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 13429,
-        "ChannelCount": 222,
-        "Name": "Arch1"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 13651,
-        "ChannelCount": 222,
-        "Name": "Arch2"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 13873,
-        "ChannelCount": 222,
-        "Name": "Arch3"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 14095,
-        "ChannelCount": 222,
-        "Name": "Arch4"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "custom",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 1,
-        "ChannelCount": 540,
-        "data": "166,,165,,,136,,135,,,106,,105,,,76,,75,,,46,,45,,,16,,15;167,,164,,,137,,134,,,107,,104,,,77,,74,,,47,,44,,,17,,14;168,,163,,,138,,133,,,108,,103,,,78,,73,,,48,,43,,,18,,13;169,,162,,,139,,132,,,109,,102,,,79,,72,,,49,,42,,,19,,12;170,,161,,,140,,131,,,110,,101,,,80,,71,,,50,,41,,,20,,11;171,,160,,,141,,130,,,111,,100,,,81,,70,,,51,,40,,,21,,10;172,,159,,,142,,129,,,112,,99,,,82,,69,,,52,,39,,,22,,9;173,,158,,,143,,128,,,113,,98,,,83,,68,,,53,,38,,,23,,8;174,,157,,,144,,127,,,114,,97,,,84,,67,,,54,,37,,,24,,7;175,,156,,,145,,126,,,115,,96,,,85,,66,,,55,,36,,,25,,6;176,,155,,,146,,125,,,116,,95,,,86,,65,,,56,,35,,,26,,5;177,,154,,,147,,124,,,117,,94,,,87,,64,,,57,,34,,,27,,4;178,,153,,,148,,123,,,118,,93,,,88,,63,,,58,,33,,,28,,3;179,,152,,,149,,122,,,119,,92,,,89,,62,,,59,,32,,,29,,2;180,,151,,,150,,121,,,120,,91,,,90,,61,,,60,,31,,,30,,1",
-        "Name": "Characters"
-      },
-      {
-        "StartCorner": "BR",
-        "StrandsPerString": 1,
-        "StringCount": 10,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 15361,
-        "ChannelCount": 150,
-        "Name": "Great_Room_01"
-      },
-      {
-        "StartCorner": "BR",
-        "StrandsPerString": 1,
-        "StringCount": 10,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 15511,
-        "ChannelCount": 150,
-        "Name": "Great_Room_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 11,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 15211,
-        "ChannelCount": 150,
-        "Name": "Master_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 32,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 541,
-        "ChannelCount": 12288,
-        "Name": "Matrix"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "custom",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 14467,
-        "ChannelCount": 444,
-        "data": "107,106,105,104,103,102,101,100,69,68,67,66,65,64,63,62,61,60,59,58,57,56,55,54,23,22,21,20,19,18,17,16;108,,,,,,,99,70,,,,,,,,,,,,,,,53,24,,,,,,,15;109,,,,,,,98,71,,,,,,,,,,,,,,,52,25,,,,,,,14;110,,,,,,,97,72,,,,,,,,,,,,,,,51,26,,,,,,,13;111,,,,,,,96,73,,,,,,,,,,,,,,,50,27,,,,,,,12;112,,,,,,,95,74,,,,,,,,,,,,,,,49,28,,,,,,,11;113,,,,,,,94,75,,,,,,,,,,,,,,,48,29,,,,,,,10;114,,,,,,,93,76,,,,,,,,,,,,,,,47,30,,,,,,,9;115,,,,,,,92,77,,,,,,,,,,,,,,,46,31,,,,,,,8;116,,,,,,,91,78,,,,,,,,,,,,,,,45,32,,,,,,,7;117,,,,,,,90,79,,,,,,,,,,,,,,,44,33,,,,,,,6;118,,,,,,,89,80,,,,,,,,,,,,,,,43,34,,,,,,,5;119,,,,,,,88,81,,,,,,,,,,,,,,,42,35,,,,,,,4;120,,,,,,,87,82,,,,,,,,,,,,,,,41,36,,,,,,,3;121,,,,,,,86,83,,,,,,,,,,,,,,,40,37,,,,,,,2;122,123,124,125,126,127,128,85,84,129,130,131,132,133,134,135,136,137,138,139,140,141,142,39,38,143,144,145,146,147,148,1",
-        "Name": "Office"
-      },
-      {
-        "StartCorner": "BR",
-        "StrandsPerString": 1,
-        "StringCount": 10,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 14911,
-        "ChannelCount": 150,
-        "Name": "South_West_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 10,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 15061,
-        "ChannelCount": 150,
-        "Name": "South_West_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 14317,
-        "ChannelCount": 15,
-        "Name": "Stake_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 14332,
-        "ChannelCount": 15,
-        "Name": "Stake_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 14347,
-        "ChannelCount": 15,
-        "Name": "Stake_03"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 14362,
-        "ChannelCount": 15,
-        "Name": "Stake_04"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 14377,
-        "ChannelCount": 15,
-        "Name": "Stake_05"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 14392,
-        "ChannelCount": 15,
-        "Name": "Stake_06"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 14407,
-        "ChannelCount": 15,
-        "Name": "Stake_07"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 14422,
-        "ChannelCount": 15,
-        "Name": "Stake_08"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 14437,
-        "ChannelCount": 15,
-        "Name": "Stake_09"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 14452,
-        "ChannelCount": 15,
-        "Name": "Stake_10"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12979,
-        "ChannelCount": 300,
-        "Name": "Tree_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12829,
-        "ChannelCount": 150,
-        "Name": "Tree_Small_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 13279,
-        "ChannelCount": 150,
-        "Name": "Tree_Small_02"
+        "ChannelCountPerNode": 1
       }
+    ],
+    "autoCreate": true
+  },
+  "misc_configs": {
+    "configs": [
+      []
     ]
   },
   "show_setup": {
-    "events": {
-      "01_04.fevt": [
-        "{",
-        "    \"command\": \"Effect Start\",",
-        "    \"multisyncCommand\": false,",
-        "    \"multisyncHosts\": \"\",",
-        "    \"args\": [",
-        "        \"TuneToSigns\",",
-        "        \"\",",
-        "        \"true\",",
-        "        \"true\"",
-        "    ],",
-        "    \"name\": \"TuneToSigns - ON\",",
-        "    \"majorId\": 1,",
-        "    \"minorId\": 4",
-        "}"
-      ],
-      "01_05.fevt": [
-        "{",
-        "    \"command\": \"Effect Stop\",",
-        "    \"multisyncCommand\": false,",
-        "    \"multisyncHosts\": \"\",",
-        "    \"args\": [",
-        "        \"TuneToSigns\"",
-        "    ],",
-        "    \"name\": \"TuneToSigns - OFF\",",
-        "    \"majorId\": 1,",
-        "    \"minorId\": 5",
-        "}"
-      ]
-    },
+    "events": [],
     "playlist": [],
     "schedule": [
       [
@@ -820,23 +483,33 @@
     "system_settings": [
       {
         "storageDevice": "mmcblk0p2",
-        "LastBlock": "29696000",
+        "LastBlock": "61204480",
+        "AudioOutput": "0",
         "volume": "70",
-        "AudioCard0Type": "bcm2",
-        "AudioMixerDevice": "PCM",
+        "AudioCard0Type": "unknown",
+        "AudioMixerDevice": "Master",
+        "AudioCardType": "Dummy",
         "FalconHardwareDetected": "0",
         "HostName": "Renard01",
-        "restartFlag": "0",
         "rebootFlag": "0",
-        "wifiDrivers": "Kernel",
-        "backgroundColor": "0000FF",
-        "fppMode": "remote",
-        "e131statsLiveUpdate": "1",
-        "ntp": "1",
-        "ntpServer": "10.0.0.1",
+        "restartFlag": "0",
+        "initialSetup": "1",
         "TimeZone": "America/New_York",
+        "Locale": "USA",
+        "Latitude": "42.5511",
         "Longitude": "-71.256",
-        "Latitude": "42.5511"
+        "statsPublish": "Enabled",
+        "EnableTethering": "2",
+        "TetherSSID": "FPP",
+        "TetherPSK": "Christmas",
+        "backgroundColor": "FFB4B4",
+        "temperatureInF": "1",
+        "fppMode": "remote"
+      }
+    ],
+    "commandPresets": [
+      {
+        "commands": []
       }
     ],
     "proxies": [
@@ -858,9 +531,14 @@
       [
         ""
       ]
+    ],
+    "dns": [
+      [
+        ""
+      ]
     ]
   },
   "protected": true,
   "platform": "Raspberry Pi",
-  "fpp_backup_version": "3"
+  "fpp_backup_version": "5"
 }

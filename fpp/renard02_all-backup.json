@@ -1,0 +1,300 @@
+{
+  "channelInputs": {
+    "channelInputs": [
+      {
+        "universes": [],
+        "startChannel": 1,
+        "timeout": 1000,
+        "channelCount": -1,
+        "enabled": 1,
+        "type": "universes"
+      }
+    ]
+  },
+  "channelOutputs": {
+    "universes": [
+      null
+    ],
+    "falcon_pixelnet_DMX": [
+      []
+    ],
+    "pixel_strings": [
+      {
+        "channelOutputs": [
+          {
+            "serialInUse": false,
+            "outputs": [
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
+                "portNumber": 0
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
+                "portNumber": 1
+              }
+            ],
+            "outputCount": 0,
+            "type": "RPIWS281X",
+            "pinoutVersion": "1.x",
+            "subType": "PiHat",
+            "startChannel": 1,
+            "channelCount": -1,
+            "enabled": 1
+          }
+        ]
+      }
+    ],
+    "led_panels": [
+      null
+    ],
+    "other": [
+      {
+        "channelOutputs": [
+          {
+            "renardparm": "8N1",
+            "description": "",
+            "renardspeed": 57600,
+            "startChannel": 12094,
+            "type": "Renard",
+            "device": "ttyAMA0",
+            "channelCount": 23,
+            "enabled": 1
+          }
+        ]
+      }
+    ]
+  },
+  "model-overlays": {
+    "models": [
+      {
+        "Name": "AC_Bush_01",
+        "StartChannel": 12100,
+        "ChannelCount": 1,
+        "Orientation": "vertical",
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
+      },
+      {
+        "Name": "AC_Bush_02",
+        "StartChannel": 12099,
+        "ChannelCount": 1,
+        "Orientation": "vertical",
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
+      },
+      {
+        "Name": "AC_Bush_03",
+        "StartChannel": 12096,
+        "ChannelCount": 1,
+        "Orientation": "vertical",
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
+      },
+      {
+        "Name": "AC_Bush_04",
+        "StartChannel": 12094,
+        "ChannelCount": 1,
+        "Orientation": "vertical",
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
+      },
+      {
+        "Name": "AC_Bush_05",
+        "StartChannel": 12102,
+        "ChannelCount": 1,
+        "Orientation": "vertical",
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
+      },
+      {
+        "Name": "AC_Bush_06",
+        "StartChannel": 12104,
+        "ChannelCount": 1,
+        "Orientation": "vertical",
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
+      },
+      {
+        "Name": "AC_Bush_07",
+        "StartChannel": 12105,
+        "ChannelCount": 1,
+        "Orientation": "vertical",
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
+      },
+      {
+        "Name": "AC_Helo_Canes_01",
+        "StartChannel": 12116,
+        "ChannelCount": 1,
+        "Orientation": "horizontal",
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
+      },
+      {
+        "Name": "AC_Mailbox",
+        "StartChannel": 12097,
+        "ChannelCount": 1,
+        "Orientation": "horizontal",
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
+      },
+      {
+        "Name": "AC_Parking_Space",
+        "StartChannel": 12103,
+        "ChannelCount": 1,
+        "Orientation": "horizontal",
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1
+      },
+      {
+        "Name": "AC_Snow_Flakes_01",
+        "StartChannel": 12108,
+        "ChannelCount": 1,
+        "Orientation": "custom",
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1,
+        "data": ",,,,1;,1,,,;,,,,;,,,,;,,1,,"
+      },
+      {
+        "Name": "AC_Snow_Flakes_02",
+        "StartChannel": 12112,
+        "ChannelCount": 1,
+        "Orientation": "custom",
+        "StartCorner": "BL",
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "ChannelCountPerNode": 1,
+        "data": ",,,,1;,1,,,;,,,,;,,,,;,,1,,"
+      }
+    ],
+    "autoCreate": true
+  },
+  "misc_configs": {
+    "configs": [
+      []
+    ]
+  },
+  "show_setup": {
+    "events": [],
+    "playlist": [],
+    "schedule": [
+      [
+        ""
+      ]
+    ],
+    "scripts": []
+  },
+  "settings": {
+    "system_settings": [
+      {
+        "storageDevice": "mmcblk0p2",
+        "LastBlock": "61204480",
+        "AudioOutput": "0",
+        "volume": "70",
+        "AudioCard0Type": "unknown",
+        "AudioMixerDevice": "Master",
+        "AudioCardType": "Dummy",
+        "FalconHardwareDetected": "0",
+        "HostName": "Renard02",
+        "rebootFlag": "0",
+        "restartFlag": "0",
+        "initialSetup": "1",
+        "statsPublish": "Enabled",
+        "TimeZone": "America/New_York",
+        "Latitude": "42.5511",
+        "Longitude": "-71.256",
+        "Locale": "USA",
+        "wifiDrivers": "External",
+        "EnableTethering": "2",
+        "TetherSSID": "FPP",
+        "TetherPSK": "Christmas",
+        "backgroundColor": "FF7E7E",
+        "temperatureInF": "1",
+        "fppMode": "remote"
+      }
+    ],
+    "commandPresets": [
+      {
+        "commands": []
+      }
+    ],
+    "proxies": [
+      [
+        ""
+      ]
+    ],
+    "timezone": [
+      "America/New_York"
+    ]
+  },
+  "network": {
+    "wired_network": [
+      [
+        ""
+      ]
+    ],
+    "wifi_network": [
+      [
+        ""
+      ]
+    ],
+    "dns": [
+      [
+        ""
+      ]
+    ]
+  },
+  "protected": true,
+  "platform": "Raspberry Pi",
+  "fpp_backup_version": "5"
+}

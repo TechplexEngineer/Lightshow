@@ -1,16 +1,4 @@
 {
-  "channelInputs": {
-    "channelInputs": [
-      {
-        "universes": [],
-        "startChannel": 1,
-        "timeout": 1000,
-        "channelCount": -1,
-        "enabled": 1,
-        "type": "universes"
-      }
-    ]
-  },
   "channelOutputs": {
     "universes": [
       null
@@ -20,829 +8,6 @@
     ],
     "pixel_strings": [
       null
-    ],
-    "bbb_strings": [
-      {
-        "channelOutputs": [
-          {
-            "serialInUse": false,
-            "outputs": [
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 543,
-                    "description": "Stake 07_01"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 558,
-                    "description": "Stake 07_02"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 573,
-                    "description": "Stake 07_03"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 588,
-                    "description": "Stake 07_04"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 603,
-                    "description": "Stake 07_05"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 618,
-                    "description": "Stake 07_06"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 633,
-                    "description": "Stake 07_07"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 648,
-                    "description": "Stake 07_08"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 663,
-                    "description": "Stake 07_09"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 678,
-                    "description": "Stake 07_10"
-                  }
-                ],
-                "portNumber": 0
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 1
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 50,
-                    "startChannel": 693,
-                    "description": "Door Office"
-                  }
-                ],
-                "portNumber": 2
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 3
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 148,
-                    "startChannel": 843,
-                    "description": "Office"
-                  }
-                ],
-                "portNumber": 4
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 50,
-                    "startChannel": 1287,
-                    "description": "South West 01"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 50,
-                    "startChannel": 1437,
-                    "description": "South West 02"
-                  }
-                ],
-                "portNumber": 5
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 50,
-                    "startChannel": 1587,
-                    "description": "Master 01"
-                  }
-                ],
-                "portNumber": 6
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 7
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 8
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 9
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 10
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 11
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 10,
-                    "colorOrder": "RGB",
-                    "pixelCount": 48,
-                    "startChannel": 1737,
-                    "description": "Mini Cane 01"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 10,
-                    "colorOrder": "RGB",
-                    "pixelCount": 48,
-                    "startChannel": 1881,
-                    "description": "Mini Cane 02"
-                  }
-                ],
-                "portNumber": 12
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 10,
-                    "colorOrder": "RGB",
-                    "pixelCount": 99,
-                    "startChannel": 2025,
-                    "description": "Large Cane 01"
-                  }
-                ],
-                "portNumber": 13
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 10,
-                    "colorOrder": "RGB",
-                    "pixelCount": 48,
-                    "startChannel": 2322,
-                    "description": "Mini Cane 03"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 10,
-                    "colorOrder": "RGB",
-                    "pixelCount": 48,
-                    "startChannel": 2466,
-                    "description": "Mini Cane 04"
-                  }
-                ],
-                "portNumber": 14
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 10,
-                    "colorOrder": "RGB",
-                    "pixelCount": 99,
-                    "startChannel": 2610,
-                    "description": "Large Cane 02"
-                  }
-                ],
-                "portNumber": 15
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 16
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 17
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 18
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 19
-              },
-              {
-                "expansionType": 0,
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 20
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 21
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 22
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 23
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 24
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 25
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 26
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 27
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 28
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 29
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 30
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 31
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 32
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 33
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 34
-              },
-              {
-                "virtualStrings": [
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
-                  }
-                ],
-                "portNumber": 35
-              }
-            ],
-            "outputCount": 16,
-            "type": "BBB48String",
-            "pinoutVersion": "3.x",
-            "subType": "F8-B-EXP-36",
-            "startChannel": 1,
-            "channelCount": -1,
-            "enabled": 1
-          }
-        ]
-      }
     ],
     "led_panels": [
       null
@@ -1089,7 +254,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11931,
+        "StartChannel": 11922,
         "ChannelCount": 1,
         "Name": "AC_Icicles_01"
       },
@@ -1291,7 +456,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 10102,
+        "StartChannel": 10702,
         "ChannelCount": 222,
         "Name": "Arch3"
       },
@@ -1301,7 +466,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 10324,
+        "StartChannel": 10924,
         "ChannelCount": 222,
         "Name": "Arch4"
       },
@@ -2489,7 +1654,7 @@
         "StringCount": 1,
         "Orientation": "vertical",
         "ChannelCountPerNode": 3,
-        "StartChannel": 10696,
+        "StartChannel": 10252,
         "ChannelCount": 300,
         "Name": "Tree_01"
       },
@@ -2499,7 +1664,7 @@
         "StringCount": 1,
         "Orientation": "vertical",
         "ChannelCountPerNode": 3,
-        "StartChannel": 10546,
+        "StartChannel": 10102,
         "ChannelCount": 150,
         "Name": "Tree_Small_01"
       },
@@ -2509,7 +1674,7 @@
         "StringCount": 1,
         "Orientation": "vertical",
         "ChannelCountPerNode": 3,
-        "StartChannel": 10996,
+        "StartChannel": 10552,
         "ChannelCount": 150,
         "Name": "Tree_Small_02"
       }
@@ -2522,10 +1687,108 @@
   },
   "show_setup": {
     "events": [],
-    "playlist": [],
+    "playlist": {
+      "2021.json": [
+        "{",
+        "    \"name\": \"2021\",",
+        "    \"version\": 3,",
+        "    \"repeat\": 0,",
+        "    \"loopCount\": 0,",
+        "    \"empty\": false,",
+        "    \"desc\": \"\",",
+        "    \"random\": 0,",
+        "    \"leadIn\": [],",
+        "    \"mainPlaylist\": [",
+        "        {",
+        "            \"type\": \"both\",",
+        "            \"enabled\": 1,",
+        "            \"playOnce\": 0,",
+        "            \"sequenceName\": \"2020 Show Intro.fseq\",",
+        "            \"mediaName\": \"2020 Show Intro.mp3\",",
+        "            \"videoOut\": \"--Default--\",",
+        "            \"duration\": 37.2",
+        "        },",
+        "        {",
+        "            \"type\": \"both\",",
+        "            \"enabled\": 1,",
+        "            \"playOnce\": 0,",
+        "            \"sequenceName\": \"XATW - You Make It Feel Like Christmas.fseq\",",
+        "            \"mediaName\": \"XATW - You Make It Feel Like Christmas.m4a\",",
+        "            \"videoOut\": \"--Default--\",",
+        "            \"duration\": 159.1",
+        "        },",
+        "        {",
+        "            \"type\": \"both\",",
+        "            \"enabled\": 1,",
+        "            \"playOnce\": 0,",
+        "            \"sequenceName\": \"Wizards In Winter - Trans-Siberian Orchestra v2.fseq\",",
+        "            \"mediaName\": \"Wizards In Winter - Trans-Siberian Orchestra.m4a\",",
+        "            \"videoOut\": \"--Default--\",",
+        "            \"duration\": 187.9",
+        "        },",
+        "        {",
+        "            \"type\": \"both\",",
+        "            \"enabled\": 1,",
+        "            \"playOnce\": 0,",
+        "            \"sequenceName\": \"Snow Miser and Heat Miser Import.fseq\",",
+        "            \"mediaName\": \"Snow Miser and Heat Miser.mp3\",",
+        "            \"videoOut\": \"--Default--\",",
+        "            \"duration\": 203.8",
+        "        },",
+        "        {",
+        "            \"type\": \"both\",",
+        "            \"enabled\": 1,",
+        "            \"playOnce\": 0,",
+        "            \"sequenceName\": \"Carol of the Bells - Trans-Siberian Orchestra v2.fseq\",",
+        "            \"mediaName\": \"Carol of the Bells - Trans-Siberian Orchestra.mp3\",",
+        "            \"videoOut\": \"--Default--\",",
+        "            \"duration\": 205.05",
+        "        },",
+        "        {",
+        "            \"type\": \"both\",",
+        "            \"enabled\": 1,",
+        "            \"playOnce\": 0,",
+        "            \"sequenceName\": \"The 12 Pains of Christmas.fseq\",",
+        "            \"mediaName\": \"The 12 Pains of Christmas.mp3\",",
+        "            \"videoOut\": \"--Default--\",",
+        "            \"duration\": 215.15",
+        "        },",
+        "        {",
+        "            \"type\": \"both\",",
+        "            \"enabled\": 1,",
+        "            \"playOnce\": 0,",
+        "            \"sequenceName\": \"Into the Unknown - Panic at the Disco v2.fseq\",",
+        "            \"mediaName\": \"Into the Unknown - Panic at the Disco.mp3\",",
+        "            \"videoOut\": \"--Default--\",",
+        "            \"duration\": 186",
+        "        }",
+        "    ],",
+        "    \"leadOut\": [],",
+        "    \"playlistInfo\": {",
+        "        \"total_duration\": null,",
+        "        \"total_items\": 7",
+        "    }",
+        "}"
+      ]
+    },
     "schedule": [
       [
-        ""
+        "[",
+        "    {",
+        "        \"enabled\": 1,",
+        "        \"sequence\": 0,",
+        "        \"playlist\": \"2021\",",
+        "        \"day\": 7,",
+        "        \"startTime\": \"16:30:00\",",
+        "        \"startTimeOffset\": 0,",
+        "        \"endTime\": \"22:00:00\",",
+        "        \"endTimeOffset\": 0,",
+        "        \"repeat\": 1,",
+        "        \"startDate\": \"2021-12-01\",",
+        "        \"endDate\": \"2022-01-31\",",
+        "        \"stopType\": 0",
+        "    }",
+        "]"
       ]
     ],
     "scripts": []
@@ -2533,28 +1796,33 @@
   "settings": {
     "system_settings": [
       {
-        "storageDevice": "mmcblk0p1",
-        "LastBlock": "61329408",
-        "rebootFlag": "0",
-        "AudioOutput": "0",
+        "storageDevice": "mmcblk0p2",
+        "LastBlock": "60805120",
+        "AudioOutput": "2",
         "volume": "70",
         "AudioCard0Type": "unknown",
-        "AudioMixerDevice": "Master",
-        "AudioCardType": "Dummy",
-        "HostName": "Pixels",
+        "AudioMixerDevice": "Speaker",
+        "AudioCardType": "USB Audio Device",
+        "FalconHardwareDetected": "0",
+        "HostName": "Master",
+        "rebootFlag": "0",
         "restartFlag": "0",
         "statsPublish": "Enabled",
         "initialSetup": "1",
         "Locale": "USA",
         "TimeZone": "America/New_York",
-        "Latitude": "42.5511",
         "Longitude": "-71.256",
-        "LEDDisplayType": "7",
-        "piRTC": "4",
-        "showAllOptions": "0",
-        "backgroundColor": "41B76A",
+        "Latitude": "42.5511",
+        "EnableTethering": "2",
+        "TetherSSID": "FPP",
+        "TetherPSK": "Christmas",
+        "MultiSyncEnabled": "1",
+        "MultiSyncRemotes": "",
         "temperatureInF": "1",
-        "fppMode": "remote"
+        "backgroundColor": "008080",
+        "disableIPAnnouncement": "1",
+        "ScheduleSeconds": "0",
+        "verbosePlaylistItemDetails": "0"
       }
     ],
     "commandPresets": [
@@ -2570,6 +1838,20 @@
     "timezone": [
       "America/New_York"
     ]
+  },
+  "plugins": {
+    "fpp-vastfmt": {
+      "plugin.fpp-vastfmt": [
+        [
+          "Connection = \"I2C\"",
+          "EnableRDS = \"True\"",
+          "StationText = \"Lights  OnPutney Circle \"",
+          "Frequency = \"87.90\"",
+          "Power = \"115\"",
+          ""
+        ]
+      ]
+    }
   },
   "network": {
     "wired_network": [
@@ -2589,6 +1871,6 @@
     ]
   },
   "protected": true,
-  "platform": "BeagleBone Black",
+  "platform": "Raspberry Pi",
   "fpp_backup_version": "5"
 }
