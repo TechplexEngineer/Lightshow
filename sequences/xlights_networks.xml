@@ -6,7 +6,7 @@
   <Controller Id="2" Name="Characters" Description="" Type="Ethernet" Vendor="ESPixelStick" Model="ESPixelStick-4.x" Variant="ESP8266" AutoSize="1" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="1" AutoUpload="1" SuppressDuplicates="0" IP="espixel-01" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
     <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="espixel-01" BaudRate="2" NetworkType="DDP" MaxChannels="540"/>
   </Controller>
-  <Controller Id="3" Name="Pixels" Description="" Type="Ethernet" Vendor="KulpLights" Model="F8-B" Variant="No Serial w/ Expansion" AutoSize="1" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="1" AutoUpload="1" SuppressDuplicates="0" IP="pixels" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
+  <Controller Id="3" Name="Pixels" Description="" Type="Ethernet" Vendor="KulpLights" Model="F8-B" Variant="No Serial w/ Expansion" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="1" AutoUpload="1" SuppressDuplicates="0" IP="pixels" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
     <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="pixels" BaudRate="3" NetworkType="DDP" MaxChannels="2364"/>
   </Controller>
   <Controller Id="4" Name="MegaTree" Description="" Type="Ethernet" Vendor="KulpLights" Model="K16A-B" Variant="No Expansion" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="1" AutoUpload="1" SuppressDuplicates="0" IP="megatree" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
