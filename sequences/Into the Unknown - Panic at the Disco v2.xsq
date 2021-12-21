@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2021.38</version>
-    <author/>
-    <author-email/>
-    <author-website/>
-    <song/>
-    <artist/>
-    <album/>
-    <MusicURL/>
-    <comment/>
+    <version>2021.40</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song>Into the Unknown</song>
+    <artist>Panic at the Disco</artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
     <mediaFile>/home/techplex/projects/pers/lightshow/sequences/Music/Into the Unknown - Panic at the Disco.mp3</mediaFile>
@@ -1828,8 +1828,8 @@
         <Effect label="L" startTime="28700" endTime="28800"></Effect>
         <Effect label="U" startTime="28800" endTime="28900"></Effect>
         <Effect label="etc" startTime="28900" endTime="28950"></Effect>
-        <Effect label="O" startTime="28950" endTime="29000"></Effect>
         <Effect label="FV" startTime="28950" endTime="28950"></Effect>
+        <Effect label="O" startTime="28950" endTime="29000"></Effect>
         <Effect label="etc" startTime="29000" endTime="29050"></Effect>
         <Effect label="etc" startTime="29050" endTime="29100"></Effect>
         <Effect label="AI" startTime="29100" endTime="29250"></Effect>
