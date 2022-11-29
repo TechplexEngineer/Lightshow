@@ -5,3 +5,4 @@ Backup/
 ~*
 .DS_Store
 RenderCache
+xScheduleData/*
