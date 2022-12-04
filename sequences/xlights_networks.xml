@@ -8,7 +8,7 @@
     <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="espixel02" BaudRate="2" NetworkType="DDP" MaxChannels="540"/>
   </Controller>
   <Controller Id="3" Name="Pixels" Description="" Type="Ethernet" Vendor="KulpLights" Model="F8-B" Variant="No Serial w/ Expansion" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="1" SuppressDuplicates="0" IP="pixels" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
-    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="pixels" BaudRate="3" NetworkType="DDP" MaxChannels="2730"/>
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="pixels" BaudRate="3" NetworkType="DDP" MaxChannels="2742"/>
   </Controller>
   <Controller Id="4" Name="MegaTree" Description="" Type="Ethernet" Vendor="KulpLights" Model="K16A-B" Variant="No Expansion" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="1" SuppressDuplicates="0" IP="megatree" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
     <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="megatree" BaudRate="4" NetworkType="DDP" MaxChannels="7560"/>
