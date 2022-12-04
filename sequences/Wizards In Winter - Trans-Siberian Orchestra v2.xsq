@@ -12,7 +12,7 @@
     <comment/>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
-    <mediaFile>C:\Users\bbourque\projects\pers\lightshow\sequences\Music\Wizards In Winter - Trans-Siberian Orchestra.m4a</mediaFile>
+    <mediaFile>/home/techplex/projects/pers/Lightshow/sequences/Music/Wizards_In_Winter_-_Trans-Siberian_Orchestra.m4a</mediaFile>
     <sequenceDuration>187.940</sequenceDuration>
     <imageDir/>
   </head>

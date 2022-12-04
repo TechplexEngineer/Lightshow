@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2021.40</version>
+    <version>2022.19</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -154,7 +154,7 @@
     <Effect>E_CHECKBOX_Pinwheel_Rotation=0,E_CHOICE_Pinwheel_3D=None,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=348,E_SLIDER_Pinwheel_Arms=16,E_SLIDER_Pinwheel_Speed=48,E_SLIDER_Pinwheel_Thickness=3,E_SLIDER_Pinwheel_Twist=-290</Effect>
     <Effect>E_CHECKBOX_Curtain_Repeat=0,E_CHOICE_Curtain_Edge=middle,E_CHOICE_Curtain_Effect=open,E_SLIDER_Curtain_Swag=4,E_TEXTCTRL_Curtain_Speed=1.0</Effect>
     <Effect>E_CHOICE_Falling=Driving,E_SLIDER_Snowflakes_Count=5,E_SLIDER_Snowflakes_Speed=10,E_SLIDER_Snowflakes_Type=1</Effect>
-    <Effect>E_CHECKBOX_Mirror_Wave=0,E_CHOICE_Fill_Colors=None,E_CHOICE_Wave_Direction=Right to Left,E_CHOICE_Wave_Type=Sine,E_SLIDER_Number_Waves=900,E_SLIDER_Thickness_Percentage=5,E_SLIDER_Wave_Height=50,E_SLIDER_Wave_Speed=10,E_SLIDER_Wave_YOffset=0</Effect>
+    <Effect>E_CHECKBOX_Mirror_Wave=0,E_CHOICE_Fill_Colors=None,E_CHOICE_Wave_Direction=Right to Left,E_CHOICE_Wave_Type=Sine,E_SLIDER_Number_Waves=900,E_SLIDER_Thickness_Percentage=5,E_SLIDER_Wave_Height=50,E_SLIDER_Wave_YOffset=0,E_TEXTCTRL_Wave_Speed=10</Effect>
     <Effect>E_CHECKBOX_Lines_FadeTrails=1,E_SLIDER_Lines_Objects=17,E_SLIDER_Lines_Segments=3,E_SLIDER_Lines_Speed=1,E_SLIDER_Lines_Thickness=1,E_SLIDER_Lines_Trails=0</Effect>
     <Effect>E_CHECKBOX_Galaxy_Blend_Edges=1,E_CHECKBOX_Galaxy_Inward=0,E_CHECKBOX_Galaxy_Reverse=0,E_NOTEBOOK_Galaxy=End,E_SLIDER_Galaxy_Accel=0,E_SLIDER_Galaxy_CenterX=50,E_SLIDER_Galaxy_CenterY=50,E_SLIDER_Galaxy_Duration=20,E_SLIDER_Galaxy_End_Radius=249,E_SLIDER_Galaxy_End_Width=226,E_SLIDER_Galaxy_Revolutions=1547,E_SLIDER_Galaxy_Start_Angle=0,E_SLIDER_Galaxy_Start_Radius=1,E_SLIDER_Galaxy_Start_Width=5</Effect>
     <Effect>E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Position,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=66,E_SLIDER_Shockwave_CenterY=37,E_SLIDER_Shockwave_End_Radius=203,E_SLIDER_Shockwave_End_Width=175,E_SLIDER_Shockwave_Start_Radius=52,E_SLIDER_Shockwave_Start_Width=33</Effect>
@@ -168,7 +168,7 @@
     <Effect>E_CHOICE_Plasma_Color=Normal,E_SLIDER_Plasma_Line_Density=1,E_SLIDER_Plasma_Speed=10,E_SLIDER_Plasma_Style=1</Effect>
     <Effect>E_CHECKBOX_Circles_Bounce=1,E_CHECKBOX_Circles_Bubbles=0,E_CHECKBOX_Circles_Collide=1,E_CHECKBOX_Circles_Linear_Fade=1,E_CHECKBOX_Circles_Plasma=1,E_CHECKBOX_Circles_Radial=0,E_CHECKBOX_Circles_Radial_3D=0,E_CHECKBOX_Circles_Random_m=0,E_SLIDER_Circles_Count=8,E_SLIDER_Circles_Size=20,E_SLIDER_Circles_Speed=26</Effect>
     <Effect>E_CHOICE_Butterfly_Colors=Palette,E_CHOICE_Butterfly_Direction=Normal,E_SLIDER_Butterfly_Chunks=1,E_SLIDER_Butterfly_Skip=2,E_SLIDER_Butterfly_Speed=10,E_SLIDER_Butterfly_Style=1</Effect>
-    <Effect>E_CHECKBOX_Mirror_Wave=0,E_CHOICE_Fill_Colors=None,E_CHOICE_Wave_Direction=Right to Left,E_CHOICE_Wave_Type=Sine,E_SLIDER_Number_Waves=900,E_SLIDER_Thickness_Percentage=5,E_SLIDER_Wave_Height=50,E_SLIDER_Wave_Speed=10,E_SLIDER_Wave_YOffset=0,T_CHECKBOX_Canvas=1</Effect>
+    <Effect>E_CHECKBOX_Mirror_Wave=0,E_CHOICE_Fill_Colors=None,E_CHOICE_Wave_Direction=Right to Left,E_CHOICE_Wave_Type=Sine,E_SLIDER_Number_Waves=900,E_SLIDER_Thickness_Percentage=5,E_SLIDER_Wave_Height=50,E_SLIDER_Wave_YOffset=0,E_TEXTCTRL_Wave_Speed=10,T_CHECKBOX_Canvas=1</Effect>
     <Effect>B_SLIDER_Rotations=10,B_SLIDER_ZoomQuality=2,B_VALUECURVE_Rotation=Active=TRUE|Id=ID_VALUECURVE_Rotation|Type=Sine|Min=0.00|Max=100.00|P2=10.00|P3=50.00|P4=25.00|WRAP=TRUE|RV=TRUE|,E_CHECKBOX_Spirals_3D=1,E_CHECKBOX_Spirals_Blend=0,E_CHECKBOX_Spirals_Grow=0,E_CHECKBOX_Spirals_Shrink=0,E_SLIDER_Spirals_Count=1,E_SLIDER_Spirals_Rotation=20,E_SLIDER_Spirals_Thickness=50,E_TEXTCTRL_Spirals_Movement=1.0</Effect>
     <Effect>E_CHECKBOX_Lines_FadeTrails=1,E_SLIDER_Lines_Objects=20,E_SLIDER_Lines_Segments=6,E_SLIDER_Lines_Speed=1,E_SLIDER_Lines_Thickness=8,E_SLIDER_Lines_Trails=7</Effect>
     <Effect>E_CHECKBOX_Ripple3D=0,E_CHOICE_Ripple_Movement=Implode,E_CHOICE_Ripple_Object_To_Draw=Circle,E_SLIDER_Ripple_Thickness=20,E_TEXTCTRL_Ripple_Cycles=1.0</Effect>
@@ -181,7 +181,7 @@
     <Effect>E_CHECKBOX_Ripple3D=0,E_CHOICE_Ripple_Movement=Explode,E_CHOICE_Ripple_Object_To_Draw=Triangle,E_SLIDER_Ripple_Thickness=97,E_TEXTCTRL_Ripple_Cycles=1.0</Effect>
     <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
     <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Right,E_NOTEBOOK_SSEFFECT_TYPE=Skips,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=66,E_SLIDER_Skips_BandSize=3,E_SLIDER_Skips_SkipSize=9,E_SLIDER_Skips_StartPos=15,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
-    <Effect>E_CHECKBOX_Mirror_Wave=1,E_CHOICE_Fill_Colors=Palette,E_CHOICE_Wave_Direction=Left to Right,E_CHOICE_Wave_Type=Decaying Sine,E_SLIDER_Number_Waves=710,E_SLIDER_Thickness_Percentage=84,E_SLIDER_Wave_Height=5,E_SLIDER_Wave_Speed=50,E_SLIDER_Wave_YOffset=0</Effect>
+    <Effect>E_CHECKBOX_Mirror_Wave=1,E_CHOICE_Fill_Colors=Palette,E_CHOICE_Wave_Direction=Left to Right,E_CHOICE_Wave_Type=Decaying Sine,E_SLIDER_Number_Waves=710,E_SLIDER_Thickness_Percentage=84,E_SLIDER_Wave_Height=5,E_SLIDER_Wave_YOffset=0,E_TEXTCTRL_Wave_Speed=50</Effect>
     <Effect>E_CHECKBOX_Ripple3D=0,E_CHOICE_Ripple_Movement=Implode,E_CHOICE_Ripple_Object_To_Draw=Star,E_SLIDER_RIPPLE_POINTS=3,E_SLIDER_Ripple_Rotation=329,E_SLIDER_Ripple_Thickness=70,E_TEXTCTRL_Ripple_Cycles=1.0</Effect>
     <Effect>E_CHOICE_Tendril_Movement=Music Line,E_TEXTCTRL_Tendril_Dampening=2,E_TEXTCTRL_Tendril_Friction=0,E_TEXTCTRL_Tendril_Length=12,E_TEXTCTRL_Tendril_Speed=10,E_TEXTCTRL_Tendril_Tension=7,E_TEXTCTRL_Tendril_Thickness=7,E_TEXTCTRL_Tendril_Trails=19,E_TEXTCTRL_Tendril_TuneMovement=18,E_TEXTCTRL_Tendril_XOffset=79,E_TEXTCTRL_Tendril_YOffset=90</Effect>
     <Effect>E_CHECKBOX_ForkedLightning=0,E_CHOICE_Lightning_Direction=Up,E_SLIDER_Lightning_BOTX=0,E_SLIDER_Lightning_BOTY=0,E_SLIDER_Lightning_TopX=0,E_SLIDER_Lightning_TopY=0,E_SLIDER_Number_Bolts=10,E_SLIDER_Number_Segments=5</Effect>
@@ -221,8 +221,8 @@
     <Effect>E_CHOICE_Garlands_Direction=Up,E_SLIDER_Garlands_Spacing=86,E_SLIDER_Garlands_Type=4,E_TEXTCTRL_Garlands_Cycles=19.4</Effect>
     <Effect>E_CHOICE_Skips_Direction=To Middle,E_NOTEBOOK_SSEFFECT_TYPE=Skips,E_SLIDER_Skips_Advance=10,E_SLIDER_Skips_BandSize=4,E_SLIDER_Skips_SkipSize=19,E_SLIDER_Skips_StartPos=3</Effect>
     <Effect>E_CHECKBOX_Pinwheel_Rotation=0,E_CHOICE_Pinwheel_3D=3D Inverted,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=339,E_SLIDER_Pinwheel_Arms=18,E_SLIDER_Pinwheel_Speed=4,E_SLIDER_Pinwheel_Thickness=48,E_SLIDER_Pinwheel_Twist=10</Effect>
-    <Effect>E_CHECKBOX_Mirror_Wave=0,E_CHOICE_Fill_Colors=Palette,E_CHOICE_Wave_Direction=Right to Left,E_CHOICE_Wave_Type=Sine,E_SLIDER_Number_Waves=180,E_SLIDER_Thickness_Percentage=100,E_SLIDER_Wave_Height=99,E_SLIDER_Wave_Speed=10,E_SLIDER_Wave_YOffset=0</Effect>
-    <Effect>E_CHECKBOX_Mirror_Wave=1,E_CHOICE_Fill_Colors=Palette,E_CHOICE_Wave_Direction=Right to Left,E_CHOICE_Wave_Type=Sine,E_SLIDER_Number_Waves=3358,E_SLIDER_Thickness_Percentage=34,E_SLIDER_Wave_Height=49,E_SLIDER_Wave_Speed=2,E_SLIDER_Wave_YOffset=0,T_CHECKBOX_Canvas=1</Effect>
+    <Effect>E_CHECKBOX_Mirror_Wave=0,E_CHOICE_Fill_Colors=Palette,E_CHOICE_Wave_Direction=Right to Left,E_CHOICE_Wave_Type=Sine,E_SLIDER_Number_Waves=180,E_SLIDER_Thickness_Percentage=100,E_SLIDER_Wave_Height=99,E_SLIDER_Wave_YOffset=0,E_TEXTCTRL_Wave_Speed=10</Effect>
+    <Effect>E_CHECKBOX_Mirror_Wave=1,E_CHOICE_Fill_Colors=Palette,E_CHOICE_Wave_Direction=Right to Left,E_CHOICE_Wave_Type=Sine,E_SLIDER_Number_Waves=3358,E_SLIDER_Thickness_Percentage=34,E_SLIDER_Wave_Height=49,E_SLIDER_Wave_YOffset=0,E_TEXTCTRL_Wave_Speed=2,T_CHECKBOX_Canvas=1</Effect>
     <Effect>E_CHECKBOX_Lines_FadeTrails=1,E_SLIDER_Lines_Objects=3,E_SLIDER_Lines_Segments=4,E_SLIDER_Lines_Speed=1,E_SLIDER_Lines_Thickness=1,E_SLIDER_Lines_Trails=5</Effect>
     <Effect>E_CHECKBOX_Lines_FadeTrails=1,E_SLIDER_Lines_Objects=16,E_SLIDER_Lines_Segments=5,E_SLIDER_Lines_Speed=1,E_SLIDER_Lines_Thickness=1,E_SLIDER_Lines_Trails=6</Effect>
     <Effect>E_CHECKBOX_Lines_FadeTrails=1,E_SLIDER_Lines_Objects=11,E_SLIDER_Lines_Segments=4,E_SLIDER_Lines_Speed=1,E_SLIDER_Lines_Thickness=1,E_SLIDER_Lines_Trails=8</Effect>
@@ -235,7 +235,7 @@
     <Effect>E_CHECKBOX_Lines_FadeTrails=1,E_SLIDER_Lines_Objects=20,E_SLIDER_Lines_Segments=3,E_SLIDER_Lines_Speed=1,E_SLIDER_Lines_Thickness=9,E_SLIDER_Lines_Trails=9</Effect>
     <Effect>E_CHECKBOX_PerNode=0,E_TEXTCTRL_Candle_FlameAgility=8,E_TEXTCTRL_Candle_WindBaseline=218,E_TEXTCTRL_Candle_WindCalmness=5,E_TEXTCTRL_Candle_WindVariability=5</Effect>
     <Effect>E_CHECKBOX_Galaxy_Blend_Edges=1,E_CHECKBOX_Galaxy_Inward=0,E_CHECKBOX_Galaxy_Reverse=0,E_NOTEBOOK_Galaxy=Start,E_SLIDER_Galaxy_Accel=0,E_SLIDER_Galaxy_CenterX=52,E_SLIDER_Galaxy_CenterY=97,E_SLIDER_Galaxy_Duration=20,E_SLIDER_Galaxy_End_Radius=10,E_SLIDER_Galaxy_End_Width=5,E_SLIDER_Galaxy_Revolutions=1440,E_SLIDER_Galaxy_Start_Angle=0,E_SLIDER_Galaxy_Start_Radius=250,E_SLIDER_Galaxy_Start_Width=163</Effect>
-    <Effect>E_CHECKBOX_Mirror_Wave=0,E_CHOICE_Fill_Colors=Palette,E_CHOICE_Wave_Direction=Right to Left,E_CHOICE_Wave_Type=Fractal/ivy,E_SLIDER_Number_Waves=3295,E_SLIDER_Thickness_Percentage=26,E_SLIDER_Wave_Height=90,E_SLIDER_Wave_Speed=9,E_SLIDER_Wave_YOffset=0</Effect>
+    <Effect>E_CHECKBOX_Mirror_Wave=0,E_CHOICE_Fill_Colors=Palette,E_CHOICE_Wave_Direction=Right to Left,E_CHOICE_Wave_Type=Fractal/ivy,E_SLIDER_Number_Waves=3295,E_SLIDER_Thickness_Percentage=26,E_SLIDER_Wave_Height=90,E_SLIDER_Wave_YOffset=0,E_TEXTCTRL_Wave_Speed=9</Effect>
     <Effect>E_CHECKBOX_Pinwheel_Rotation=0,E_CHOICE_Pinwheel_3D=Sweep,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=103,E_SLIDER_Pinwheel_Arms=11,E_SLIDER_Pinwheel_Speed=16,E_SLIDER_Pinwheel_Thickness=84,E_SLIDER_Pinwheel_Twist=29</Effect>
     <Effect>E_CHECKBOX_Pinwheel_Rotation=0,E_CHOICE_Pinwheel_3D=Sweep,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=348,E_SLIDER_Pinwheel_Arms=15,E_SLIDER_Pinwheel_Speed=2,E_SLIDER_Pinwheel_Thickness=82,E_SLIDER_Pinwheel_Twist=-132</Effect>
     <Effect>E_CHECKBOX_Meteors_UseMusic=0,E_CHOICE_Meteors_Effect=Down,E_CHOICE_Meteors_Type=Palette,E_SLIDER_Meteors_Count=10,E_SLIDER_Meteors_Length=25,E_SLIDER_Meteors_Speed=10,E_SLIDER_Meteors_Swirl_Intensity=0</Effect>
@@ -310,22 +310,21 @@
     <Element collapsed="0" type="model" name="Door Office" visible="0"/>
     <Element collapsed="0" type="model" name="AC Cherry Icicles" visible="0"/>
     <Element collapsed="0" type="model" name="AC Cherry Wrap" visible="0"/>
-    <Element collapsed="0" type="model" name="AC Bush 01" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bush 01 Aud Lt" visible="0"/>
     <Element collapsed="0" type="model" name="AC Bush 02" visible="0"/>
     <Element collapsed="0" type="model" name="AC Bush 03" visible="0"/>
     <Element collapsed="0" type="model" name="AC Bush 04" visible="0"/>
-    <Element collapsed="0" type="model" name="AC Bush 05" visible="0"/>
-    <Element collapsed="0" type="model" name="AC Bush 06" visible="0"/>
-    <Element collapsed="0" type="model" name="AC Bush 07" visible="0"/>
-    <Element collapsed="0" type="model" name="AC Candy 01" visible="0"/>
-    <Element collapsed="0" type="model" name="AC Candy 02" visible="0"/>
-    <Element collapsed="0" type="model" name="AC Candy 03" visible="0"/>
-    <Element collapsed="0" type="model" name="AC Candy 04" visible="0"/>
-    <Element collapsed="0" type="model" name="AC Candy 05" visible="0"/>
-    <Element collapsed="0" type="model" name="AC Candy 06" visible="0"/>
-    <Element collapsed="0" type="model" name="AC Holly 01" visible="0"/>
-    <Element collapsed="0" type="model" name="AC Holly 02" visible="0"/>
-    <Element collapsed="0" type="model" name="AC Bush 08" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bush 05 Aud Rt" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bush 06 Joe Back" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Bush 07 Joe Front" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Candy 01 Top Aud Lt" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Candy 02 Top Aud Rt" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Candy 03 Middle Aud Lt" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Candy 04 Middle Aud Rt" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Candy 05 Bottom Aud Lt" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Candy 06 Bottom Aud Rt" visible="0"/>
+    <Element collapsed="0" type="model" name="AC Holly Aud. Rt." visible="0"/>
+    <Element collapsed="0" type="model" name="AC Holly Aud. Lt." visible="0"/>
     <Element collapsed="0" type="model" name="Arches" visible="0"/>
     <Element collapsed="0" type="model" name="MegaTree" visible="0"/>
   </DisplayElements>
@@ -1204,8 +1203,8 @@
         <Effect label="AI" startTime="49750" endTime="49800"></Effect>
         <Effect label="etc" startTime="49800" endTime="49850"></Effect>
         <Effect label="AI" startTime="49850" endTime="49900"></Effect>
-        <Effect label="etc" startTime="49900" endTime="49900"></Effect>
         <Effect label="AI" startTime="49900" endTime="49950"></Effect>
+        <Effect label="etc" startTime="49900" endTime="49900"></Effect>
         <Effect label="etc" startTime="49950" endTime="50000"></Effect>
         <Effect label="AI" startTime="50000" endTime="50050"></Effect>
         <Effect label="AI" startTime="53450" endTime="53700"></Effect>
@@ -2618,7 +2617,7 @@
     <Element type="model" name="AC Cherry Wrap">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="AC Bush 01">
+    <Element type="model" name="AC Bush 01 Aud Lt">
       <EffectLayer>
         <Effect ref="145" name="VU Meter" startTime="34550" endTime="36300" palette="2"/>
         <Effect ref="140" name="On" id="1" startTime="77900" endTime="78800" palette="92"/>
@@ -2654,26 +2653,26 @@
         <Effect ref="142" name="VU Meter" id="2" startTime="165750" endTime="167450" palette="3"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="AC Bush 05">
+    <Element type="model" name="AC Bush 05 Aud Rt">
       <EffectLayer>
         <Effect ref="145" name="VU Meter" startTime="36950" endTime="39600" palette="2"/>
         <Effect ref="140" name="On" id="1" startTime="78500" endTime="79350" palette="92"/>
         <Effect ref="142" name="VU Meter" id="2" startTime="165750" endTime="167450" palette="3"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="AC Bush 06">
+    <Element type="model" name="AC Bush 06 Joe Back">
       <EffectLayer>
         <Effect ref="145" name="VU Meter" startTime="39900" endTime="41650" palette="2"/>
         <Effect ref="141" name="On" id="1" startTime="102250" endTime="103600" palette="81"/>
         <Effect ref="2" name="On" id="2" startTime="130300" endTime="131250" palette="3"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="AC Bush 07">
+    <Element type="model" name="AC Bush 07 Joe Front">
       <EffectLayer>
         <Effect ref="145" name="VU Meter" startTime="39900" endTime="41650" palette="2"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="AC Candy 01">
+    <Element type="model" name="AC Candy 01 Top Aud Lt">
       <EffectLayer>
         <Effect ref="140" name="On" startTime="68450" endTime="69350" palette="92"/>
         <Effect ref="140" name="On" id="1" startTime="78250" endTime="79150" palette="92"/>
@@ -2683,7 +2682,7 @@
         <Effect ref="140" name="On" id="5" startTime="173800" endTime="174500" palette="92"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="AC Candy 02">
+    <Element type="model" name="AC Candy 02 Top Aud Rt">
       <EffectLayer>
         <Effect ref="140" name="On" startTime="68450" endTime="69350" palette="92"/>
         <Effect ref="140" name="On" id="1" startTime="78250" endTime="79150" palette="92"/>
@@ -2693,7 +2692,7 @@
         <Effect ref="140" name="On" id="5" startTime="173800" endTime="174500" palette="92"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="AC Candy 03">
+    <Element type="model" name="AC Candy 03 Middle Aud Lt">
       <EffectLayer>
         <Effect ref="140" name="On" startTime="68750" endTime="69650" palette="92"/>
         <Effect ref="140" name="On" id="1" startTime="78550" endTime="79450" palette="92"/>
@@ -2702,7 +2701,7 @@
         <Effect ref="140" name="On" id="4" startTime="174100" endTime="174700" palette="92"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="AC Candy 04">
+    <Element type="model" name="AC Candy 04 Middle Aud Rt">
       <EffectLayer>
         <Effect ref="140" name="On" startTime="68750" endTime="69650" palette="92"/>
         <Effect ref="140" name="On" id="1" startTime="78550" endTime="79450" palette="92"/>
@@ -2711,7 +2710,7 @@
         <Effect ref="140" name="On" id="4" startTime="174100" endTime="174700" palette="92"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="AC Candy 05">
+    <Element type="model" name="AC Candy 05 Bottom Aud Lt">
       <EffectLayer>
         <Effect ref="140" name="On" startTime="69050" endTime="69900" palette="92"/>
         <Effect ref="140" name="On" id="1" startTime="78850" endTime="79700" palette="92"/>
@@ -2719,7 +2718,7 @@
         <Effect ref="140" name="On" id="3" startTime="174500" endTime="175100" palette="92"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="AC Candy 06">
+    <Element type="model" name="AC Candy 06 Bottom Aud Rt">
       <EffectLayer>
         <Effect ref="140" name="On" startTime="69050" endTime="69900" palette="92"/>
         <Effect ref="140" name="On" id="1" startTime="78850" endTime="79700" palette="92"/>
@@ -2727,18 +2726,15 @@
         <Effect ref="140" name="On" id="3" startTime="174500" endTime="175100" palette="92"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="AC Holly 01">
+    <Element type="model" name="AC Holly Aud. Rt.">
       <EffectLayer>
         <Effect ref="2" name="On" startTime="124150" endTime="124600" palette="3"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="AC Holly 02">
+    <Element type="model" name="AC Holly Aud. Lt.">
       <EffectLayer>
         <Effect ref="2" name="On" startTime="123650" endTime="124150" palette="3"/>
       </EffectLayer>
-    </Element>
-    <Element type="model" name="AC Bush 08">
-      <EffectLayer/>
     </Element>
     <Element type="model" name="Arches">
       <EffectLayer/>

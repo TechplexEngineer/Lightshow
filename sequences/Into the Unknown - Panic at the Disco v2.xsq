@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2021.40</version>
+    <version>2022.19</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -57,27 +57,27 @@
     <Effect>E_CHECKBOX_On_Shimmer=1,T_TEXTCTRL_Fadeout=4</Effect>
     <Effect>B_CHOICE_BufferStyle=Per Model Default,E_CHECKBOX_Morph_End_Link=0,E_CHECKBOX_Morph_Start_Link=0,E_CHECKBOX_ShowHeadAtStart=0,E_NOTEBOOK_Morph=Start,E_SLIDER_MorphAccel=0,E_SLIDER_MorphDuration=20,E_SLIDER_MorphEndLength=1,E_SLIDER_MorphStartLength=1,E_SLIDER_Morph_End_X1=0,E_SLIDER_Morph_End_X2=100,E_SLIDER_Morph_End_Y1=0,E_SLIDER_Morph_End_Y2=0,E_SLIDER_Morph_Repeat_Count=0,E_SLIDER_Morph_Repeat_Skip=1,E_SLIDER_Morph_Stagger=0,E_SLIDER_Morph_Start_X1=0,E_SLIDER_Morph_Start_X2=100,E_SLIDER_Morph_Start_Y1=100,E_SLIDER_Morph_Start_Y2=100</Effect>
     <Effect>E_CHECKBOX_Twinkle_ReRandom=1,E_CHECKBOX_Twinkle_Strobe=1,E_CHOICE_Twinkle_Style=Old Render Method,E_SLIDER_Twinkle_Count=40,E_SLIDER_Twinkle_Steps=30</Effect>
-    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/lightshow/sequences/imports/xLights ATW Into The Unknown/Video/BlueCrystalBoxes.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0</Effect>
-    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/lightshow/sequences/imports/xLights ATW Into The Unknown/Video/BlueCrystalBoxes.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadeout=.25</Effect>
+    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/Lightshow/sequences/imports/xLights ATW Into The Unknown/Video/BlueCrystalBoxes.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0</Effect>
+    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/Lightshow/sequences/imports/xLights ATW Into The Unknown/Video/BlueCrystalBoxes.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadeout=.25</Effect>
     <Effect>E_CHECKBOX_Twinkle_ReRandom=1,E_CHECKBOX_Twinkle_Strobe=1,E_CHOICE_Twinkle_Style=Old Render Method,E_SLIDER_Twinkle_Count=40,E_SLIDER_Twinkle_Steps=30,T_TEXTCTRL_Fadein=1,T_TEXTCTRL_Fadeout=2</Effect>
-    <Effect>E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Position,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=50,E_SLIDER_Shockwave_CenterY=50,E_SLIDER_Shockwave_End_Radius=250,E_SLIDER_Shockwave_End_Width=100,E_SLIDER_Shockwave_Start_Width=20,E_VALUECURVE_Shockwave_Start_Radius=Active=TRUE|Id=ID_VALUECURVE_Shockwave_Start_Radius|Type=Custom|Min=0.00|Max=250.00|RV=TRUE|Values=0.00:1.00;0.08:0.00;1.00:0.00|,T_CHOICE_LayerMethod=1 is Unmask</Effect>
+    <Effect>E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Position,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=50,E_SLIDER_Shockwave_CenterY=50,E_SLIDER_Shockwave_End_Radius=250,E_SLIDER_Shockwave_End_Width=100,E_SLIDER_Shockwave_Start_Width=20,E_VALUECURVE_Shockwave_Start_Radius=Active=TRUE|Id=ID_VALUECURVE_Shockwave_Start_Radius|Type=Custom|Min=0.00|Max=750.00|RV=TRUE|Values=0.00:0.33;0.08:0.00;1.00:0.00|,T_CHOICE_LayerMethod=1 is Unmask</Effect>
     <Effect>E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Position,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=50,E_SLIDER_Shockwave_CenterY=50,E_SLIDER_Shockwave_End_Radius=250,E_SLIDER_Shockwave_End_Width=100,E_SLIDER_Shockwave_Start_Radius=0,E_SLIDER_Shockwave_Start_Width=171,T_CHOICE_LayerMethod=1 is Unmask</Effect>
-    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Manual and Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/lightshow/sequences/imports/xLights ATW Into The Unknown/Video/colorful-flashing-of-multicolored-spotlights-5PHFANC.m4v,E_TEXTCTRL_Duration=0:10.010,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Speed=.25,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadein=2</Effect>
-    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Manual and Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/lightshow/sequences/imports/xLights ATW Into The Unknown/Video/colorful-flashing-of-multicolored-spotlights-5PHFANC.m4v,E_TEXTCTRL_Duration=0:10.010,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Speed=10,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0</Effect>
-    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Manual and Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/lightshow/sequences/imports/xLights ATW Into The Unknown/Video/colorful-flashing-of-multicolored-spotlights-5PHFANC.m4v,E_TEXTCTRL_Duration=0:10.010,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Speed=-10.00,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0</Effect>
-    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Manual and Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/lightshow/sequences/imports/xLights ATW Into The Unknown/Video/colorful-flashing-of-multicolored-spotlights-5PHFANC.m4v,E_TEXTCTRL_Duration=0:10.010,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Speed=9,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0</Effect>
-    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Manual and Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/lightshow/sequences/imports/xLights ATW Into The Unknown/Video/colorful-flashing-of-multicolored-spotlights-5PHFANC.m4v,E_TEXTCTRL_Duration=0:10.010,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Speed=4,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0</Effect>
-    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Manual and Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/lightshow/sequences/imports/xLights ATW Into The Unknown/Video/colorful-flashing-of-multicolored-spotlights-5PHFANC.m4v,E_TEXTCTRL_Duration=0:10.010,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Speed=2,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_CHOICE_Out_Transition_Type=Circular Swirl,T_TEXTCTRL_Fadeout=2</Effect>
-    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=1,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/lightshow/sequences/imports/xLights ATW Into The Unknown/Video/BlueCrystalBoxes.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=10</Effect>
-    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/lightshow/sequences/imports/xLights ATW Into The Unknown/Video/BlueCrystalBoxes.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadein=1,T_TEXTCTRL_Fadeout=1</Effect>
-    <Effect>E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Position,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=50,E_SLIDER_Shockwave_CenterY=50,E_SLIDER_Shockwave_End_Radius=250,E_SLIDER_Shockwave_End_Width=100,E_SLIDER_Shockwave_Start_Width=20,E_VALUECURVE_Shockwave_Start_Radius=Active=TRUE|Id=ID_VALUECURVE_Shockwave_Start_Radius|Type=Custom|Min=0.00|Max=250.00|RV=TRUE|Values=0.00:1.00;0.08:0.00;1.00:0.00|</Effect>
-    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/lightshow/sequences/imports/xLights ATW Into The Unknown/Video/Soft Illumination Blue with Wind.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadein=3</Effect>
-    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/lightshow/sequences/imports/xLights ATW Into The Unknown/Video/Soft Illumination Purple with Wind.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Manual and Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/Lightshow/sequences/imports/xLights ATW Into The Unknown/Video/colorful-flashing-of-multicolored-spotlights-5PHFANC.m4v,E_TEXTCTRL_Duration=0:10.010,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Speed=.25,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadein=2</Effect>
+    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Manual and Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/Lightshow/sequences/imports/xLights ATW Into The Unknown/Video/colorful-flashing-of-multicolored-spotlights-5PHFANC.m4v,E_TEXTCTRL_Duration=0:10.010,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Speed=10,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0</Effect>
+    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Manual and Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/Lightshow/sequences/imports/xLights ATW Into The Unknown/Video/colorful-flashing-of-multicolored-spotlights-5PHFANC.m4v,E_TEXTCTRL_Duration=0:10.010,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Speed=-10.00,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0</Effect>
+    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Manual and Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/Lightshow/sequences/imports/xLights ATW Into The Unknown/Video/colorful-flashing-of-multicolored-spotlights-5PHFANC.m4v,E_TEXTCTRL_Duration=0:10.010,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Speed=9,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0</Effect>
+    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Manual and Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/Lightshow/sequences/imports/xLights ATW Into The Unknown/Video/colorful-flashing-of-multicolored-spotlights-5PHFANC.m4v,E_TEXTCTRL_Duration=0:10.010,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Speed=4,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0</Effect>
+    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Manual and Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/Lightshow/sequences/imports/xLights ATW Into The Unknown/Video/colorful-flashing-of-multicolored-spotlights-5PHFANC.m4v,E_TEXTCTRL_Duration=0:10.010,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Speed=2,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_CHOICE_Out_Transition_Type=Circular Swirl,T_TEXTCTRL_Fadeout=2</Effect>
+    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=1,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/Lightshow/sequences/imports/xLights ATW Into The Unknown/Video/BlueCrystalBoxes.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=10</Effect>
+    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/Lightshow/sequences/imports/xLights ATW Into The Unknown/Video/BlueCrystalBoxes.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadein=1,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Position,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=50,E_SLIDER_Shockwave_CenterY=50,E_SLIDER_Shockwave_End_Radius=250,E_SLIDER_Shockwave_End_Width=100,E_SLIDER_Shockwave_Start_Width=20,E_VALUECURVE_Shockwave_Start_Radius=Active=TRUE|Id=ID_VALUECURVE_Shockwave_Start_Radius|Type=Custom|Min=0.00|Max=750.00|RV=TRUE|Values=0.00:0.33;0.08:0.00;1.00:0.00|</Effect>
+    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/Lightshow/sequences/imports/xLights ATW Into The Unknown/Video/Soft Illumination Blue with Wind.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadein=3</Effect>
+    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/Lightshow/sequences/imports/xLights ATW Into The Unknown/Video/Soft Illumination Purple with Wind.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadeout=1</Effect>
     <Effect>B_CHOICE_BufferStyle=Per Model Default,E_CHECKBOX_Morph_End_Link=0,E_CHECKBOX_Morph_Start_Link=0,E_CHECKBOX_ShowHeadAtStart=0,E_NOTEBOOK_Morph=Options,E_SLIDER_MorphAccel=0,E_SLIDER_MorphDuration=20,E_SLIDER_MorphEndLength=1,E_SLIDER_MorphStartLength=1,E_SLIDER_Morph_End_X1=0,E_SLIDER_Morph_End_X2=100,E_SLIDER_Morph_End_Y1=0,E_SLIDER_Morph_End_Y2=0,E_SLIDER_Morph_Repeat_Count=0,E_SLIDER_Morph_Repeat_Skip=1,E_SLIDER_Morph_Stagger=0,E_SLIDER_Morph_Start_X1=0,E_SLIDER_Morph_Start_X2=100,E_SLIDER_Morph_Start_Y1=100,E_SLIDER_Morph_Start_Y2=100</Effect>
     <Effect>E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Position,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=50,E_SLIDER_Shockwave_CenterY=50,E_SLIDER_Shockwave_End_Radius=250,E_SLIDER_Shockwave_End_Width=100,E_SLIDER_Shockwave_Start_Radius=1,E_SLIDER_Shockwave_Start_Width=20,T_TEXTCTRL_Fadein=0</Effect>
-    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/lightshow/sequences/imports/xLights ATW Into The Unknown/Video/Soft Illumination Purple with Wind.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadeout=3</Effect>
-    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/lightshow/sequences/imports/xLights ATW Into The Unknown/Video/BlueCrystalBoxes.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadein=0</Effect>
-    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/lightshow/sequences/imports/xLights ATW Into The Unknown/Video/BlueCrystalBoxes.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Speed=1.00,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0</Effect>
+    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/Lightshow/sequences/imports/xLights ATW Into The Unknown/Video/Soft Illumination Purple with Wind.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadeout=3</Effect>
+    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/Lightshow/sequences/imports/xLights ATW Into The Unknown/Video/BlueCrystalBoxes.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadein=0</Effect>
+    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/Lightshow/sequences/imports/xLights ATW Into The Unknown/Video/BlueCrystalBoxes.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Speed=1.00,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0</Effect>
     <Effect>B_CHOICE_BufferStyle=Default,E_CHECKBOX_Morph_End_Link=0,E_CHECKBOX_Morph_Start_Link=0,E_CHECKBOX_ShowHeadAtStart=0,E_NOTEBOOK_Morph=Options,E_SLIDER_MorphAccel=0,E_SLIDER_MorphDuration=20,E_SLIDER_MorphEndLength=1,E_SLIDER_MorphStartLength=1,E_SLIDER_Morph_End_X1=0,E_SLIDER_Morph_End_X2=100,E_SLIDER_Morph_End_Y1=100,E_SLIDER_Morph_End_Y2=100,E_SLIDER_Morph_Repeat_Count=0,E_SLIDER_Morph_Repeat_Skip=1,E_SLIDER_Morph_Stagger=0,E_SLIDER_Morph_Start_X1=0,E_SLIDER_Morph_Start_X2=100,E_SLIDER_Morph_Start_Y1=0,E_SLIDER_Morph_Start_Y2=0</Effect>
     <Effect>E_CHOICE_VUMeter_TimingTrack=Beats,E_CHOICE_VUMeter_Type=Timing Event Pulse,E_SLIDER_VUMeter_Bars=6,T_TEXTCTRL_Fadeout=0</Effect>
     <Effect>E_CHOICE_VUMeter_TimingTrack=Beats,E_CHOICE_VUMeter_Type=Timing Event Pulse,E_SLIDER_VUMeter_Bars=6,T_TEXTCTRL_Fadeout=.25</Effect>
@@ -131,19 +131,19 @@
     <Effect>E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Position,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=50,E_SLIDER_Shockwave_CenterY=50,E_SLIDER_Shockwave_End_Radius=80,E_SLIDER_Shockwave_End_Width=100,E_SLIDER_Shockwave_Start_Radius=1,E_SLIDER_Shockwave_Start_Width=20,T_CHOICE_LayerMethod=1 is Unmask</Effect>
     <Effect>E_CHECKBOX_Pinwheel_Rotation=1,E_CHOICE_Pinwheel_3D=3D,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=100,E_SLIDER_Pinwheel_Arms=3,E_SLIDER_Pinwheel_Offset=0,E_SLIDER_Pinwheel_Speed=10,E_SLIDER_Pinwheel_Thickness=40,E_VALUECURVE_Pinwheel_Twist=Active=TRUE|Id=ID_VALUECURVE_Pinwheel_Twist|Type=Saw Tooth|Min=-360.00|Max=360.00|P1=-125.00|P2=125.00|P3=24.00|RV=TRUE|,T_TEXTCTRL_Fadein=.5</Effect>
     <Effect>E_CHECKBOX_Pinwheel_Rotation=1,E_CHOICE_Pinwheel_3D=3D,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=100,E_SLIDER_Pinwheel_Arms=3,E_SLIDER_Pinwheel_Offset=0,E_SLIDER_Pinwheel_Speed=10,E_SLIDER_Pinwheel_Thickness=40,E_VALUECURVE_Pinwheel_Twist=Active=TRUE|Id=ID_VALUECURVE_Pinwheel_Twist|Type=Saw Tooth|Min=-360.00|Max=360.00|P1=-125.00|P2=125.00|P3=4.00|RV=TRUE|</Effect>
-    <Effect>B_CHOICE_BufferTransform=Rotate CC 90,E_CHECKBOX_Mirror_Wave=0,E_CHOICE_Fill_Colors=Palette,E_CHOICE_Wave_Direction=Right to Left,E_CHOICE_Wave_Type=Sine,E_SLIDER_Number_Waves=1188,E_SLIDER_Wave_Speed=6,E_SLIDER_Wave_YOffset=0,E_VALUECURVE_Thickness_Percentage=Active=TRUE|Id=ID_VALUECURVE_Thickness_Percentage|Type=Ramp|Min=0.00|Max=100.00|P1=30.00|RV=TRUE|,E_VALUECURVE_Wave_Height=Active=TRUE|Id=ID_VALUECURVE_Wave_Height|Type=Ramp|Min=0.00|Max=100.00|P1=50.00|RV=TRUE|,T_TEXTCTRL_Fadein=2</Effect>
-    <Effect>B_CHOICE_BufferTransform=Rotate CC 90,E_CHECKBOX_Mirror_Wave=0,E_CHOICE_Fill_Colors=Palette,E_CHOICE_Wave_Direction=Right to Left,E_CHOICE_Wave_Type=Sine,E_SLIDER_Number_Waves=1188,E_SLIDER_Wave_Speed=6,E_SLIDER_Wave_YOffset=0,E_VALUECURVE_Thickness_Percentage=Active=TRUE|Id=ID_VALUECURVE_Thickness_Percentage|Type=Ramp|Min=0.00|Max=100.00|P2=30.00|RV=TRUE|,E_VALUECURVE_Wave_Height=Active=TRUE|Id=ID_VALUECURVE_Wave_Height|Type=Ramp|Min=0.00|Max=100.00|P2=50.00|RV=TRUE|,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>B_CHOICE_BufferTransform=Rotate CC 90,E_CHECKBOX_Mirror_Wave=0,E_CHOICE_Fill_Colors=Palette,E_CHOICE_Wave_Direction=Right to Left,E_CHOICE_Wave_Type=Sine,E_SLIDER_Number_Waves=1188,E_SLIDER_Wave_YOffset=0,E_TEXTCTRL_Wave_Speed=6,E_VALUECURVE_Thickness_Percentage=Active=TRUE|Id=ID_VALUECURVE_Thickness_Percentage|Type=Ramp|Min=0.00|Max=100.00|P1=30.00|RV=TRUE|,E_VALUECURVE_Wave_Height=Active=TRUE|Id=ID_VALUECURVE_Wave_Height|Type=Ramp|Min=0.00|Max=100.00|P1=50.00|RV=TRUE|,T_TEXTCTRL_Fadein=2</Effect>
+    <Effect>B_CHOICE_BufferTransform=Rotate CC 90,E_CHECKBOX_Mirror_Wave=0,E_CHOICE_Fill_Colors=Palette,E_CHOICE_Wave_Direction=Right to Left,E_CHOICE_Wave_Type=Sine,E_SLIDER_Number_Waves=1188,E_SLIDER_Wave_YOffset=0,E_TEXTCTRL_Wave_Speed=6,E_VALUECURVE_Thickness_Percentage=Active=TRUE|Id=ID_VALUECURVE_Thickness_Percentage|Type=Ramp|Min=0.00|Max=100.00|P2=30.00|RV=TRUE|,E_VALUECURVE_Wave_Height=Active=TRUE|Id=ID_VALUECURVE_Wave_Height|Type=Ramp|Min=0.00|Max=100.00|P2=50.00|RV=TRUE|,T_TEXTCTRL_Fadeout=1</Effect>
     <Effect>E_CHECKBOX_VUMeter_LogarithmicX=0,E_CHECKBOX_VUMeter_SlowDownFalls=1,E_CHOICE_VUMeter_Shape=Circle,E_CHOICE_VUMeter_TimingTrack=Sections,E_CHOICE_VUMeter_Type=Volume Bars,E_SLIDER_VUMeter_Bars=8,E_SLIDER_VUMeter_EndNote=84,E_SLIDER_VUMeter_Gain=-14,E_SLIDER_VUMeter_Sensitivity=70,E_SLIDER_VUMeter_StartNote=36,E_SLIDER_VUMeter_XOffset=0,E_SLIDER_VUMeter_YOffset=0,E_TEXTCTRL_VUMeter_Gain=-14,T_TEXTCTRL_Fadeout=1</Effect>
     <Effect>E_CHECKBOX_VUMeter_LogarithmicX=0,E_CHECKBOX_VUMeter_SlowDownFalls=1,E_CHOICE_VUMeter_Shape=Circle,E_CHOICE_VUMeter_TimingTrack=Sections,E_CHOICE_VUMeter_Type=Volume Bars,E_SLIDER_VUMeter_Bars=8,E_SLIDER_VUMeter_EndNote=84,E_SLIDER_VUMeter_Gain=-14,E_SLIDER_VUMeter_Sensitivity=70,E_SLIDER_VUMeter_StartNote=36,E_SLIDER_VUMeter_XOffset=0,E_SLIDER_VUMeter_YOffset=0,E_TEXTCTRL_VUMeter_Gain=-14,T_TEXTCTRL_Fadeout=0</Effect>
-    <Effect>B_CHOICE_BufferStyle=Per Preview,E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/lightshow/sequences/imports/xLights ATW Into The Unknown/Video/BlueCrystalBoxes.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Preview,E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/Lightshow/sequences/imports/xLights ATW Into The Unknown/Video/BlueCrystalBoxes.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0</Effect>
     <Effect>E_CHOICE_VUMeter_Type=Volume Bars,E_SLIDER_VUMeter_Bars=8,E_SLIDER_VUMeter_Gain=-14,E_TEXTCTRL_VUMeter_Gain=-14,T_TEXTCTRL_Fadeout=1</Effect>
-    <Effect>B_CHOICE_BufferStyle=Per Preview,E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/lightshow/sequences/imports/xLights ATW Into The Unknown/Video/Soft Illumination Blue with Wind.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadein=.5</Effect>
-    <Effect>B_CHOICE_BufferStyle=Per Preview,E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/lightshow/sequences/imports/xLights ATW Into The Unknown/Video/Soft Illumination Purple with Wind.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadeout=3</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Preview,E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/Lightshow/sequences/imports/xLights ATW Into The Unknown/Video/Soft Illumination Blue with Wind.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadein=.5</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Preview,E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/Lightshow/sequences/imports/xLights ATW Into The Unknown/Video/Soft Illumination Purple with Wind.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadeout=3</Effect>
     <Effect>E_CHOICE_VUMeter_Type=Volume Bars,E_SLIDER_VUMeter_Bars=8,E_SLIDER_VUMeter_Gain=-14,E_TEXTCTRL_VUMeter_Gain=-14,T_TEXTCTRL_Fadeout=0</Effect>
-    <Effect>B_CHOICE_BufferStyle=Per Preview,E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/lightshow/sequences/imports/xLights ATW Into The Unknown/Video/Soft Illumination Blue with Wind.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadein=3</Effect>
-    <Effect>B_CHOICE_BufferStyle=Per Preview,E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/lightshow/sequences/imports/xLights ATW Into The Unknown/Video/Soft Illumination Purple with Wind.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Preview,E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/Lightshow/sequences/imports/xLights ATW Into The Unknown/Video/Soft Illumination Blue with Wind.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadein=3</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Preview,E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/Lightshow/sequences/imports/xLights ATW Into The Unknown/Video/Soft Illumination Purple with Wind.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadeout=1</Effect>
     <Effect>E_CHOICE_VUMeter_Type=Volume Bars,E_SLIDER_VUMeter_Bars=8,E_SLIDER_VUMeter_Gain=-14,E_TEXTCTRL_VUMeter_Gain=-14,T_TEXTCTRL_Fadeout=.25</Effect>
-    <Effect>B_CHOICE_BufferStyle=Per Preview,E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/lightshow/sequences/imports/xLights ATW Into The Unknown/Video/BlueCrystalBoxes.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Speed=1.00,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadeout=.25</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Preview,E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/Lightshow/sequences/imports/xLights ATW Into The Unknown/Video/BlueCrystalBoxes.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Speed=1.00,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadeout=.25</Effect>
     <Effect>E_TEXTCTRL_Eff_On_End=0,E_TEXTCTRL_Eff_On_Start=65</Effect>
     <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Right-Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
     <Effect>E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Position,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=50,E_SLIDER_Shockwave_CenterY=50,E_SLIDER_Shockwave_End_Radius=250,E_SLIDER_Shockwave_End_Width=255,E_SLIDER_Shockwave_Start_Radius=1,E_SLIDER_Shockwave_Start_Width=5</Effect>
@@ -154,6 +154,26 @@
     <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
     <Effect>B_CHOICE_BufferStyle=Per Preview,E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=16,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
     <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Right-Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=4</Effect>
+    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Loop,E_FILEPICKERCTRL_Video_Filename=/home/techplex/projects/pers/Lightshow/sequences/imports/xLights ATW Into The Unknown/Video/Soft Illumination Blue with Wind.m4v,E_TEXTCTRL_Duration=0:30.000,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0,T_TEXTCTRL_Fadein=.5</Effect>
+    <Effect>B_CHOICE_BufferStyle=Stacked Y Horizontally,E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Dual Chase,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=4,T_CHOICE_LayerMethod=1 is Mask,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>B_CHOICE_BufferTransform=Rotate CC 90,E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=From Middle,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=60,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=16,T_TEXTCTRL_Fadein=.5</Effect>
+    <Effect>E_CHECKBOX_VUMeter_LogarithmicX=0,E_CHECKBOX_VUMeter_SlowDownFalls=1,E_CHOICE_VUMeter_Shape=Circle,E_CHOICE_VUMeter_TimingTrack=Beats,E_CHOICE_VUMeter_Type=Timing Event Pulse,E_SLIDER_VUMeter_Bars=8,E_SLIDER_VUMeter_EndNote=84,E_SLIDER_VUMeter_Gain=0,E_SLIDER_VUMeter_Sensitivity=70,E_SLIDER_VUMeter_StartNote=36,E_SLIDER_VUMeter_XOffset=0,E_SLIDER_VUMeter_YOffset=0,E_TEXTCTRL_VUMeter_Gain=0</Effect>
+    <Effect>E_CHECKBOX_Fire_GrowWithMusic=0,E_CHOICE_Fire_Location=Bottom,E_SLIDER_Fire_Height=50,E_SLIDER_Fire_HueShift=55,E_TEXTCTRL_Fire_GrowthCycles=0.0</Effect>
+    <Effect>E_CHECKBOX_Fan_Blend_Edges=1,E_CHECKBOX_Fan_Reverse=0,E_NOTEBOOK_Fan=Blades,E_SLIDER_Fan_Accel=0,E_SLIDER_Fan_Blade_Angle=90,E_SLIDER_Fan_Blade_Width=100,E_SLIDER_Fan_CenterX=50,E_SLIDER_Fan_CenterY=50,E_SLIDER_Fan_Duration=100,E_SLIDER_Fan_Element_Width=100,E_SLIDER_Fan_End_Radius=207,E_SLIDER_Fan_Num_Blades=3,E_SLIDER_Fan_Num_Elements=1,E_SLIDER_Fan_Revolutions=720,E_SLIDER_Fan_Start_Angle=0,E_SLIDER_Fan_Start_Radius=1</Effect>
+    <Effect>B_CHOICE_BufferTransform=Rotate CC 90,E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=From Middle,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=60,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=4</Effect>
+    <Effect>B_CHOICE_BufferStyle=Stacked Y Horizontally,E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Dual Chase,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=4,T_CHOICE_LayerMethod=1 is Mask,T_TEXTCTRL_Fadeout=0</Effect>
+    <Effect>E_CHECKBOX_Fan_Blend_Edges=1,E_CHECKBOX_Fan_Reverse=0,E_NOTEBOOK_Fan=Position,E_SLIDER_Fan_Accel=0,E_SLIDER_Fan_Blade_Angle=90,E_SLIDER_Fan_Blade_Width=100,E_SLIDER_Fan_CenterX=50,E_SLIDER_Fan_CenterY=50,E_SLIDER_Fan_Duration=80,E_SLIDER_Fan_Element_Width=100,E_SLIDER_Fan_End_Radius=0,E_SLIDER_Fan_Num_Blades=3,E_SLIDER_Fan_Num_Elements=1,E_SLIDER_Fan_Revolutions=720,E_SLIDER_Fan_Start_Angle=0,E_SLIDER_Fan_Start_Radius=51,T_CHOICE_LayerMethod=2 is True Unmask,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>B_CHOICE_BufferTransform=Flip Vertical,E_CHECKBOX_Fire_GrowWithMusic=0,E_CHOICE_Fire_Location=Bottom,E_SLIDER_Fire_Height=50,E_SLIDER_Fire_HueShift=55,E_TEXTCTRL_Fire_GrowthCycles=0.0</Effect>
+    <Effect>E_CHECKBOX_Fan_Blend_Edges=1,E_CHECKBOX_Fan_Reverse=0,E_NOTEBOOK_Fan=Position,E_SLIDER_Fan_Accel=0,E_SLIDER_Fan_Blade_Angle=90,E_SLIDER_Fan_Blade_Width=100,E_SLIDER_Fan_CenterX=50,E_SLIDER_Fan_CenterY=50,E_SLIDER_Fan_Duration=80,E_SLIDER_Fan_Element_Width=100,E_SLIDER_Fan_End_Radius=0,E_SLIDER_Fan_Num_Blades=3,E_SLIDER_Fan_Num_Elements=1,E_SLIDER_Fan_Revolutions=720,E_SLIDER_Fan_Start_Angle=0,E_SLIDER_Fan_Start_Radius=51,T_CHOICE_LayerMethod=2 is True Unmask,T_TEXTCTRL_Fadeout=0</Effect>
+    <Effect>E_CHECKBOX_ColorWash_CircularPalette=1,E_CHECKBOX_ColorWash_Shimmer=0,T_TEXTCTRL_Fadeout=2</Effect>
+    <Effect>E_CHECKBOX_Fan_Blend_Edges=1,E_CHECKBOX_Fan_Reverse=0,E_NOTEBOOK_Fan=Blades,E_SLIDER_Fan_Accel=0,E_SLIDER_Fan_Blade_Width=100,E_SLIDER_Fan_CenterX=50,E_SLIDER_Fan_CenterY=50,E_SLIDER_Fan_Duration=100,E_SLIDER_Fan_Element_Width=100,E_SLIDER_Fan_End_Radius=207,E_SLIDER_Fan_Num_Blades=3,E_SLIDER_Fan_Num_Elements=1,E_SLIDER_Fan_Revolutions=720,E_SLIDER_Fan_Start_Angle=0,E_SLIDER_Fan_Start_Radius=1,E_VALUECURVE_Fan_Blade_Angle=Active=TRUE|Id=ID_VALUECURVE_Fan_Blade_Angle|Type=Saw Tooth|Min=-360.00|Max=360.00|P1=-360.00|P2=360.00|P3=8.00|RV=TRUE|</Effect>
+    <Effect>B_CHOICE_BufferStyle=Stacked Y Horizontally,E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Dual Chase,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=4,T_CHOICE_LayerMethod=1 is Mask</Effect>
+    <Effect>E_CHECKBOX_VUMeter_LogarithmicX=0,E_CHECKBOX_VUMeter_SlowDownFalls=1,E_CHOICE_VUMeter_Shape=Circle,E_CHOICE_VUMeter_TimingTrack=Beats,E_CHOICE_VUMeter_Type=Timing Event Pulse Color,E_SLIDER_VUMeter_Bars=8,E_SLIDER_VUMeter_EndNote=84,E_SLIDER_VUMeter_Gain=0,E_SLIDER_VUMeter_Sensitivity=70,E_SLIDER_VUMeter_StartNote=36,E_SLIDER_VUMeter_XOffset=0,E_SLIDER_VUMeter_YOffset=0,E_TEXTCTRL_VUMeter_Gain=0,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>E_CHECKBOX_VUMeter_LogarithmicX=0,E_CHECKBOX_VUMeter_SlowDownFalls=1,E_CHOICE_VUMeter_Shape=Circle,E_CHOICE_VUMeter_TimingTrack=Beats,E_CHOICE_VUMeter_Type=Timing Event Pulse Color,E_SLIDER_VUMeter_Bars=8,E_SLIDER_VUMeter_EndNote=84,E_SLIDER_VUMeter_Gain=0,E_SLIDER_VUMeter_Sensitivity=70,E_SLIDER_VUMeter_StartNote=36,E_SLIDER_VUMeter_XOffset=0,E_SLIDER_VUMeter_YOffset=0,E_TEXTCTRL_VUMeter_Gain=0,T_TEXTCTRL_Fadeout=0</Effect>
+    <Effect>B_CHOICE_BufferTransform=Flip Vertical,E_CHECKBOX_Fire_GrowWithMusic=0,E_CHOICE_Fire_Location=Bottom,E_SLIDER_Fire_Height=66,E_SLIDER_Fire_HueShift=55,E_TEXTCTRL_Fire_GrowthCycles=0.0</Effect>
+    <Effect>E_CHECKBOX_Fan_Blend_Edges=1,E_CHECKBOX_Fan_Reverse=0,E_NOTEBOOK_Fan=Position,E_SLIDER_Fan_Accel=0,E_SLIDER_Fan_Blade_Angle=90,E_SLIDER_Fan_Blade_Width=100,E_SLIDER_Fan_CenterX=50,E_SLIDER_Fan_CenterY=50,E_SLIDER_Fan_Duration=80,E_SLIDER_Fan_Element_Width=100,E_SLIDER_Fan_End_Radius=0,E_SLIDER_Fan_Num_Blades=3,E_SLIDER_Fan_Num_Elements=1,E_SLIDER_Fan_Revolutions=720,E_SLIDER_Fan_Start_Angle=0,E_SLIDER_Fan_Start_Radius=51</Effect>
+    <Effect>E_CHECKBOX_Fan_Blend_Edges=1,E_CHECKBOX_Fan_Reverse=0,E_NOTEBOOK_Fan=Position,E_SLIDER_Fan_Accel=0,E_SLIDER_Fan_Blade_Angle=90,E_SLIDER_Fan_Blade_Width=100,E_SLIDER_Fan_CenterX=50,E_SLIDER_Fan_CenterY=50,E_SLIDER_Fan_Duration=80,E_SLIDER_Fan_Element_Width=100,E_SLIDER_Fan_End_Radius=0,E_SLIDER_Fan_Num_Blades=3,E_SLIDER_Fan_Num_Elements=1,E_SLIDER_Fan_Revolutions=720,E_SLIDER_Fan_Start_Angle=0,E_SLIDER_Fan_Start_Radius=51,T_TEXTCTRL_Fadeout=1</Effect>
   </EffectDB>
   <DataLayers>
     <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
@@ -195,13 +215,9 @@
     <Element collapsed="0" type="model" name="AC Tree" visible="0"/>
     <Element collapsed="0" type="model" name="AC Cherry" visible="0"/>
     <Element collapsed="0" type="model" name="AC Rope Lights" visible="0"/>
-    <Element collapsed="0" type="model" name="AC Bush 01" visible="0"/>
     <Element collapsed="0" type="model" name="AC Bush 02" visible="0"/>
     <Element collapsed="0" type="model" name="AC Bush 03" visible="0"/>
     <Element collapsed="0" type="model" name="AC Bush 04" visible="0"/>
-    <Element collapsed="0" type="model" name="AC Bush 05" visible="0"/>
-    <Element collapsed="0" type="model" name="AC Bush 06" visible="0"/>
-    <Element collapsed="0" type="model" name="AC Bush 07" visible="0"/>
     <Element collapsed="0" type="model" name="AC Cherry Wrap" visible="0"/>
     <Element collapsed="0" type="model" name="AC Helo Canes 01" visible="0"/>
     <Element collapsed="0" type="model" name="AC Helo Canes 02" visible="0"/>
@@ -213,6 +229,10 @@
     <Element collapsed="0" type="model" name="Tree Small 02" visible="0"/>
     <Element collapsed="0" type="model" name="Trees" visible="0"/>
     <Element collapsed="0" type="model" name="AC Santas Village" visible="1"/>
+    <Element collapsed="0" type="model" name="Megatree" visible="1"/>
+    <Element collapsed="0" type="model" name="Spinner 01" visible="0"/>
+    <Element collapsed="0" type="model" name="Spinner 02" visible="0"/>
+    <Element collapsed="0" type="model" name="Star" visible="0"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="New Timing">
@@ -3304,9 +3324,6 @@
         <Effect ref="76" name="On" startTime="141450" endTime="143550" palette="20"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="AC Bush 01">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="AC Bush 02">
       <EffectLayer/>
     </Element>
@@ -3314,15 +3331,6 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="AC Bush 04">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="AC Bush 05">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="AC Bush 06">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="AC Bush 07">
       <EffectLayer/>
     </Element>
     <Element type="model" name="AC Cherry Wrap">
@@ -3403,6 +3411,411 @@
         <Effect ref="103" name="On" id="43" startTime="158850" endTime="159400" palette="20"/>
         <Effect ref="103" name="On" id="44" startTime="159400" endTime="159900" palette="20"/>
         <Effect ref="103" name="On" id="45" startTime="159900" endTime="160400" palette="20"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Megatree">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="138450" endTime="138950" palette="2"/>
+        <Effect ref="3" name="On" id="1" startTime="139400" endTime="139900" palette="3"/>
+        <Effect ref="3" name="On" id="2" startTime="140500" endTime="141000" palette="4"/>
+        <Effect ref="4" name="On" id="3" startTime="141500" endTime="143500" palette="1"/>
+        <Effect ref="31" name="Morph" id="4" startTime="152200" endTime="153250" palette="5"/>
+        <Effect ref="31" name="Morph" id="5" startTime="154250" endTime="155300" palette="5"/>
+        <Effect ref="31" name="Morph" id="6" startTime="156300" endTime="157350" palette="5"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="31" name="Morph" startTime="8650" endTime="10300" palette="5"/>
+        <Effect ref="31" name="Morph" id="1" startTime="12750" endTime="14400" palette="5"/>
+        <Effect ref="45" name="Spirals" id="2" startTime="16800" endTime="20950" palette="20"/>
+        <Effect ref="31" name="Morph" id="3" startTime="20950" endTime="22600" palette="5"/>
+        <Effect ref="31" name="Morph" id="4" startTime="41400" endTime="44350" palette="13"/>
+        <Effect ref="79" name="Morph" id="5" startTime="45500" endTime="48350" palette="13"/>
+        <Effect ref="66" name="Fire" id="6" startTime="66050" endTime="72200" palette="20"/>
+        <Effect ref="38" name="Morph" id="7" startTime="74250" endTime="74800" palette="18"/>
+        <Effect ref="39" name="Morph" id="8" startTime="74800" endTime="75300" palette="0"/>
+        <Effect ref="39" name="Morph" id="9" startTime="75300" endTime="75800" palette="0"/>
+        <Effect ref="39" name="Morph" id="10" startTime="75800" endTime="76350" palette="0"/>
+        <Effect ref="39" name="Morph" id="11" startTime="76350" endTime="76850" palette="0"/>
+        <Effect ref="39" name="Morph" id="12" startTime="76850" endTime="77350" palette="0"/>
+        <Effect ref="39" name="Morph" id="13" startTime="77350" endTime="77850" palette="0"/>
+        <Effect ref="39" name="Morph" id="14" startTime="77850" endTime="78350" palette="0"/>
+        <Effect ref="43" name="Spirals" id="15" startTime="82450" endTime="86550" palette="20"/>
+        <Effect ref="23" name="Shockwave" id="16" startTime="95750" endTime="97600" palette="1"/>
+        <Effect ref="23" name="Shockwave" id="17" startTime="97650" endTime="99500" palette="1"/>
+        <Effect ref="23" name="Shockwave" id="18" startTime="99700" endTime="101550" palette="1"/>
+        <Effect ref="80" name="SingleStrand" id="19" startTime="103000" endTime="111150" palette="25"/>
+        <Effect ref="66" name="Fire" id="20" startTime="111150" endTime="119350" palette="20"/>
+        <Effect ref="38" name="Morph" id="21" startTime="121450" endTime="122000" palette="18"/>
+        <Effect ref="39" name="Morph" id="22" startTime="122000" endTime="122500" palette="0"/>
+        <Effect ref="39" name="Morph" id="23" startTime="122500" endTime="123000" palette="0"/>
+        <Effect ref="39" name="Morph" id="24" startTime="123000" endTime="123550" palette="0"/>
+        <Effect ref="39" name="Morph" id="25" startTime="123550" endTime="124050" palette="0"/>
+        <Effect ref="39" name="Morph" id="26" startTime="124050" endTime="124550" palette="0"/>
+        <Effect ref="39" name="Morph" id="27" startTime="124550" endTime="125050" palette="0"/>
+        <Effect ref="39" name="Morph" id="28" startTime="125050" endTime="125550" palette="0"/>
+        <Effect ref="43" name="Spirals" id="29" startTime="129650" endTime="133750" palette="20"/>
+        <Effect ref="38" name="Morph" id="30" startTime="133750" endTime="134300" palette="18"/>
+        <Effect ref="39" name="Morph" id="31" startTime="134300" endTime="134800" palette="0"/>
+        <Effect ref="39" name="Morph" id="32" startTime="134800" endTime="135300" palette="0"/>
+        <Effect ref="39" name="Morph" id="33" startTime="135300" endTime="135850" palette="0"/>
+        <Effect ref="39" name="Morph" id="34" startTime="135850" endTime="136350" palette="0"/>
+        <Effect ref="39" name="Morph" id="35" startTime="136350" endTime="136850" palette="0"/>
+        <Effect ref="39" name="Morph" id="36" startTime="136850" endTime="137350" palette="0"/>
+        <Effect ref="39" name="Morph" id="37" startTime="137350" endTime="137800" palette="0"/>
+        <Effect ref="68" name="Fire" id="38" startTime="137800" endTime="144000" palette="20"/>
+        <Effect ref="38" name="Morph" id="39" startTime="144000" endTime="144550" palette="18"/>
+        <Effect ref="39" name="Morph" id="40" startTime="144550" endTime="145050" palette="0"/>
+        <Effect ref="39" name="Morph" id="41" startTime="145050" endTime="145550" palette="0"/>
+        <Effect ref="39" name="Morph" id="42" startTime="145550" endTime="146100" palette="0"/>
+        <Effect ref="39" name="Morph" id="43" startTime="146100" endTime="146600" palette="0"/>
+        <Effect ref="39" name="Morph" id="44" startTime="146600" endTime="147100" palette="0"/>
+        <Effect ref="39" name="Morph" id="45" startTime="147100" endTime="147600" palette="0"/>
+        <Effect ref="39" name="Morph" id="46" startTime="147600" endTime="148100" palette="0"/>
+        <Effect ref="43" name="Spirals" id="47" startTime="152200" endTime="156300" palette="20"/>
+        <Effect ref="38" name="Morph" id="48" startTime="156300" endTime="156850" palette="18"/>
+        <Effect ref="39" name="Morph" id="49" startTime="156850" endTime="157350" palette="0"/>
+        <Effect ref="39" name="Morph" id="50" startTime="157350" endTime="157850" palette="0"/>
+        <Effect ref="39" name="Morph" id="51" startTime="157850" endTime="158400" palette="0"/>
+        <Effect ref="39" name="Morph" id="52" startTime="158400" endTime="158900" palette="0"/>
+        <Effect ref="39" name="Morph" id="53" startTime="158900" endTime="159400" palette="0"/>
+        <Effect ref="39" name="Morph" id="54" startTime="159400" endTime="159900" palette="0"/>
+        <Effect ref="39" name="Morph" id="55" startTime="159900" endTime="160400" palette="0"/>
+        <Effect ref="45" name="Spirals" id="56" startTime="164500" endTime="167650" palette="20"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="81" name="Shockwave" startTime="8650" endTime="12750" palette="8"/>
+        <Effect ref="81" name="Shockwave" id="1" startTime="12750" endTime="16800" palette="8"/>
+        <Effect ref="47" name="Spirals" id="2" startTime="16800" endTime="20950" palette="20"/>
+        <Effect ref="81" name="Shockwave" id="3" startTime="20950" endTime="25000" palette="8"/>
+        <Effect ref="82" name="Pinwheel" id="4" startTime="25000" endTime="49600" palette="18"/>
+        <Effect ref="38" name="Morph" id="5" startTime="49600" endTime="50150" palette="18"/>
+        <Effect ref="39" name="Morph" id="6" startTime="50150" endTime="50650" palette="0"/>
+        <Effect ref="39" name="Morph" id="7" startTime="50650" endTime="51150" palette="0"/>
+        <Effect ref="39" name="Morph" id="8" startTime="51150" endTime="51700" palette="0"/>
+        <Effect ref="39" name="Morph" id="9" startTime="51700" endTime="52200" palette="0"/>
+        <Effect ref="39" name="Morph" id="10" startTime="52200" endTime="52700" palette="0"/>
+        <Effect ref="39" name="Morph" id="11" startTime="52700" endTime="53200" palette="0"/>
+        <Effect ref="39" name="Morph" id="12" startTime="53200" endTime="53750" palette="0"/>
+        <Effect ref="39" name="Morph" id="13" startTime="53750" endTime="54250" palette="0"/>
+        <Effect ref="39" name="Morph" id="14" startTime="54250" endTime="54750" palette="0"/>
+        <Effect ref="39" name="Morph" id="15" startTime="54750" endTime="55300" palette="0"/>
+        <Effect ref="39" name="Morph" id="16" startTime="55300" endTime="55800" palette="0"/>
+        <Effect ref="39" name="Morph" id="17" startTime="55800" endTime="56300" palette="0"/>
+        <Effect ref="39" name="Morph" id="18" startTime="56300" endTime="56800" palette="0"/>
+        <Effect ref="39" name="Morph" id="19" startTime="56800" endTime="57300" palette="0"/>
+        <Effect ref="39" name="Morph" id="20" startTime="57300" endTime="57850" palette="0"/>
+        <Effect ref="39" name="Morph" id="21" startTime="57850" endTime="58350" palette="0"/>
+        <Effect ref="39" name="Morph" id="22" startTime="58350" endTime="58850" palette="0"/>
+        <Effect ref="39" name="Morph" id="23" startTime="58850" endTime="59400" palette="0"/>
+        <Effect ref="39" name="Morph" id="24" startTime="59400" endTime="59900" palette="0"/>
+        <Effect ref="39" name="Morph" id="25" startTime="59900" endTime="60400" palette="0"/>
+        <Effect ref="39" name="Morph" id="26" startTime="60400" endTime="60900" palette="0"/>
+        <Effect ref="39" name="Morph" id="27" startTime="60900" endTime="61450" palette="0"/>
+        <Effect ref="39" name="Morph" id="28" startTime="61450" endTime="61950" palette="0"/>
+        <Effect ref="39" name="Morph" id="29" startTime="61950" endTime="62450" palette="0"/>
+        <Effect ref="39" name="Morph" id="30" startTime="62450" endTime="62950" palette="0"/>
+        <Effect ref="39" name="Morph" id="31" startTime="62950" endTime="63500" palette="0"/>
+        <Effect ref="39" name="Morph" id="32" startTime="63500" endTime="64000" palette="0"/>
+        <Effect ref="39" name="Morph" id="33" startTime="64000" endTime="64500" palette="0"/>
+        <Effect ref="39" name="Morph" id="34" startTime="64500" endTime="65050" palette="0"/>
+        <Effect ref="39" name="Morph" id="35" startTime="65050" endTime="65550" palette="0"/>
+        <Effect ref="39" name="Morph" id="36" startTime="65550" endTime="66050" palette="0"/>
+        <Effect ref="83" name="Pinwheel" id="37" startTime="74250" endTime="78350" palette="18"/>
+        <Effect ref="38" name="Morph" id="38" startTime="78350" endTime="78900" palette="18"/>
+        <Effect ref="39" name="Morph" id="39" startTime="78900" endTime="79400" palette="0"/>
+        <Effect ref="39" name="Morph" id="40" startTime="79400" endTime="79900" palette="0"/>
+        <Effect ref="39" name="Morph" id="41" startTime="79900" endTime="80450" palette="0"/>
+        <Effect ref="39" name="Morph" id="42" startTime="80450" endTime="80950" palette="0"/>
+        <Effect ref="39" name="Morph" id="43" startTime="80950" endTime="81450" palette="0"/>
+        <Effect ref="39" name="Morph" id="44" startTime="81450" endTime="81950" palette="0"/>
+        <Effect ref="39" name="Morph" id="45" startTime="81950" endTime="82450" palette="0"/>
+        <Effect ref="46" name="Spirals" id="46" startTime="82450" endTime="86550" palette="20"/>
+        <Effect ref="84" name="Wave" id="47" startTime="94650" endTime="98550" palette="16"/>
+        <Effect ref="85" name="Wave" id="48" startTime="98550" endTime="103000" palette="16"/>
+        <Effect ref="39" name="Morph" id="49" startTime="103000" endTime="103500" palette="0"/>
+        <Effect ref="39" name="Morph" id="50" startTime="103500" endTime="104000" palette="0"/>
+        <Effect ref="39" name="Morph" id="51" startTime="104000" endTime="104550" palette="0"/>
+        <Effect ref="39" name="Morph" id="52" startTime="104550" endTime="105050" palette="0"/>
+        <Effect ref="39" name="Morph" id="53" startTime="105050" endTime="105550" palette="0"/>
+        <Effect ref="39" name="Morph" id="54" startTime="105550" endTime="106050" palette="0"/>
+        <Effect ref="39" name="Morph" id="55" startTime="106050" endTime="106600" palette="0"/>
+        <Effect ref="39" name="Morph" id="56" startTime="106600" endTime="107100" palette="0"/>
+        <Effect ref="39" name="Morph" id="57" startTime="107100" endTime="107600" palette="0"/>
+        <Effect ref="39" name="Morph" id="58" startTime="107600" endTime="108100" palette="0"/>
+        <Effect ref="39" name="Morph" id="59" startTime="108100" endTime="108650" palette="0"/>
+        <Effect ref="39" name="Morph" id="60" startTime="108650" endTime="109150" palette="0"/>
+        <Effect ref="39" name="Morph" id="61" startTime="109150" endTime="109650" palette="0"/>
+        <Effect ref="39" name="Morph" id="62" startTime="109650" endTime="110200" palette="0"/>
+        <Effect ref="39" name="Morph" id="63" startTime="110200" endTime="110700" palette="0"/>
+        <Effect ref="39" name="Morph" id="64" startTime="110700" endTime="111150" palette="0"/>
+        <Effect ref="86" name="VU Meter" id="65" startTime="111150" endTime="119350" palette="21"/>
+        <Effect ref="83" name="Pinwheel" id="66" startTime="121450" endTime="125550" palette="18"/>
+        <Effect ref="38" name="Morph" id="67" startTime="125550" endTime="126100" palette="18"/>
+        <Effect ref="39" name="Morph" id="68" startTime="126100" endTime="126600" palette="0"/>
+        <Effect ref="39" name="Morph" id="69" startTime="126600" endTime="127100" palette="0"/>
+        <Effect ref="39" name="Morph" id="70" startTime="127100" endTime="127650" palette="0"/>
+        <Effect ref="39" name="Morph" id="71" startTime="127650" endTime="128150" palette="0"/>
+        <Effect ref="39" name="Morph" id="72" startTime="128150" endTime="128650" palette="0"/>
+        <Effect ref="39" name="Morph" id="73" startTime="128650" endTime="129150" palette="0"/>
+        <Effect ref="39" name="Morph" id="74" startTime="129150" endTime="129650" palette="0"/>
+        <Effect ref="46" name="Spirals" id="75" startTime="129650" endTime="133750" palette="20"/>
+        <Effect ref="83" name="Pinwheel" id="76" startTime="133750" endTime="137800" palette="18"/>
+        <Effect ref="87" name="VU Meter" id="77" startTime="137800" endTime="144000" palette="21"/>
+        <Effect ref="83" name="Pinwheel" id="78" startTime="144000" endTime="148100" palette="18"/>
+        <Effect ref="38" name="Morph" id="79" startTime="148100" endTime="148650" palette="18"/>
+        <Effect ref="39" name="Morph" id="80" startTime="148650" endTime="149150" palette="0"/>
+        <Effect ref="39" name="Morph" id="81" startTime="149150" endTime="149650" palette="0"/>
+        <Effect ref="39" name="Morph" id="82" startTime="149650" endTime="150200" palette="0"/>
+        <Effect ref="39" name="Morph" id="83" startTime="150200" endTime="150700" palette="0"/>
+        <Effect ref="39" name="Morph" id="84" startTime="150700" endTime="151200" palette="0"/>
+        <Effect ref="39" name="Morph" id="85" startTime="151200" endTime="151700" palette="0"/>
+        <Effect ref="39" name="Morph" id="86" startTime="151700" endTime="152200" palette="0"/>
+        <Effect ref="46" name="Spirals" id="87" startTime="152200" endTime="156300" palette="20"/>
+        <Effect ref="83" name="Pinwheel" id="88" startTime="156300" endTime="160400" palette="18"/>
+        <Effect ref="38" name="Morph" id="89" startTime="160400" endTime="160950" palette="18"/>
+        <Effect ref="39" name="Morph" id="90" startTime="160950" endTime="161450" palette="0"/>
+        <Effect ref="39" name="Morph" id="91" startTime="161450" endTime="161950" palette="0"/>
+        <Effect ref="39" name="Morph" id="92" startTime="161950" endTime="162500" palette="0"/>
+        <Effect ref="39" name="Morph" id="93" startTime="162500" endTime="163000" palette="0"/>
+        <Effect ref="39" name="Morph" id="94" startTime="163000" endTime="163500" palette="0"/>
+        <Effect ref="39" name="Morph" id="95" startTime="163500" endTime="164000" palette="0"/>
+        <Effect ref="39" name="Morph" id="96" startTime="164000" endTime="164500" palette="0"/>
+        <Effect ref="47" name="Spirals" id="97" startTime="164500" endTime="167650" palette="20"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="10" name="Video" startTime="8650" endTime="12750" palette="11"/>
+        <Effect ref="10" name="Video" id="1" startTime="12750" endTime="16800" palette="11"/>
+        <Effect ref="89" name="VU Meter" id="2" startTime="16800" endTime="20950" palette="21"/>
+        <Effect ref="10" name="Video" id="3" startTime="20950" endTime="25000" palette="11"/>
+        <Effect ref="107" name="Video" id="4" startTime="25000" endTime="49600" palette="12"/>
+        <Effect ref="28" name="Video" id="5" startTime="49600" endTime="74250" palette="12"/>
+        <Effect ref="92" name="VU Meter" id="6" startTime="78350" endTime="82450" palette="21"/>
+        <Effect ref="92" name="VU Meter" id="7" startTime="82450" endTime="86550" palette="21"/>
+        <Effect ref="24" name="Video" id="8" startTime="94650" endTime="111150" palette="12"/>
+        <Effect ref="25" name="Video" id="9" startTime="111150" endTime="119350" palette="12"/>
+        <Effect ref="92" name="VU Meter" id="10" startTime="125550" endTime="129650" palette="21"/>
+        <Effect ref="92" name="VU Meter" id="11" startTime="129650" endTime="133750" palette="21"/>
+        <Effect ref="92" name="VU Meter" id="12" startTime="148100" endTime="152200" palette="21"/>
+        <Effect ref="92" name="VU Meter" id="13" startTime="152200" endTime="156300" palette="21"/>
+        <Effect ref="92" name="VU Meter" id="14" startTime="160400" endTime="164500" palette="21"/>
+        <Effect ref="95" name="VU Meter" id="15" startTime="164500" endTime="166550" palette="21"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="29" name="Video" startTime="74250" endTime="78350" palette="11"/>
+        <Effect ref="29" name="Video" id="1" startTime="78350" endTime="82450" palette="11"/>
+        <Effect ref="10" name="Video" id="2" startTime="82450" endTime="86550" palette="8"/>
+        <Effect ref="29" name="Video" id="3" startTime="121450" endTime="125550" palette="11"/>
+        <Effect ref="29" name="Video" id="4" startTime="125550" endTime="129650" palette="11"/>
+        <Effect ref="10" name="Video" id="5" startTime="129650" endTime="133750" palette="8"/>
+        <Effect ref="29" name="Video" id="6" startTime="133750" endTime="137800" palette="11"/>
+        <Effect ref="29" name="Video" id="7" startTime="144000" endTime="148100" palette="11"/>
+        <Effect ref="29" name="Video" id="8" startTime="148100" endTime="152200" palette="11"/>
+        <Effect ref="10" name="Video" id="9" startTime="152200" endTime="156300" palette="8"/>
+        <Effect ref="29" name="Video" id="10" startTime="156300" endTime="160400" palette="11"/>
+        <Effect ref="29" name="Video" id="11" startTime="160400" endTime="164500" palette="11"/>
+        <Effect ref="11" name="Video" id="12" startTime="164500" endTime="169000" palette="11"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Spinner 01">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="138450" endTime="138950" palette="2"/>
+        <Effect ref="3" name="On" id="1" startTime="139400" endTime="139900" palette="3"/>
+        <Effect ref="3" name="On" id="2" startTime="140500" endTime="141000" palette="4"/>
+        <Effect ref="4" name="On" id="3" startTime="141500" endTime="143500" palette="1"/>
+        <Effect ref="31" name="Morph" id="4" startTime="152200" endTime="153250" palette="5"/>
+        <Effect ref="31" name="Morph" id="5" startTime="154250" endTime="155300" palette="5"/>
+        <Effect ref="31" name="Morph" id="6" startTime="156300" endTime="157350" palette="5"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="48" name="Color Wash" startTime="8650" endTime="11600" palette="21"/>
+        <Effect ref="48" name="Color Wash" id="1" startTime="12750" endTime="15700" palette="21"/>
+        <Effect ref="108" name="SingleStrand" id="2" startTime="16800" endTime="20950" palette="16"/>
+        <Effect ref="50" name="Color Wash" id="3" startTime="20950" endTime="23900" palette="21"/>
+        <Effect ref="109" name="SingleStrand" id="4" startTime="25000" endTime="41400" palette="16"/>
+        <Effect ref="110" name="VU Meter" id="5" startTime="41400" endTime="49600" palette="17"/>
+        <Effect ref="111" name="Fire" id="6" startTime="49600" endTime="53750" palette="9"/>
+        <Effect ref="41" name="VU Meter" id="7" startTime="53750" endTime="57850" palette="19"/>
+        <Effect ref="111" name="Fire" id="8" startTime="57850" endTime="61950" palette="9"/>
+        <Effect ref="112" name="Fan" id="9" startTime="61950" endTime="66050" palette="19"/>
+        <Effect ref="41" name="VU Meter" id="10" startTime="66050" endTime="72200" palette="19"/>
+        <Effect ref="113" name="SingleStrand" id="11" startTime="74250" endTime="78350" palette="16"/>
+        <Effect ref="111" name="Fire" id="12" startTime="78350" endTime="82450" palette="9"/>
+        <Effect ref="114" name="SingleStrand" id="13" startTime="82450" endTime="86550" palette="16"/>
+        <Effect ref="111" name="Fire" id="14" startTime="103000" endTime="107100" palette="9"/>
+        <Effect ref="112" name="Fan" id="15" startTime="107100" endTime="111150" palette="19"/>
+        <Effect ref="41" name="VU Meter" id="16" startTime="111150" endTime="119350" palette="19"/>
+        <Effect ref="113" name="SingleStrand" id="17" startTime="121450" endTime="125550" palette="16"/>
+        <Effect ref="111" name="Fire" id="18" startTime="125550" endTime="129650" palette="9"/>
+        <Effect ref="114" name="SingleStrand" id="19" startTime="129650" endTime="133750" palette="16"/>
+        <Effect ref="113" name="SingleStrand" id="20" startTime="133750" endTime="137800" palette="16"/>
+        <Effect ref="64" name="VU Meter" id="21" startTime="137800" endTime="144000" palette="19"/>
+        <Effect ref="113" name="SingleStrand" id="22" startTime="144000" endTime="148100" palette="16"/>
+        <Effect ref="111" name="Fire" id="23" startTime="148100" endTime="152200" palette="9"/>
+        <Effect ref="114" name="SingleStrand" id="24" startTime="152200" endTime="156300" palette="16"/>
+        <Effect ref="113" name="SingleStrand" id="25" startTime="156300" endTime="160400" palette="16"/>
+        <Effect ref="111" name="Fire" id="26" startTime="160400" endTime="164500" palette="9"/>
+        <Effect ref="108" name="SingleStrand" id="27" startTime="164500" endTime="167650" palette="16"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="115" name="Fan" startTime="16800" endTime="20950" palette="16"/>
+        <Effect ref="116" name="Off" id="1" startTime="25000" endTime="42400" palette="16"/>
+        <Effect ref="117" name="Fire" id="2" startTime="49600" endTime="53750" palette="9"/>
+        <Effect ref="117" name="Fire" id="3" startTime="57850" endTime="61950" palette="9"/>
+        <Effect ref="66" name="Fire" id="4" startTime="66050" endTime="72200" palette="20"/>
+        <Effect ref="75" name="Off" id="5" startTime="74250" endTime="78350" palette="16"/>
+        <Effect ref="117" name="Fire" id="6" startTime="78350" endTime="82450" palette="9"/>
+        <Effect ref="118" name="Fan" id="7" startTime="82450" endTime="86550" palette="16"/>
+        <Effect ref="117" name="Fire" id="8" startTime="103000" endTime="107100" palette="9"/>
+        <Effect ref="66" name="Fire" id="9" startTime="111150" endTime="119350" palette="20"/>
+        <Effect ref="75" name="Off" id="10" startTime="121450" endTime="125550" palette="16"/>
+        <Effect ref="117" name="Fire" id="11" startTime="125550" endTime="129650" palette="9"/>
+        <Effect ref="118" name="Fan" id="12" startTime="129650" endTime="133750" palette="16"/>
+        <Effect ref="75" name="Off" id="13" startTime="133750" endTime="137800" palette="16"/>
+        <Effect ref="68" name="Fire" id="14" startTime="137800" endTime="144000" palette="20"/>
+        <Effect ref="75" name="Off" id="15" startTime="144000" endTime="148100" palette="16"/>
+        <Effect ref="117" name="Fire" id="16" startTime="148100" endTime="152200" palette="9"/>
+        <Effect ref="118" name="Fan" id="17" startTime="152200" endTime="156300" palette="16"/>
+        <Effect ref="75" name="Off" id="18" startTime="156300" endTime="160400" palette="16"/>
+        <Effect ref="117" name="Fire" id="19" startTime="160400" endTime="164500" palette="9"/>
+        <Effect ref="115" name="Fan" id="20" startTime="164500" endTime="167650" palette="16"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="116" name="Off" startTime="49600" endTime="66050" palette="16"/>
+        <Effect ref="75" name="Off" id="1" startTime="78350" endTime="82450" palette="16"/>
+        <Effect ref="75" name="Off" id="2" startTime="103000" endTime="111150" palette="16"/>
+        <Effect ref="75" name="Off" id="3" startTime="125550" endTime="129650" palette="16"/>
+        <Effect ref="75" name="Off" id="4" startTime="148100" endTime="152200" palette="16"/>
+        <Effect ref="75" name="Off" id="5" startTime="160400" endTime="164500" palette="16"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Spinner 02">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="138450" endTime="138950" palette="2"/>
+        <Effect ref="3" name="On" id="1" startTime="139400" endTime="139900" palette="3"/>
+        <Effect ref="3" name="On" id="2" startTime="140500" endTime="141000" palette="4"/>
+        <Effect ref="4" name="On" id="3" startTime="141500" endTime="143500" palette="1"/>
+        <Effect ref="31" name="Morph" id="4" startTime="152200" endTime="153250" palette="5"/>
+        <Effect ref="31" name="Morph" id="5" startTime="154250" endTime="155300" palette="5"/>
+        <Effect ref="31" name="Morph" id="6" startTime="156300" endTime="157350" palette="5"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="48" name="Color Wash" startTime="8650" endTime="11600" palette="21"/>
+        <Effect ref="48" name="Color Wash" id="1" startTime="12750" endTime="15700" palette="21"/>
+        <Effect ref="108" name="SingleStrand" id="2" startTime="16800" endTime="20950" palette="16"/>
+        <Effect ref="50" name="Color Wash" id="3" startTime="20950" endTime="23900" palette="21"/>
+        <Effect ref="109" name="SingleStrand" id="4" startTime="25000" endTime="41400" palette="16"/>
+        <Effect ref="110" name="VU Meter" id="5" startTime="41400" endTime="49600" palette="17"/>
+        <Effect ref="111" name="Fire" id="6" startTime="49600" endTime="53750" palette="9"/>
+        <Effect ref="41" name="VU Meter" id="7" startTime="53750" endTime="57850" palette="19"/>
+        <Effect ref="111" name="Fire" id="8" startTime="57850" endTime="61950" palette="9"/>
+        <Effect ref="112" name="Fan" id="9" startTime="61950" endTime="66050" palette="19"/>
+        <Effect ref="41" name="VU Meter" id="10" startTime="66050" endTime="72200" palette="19"/>
+        <Effect ref="113" name="SingleStrand" id="11" startTime="74250" endTime="78350" palette="16"/>
+        <Effect ref="111" name="Fire" id="12" startTime="78350" endTime="82450" palette="9"/>
+        <Effect ref="114" name="SingleStrand" id="13" startTime="82450" endTime="86550" palette="16"/>
+        <Effect ref="111" name="Fire" id="14" startTime="103000" endTime="107100" palette="9"/>
+        <Effect ref="112" name="Fan" id="15" startTime="107100" endTime="111150" palette="19"/>
+        <Effect ref="41" name="VU Meter" id="16" startTime="111150" endTime="119350" palette="19"/>
+        <Effect ref="113" name="SingleStrand" id="17" startTime="121450" endTime="125550" palette="16"/>
+        <Effect ref="111" name="Fire" id="18" startTime="125550" endTime="129650" palette="9"/>
+        <Effect ref="114" name="SingleStrand" id="19" startTime="129650" endTime="133750" palette="16"/>
+        <Effect ref="113" name="SingleStrand" id="20" startTime="133750" endTime="137800" palette="16"/>
+        <Effect ref="64" name="VU Meter" id="21" startTime="137800" endTime="144000" palette="19"/>
+        <Effect ref="113" name="SingleStrand" id="22" startTime="144000" endTime="148100" palette="16"/>
+        <Effect ref="111" name="Fire" id="23" startTime="148100" endTime="152200" palette="9"/>
+        <Effect ref="114" name="SingleStrand" id="24" startTime="152200" endTime="156300" palette="16"/>
+        <Effect ref="113" name="SingleStrand" id="25" startTime="156300" endTime="160400" palette="16"/>
+        <Effect ref="111" name="Fire" id="26" startTime="160400" endTime="164500" palette="9"/>
+        <Effect ref="108" name="SingleStrand" id="27" startTime="164500" endTime="167650" palette="16"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="115" name="Fan" startTime="16800" endTime="20950" palette="16"/>
+        <Effect ref="116" name="Off" id="1" startTime="25000" endTime="42400" palette="16"/>
+        <Effect ref="117" name="Fire" id="2" startTime="49600" endTime="53750" palette="9"/>
+        <Effect ref="117" name="Fire" id="3" startTime="57850" endTime="61950" palette="9"/>
+        <Effect ref="66" name="Fire" id="4" startTime="66050" endTime="72200" palette="20"/>
+        <Effect ref="75" name="Off" id="5" startTime="74250" endTime="78350" palette="16"/>
+        <Effect ref="117" name="Fire" id="6" startTime="78350" endTime="82450" palette="9"/>
+        <Effect ref="118" name="Fan" id="7" startTime="82450" endTime="86550" palette="16"/>
+        <Effect ref="117" name="Fire" id="8" startTime="103000" endTime="107100" palette="9"/>
+        <Effect ref="66" name="Fire" id="9" startTime="111150" endTime="119350" palette="20"/>
+        <Effect ref="75" name="Off" id="10" startTime="121450" endTime="125550" palette="16"/>
+        <Effect ref="117" name="Fire" id="11" startTime="125550" endTime="129650" palette="9"/>
+        <Effect ref="118" name="Fan" id="12" startTime="129650" endTime="133750" palette="16"/>
+        <Effect ref="75" name="Off" id="13" startTime="133750" endTime="137800" palette="16"/>
+        <Effect ref="68" name="Fire" id="14" startTime="137800" endTime="144000" palette="20"/>
+        <Effect ref="75" name="Off" id="15" startTime="144000" endTime="148100" palette="16"/>
+        <Effect ref="117" name="Fire" id="16" startTime="148100" endTime="152200" palette="9"/>
+        <Effect ref="118" name="Fan" id="17" startTime="152200" endTime="156300" palette="16"/>
+        <Effect ref="75" name="Off" id="18" startTime="156300" endTime="160400" palette="16"/>
+        <Effect ref="117" name="Fire" id="19" startTime="160400" endTime="164500" palette="9"/>
+        <Effect ref="115" name="Fan" id="20" startTime="164500" endTime="167650" palette="16"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="116" name="Off" startTime="49600" endTime="66050" palette="16"/>
+        <Effect ref="75" name="Off" id="1" startTime="78350" endTime="82450" palette="16"/>
+        <Effect ref="75" name="Off" id="2" startTime="103000" endTime="111150" palette="16"/>
+        <Effect ref="75" name="Off" id="3" startTime="125550" endTime="129650" palette="16"/>
+        <Effect ref="75" name="Off" id="4" startTime="148100" endTime="152200" palette="16"/>
+        <Effect ref="75" name="Off" id="5" startTime="160400" endTime="164500" palette="16"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Star">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="138450" endTime="138950" palette="2"/>
+        <Effect ref="3" name="On" id="1" startTime="139400" endTime="139900" palette="3"/>
+        <Effect ref="3" name="On" id="2" startTime="140500" endTime="141000" palette="4"/>
+        <Effect ref="4" name="On" id="3" startTime="141500" endTime="143500" palette="1"/>
+        <Effect ref="31" name="Morph" id="4" startTime="152200" endTime="153250" palette="5"/>
+        <Effect ref="31" name="Morph" id="5" startTime="154250" endTime="155300" palette="5"/>
+        <Effect ref="31" name="Morph" id="6" startTime="156300" endTime="157350" palette="5"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="48" name="Color Wash" startTime="8650" endTime="11600" palette="21"/>
+        <Effect ref="48" name="Color Wash" id="1" startTime="12750" endTime="15700" palette="21"/>
+        <Effect ref="108" name="SingleStrand" id="2" startTime="16800" endTime="20950" palette="16"/>
+        <Effect ref="119" name="Color Wash" id="3" startTime="20950" endTime="23900" palette="21"/>
+        <Effect ref="109" name="SingleStrand" id="4" startTime="25000" endTime="41400" palette="16"/>
+        <Effect ref="37" name="VU Meter" id="5" startTime="41400" endTime="49600" palette="17"/>
+        <Effect ref="111" name="Fire" id="6" startTime="49600" endTime="53750" palette="9"/>
+        <Effect ref="41" name="VU Meter" id="7" startTime="53750" endTime="57850" palette="19"/>
+        <Effect ref="111" name="Fire" id="8" startTime="57850" endTime="61950" palette="9"/>
+        <Effect ref="120" name="Fan" id="9" startTime="61950" endTime="66050" palette="19"/>
+        <Effect ref="41" name="VU Meter" id="10" startTime="66050" endTime="72200" palette="19"/>
+        <Effect ref="113" name="SingleStrand" id="11" startTime="74250" endTime="78350" palette="16"/>
+        <Effect ref="111" name="Fire" id="12" startTime="78350" endTime="82450" palette="9"/>
+        <Effect ref="121" name="SingleStrand" id="13" startTime="82450" endTime="86550" palette="16"/>
+        <Effect ref="111" name="Fire" id="14" startTime="103000" endTime="107100" palette="9"/>
+        <Effect ref="112" name="Fan" id="15" startTime="107100" endTime="111150" palette="19"/>
+        <Effect ref="122" name="VU Meter" id="16" startTime="111150" endTime="119350" palette="19"/>
+        <Effect ref="113" name="SingleStrand" id="17" startTime="121450" endTime="125550" palette="16"/>
+        <Effect ref="111" name="Fire" id="18" startTime="125550" endTime="129650" palette="9"/>
+        <Effect ref="121" name="SingleStrand" id="19" startTime="129650" endTime="133750" palette="16"/>
+        <Effect ref="113" name="SingleStrand" id="20" startTime="133750" endTime="137800" palette="16"/>
+        <Effect ref="123" name="VU Meter" id="21" startTime="137800" endTime="144000" palette="19"/>
+        <Effect ref="113" name="SingleStrand" id="22" startTime="144000" endTime="148100" palette="16"/>
+        <Effect ref="111" name="Fire" id="23" startTime="148100" endTime="152200" palette="9"/>
+        <Effect ref="121" name="SingleStrand" id="24" startTime="152200" endTime="156300" palette="16"/>
+        <Effect ref="113" name="SingleStrand" id="25" startTime="156300" endTime="160400" palette="16"/>
+        <Effect ref="111" name="Fire" id="26" startTime="160400" endTime="164500" palette="9"/>
+        <Effect ref="108" name="SingleStrand" id="27" startTime="164500" endTime="167650" palette="16"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="115" name="Fan" startTime="16800" endTime="20950" palette="16"/>
+        <Effect ref="124" name="Fire" id="1" startTime="49600" endTime="53750" palette="9"/>
+        <Effect ref="124" name="Fire" id="2" startTime="57850" endTime="61950" palette="9"/>
+        <Effect ref="66" name="Fire" id="3" startTime="66050" endTime="72200" palette="20"/>
+        <Effect ref="124" name="Fire" id="4" startTime="78350" endTime="82450" palette="9"/>
+        <Effect ref="125" name="Fan" id="5" startTime="82450" endTime="86550" palette="16"/>
+        <Effect ref="124" name="Fire" id="6" startTime="103000" endTime="107100" palette="9"/>
+        <Effect ref="66" name="Fire" id="7" startTime="111150" endTime="119350" palette="20"/>
+        <Effect ref="124" name="Fire" id="8" startTime="125550" endTime="129650" palette="9"/>
+        <Effect ref="125" name="Fan" id="9" startTime="129650" endTime="133750" palette="16"/>
+        <Effect ref="68" name="Fire" id="10" startTime="137800" endTime="144000" palette="20"/>
+        <Effect ref="124" name="Fire" id="11" startTime="148100" endTime="152200" palette="9"/>
+        <Effect ref="125" name="Fan" id="12" startTime="152200" endTime="156300" palette="16"/>
+        <Effect ref="124" name="Fire" id="13" startTime="160400" endTime="164500" palette="9"/>
+        <Effect ref="126" name="Fan" id="14" startTime="164500" endTime="167650" palette="16"/>
       </EffectLayer>
     </Element>
   </ElementEffects>

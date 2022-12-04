@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2021.40</version>
+    <version>2022.19</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -54,8 +54,8 @@
     <Element collapsed="0" type="model" name="Arches Left" visible="1"/>
     <Element collapsed="0" type="model" name="Arches RIght" visible="1"/>
     <Element collapsed="0" type="model" name="Door Office" visible="1"/>
-    <Element collapsed="0" type="model" name="AC Holly 02" visible="1"/>
-    <Element collapsed="0" type="model" name="AC Holly 01" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Holly Aud. Lt." visible="1"/>
+    <Element collapsed="0" type="model" name="AC Holly Aud. Rt." visible="1"/>
     <Element collapsed="0" type="model" name="AC Wrap 02" visible="1"/>
     <Element collapsed="0" type="model" name="AC Wrap 01" visible="1"/>
     <Element collapsed="0" type="model" name="Office" visible="1"/>
@@ -148,7 +148,7 @@
         <Effect ref="4" name="On" id="48" startTime="191100" endTime="194050" palette="0"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="AC Holly 02">
+    <Element type="model" name="AC Holly Aud. Lt.">
       <EffectLayer>
         <Effect ref="4" name="On" startTime="32750" endTime="33200" palette="0"/>
         <Effect ref="4" name="On" id="1" startTime="35600" endTime="36100" palette="0"/>
@@ -281,7 +281,7 @@
         <Effect ref="4" name="On" id="128" startTime="191100" endTime="194050" palette="0"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="AC Holly 01">
+    <Element type="model" name="AC Holly Aud. Rt.">
       <EffectLayer>
         <Effect ref="4" name="On" startTime="32750" endTime="33200" palette="0"/>
         <Effect ref="4" name="On" id="1" startTime="35600" endTime="36100" palette="0"/>
