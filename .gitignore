@@ -5,4 +5,7 @@ Backup/
 ~*
 .DS_Store
 RenderCache
-xScheduleData/*
+sequences/xScheduleData/*
+sequences/imports
+*.zip
+*.csv
