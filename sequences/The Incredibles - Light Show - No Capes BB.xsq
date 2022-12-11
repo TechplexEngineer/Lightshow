@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2022.24</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song>New Suit for Santa - The Incredibles</song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>/home/techplex/projects/pers/Lightshow/sequences/Music/The Incredibles - Light Show - No Capes BB.mp3</mediaFile>
+    <sequenceDuration>157.949</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes/>
+  <EffectDB/>
+  <DataLayers>
+    <DataLayer lor_params="24" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="Edna" visible="1" views="Master View,Miser Bros,All AC In Order,XATW,Main,2020 Intro Talking,Tune To,XATW 2022,Candy Cane Lane" active="1"/>
+    <Element collapsed="0" type="timing" name="Bob" visible="1" views="" active="0"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="Edna">
+      <EffectLayer>
+        <Effect label="Get back to work! Go check the electricn fence of something!" startTime="8050" endTime="10550"></Effect>
+        <Effect label="What is it? Who are you? What do you want?" startTime="10950" endTime="12800"></Effect>
+        <Effect label="My God, you've gotten fat. Come in, Come, come!" startTime="14800" endTime="17750"></Effect>
+        <Effect label="Yes, things are going quite well. Quite well. My God, no complaints. But, you know, it is not the same. Not the same at all. ...... But perhaps you come with a challenge, eh? I was surprised to get your call." startTime="25950" endTime="41150"></Effect>
+        <Effect label="Hmm. This is megamesh. Outmoded, but very sturdy. And you've torn right through it! What have you been doing, Robert? Delivering Christmas presents? Moonlighting Santa work?" startTime="43450" endTime="53500"></Effect>
+        <Effect label="I see. This is a hobo suit. Darling, you can't be seen in this! I won't allow it! Fifteen years ago, maybe, but now? Feh!" startTime="56300" endTime="64850"></Effect>
+        <Effect label="I never look back, darling. It distracts from the now. You need a new Santa suit. That much is certain." startTime="66400" endTime="71900"></Effect>
+        <Effect label="You can't! It's impossible! I'm far too busy. So ask me now, before I again become sane." startTime="75100" endTime="79600"></Effect>
+        <Effect label="You push too hard, darling! But I accept. It will be bold. Dramatic!" startTime="82550" endTime="88800"></Effect>
+        <Effect label="Heroic!" startTime="89500" endTime="90100"></Effect>
+        <Effect label="No capes!" startTime="97950" endTime="98750"></Effect>
+        <Effect label="Do you remember the Tooth Fairy? Tall, great at flying. Nice girl. Good with kids." startTime="101500" endTime="106950"></Effect>
+        <Effect label="November 15th of 58. All was well, another tooth collected when her cape snagged on a celing fan!" startTime="107900" endTime="116500"></Effect>
+        <Effect label="" startTime="116500" endTime="119300"></Effect>
+        <Effect label="Easter Bunny! April 23rd, 57. Cape caught on a fance, inadertently opening the gate and releasing 7 dogs!" startTime="119300" endTime="124400"></Effect>
+        <Effect label="Groundhog, electric fence! Cupid, show his own foot! Count Chocula, discontinued cereal!!!" startTime="127400" endTime="134200"></Effect>
+        <Effect label="NO CAPES!" startTime="134200" endTime="134700"></Effect>
+        <Effect label="Now, go on. Your new suit will be finished before this christmas!" startTime="135350" endTime="138700"></Effect>
+        <Effect label="As am l, Robert. Yet, here we are." startTime="141200" endTime="144500"></Effect>
+        <Effect label="Fine. I will also fix the hobo suit." startTime="148900" endTime="153750"></Effect>
+        <Effect label="Yes, I know, darling. I know." startTime="155650" endTime="157600"></Effect>
+      </EffectLayer>
+    </Element>
+    <Element type="timing" name="Bob">
+      <EffectLayer>
+        <Effect label="I'm an old firend. I just wanted to" startTime="5100" endTime="7600"></Effect>
+        <Effect label="E, I just need a patch job." startTime="41150" endTime="43300"></Effect>
+        <Effect label="Must have happened a long time ago." startTime="54050" endTime="56200"></Effect>
+        <Effect label="What do you mean, you designed it" startTime="64850" endTime="66350"></Effect>
+        <Effect label="A new suit?" startTime="72150" endTime="72850"></Effect>
+        <Effect label="Where the heck am I going to get a new suit?" startTime="73150" endTime="75300"></Effect>
+        <Effect label="wait" startTime="79550" endTime="79950"></Effect>
+        <Effect label="You want to make me a suit?" startTime="80300" endTime="82400"></Effect>
+        <Effect label="Yeah" startTime="89100" endTime="89900"></Effect>
+        <Effect label="Yeah, something classic, like Dynaguy! Oh! He had a great look! Oh, the cape and the boots-" startTime="90400" endTime="97950"></Effect>
+        <Effect label="Isn't that my decision" startTime="100050" endTime="101450"></Effect>
+        <Effect label="Listen, E.." startTime="107000" endTime="107900"></Effect>
+        <Effect label="Look, she's never been the brightest bulb in the..." startTime="116650" endTime="119300"></Effect>
+        <Effect label="E, you can't generalixe about these things." startTime="125200" endTime="127400"></Effect>
+        <Effect label="You know I'm retired from holiday work." startTime="139100" endTime="141200"></Effect>
+        <Effect label="E, I only need a patch job. For sentimental reasons." startTime="144500" endTime="148900"></Effect>
+        <Effect label="You're the best of the best, E!" startTime="153750" endTime="155650"></Effect>
+      </EffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
