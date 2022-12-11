@@ -13,7 +13,9 @@
       null
     ],
     "other": [
-      null
+      {
+        "channelOutputs": []
+      }
     ]
   },
   "model-overlays": {
@@ -24,7 +26,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11940,
+        "StartChannel": 13114,
         "ChannelCount": 1,
         "Name": "AC_Angel"
       },
@@ -34,9 +36,9 @@
         "StringCount": 1,
         "Orientation": "vertical",
         "ChannelCountPerNode": 1,
-        "StartChannel": 12100,
+        "StartChannel": 13279,
         "ChannelCount": 1,
-        "Name": "AC_Bush_01"
+        "Name": "AC_Bush_01_Aud_Lt"
       },
       {
         "StartCorner": "BL",
@@ -44,7 +46,7 @@
         "StringCount": 1,
         "Orientation": "vertical",
         "ChannelCountPerNode": 1,
-        "StartChannel": 12099,
+        "StartChannel": 13277,
         "ChannelCount": 1,
         "Name": "AC_Bush_02"
       },
@@ -54,7 +56,7 @@
         "StringCount": 1,
         "Orientation": "vertical",
         "ChannelCountPerNode": 1,
-        "StartChannel": 12096,
+        "StartChannel": 13276,
         "ChannelCount": 1,
         "Name": "AC_Bush_03"
       },
@@ -64,7 +66,7 @@
         "StringCount": 1,
         "Orientation": "vertical",
         "ChannelCountPerNode": 1,
-        "StartChannel": 12094,
+        "StartChannel": 13274,
         "ChannelCount": 1,
         "Name": "AC_Bush_04"
       },
@@ -74,9 +76,9 @@
         "StringCount": 1,
         "Orientation": "vertical",
         "ChannelCountPerNode": 1,
-        "StartChannel": 12102,
+        "StartChannel": 13273,
         "ChannelCount": 1,
-        "Name": "AC_Bush_05"
+        "Name": "AC_Bush_05_Aud_Rt"
       },
       {
         "StartCorner": "BL",
@@ -84,9 +86,9 @@
         "StringCount": 1,
         "Orientation": "vertical",
         "ChannelCountPerNode": 1,
-        "StartChannel": 12104,
+        "StartChannel": 13281,
         "ChannelCount": 1,
-        "Name": "AC_Bush_06"
+        "Name": "AC_Bush_06_Joe_Back"
       },
       {
         "StartCorner": "BL",
@@ -94,9 +96,9 @@
         "StringCount": 1,
         "Orientation": "vertical",
         "ChannelCountPerNode": 1,
-        "StartChannel": 12105,
+        "StartChannel": 13280,
         "ChannelCount": 1,
-        "Name": "AC_Bush_07"
+        "Name": "AC_Bush_07_Joe_Front"
       },
       {
         "StartCorner": "BL",
@@ -104,9 +106,9 @@
         "StringCount": 1,
         "Orientation": "vertical",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11904,
+        "StartChannel": 13289,
         "ChannelCount": 1,
-        "Name": "AC_Bush_08"
+        "Name": "AC_Bush_08_Ernie"
       },
       {
         "StartCorner": "BL",
@@ -114,9 +116,9 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11932,
+        "StartChannel": 13108,
         "ChannelCount": 1,
-        "Name": "AC_Candy_01"
+        "Name": "AC_Candy_01_Top_Aud_Lt"
       },
       {
         "StartCorner": "BL",
@@ -124,9 +126,9 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11938,
+        "StartChannel": 13117,
         "ChannelCount": 1,
-        "Name": "AC_Candy_02"
+        "Name": "AC_Candy_02_Top_Aud_Rt"
       },
       {
         "StartCorner": "BL",
@@ -134,9 +136,9 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11933,
+        "StartChannel": 13109,
         "ChannelCount": 1,
-        "Name": "AC_Candy_03"
+        "Name": "AC_Candy_03_Middle_Aud_Lt"
       },
       {
         "StartCorner": "BL",
@@ -144,9 +146,9 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11936,
+        "StartChannel": 13111,
         "ChannelCount": 1,
-        "Name": "AC_Candy_04"
+        "Name": "AC_Candy_04_Middle_Aud_Rt"
       },
       {
         "StartCorner": "BL",
@@ -154,9 +156,9 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11934,
+        "StartChannel": 13110,
         "ChannelCount": 1,
-        "Name": "AC_Candy_05"
+        "Name": "AC_Candy_05_Bottom_Aud_Lt"
       },
       {
         "StartCorner": "BL",
@@ -164,9 +166,9 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11935,
+        "StartChannel": 13113,
         "ChannelCount": 1,
-        "Name": "AC_Candy_06"
+        "Name": "AC_Candy_06_Bottom_Aud_Rt"
       },
       {
         "StartCorner": "BL",
@@ -174,7 +176,7 @@
         "StringCount": 1,
         "Orientation": "vertical",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11927,
+        "StartChannel": 13287,
         "ChannelCount": 1,
         "Name": "AC_Cherry_Icicles"
       },
@@ -184,7 +186,7 @@
         "StringCount": 1,
         "Orientation": "vertical",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11927,
+        "StartChannel": 13269,
         "ChannelCount": 1,
         "Name": "AC_Cherry_Wrap"
       },
@@ -194,7 +196,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 12116,
+        "StartChannel": 13285,
         "ChannelCount": 1,
         "Name": "AC_Helo_Canes_01"
       },
@@ -204,7 +206,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11906,
+        "StartChannel": 13290,
         "ChannelCount": 1,
         "Name": "AC_Helo_Canes_02"
       },
@@ -214,7 +216,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11905,
+        "StartChannel": 13291,
         "ChannelCount": 1,
         "Name": "AC_Helo_Canes_03"
       },
@@ -224,7 +226,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11909,
+        "StartChannel": 13292,
         "ChannelCount": 1,
         "Name": "AC_Helo_Canes_04"
       },
@@ -234,9 +236,9 @@
         "StringCount": 1,
         "Orientation": "vertical",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11925,
+        "StartChannel": 13116,
         "ChannelCount": 1,
-        "Name": "AC_Holly_01"
+        "Name": "AC_Holly_Aud._Lt."
       },
       {
         "StartCorner": "BL",
@@ -244,9 +246,9 @@
         "StringCount": 1,
         "Orientation": "vertical",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11921,
+        "StartChannel": 13106,
         "ChannelCount": 1,
-        "Name": "AC_Holly_02"
+        "Name": "AC_Holly_Aud._Rt."
       },
       {
         "StartCorner": "BL",
@@ -254,9 +256,9 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11922,
+        "StartChannel": 13095,
         "ChannelCount": 1,
-        "Name": "AC_Icicles_01"
+        "Name": "AC_Icicles_House"
       },
       {
         "StartCorner": "BL",
@@ -264,9 +266,9 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11902,
+        "StartChannel": 13288,
         "ChannelCount": 1,
-        "Name": "AC_Icicles_02"
+        "Name": "AC_Icicles_Porch"
       },
       {
         "StartCorner": "BL",
@@ -274,7 +276,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 12097,
+        "StartChannel": 13282,
         "ChannelCount": 1,
         "Name": "AC_Mailbox"
       },
@@ -284,7 +286,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11939,
+        "StartChannel": 13293,
         "ChannelCount": 1,
         "Name": "AC_North_Pole_Sign"
       },
@@ -294,7 +296,7 @@
         "StringCount": 10,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11899,
+        "StartChannel": 13093,
         "ChannelCount": 1,
         "Name": "AC_Package_Blue_01"
       },
@@ -304,7 +306,7 @@
         "StringCount": 10,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11906,
+        "StartChannel": 13096,
         "ChannelCount": 1,
         "Name": "AC_Package_Blue_02"
       },
@@ -314,7 +316,7 @@
         "StringCount": 10,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11898,
+        "StartChannel": 13100,
         "ChannelCount": 1,
         "Name": "AC_Package_Green_01"
       },
@@ -324,7 +326,7 @@
         "StringCount": 10,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11901,
+        "StartChannel": 13099,
         "ChannelCount": 1,
         "Name": "AC_Package_Green_02"
       },
@@ -334,7 +336,7 @@
         "StringCount": 10,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11897,
+        "StartChannel": 13090,
         "ChannelCount": 1,
         "Name": "AC_Package_Red_01"
       },
@@ -344,7 +346,7 @@
         "StringCount": 10,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11900,
+        "StartChannel": 13097,
         "ChannelCount": 1,
         "Name": "AC_Package_Red_02"
       },
@@ -354,7 +356,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 12103,
+        "StartChannel": 13271,
         "ChannelCount": 1,
         "Name": "AC_Parking_Space"
       },
@@ -364,7 +366,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11940,
+        "StartChannel": 13118,
         "ChannelCount": 1,
         "Name": "AC_Rope_Lights"
       },
@@ -374,7 +376,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11896,
+        "StartChannel": 13084,
         "ChannelCount": 1,
         "Name": "AC_Santa"
       },
@@ -385,7 +387,7 @@
         "data": ",,,,1;,1,,,;,,,,;,,,,;,,1,,",
         "Orientation": "custom",
         "ChannelCountPerNode": 1,
-        "StartChannel": 12108,
+        "StartChannel": 13283,
         "ChannelCount": 1,
         "Name": "AC_Snow_Flakes_01"
       },
@@ -396,7 +398,7 @@
         "data": ",,,,1;,1,,,;,,,,;,,,,;,,1,,",
         "Orientation": "custom",
         "ChannelCountPerNode": 1,
-        "StartChannel": 12112,
+        "StartChannel": 13294,
         "ChannelCount": 1,
         "Name": "AC_Snow_Flakes_02"
       },
@@ -406,7 +408,7 @@
         "StringCount": 1,
         "Orientation": "vertical",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11908,
+        "StartChannel": 13270,
         "ChannelCount": 1,
         "Name": "AC_Tree"
       },
@@ -416,7 +418,7 @@
         "StringCount": 1,
         "Orientation": "vertical",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11943,
+        "StartChannel": 13112,
         "ChannelCount": 1,
         "Name": "AC_Wrap_01"
       },
@@ -426,7 +428,7 @@
         "StringCount": 1,
         "Orientation": "vertical",
         "ChannelCountPerNode": 1,
-        "StartChannel": 11926,
+        "StartChannel": 13091,
         "ChannelCount": 1,
         "Name": "AC_Wrap_02"
       },
@@ -436,7 +438,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 9658,
+        "StartChannel": 10846,
         "ChannelCount": 222,
         "Name": "Arch1"
       },
@@ -446,7 +448,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 9880,
+        "StartChannel": 11068,
         "ChannelCount": 222,
         "Name": "Arch2"
       },
@@ -456,7 +458,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 10702,
+        "StartChannel": 11290,
         "ChannelCount": 222,
         "Name": "Arch3"
       },
@@ -466,7 +468,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 10924,
+        "StartChannel": 11512,
         "ChannelCount": 222,
         "Name": "Arch4"
       },
@@ -487,7 +489,7 @@
         "StringCount": 10,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 9508,
+        "StartChannel": 10696,
         "ChannelCount": 150,
         "Name": "Door_Entry"
       },
@@ -502,12 +504,52 @@
         "Name": "Door_Office"
       },
       {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 2104,
+        "ChannelCount": 3,
+        "Name": "Flood_01_Aud._Lt."
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 2107,
+        "ChannelCount": 3,
+        "Name": "Flood_02"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 2113,
+        "ChannelCount": 3,
+        "Name": "Flood_03"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 2110,
+        "ChannelCount": 3,
+        "Name": "Flood_04_Aud._Rt."
+      },
+      {
         "StartCorner": "BR",
         "StrandsPerString": 1,
         "StringCount": 10,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 9208,
+        "StartChannel": 10396,
         "ChannelCount": 150,
         "Name": "Great_Room_01"
       },
@@ -517,7 +559,7 @@
         "StringCount": 10,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 9358,
+        "StartChannel": 10546,
         "ChannelCount": 150,
         "Name": "Great_Room_02"
       },
@@ -528,7 +570,7 @@
         "data": ",,,,,,,,51,,,50,,,,,,,,,;,,,,,54,,,,,,,,47,,,,,,,;,,,55,,,53,,52,,49,,48,,,,46,,,,;,,,,,56,,,,,,,,,45,,,,,,;,58,,,,,,73,,74,75,,76,,,,,,43,,;,,,57,,,72,,,,,,,77,,,44,,,,;59,,60,,,71,,,,,,,,,78,,,42,,41,;,,,,70,,,,,,,,,,,79,,,,,;62,,61,,69,,,,,,,,,,,,80,,39,,40;,,,,,,,,,,,,,,,,,,,,;63,,64,,68,,,,,,,,,,,,81,,38,,37;65,,,,67,,,,,,,,,,,,,,,,;,,66,,,,,,,,,,,,,,82,,35,,36;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,83,,34,,33;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,84,,31,,32;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,85,,30,,29;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,86,,27,,28;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,87,,26,,25;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,88,,23,,24;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,89,,22,,21;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,90,,19,,20;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,91,,18,,17;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,92,,15,,16;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,93,,14,,13;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,94,,11,,12;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,95,,10,,9;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,96,,7,,8;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,97,,6,,5;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,98,,3,,4;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,99,,2,,1",
         "Orientation": "custom",
         "ChannelCountPerNode": 3,
-        "StartChannel": 2026,
+        "StartChannel": 2404,
         "ChannelCount": 297,
         "Name": "Large_Cane_01"
       },
@@ -539,7 +581,7 @@
         "data": ",,,,,,,,51,,,50,,,,,,,,,;,,,,,54,,,,,,,,47,,,,,,,;,,,55,,,53,,52,,49,,48,,,,46,,,,;,,,,,56,,,,,,,,,45,,,,,,;,58,,,,,,73,,74,75,,76,,,,,,43,,;,,,57,,,72,,,,,,,77,,,44,,,,;59,,60,,,71,,,,,,,,,78,,,42,,41,;,,,,70,,,,,,,,,,,79,,,,,;62,,61,,69,,,,,,,,,,,,80,,39,,40;,,,,,,,,,,,,,,,,,,,,;63,,64,,68,,,,,,,,,,,,81,,38,,37;65,,,,67,,,,,,,,,,,,,,,,;,,66,,,,,,,,,,,,,,82,,35,,36;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,83,,34,,33;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,84,,31,,32;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,85,,30,,29;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,86,,27,,28;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,87,,26,,25;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,88,,23,,24;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,89,,22,,21;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,90,,19,,20;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,91,,18,,17;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,92,,15,,16;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,93,,14,,13;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,94,,11,,12;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,95,,10,,9;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,96,,7,,8;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,97,,6,,5;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,98,,3,,4;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,99,,2,,1",
         "Orientation": "custom",
         "ChannelCountPerNode": 3,
-        "StartChannel": 2611,
+        "StartChannel": 2989,
         "ChannelCount": 297,
         "Name": "Large_Cane_02"
       },
@@ -549,7 +591,7 @@
         "StringCount": 11,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 1588,
+        "StartChannel": 1954,
         "ChannelCount": 150,
         "Name": "Master_01"
       },
@@ -559,7 +601,7 @@
         "StringCount": 32,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 12117,
+        "StartChannel": 13295,
         "ChannelCount": 12288,
         "Name": "Matrix"
       },
@@ -569,7 +611,7 @@
         "StringCount": 13,
         "Orientation": "vertical",
         "ChannelCountPerNode": 3,
-        "StartChannel": 2908,
+        "StartChannel": 3286,
         "ChannelCount": 5850,
         "Name": "MegaTree"
       },
@@ -580,7 +622,7 @@
         "data": ",,,,,,,,,25,,,,,,24,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,28,,,,,,,,,,,,,,,,21,,,,,;,,,,,,,,,,26,,,,23,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,22,,,,,,,;,,,,,,27,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,36,,,37,,,,,,,,,,20,;,29,,,,,,,,35,,,,,,,38,,,,,,,,,;,,,,30,,,,,,,,,,,,,,,,,19,,,,;,,,,,,,34,,,,,,,,,,,39,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;31,,,,,,,33,,,,,,,,,,,40,,,,18,,,17;,,,32,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,41,,,15,,,16;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,42,,,14,,,13;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,43,,,11,,,12;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,44,,,10,,,9;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,45,,,7,,,8;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,46,,,6,,,5;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,47,,,3,,,4;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,48,,,2,,,1",
         "Orientation": "custom",
         "ChannelCountPerNode": 3,
-        "StartChannel": 1738,
+        "StartChannel": 2116,
         "ChannelCount": 144,
         "Name": "Mini_Cane_01"
       },
@@ -591,7 +633,7 @@
         "data": ",,,,,,,,,25,,,,,,24,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,28,,,,,,,,,,,,,,,,21,,,,,;,,,,,,,,,,26,,,,23,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,22,,,,,,,;,,,,,,27,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,36,,,37,,,,,,,,,,20,;,29,,,,,,,,35,,,,,,,38,,,,,,,,,;,,,,30,,,,,,,,,,,,,,,,,19,,,,;,,,,,,,34,,,,,,,,,,,39,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;31,,,,,,,33,,,,,,,,,,,40,,,,18,,,17;,,,32,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,41,,,15,,,16;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,42,,,14,,,13;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,43,,,11,,,12;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,44,,,10,,,9;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,45,,,7,,,8;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,46,,,6,,,5;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,47,,,3,,,4;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,48,,,2,,,1",
         "Orientation": "custom",
         "ChannelCountPerNode": 3,
-        "StartChannel": 1882,
+        "StartChannel": 2260,
         "ChannelCount": 144,
         "Name": "Mini_Cane_02"
       },
@@ -602,7 +644,7 @@
         "data": ",,,,,,,,,25,,,,,,24,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,28,,,,,,,,,,,,,,,,21,,,,,;,,,,,,,,,,26,,,,23,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,22,,,,,,,;,,,,,,27,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,36,,,37,,,,,,,,,,20,;,29,,,,,,,,35,,,,,,,38,,,,,,,,,;,,,,30,,,,,,,,,,,,,,,,,19,,,,;,,,,,,,34,,,,,,,,,,,39,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;31,,,,,,,33,,,,,,,,,,,40,,,,18,,,17;,,,32,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,41,,,15,,,16;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,42,,,14,,,13;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,43,,,11,,,12;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,44,,,10,,,9;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,45,,,7,,,8;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,46,,,6,,,5;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,47,,,3,,,4;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,48,,,2,,,1",
         "Orientation": "custom",
         "ChannelCountPerNode": 3,
-        "StartChannel": 2323,
+        "StartChannel": 2701,
         "ChannelCount": 144,
         "Name": "Mini_Cane_03"
       },
@@ -613,7 +655,7 @@
         "data": ",,,,,,,,,25,,,,,,24,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,28,,,,,,,,,,,,,,,,21,,,,,;,,,,,,,,,,26,,,,23,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,22,,,,,,,;,,,,,,27,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,36,,,37,,,,,,,,,,20,;,29,,,,,,,,35,,,,,,,38,,,,,,,,,;,,,,30,,,,,,,,,,,,,,,,,19,,,,;,,,,,,,34,,,,,,,,,,,39,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;31,,,,,,,33,,,,,,,,,,,40,,,,18,,,17;,,,32,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,41,,,15,,,16;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,42,,,14,,,13;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,43,,,11,,,12;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,44,,,10,,,9;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,45,,,7,,,8;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,46,,,6,,,5;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,47,,,3,,,4;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,48,,,2,,,1",
         "Orientation": "custom",
         "ChannelCountPerNode": 3,
-        "StartChannel": 2467,
+        "StartChannel": 2845,
         "ChannelCount": 144,
         "Name": "Mini_Cane_04"
       },
@@ -624,7 +666,7 @@
         "data": "107,106,105,104,103,102,101,100,69,68,67,66,65,64,63,62,61,60,59,58,57,56,55,54,23,22,21,20,19,18,17,16;108,,,,,,,99,70,,,,,,,,,,,,,,,53,24,,,,,,,15;109,,,,,,,98,71,,,,,,,,,,,,,,,52,25,,,,,,,14;110,,,,,,,97,72,,,,,,,,,,,,,,,51,26,,,,,,,13;111,,,,,,,96,73,,,,,,,,,,,,,,,50,27,,,,,,,12;112,,,,,,,95,74,,,,,,,,,,,,,,,49,28,,,,,,,11;113,,,,,,,94,75,,,,,,,,,,,,,,,48,29,,,,,,,10;114,,,,,,,93,76,,,,,,,,,,,,,,,47,30,,,,,,,9;115,,,,,,,92,77,,,,,,,,,,,,,,,46,31,,,,,,,8;116,,,,,,,91,78,,,,,,,,,,,,,,,45,32,,,,,,,7;117,,,,,,,90,79,,,,,,,,,,,,,,,44,33,,,,,,,6;118,,,,,,,89,80,,,,,,,,,,,,,,,43,34,,,,,,,5;119,,,,,,,88,81,,,,,,,,,,,,,,,42,35,,,,,,,4;120,,,,,,,87,82,,,,,,,,,,,,,,,41,36,,,,,,,3;121,,,,,,,86,83,,,,,,,,,,,,,,,40,37,,,,,,,2;122,123,124,125,126,127,128,85,84,129,130,131,132,133,134,135,136,137,138,139,140,141,142,39,38,143,144,145,146,147,148,1",
         "Orientation": "custom",
         "ChannelCountPerNode": 3,
-        "StartChannel": 844,
+        "StartChannel": 1210,
         "ChannelCount": 444,
         "Name": "Office"
       },
@@ -634,7 +676,7 @@
         "StringCount": 10,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 1288,
+        "StartChannel": 1654,
         "ChannelCount": 150,
         "Name": "South_West_01"
       },
@@ -644,7 +686,7 @@
         "StringCount": 10,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 1438,
+        "StartChannel": 1804,
         "ChannelCount": 150,
         "Name": "South_West_02"
       },
@@ -652,9 +694,31 @@
         "StartCorner": "BL",
         "StrandsPerString": 1,
         "StringCount": 1,
+        "data": ",,,,,,,,,,,,,,,,,,,,,,5,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,58,,,,,,,,,,,,6,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,57,,,,,,,,,,,,,,,,,,,,,,7,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,56,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,59,,,,,,,,,,,,,,,,8,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15,,,;,,,55,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,60,,,,,,,,,,9,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,53,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,54,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16,;,,,,,,,,,,,,52,,,,,,,61,,,2,,,,,,,,,12,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,51,,,,,,,,,,11,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;47,,,,,48,,,,,,49,,,,,50,,,,,,1,,,,,20,,,,,,19,,,,,18,,,,,,17;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,41,,,,,,,,,,21,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,40,,,,,,30,,,,,,,,,,,,,,,,,,,;46,,,,,,,,,,,,42,,,,,,,,,,31,,,,,,,,,22,,,,,,,,,,,,24,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,43,,,,,,,,,,,,,,,,,,,,,,,,,,,,23,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,39,,,,,,,,,,,29,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,45,,,,,,,,,,,,,,,,,,,32,,,,,,,,,,,,,,,,,,,25,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,38,,,,,,,,,,,,,,,,28,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,44,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,33,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,37,,,,,,,,,,,,,,,,,,,,,,27,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,36,,,,,,,,,,,,34,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,35,,,,,,,,,,,,,,,,,,,,,,",
+        "Orientation": "custom",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 844,
+        "ChannelCount": 183,
+        "Name": "Spinner_01"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "data": ",,,,,,,,,,,,,,,,,,,,,,5,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,58,,,,,,,,,,,,6,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,57,,,,,,,,,,,,,,,,,,,,,,7,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,56,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,59,,,,,,,,,,,,,,,,8,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15,,,;,,,55,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,60,,,,,,,,,,9,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,53,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,54,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16,;,,,,,,,,,,,,52,,,,,,,61,,,2,,,,,,,,,12,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,51,,,,,,,,,,11,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;47,,,,,48,,,,,,49,,,,,50,,,,,,1,,,,,20,,,,,,19,,,,,18,,,,,,17;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,41,,,,,,,,,,21,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,40,,,,,,30,,,,,,,,,,,,,,,,,,,;46,,,,,,,,,,,,42,,,,,,,,,,31,,,,,,,,,22,,,,,,,,,,,,24,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,43,,,,,,,,,,,,,,,,,,,,,,,,,,,,23,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,39,,,,,,,,,,,29,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,45,,,,,,,,,,,,,,,,,,,32,,,,,,,,,,,,,,,,,,,25,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,38,,,,,,,,,,,,,,,,28,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,44,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,33,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,37,,,,,,,,,,,,,,,,,,,,,,27,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,36,,,,,,,,,,,,34,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,35,,,,,,,,,,,,,,,,,,,,,,",
+        "Orientation": "custom",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 1027,
+        "ChannelCount": 183,
+        "Name": "Spinner_02"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11146,
+        "StartChannel": 12334,
         "ChannelCount": 15,
         "Name": "Stake_01_01"
       },
@@ -664,7 +728,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11161,
+        "StartChannel": 12349,
         "ChannelCount": 15,
         "Name": "Stake_01_02"
       },
@@ -674,7 +738,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11176,
+        "StartChannel": 12364,
         "ChannelCount": 15,
         "Name": "Stake_01_03"
       },
@@ -684,7 +748,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11191,
+        "StartChannel": 12379,
         "ChannelCount": 15,
         "Name": "Stake_01_04"
       },
@@ -694,7 +758,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11206,
+        "StartChannel": 12394,
         "ChannelCount": 15,
         "Name": "Stake_01_05"
       },
@@ -704,7 +768,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11221,
+        "StartChannel": 12409,
         "ChannelCount": 15,
         "Name": "Stake_01_06"
       },
@@ -714,7 +778,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11236,
+        "StartChannel": 12424,
         "ChannelCount": 15,
         "Name": "Stake_01_07"
       },
@@ -724,7 +788,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11251,
+        "StartChannel": 12439,
         "ChannelCount": 15,
         "Name": "Stake_01_08"
       },
@@ -734,7 +798,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11266,
+        "StartChannel": 12454,
         "ChannelCount": 15,
         "Name": "Stake_01_09"
       },
@@ -744,7 +808,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11281,
+        "StartChannel": 12469,
         "ChannelCount": 15,
         "Name": "Stake_01_10"
       },
@@ -754,7 +818,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11296,
+        "StartChannel": 12484,
         "ChannelCount": 15,
         "Name": "Stake_02_01"
       },
@@ -764,7 +828,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11311,
+        "StartChannel": 12499,
         "ChannelCount": 15,
         "Name": "Stake_02_02"
       },
@@ -774,7 +838,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11326,
+        "StartChannel": 12514,
         "ChannelCount": 15,
         "Name": "Stake_02_03"
       },
@@ -784,7 +848,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11341,
+        "StartChannel": 12529,
         "ChannelCount": 15,
         "Name": "Stake_02_04"
       },
@@ -794,7 +858,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11356,
+        "StartChannel": 12544,
         "ChannelCount": 15,
         "Name": "Stake_02_05"
       },
@@ -804,7 +868,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11371,
+        "StartChannel": 12559,
         "ChannelCount": 15,
         "Name": "Stake_02_06"
       },
@@ -814,7 +878,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11386,
+        "StartChannel": 12574,
         "ChannelCount": 15,
         "Name": "Stake_02_07"
       },
@@ -824,7 +888,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11401,
+        "StartChannel": 12589,
         "ChannelCount": 15,
         "Name": "Stake_02_08"
       },
@@ -834,7 +898,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11416,
+        "StartChannel": 12604,
         "ChannelCount": 15,
         "Name": "Stake_02_09"
       },
@@ -844,7 +908,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11431,
+        "StartChannel": 12619,
         "ChannelCount": 15,
         "Name": "Stake_02_10"
       },
@@ -854,7 +918,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11446,
+        "StartChannel": 12634,
         "ChannelCount": 15,
         "Name": "Stake_03_01"
       },
@@ -864,7 +928,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11461,
+        "StartChannel": 12649,
         "ChannelCount": 15,
         "Name": "Stake_03_02"
       },
@@ -874,7 +938,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11476,
+        "StartChannel": 12664,
         "ChannelCount": 15,
         "Name": "Stake_03_03"
       },
@@ -884,7 +948,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11491,
+        "StartChannel": 12679,
         "ChannelCount": 15,
         "Name": "Stake_03_04"
       },
@@ -894,7 +958,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11506,
+        "StartChannel": 12694,
         "ChannelCount": 15,
         "Name": "Stake_03_05"
       },
@@ -904,7 +968,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11521,
+        "StartChannel": 12709,
         "ChannelCount": 15,
         "Name": "Stake_03_06"
       },
@@ -914,7 +978,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11536,
+        "StartChannel": 12724,
         "ChannelCount": 15,
         "Name": "Stake_03_07"
       },
@@ -924,7 +988,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11551,
+        "StartChannel": 12739,
         "ChannelCount": 15,
         "Name": "Stake_03_08"
       },
@@ -934,7 +998,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11566,
+        "StartChannel": 12754,
         "ChannelCount": 15,
         "Name": "Stake_03_09"
       },
@@ -944,7 +1008,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11581,
+        "StartChannel": 12769,
         "ChannelCount": 15,
         "Name": "Stake_03_10"
       },
@@ -954,7 +1018,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11596,
+        "StartChannel": 12784,
         "ChannelCount": 15,
         "Name": "Stake_04_01"
       },
@@ -964,7 +1028,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11611,
+        "StartChannel": 12799,
         "ChannelCount": 15,
         "Name": "Stake_04_02"
       },
@@ -974,7 +1038,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11626,
+        "StartChannel": 12814,
         "ChannelCount": 15,
         "Name": "Stake_04_03"
       },
@@ -984,7 +1048,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11641,
+        "StartChannel": 12829,
         "ChannelCount": 15,
         "Name": "Stake_04_04"
       },
@@ -994,7 +1058,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11656,
+        "StartChannel": 12844,
         "ChannelCount": 15,
         "Name": "Stake_04_05"
       },
@@ -1004,7 +1068,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11671,
+        "StartChannel": 12859,
         "ChannelCount": 15,
         "Name": "Stake_04_06"
       },
@@ -1014,7 +1078,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11686,
+        "StartChannel": 12874,
         "ChannelCount": 15,
         "Name": "Stake_04_07"
       },
@@ -1024,7 +1088,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11701,
+        "StartChannel": 12889,
         "ChannelCount": 15,
         "Name": "Stake_04_08"
       },
@@ -1034,7 +1098,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11716,
+        "StartChannel": 12904,
         "ChannelCount": 15,
         "Name": "Stake_04_09"
       },
@@ -1044,7 +1108,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11731,
+        "StartChannel": 12919,
         "ChannelCount": 15,
         "Name": "Stake_04_10"
       },
@@ -1054,7 +1118,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11746,
+        "StartChannel": 12934,
         "ChannelCount": 15,
         "Name": "Stake_05_01"
       },
@@ -1064,7 +1128,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11761,
+        "StartChannel": 12949,
         "ChannelCount": 15,
         "Name": "Stake_05_02"
       },
@@ -1074,7 +1138,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11776,
+        "StartChannel": 12964,
         "ChannelCount": 15,
         "Name": "Stake_05_03"
       },
@@ -1084,7 +1148,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11791,
+        "StartChannel": 12979,
         "ChannelCount": 15,
         "Name": "Stake_05_04"
       },
@@ -1094,7 +1158,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11806,
+        "StartChannel": 12994,
         "ChannelCount": 15,
         "Name": "Stake_05_05"
       },
@@ -1104,7 +1168,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11821,
+        "StartChannel": 13009,
         "ChannelCount": 15,
         "Name": "Stake_05_06"
       },
@@ -1114,7 +1178,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11836,
+        "StartChannel": 13024,
         "ChannelCount": 15,
         "Name": "Stake_05_07"
       },
@@ -1124,7 +1188,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11851,
+        "StartChannel": 13039,
         "ChannelCount": 15,
         "Name": "Stake_05_08"
       },
@@ -1134,7 +1198,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11866,
+        "StartChannel": 13054,
         "ChannelCount": 15,
         "Name": "Stake_05_09"
       },
@@ -1144,7 +1208,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11881,
+        "StartChannel": 13069,
         "ChannelCount": 15,
         "Name": "Stake_05_10"
       },
@@ -1154,7 +1218,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11944,
+        "StartChannel": 13119,
         "ChannelCount": 15,
         "Name": "Stake_06_01"
       },
@@ -1164,7 +1228,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11959,
+        "StartChannel": 13134,
         "ChannelCount": 15,
         "Name": "Stake_06_02"
       },
@@ -1174,7 +1238,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11974,
+        "StartChannel": 13149,
         "ChannelCount": 15,
         "Name": "Stake_06_03"
       },
@@ -1184,7 +1248,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11989,
+        "StartChannel": 13164,
         "ChannelCount": 15,
         "Name": "Stake_06_04"
       },
@@ -1194,7 +1258,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 12004,
+        "StartChannel": 13179,
         "ChannelCount": 15,
         "Name": "Stake_06_05"
       },
@@ -1204,7 +1268,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 12019,
+        "StartChannel": 13194,
         "ChannelCount": 15,
         "Name": "Stake_06_06"
       },
@@ -1214,7 +1278,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 12034,
+        "StartChannel": 13209,
         "ChannelCount": 15,
         "Name": "Stake_06_07"
       },
@@ -1224,7 +1288,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 12049,
+        "StartChannel": 13224,
         "ChannelCount": 15,
         "Name": "Stake_06_08"
       },
@@ -1234,7 +1298,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 12064,
+        "StartChannel": 13239,
         "ChannelCount": 15,
         "Name": "Stake_06_09"
       },
@@ -1244,7 +1308,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 12079,
+        "StartChannel": 13254,
         "ChannelCount": 15,
         "Name": "Stake_06_10"
       },
@@ -1354,7 +1418,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 8758,
+        "StartChannel": 9136,
         "ChannelCount": 15,
         "Name": "Stake_08_01"
       },
@@ -1364,7 +1428,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 8773,
+        "StartChannel": 9151,
         "ChannelCount": 15,
         "Name": "Stake_08_02"
       },
@@ -1374,7 +1438,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 8788,
+        "StartChannel": 9166,
         "ChannelCount": 15,
         "Name": "Stake_08_03"
       },
@@ -1384,7 +1448,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 8803,
+        "StartChannel": 9181,
         "ChannelCount": 15,
         "Name": "Stake_08_04"
       },
@@ -1394,7 +1458,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 8818,
+        "StartChannel": 9196,
         "ChannelCount": 15,
         "Name": "Stake_08_05"
       },
@@ -1404,7 +1468,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 8833,
+        "StartChannel": 9211,
         "ChannelCount": 15,
         "Name": "Stake_08_06"
       },
@@ -1414,7 +1478,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 8848,
+        "StartChannel": 9226,
         "ChannelCount": 15,
         "Name": "Stake_08_07"
       },
@@ -1424,7 +1488,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 8863,
+        "StartChannel": 9241,
         "ChannelCount": 15,
         "Name": "Stake_08_08"
       },
@@ -1434,7 +1498,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 8878,
+        "StartChannel": 9256,
         "ChannelCount": 15,
         "Name": "Stake_08_09"
       },
@@ -1444,7 +1508,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 8893,
+        "StartChannel": 9271,
         "ChannelCount": 15,
         "Name": "Stake_08_10"
       },
@@ -1454,7 +1518,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 8908,
+        "StartChannel": 9286,
         "ChannelCount": 15,
         "Name": "Stake_09_01"
       },
@@ -1464,7 +1528,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 8923,
+        "StartChannel": 9301,
         "ChannelCount": 15,
         "Name": "Stake_09_02"
       },
@@ -1474,7 +1538,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 8938,
+        "StartChannel": 9316,
         "ChannelCount": 15,
         "Name": "Stake_09_03"
       },
@@ -1484,7 +1548,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 8953,
+        "StartChannel": 9331,
         "ChannelCount": 15,
         "Name": "Stake_09_04"
       },
@@ -1494,7 +1558,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 8968,
+        "StartChannel": 9346,
         "ChannelCount": 15,
         "Name": "Stake_09_05"
       },
@@ -1504,7 +1568,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 8983,
+        "StartChannel": 9361,
         "ChannelCount": 15,
         "Name": "Stake_09_06"
       },
@@ -1514,7 +1578,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 8998,
+        "StartChannel": 9376,
         "ChannelCount": 15,
         "Name": "Stake_09_07"
       },
@@ -1524,7 +1588,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 9013,
+        "StartChannel": 9391,
         "ChannelCount": 15,
         "Name": "Stake_09_08"
       },
@@ -1534,7 +1598,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 9028,
+        "StartChannel": 9406,
         "ChannelCount": 15,
         "Name": "Stake_09_09"
       },
@@ -1544,7 +1608,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 9043,
+        "StartChannel": 9421,
         "ChannelCount": 15,
         "Name": "Stake_09_10"
       },
@@ -1554,7 +1618,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 9058,
+        "StartChannel": 9436,
         "ChannelCount": 15,
         "Name": "Stake_10_01"
       },
@@ -1564,7 +1628,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 9073,
+        "StartChannel": 9451,
         "ChannelCount": 15,
         "Name": "Stake_10_02"
       },
@@ -1574,7 +1638,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 9088,
+        "StartChannel": 9466,
         "ChannelCount": 15,
         "Name": "Stake_10_03"
       },
@@ -1584,7 +1648,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 9103,
+        "StartChannel": 9481,
         "ChannelCount": 15,
         "Name": "Stake_10_04"
       },
@@ -1594,7 +1658,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 9118,
+        "StartChannel": 9496,
         "ChannelCount": 15,
         "Name": "Stake_10_05"
       },
@@ -1604,7 +1668,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 9133,
+        "StartChannel": 9511,
         "ChannelCount": 15,
         "Name": "Stake_10_06"
       },
@@ -1614,7 +1678,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 9148,
+        "StartChannel": 9526,
         "ChannelCount": 15,
         "Name": "Stake_10_07"
       },
@@ -1624,7 +1688,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 9163,
+        "StartChannel": 9541,
         "ChannelCount": 15,
         "Name": "Stake_10_08"
       },
@@ -1634,7 +1698,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 9178,
+        "StartChannel": 9556,
         "ChannelCount": 15,
         "Name": "Stake_10_09"
       },
@@ -1644,7 +1708,7 @@
         "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 9193,
+        "StartChannel": 9571,
         "ChannelCount": 15,
         "Name": "Stake_10_10"
       },
@@ -1652,9 +1716,20 @@
         "StartCorner": "BL",
         "StrandsPerString": 1,
         "StringCount": 1,
+        "data": ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,36,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35,,37,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,101,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,34,,,,38,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,102,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33,,,156,,,39,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,99,,,,103,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,155,,157,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32,,,,,,,,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,98,,,201,,,104,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,31,,,,154,,,,158,,,,41,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,200,,202,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,97,,,,,,,,105,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,153,,,236,,,159,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,42,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,96,,,,199,,,,203,,,,106,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,235,,237,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;22,,,23,,,,24,,,,25,,,26,,,,27,,,,28,,,29,,,,152,,,,,,,,160,,,,43,,,44,,,,45,,,,46,,,47,,,,48,,,,49,,,50;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,198,,,261,,,204,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,21,89,,,,90,,,,91,,,92,,,,93,,,,94,,,95,,,,,,,,,,,,,,107,,,108,,,,109,,,,110,,,111,,,,112,,,,113,51,,,;,,,,,,,,,146,,,,147,,,148,,,,149,,,,150,,,151,,,,234,,,,238,,,,161,,,162,,,,163,,,,164,,,165,,,,166,,,,,,,,,;,,,,,,20,88,,,,,,,,,,,,,,,,,,,,,,,,,260,,262,,,,,,,,,,,,,,,,,,,,,,,,,114,52,,,,,,;,,,,,,,,,,,,145,,193,,,,194,,,195,,,,196,,,,197,,,,,,,,205,,,,206,,,,207,,,208,,,,209,,167,,,,,,,,,,,,;,,,,,,,,,,87,,,,,,,,,230,,,231,,,,232,,,,233,,,,,,239,,,,240,,,,241,,,242,,,,,,,,,115,,,,,,,,,,;,,,,,,,,,19,,,,,,,,192,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,210,,,,,,,,53,,,,,,,,,;,,,,,,,,,,,,,86,,144,,,,,,,229,257,,,,258,,,,259,,,,263,,,,264,,,,265,243,,,,,,,168,,116,,,,,,,,,,,,,;,,,,,,,,,,,18,,,,,,,,,191,,,,,,,,,,,,,,,,,,,,,,,,,,211,,,,,,,,,54,,,,,,,,,,,;,,,,,,,,,,,,,,,,85,,143,,,,,,,,256,,,,,,,,,,,,,,266,,,,,,,,169,,117,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,17,,,,,,,,,190,,228,,,,,,,,,,,,,,,,244,,212,,,,,,,,,55,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,84,,142,,,,,,,,255,,,,,,,,267,,,,,,,,170,,118,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,16,,,,,,,,,189,,227,,,,,,,,,,245,,213,,,,,,,,,56,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,141,,,,,,,,,,,,,,,,,,171,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,15,,83,,,,,,,,,,,251,,,,,,,,,,,119,,57,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,226,,254,,,,,,,,,,268,,246,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,140,,188,,,,,252,,,221,,,270,,,,,214,,172,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,82,,,,,,,,,,,,,,,,,,,,,,,,120,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,14,,,,,,,,253,,,222,,,181,,,250,,,269,,,,,,,,58,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,187,,225,,,,,,,,,,,,,,,,247,,215,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,81,,139,,,,,223,,,182,,,131,,,220,,,249,,,,,173,,121,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,13,,,,,,,,,,,,,,,71,,,,,,,,,,,,,,,59,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,224,,,183,,,132,,,,,,180,,,219,,,248,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,138,186,,,,,,,,,,,1,,,,,,,,,,,216,174,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,12,,80,,,,,184,,,133,,,72,,,,,,130,,,179,,,218,,,,,122,,60,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,185,,,134,,,73,,,2,,,,,,70,,,129,,,178,,,217,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,79,137,,,,,,,,,,,,,,,,,,,,,,,,,,,,175,123,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,11,,,,,135,,,74,,,3,,,,,,,,,,,,69,,,128,,,177,,,,,61,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,136,,,75,,,4,,,,,,,,,,,,,,,,,,68,,,127,,,176,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,10,78,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,124,62,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,76,,,5,,,,,,,,,,,,,,,,,,,,,,,,67,,,126,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,77,,,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,66,,,125,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,63,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,65,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,64,,,,,,,,,,,,",
+        "Orientation": "custom",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9586,
+        "ChannelCount": 810,
+        "Name": "Star"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
         "Orientation": "vertical",
         "ChannelCountPerNode": 3,
-        "StartChannel": 10252,
+        "StartChannel": 11884,
         "ChannelCount": 300,
         "Name": "Tree_01"
       },
@@ -1664,7 +1739,7 @@
         "StringCount": 1,
         "Orientation": "vertical",
         "ChannelCountPerNode": 3,
-        "StartChannel": 10102,
+        "StartChannel": 11734,
         "ChannelCount": 150,
         "Name": "Tree_Small_01"
       },
@@ -1674,9 +1749,159 @@
         "StringCount": 1,
         "Orientation": "vertical",
         "ChannelCountPerNode": 3,
-        "StartChannel": 10552,
+        "StartChannel": 12184,
         "ChannelCount": 150,
         "Name": "Tree_Small_02"
+      },
+      {
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "StartCorner": "BL",
+        "StartChannel": 12100,
+        "Orientation": "vertical",
+        "Name": "AC_Bush_01",
+        "ChannelCountPerNode": 1,
+        "ChannelCount": 1
+      },
+      {
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "StartCorner": "BL",
+        "StartChannel": 12102,
+        "Orientation": "vertical",
+        "Name": "AC_Bush_05",
+        "ChannelCountPerNode": 1,
+        "ChannelCount": 1
+      },
+      {
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "StartCorner": "BL",
+        "StartChannel": 12104,
+        "Orientation": "vertical",
+        "Name": "AC_Bush_06",
+        "ChannelCountPerNode": 1,
+        "ChannelCount": 1
+      },
+      {
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "StartCorner": "BL",
+        "StartChannel": 12105,
+        "Orientation": "vertical",
+        "Name": "AC_Bush_07",
+        "ChannelCountPerNode": 1,
+        "ChannelCount": 1
+      },
+      {
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "StartCorner": "BL",
+        "StartChannel": 11904,
+        "Orientation": "vertical",
+        "Name": "AC_Bush_08",
+        "ChannelCountPerNode": 1,
+        "ChannelCount": 1
+      },
+      {
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "StartCorner": "BL",
+        "StartChannel": 11932,
+        "Orientation": "horizontal",
+        "Name": "AC_Candy_01",
+        "ChannelCountPerNode": 1,
+        "ChannelCount": 1
+      },
+      {
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "StartCorner": "BL",
+        "StartChannel": 11938,
+        "Orientation": "horizontal",
+        "Name": "AC_Candy_02",
+        "ChannelCountPerNode": 1,
+        "ChannelCount": 1
+      },
+      {
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "StartCorner": "BL",
+        "StartChannel": 11933,
+        "Orientation": "horizontal",
+        "Name": "AC_Candy_03",
+        "ChannelCountPerNode": 1,
+        "ChannelCount": 1
+      },
+      {
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "StartCorner": "BL",
+        "StartChannel": 11936,
+        "Orientation": "horizontal",
+        "Name": "AC_Candy_04",
+        "ChannelCountPerNode": 1,
+        "ChannelCount": 1
+      },
+      {
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "StartCorner": "BL",
+        "StartChannel": 11934,
+        "Orientation": "horizontal",
+        "Name": "AC_Candy_05",
+        "ChannelCountPerNode": 1,
+        "ChannelCount": 1
+      },
+      {
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "StartCorner": "BL",
+        "StartChannel": 11935,
+        "Orientation": "horizontal",
+        "Name": "AC_Candy_06",
+        "ChannelCountPerNode": 1,
+        "ChannelCount": 1
+      },
+      {
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "StartCorner": "BL",
+        "StartChannel": 11925,
+        "Orientation": "vertical",
+        "Name": "AC_Holly_01",
+        "ChannelCountPerNode": 1,
+        "ChannelCount": 1
+      },
+      {
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "StartCorner": "BL",
+        "StartChannel": 11921,
+        "Orientation": "vertical",
+        "Name": "AC_Holly_02",
+        "ChannelCountPerNode": 1,
+        "ChannelCount": 1
+      },
+      {
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "StartCorner": "BL",
+        "StartChannel": 11922,
+        "Orientation": "horizontal",
+        "Name": "AC_Icicles_01",
+        "ChannelCountPerNode": 1,
+        "ChannelCount": 1
+      },
+      {
+        "StringCount": 1,
+        "StrandsPerString": 1,
+        "StartCorner": "BL",
+        "StartChannel": 11902,
+        "Orientation": "horizontal",
+        "Name": "AC_Icicles_02",
+        "ChannelCountPerNode": 1,
+        "ChannelCount": 1
       }
     ]
   },
@@ -1688,6 +1913,62 @@
   "show_setup": {
     "events": [],
     "playlist": {
+      "2022 Off Hours.json": [
+        "{",
+        "    \"name\": \"2022 Off Hours\",",
+        "    \"version\": 3,",
+        "    \"repeat\": 0,",
+        "    \"loopCount\": 0,",
+        "    \"empty\": false,",
+        "    \"desc\": \"\",",
+        "    \"random\": 0,",
+        "    \"leadIn\": [],",
+        "    \"mainPlaylist\": [",
+        "        {",
+        "            \"type\": \"media\",",
+        "            \"enabled\": 1,",
+        "            \"playOnce\": 0,",
+        "            \"fileMode\": \"single\",",
+        "            \"mediaName\": \"2020 Off Hours.mp3\",",
+        "            \"videoOut\": \"--Default--\",",
+        "            \"duration\": 60.9959375",
+        "        }",
+        "    ],",
+        "    \"leadOut\": [],",
+        "    \"playlistInfo\": {",
+        "        \"total_duration\": null,",
+        "        \"total_items\": 1",
+        "    }",
+        "}"
+      ],
+      "2021 Off Hours.json": [
+        "{",
+        "    \"name\": \"2021 Off Hours\",",
+        "    \"version\": 3,",
+        "    \"repeat\": 0,",
+        "    \"loopCount\": 0,",
+        "    \"empty\": false,",
+        "    \"desc\": \"\",",
+        "    \"random\": 0,",
+        "    \"leadIn\": [],",
+        "    \"mainPlaylist\": [",
+        "        {",
+        "            \"type\": \"media\",",
+        "            \"enabled\": 1,",
+        "            \"playOnce\": 0,",
+        "            \"fileMode\": \"single\",",
+        "            \"mediaName\": \"2020 Off Hours.mp3\",",
+        "            \"videoOut\": \"--Default--\",",
+        "            \"duration\": 60.9959375",
+        "        }",
+        "    ],",
+        "    \"leadOut\": [],",
+        "    \"playlistInfo\": {",
+        "        \"total_duration\": null,",
+        "        \"total_items\": 1",
+        "    }",
+        "}"
+      ],
       "2021.json": [
         "{",
         "    \"name\": \"2021\",",
@@ -1713,9 +1994,9 @@
         "            \"enabled\": 1,",
         "            \"playOnce\": 0,",
         "            \"sequenceName\": \"XATW - You Make It Feel Like Christmas.fseq\",",
-        "            \"mediaName\": \"XATW - You Make It Feel Like Christmas.m4a\",",
+        "            \"mediaName\": \"XATW You Make It Feel Like Christmas.mp3\",",
         "            \"videoOut\": \"--Default--\",",
-        "            \"duration\": 159.1",
+        "            \"duration\": 151.6",
         "        },",
         "        {",
         "            \"type\": \"both\",",
@@ -1734,6 +2015,15 @@
         "            \"mediaName\": \"Snow Miser and Heat Miser.mp3\",",
         "            \"videoOut\": \"--Default--\",",
         "            \"duration\": 203.8",
+        "        },",
+        "        {",
+        "            \"type\": \"both\",",
+        "            \"enabled\": 1,",
+        "            \"playOnce\": 0,",
+        "            \"sequenceName\": \"Toy Story Intro.fseq\",",
+        "            \"mediaName\": \"Toy Story Intro.mp3\",",
+        "            \"videoOut\": \"--Default--\",",
+        "            \"duration\": 162",
         "        },",
         "        {",
         "            \"type\": \"both\",",
@@ -1766,7 +2056,107 @@
         "    \"leadOut\": [],",
         "    \"playlistInfo\": {",
         "        \"total_duration\": null,",
-        "        \"total_items\": 7",
+        "        \"total_items\": 8",
+        "    }",
+        "}"
+      ],
+      "2022.json": [
+        "{",
+        "    \"name\": \"2022\",",
+        "    \"version\": 3,",
+        "    \"repeat\": 0,",
+        "    \"loopCount\": 0,",
+        "    \"empty\": false,",
+        "    \"desc\": \"\",",
+        "    \"random\": 0,",
+        "    \"leadIn\": [],",
+        "    \"mainPlaylist\": [",
+        "        {",
+        "            \"type\": \"both\",",
+        "            \"enabled\": 1,",
+        "            \"playOnce\": 0,",
+        "            \"sequenceName\": \"2020 Show Intro.fseq\",",
+        "            \"mediaName\": \"2020 Show Intro.mp3\",",
+        "            \"videoOut\": \"--Default--\",",
+        "            \"duration\": 37.2",
+        "        },",
+        "        {",
+        "            \"type\": \"both\",",
+        "            \"enabled\": 1,",
+        "            \"playOnce\": 0,",
+        "            \"sequenceName\": \"XATW - You Make It Feel Like Christmas.fseq\",",
+        "            \"mediaName\": \"XATW You Make It Feel Like Christmas.mp3\",",
+        "            \"videoOut\": \"--Default--\",",
+        "            \"duration\": 151.6",
+        "        },",
+        "        {",
+        "            \"type\": \"both\",",
+        "            \"enabled\": 1,",
+        "            \"playOnce\": 0,",
+        "            \"sequenceName\": \"Candy Cane Lane - Sia.fseq\",",
+        "            \"mediaName\": \"Candy Cane Lane - Sia.mp3\",",
+        "            \"videoOut\": \"--Default--\",",
+        "            \"duration\": 103.8",
+        "        },",
+        "        {",
+        "            \"type\": \"both\",",
+        "            \"enabled\": 1,",
+        "            \"playOnce\": 0,",
+        "            \"sequenceName\": \"Wizards In Winter - Trans-Siberian Orchestra v2.fseq\",",
+        "            \"mediaName\": \"Wizards In Winter - Trans-Siberian Orchestra.m4a\",",
+        "            \"videoOut\": \"--Default--\",",
+        "            \"duration\": 187.9",
+        "        },",
+        "        {",
+        "            \"type\": \"both\",",
+        "            \"enabled\": 1,",
+        "            \"playOnce\": 0,",
+        "            \"sequenceName\": \"Snow Miser and Heat Miser Import.fseq\",",
+        "            \"mediaName\": \"Snow Miser and Heat Miser.mp3\",",
+        "            \"videoOut\": \"--Default--\",",
+        "            \"duration\": 203.8",
+        "        },",
+        "        {",
+        "            \"type\": \"both\",",
+        "            \"enabled\": 1,",
+        "            \"playOnce\": 0,",
+        "            \"sequenceName\": \"Toy Story Intro.fseq\",",
+        "            \"mediaName\": \"Toy Story Intro.mp3\",",
+        "            \"videoOut\": \"--Default--\",",
+        "            \"duration\": 162",
+        "        },",
+        "        {",
+        "            \"type\": \"both\",",
+        "            \"enabled\": 1,",
+        "            \"playOnce\": 0,",
+        "            \"sequenceName\": \"Carol of the Bells - Trans-Siberian Orchestra v2.fseq\",",
+        "            \"mediaName\": \"Carol of the Bells - Trans-Siberian Orchestra.mp3\",",
+        "            \"videoOut\": \"--Default--\",",
+        "            \"duration\": 205.05",
+        "        },",
+        "        {",
+        "            \"type\": \"both\",",
+        "            \"enabled\": 1,",
+        "            \"playOnce\": 0,",
+        "            \"sequenceName\": \"The 12 Pains of Christmas.fseq\",",
+        "            \"mediaName\": \"The 12 Pains of Christmas.mp3\",",
+        "            \"videoOut\": \"--Default--\",",
+        "            \"duration\": 215.15",
+        "        },",
+        "        {",
+        "            \"type\": \"both\",",
+        "            \"enabled\": 1,",
+        "            \"playOnce\": 0,",
+        "            \"sequenceName\": \"Into the Unknown - Panic at the Disco v2.fseq\",",
+        "            \"mediaName\": \"Into the Unknown - Panic at the Disco.mp3\",",
+        "            \"videoOut\": \"--Default--\",",
+        "            \"duration\": 186",
+        "        }",
+        "    ],",
+        "    \"leadOut\": [],",
+        "    \"playlistInfo\": {",
+        "        \"total_duration\": null,",
+        "        \"total_items\": 9",
         "    }",
         "}"
       ]
@@ -1777,16 +2167,44 @@
         "    {",
         "        \"enabled\": 1,",
         "        \"sequence\": 0,",
-        "        \"playlist\": \"2021\",",
+        "        \"playlist\": \"2022\",",
         "        \"day\": 7,",
         "        \"startTime\": \"16:30:00\",",
         "        \"startTimeOffset\": 0,",
-        "        \"endTime\": \"22:00:00\",",
+        "        \"endTime\": \"21:30:00\",",
         "        \"endTimeOffset\": 0,",
         "        \"repeat\": 1,",
-        "        \"startDate\": \"2021-12-01\",",
-        "        \"endDate\": \"2022-01-31\",",
+        "        \"startDate\": \"2022-12-01\",",
+        "        \"endDate\": \"2023-03-31\",",
         "        \"stopType\": 0",
+        "    },",
+        "    {",
+        "        \"enabled\": 1,",
+        "        \"sequence\": 0,",
+        "        \"playlist\": \"2022 Off Hours\",",
+        "        \"day\": 7,",
+        "        \"startTime\": \"21:30:00\",",
+        "        \"startTimeOffset\": 0,",
+        "        \"endTime\": \"00:00:00\",",
+        "        \"endTimeOffset\": 0,",
+        "        \"repeat\": 1,",
+        "        \"startDate\": \"2022-12-01\",",
+        "        \"endDate\": \"2023-03-31\",",
+        "        \"stopType\": 1",
+        "    },",
+        "    {",
+        "        \"enabled\": 1,",
+        "        \"sequence\": 0,",
+        "        \"playlist\": \"2022 Off Hours\",",
+        "        \"day\": 7,",
+        "        \"startTime\": \"00:00:00\",",
+        "        \"startTimeOffset\": 0,",
+        "        \"endTime\": \"16:30:00\",",
+        "        \"endTimeOffset\": 0,",
+        "        \"repeat\": 1,",
+        "        \"startDate\": \"2022-12-01\",",
+        "        \"endDate\": \"2023-03-31\",",
+        "        \"stopType\": 1",
         "    }",
         "]"
       ]
@@ -1817,12 +2235,19 @@
         "TetherSSID": "FPP",
         "TetherPSK": "Christmas",
         "MultiSyncEnabled": "1",
-        "MultiSyncRemotes": "",
+        "MultiSyncRemotes": "192.168.1.166,192.168.1.188,192.168.1.136,192.168.1.190,192.168.1.231,192.168.1.192",
         "temperatureInF": "1",
         "backgroundColor": "008080",
         "disableIPAnnouncement": "1",
         "ScheduleSeconds": "0",
-        "verbosePlaylistItemDetails": "0"
+        "verbosePlaylistItemDetails": "0",
+        "MultiSyncRefreshStatus": "1",
+        "VideoOutput": "HDMI",
+        "uiLevel": "1",
+        "DisableFakeNetworkBridges": "1",
+        "MultiSyncMulticast": "0",
+        "MultiSyncExtraRemotes": "192.168.1.117,192.168.1.136,192.168.1.162,192.168.1.166,192.168.1.188,192.168.1.190",
+        "ForceHDMI": "1"
       }
     ],
     "commandPresets": [
@@ -1848,6 +2273,7 @@
           "StationText = \"Lights  OnPutney Circle \"",
           "Frequency = \"87.90\"",
           "Power = \"115\"",
+          "RDSTextText = \"Lights On Putney Circle[ -- {Artist} - {Title}]\"",
           ""
         ]
       ]

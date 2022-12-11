@@ -13,7 +13,19 @@
   },
   "channelOutputs": {
     "universes": [
-      null
+      {
+        "channelOutputs": [
+          {
+            "type": "universes",
+            "enabled": 0,
+            "interface": "eth0",
+            "threaded": 0,
+            "startChannel": 1,
+            "channelCount": -1,
+            "universes": []
+          }
+        ]
+      }
     ],
     "falcon_pixelnet_DMX": [
       []
@@ -36,50 +48,11 @@
                     "nullNodes": 0,
                     "reverse": 0,
                     "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "GRB",
-                    "pixelCount": 74,
-                    "startChannel": 10845,
-                    "description": "Arch1"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "GRB",
-                    "pixelCount": 74,
-                    "startChannel": 11067,
-                    "description": "Arch2"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "GRB",
-                    "pixelCount": 74,
-                    "startChannel": 11289,
-                    "description": "Arch3"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 100,
-                    "colorOrder": "GRB",
-                    "pixelCount": 74,
-                    "startChannel": 11511,
-                    "description": "Arch4"
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 150,
+                    "startChannel": 3285,
+                    "description": "MegaTree-str-1"
                   }
                 ],
                 "portNumber": 0
@@ -95,35 +68,9 @@
                     "groupCount": 0,
                     "brightness": 30,
                     "colorOrder": "RGB",
-                    "pixelCount": 50,
-                    "startChannel": 11733,
-                    "description": "Tree Small 01"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 100,
-                    "startChannel": 11883,
-                    "description": "Tree 01"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 50,
-                    "startChannel": 12183,
-                    "description": "Tree Small 02"
+                    "pixelCount": 150,
+                    "startChannel": 3735,
+                    "description": "MegaTree-str-2"
                   }
                 ],
                 "portNumber": 1
@@ -137,11 +84,11 @@
                     "nullNodes": 0,
                     "reverse": 0,
                     "groupCount": 0,
-                    "brightness": 100,
+                    "brightness": 30,
                     "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
+                    "pixelCount": 150,
+                    "startChannel": 4185,
+                    "description": "MegaTree-str-3"
                   }
                 ],
                 "portNumber": 2
@@ -157,126 +104,9 @@
                     "groupCount": 0,
                     "brightness": 30,
                     "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12333,
-                    "description": "Stake 01_01"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12348,
-                    "description": "Stake 01_02"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12363,
-                    "description": "Stake 01_03"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12378,
-                    "description": "Stake 01_04"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12393,
-                    "description": "Stake 01_05"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12408,
-                    "description": "Stake 01_06"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12423,
-                    "description": "Stake 01_07"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12438,
-                    "description": "Stake 01_08"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12453,
-                    "description": "Stake 01_09"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12468,
-                    "description": "Stake 01_10"
+                    "pixelCount": 150,
+                    "startChannel": 4635,
+                    "description": "MegaTree-str-4"
                   }
                 ],
                 "portNumber": 3
@@ -292,126 +122,9 @@
                     "groupCount": 0,
                     "brightness": 30,
                     "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12483,
-                    "description": "Stake 02_01"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12498,
-                    "description": "Stake 02_02"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12513,
-                    "description": "Stake 02_03"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12528,
-                    "description": "Stake 02_04"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12543,
-                    "description": "Stake 02_05"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12558,
-                    "description": "Stake 02_06"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12573,
-                    "description": "Stake 02_07"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12588,
-                    "description": "Stake 02_08"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12603,
-                    "description": "Stake 02_09"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12618,
-                    "description": "Stake 02_10"
+                    "pixelCount": 150,
+                    "startChannel": 5085,
+                    "description": "MegaTree-str-5"
                   }
                 ],
                 "portNumber": 4
@@ -427,126 +140,9 @@
                     "groupCount": 0,
                     "brightness": 30,
                     "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12633,
-                    "description": "Stake 03_01"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12648,
-                    "description": "Stake 03_02"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12663,
-                    "description": "Stake 03_03"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12678,
-                    "description": "Stake 03_04"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12693,
-                    "description": "Stake 03_05"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12708,
-                    "description": "Stake 03_06"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12723,
-                    "description": "Stake 03_07"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12738,
-                    "description": "Stake 03_08"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12753,
-                    "description": "Stake 03_09"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12768,
-                    "description": "Stake 03_10"
+                    "pixelCount": 150,
+                    "startChannel": 5535,
+                    "description": "MegaTree-str-6"
                   }
                 ],
                 "portNumber": 5
@@ -562,256 +158,9 @@
                     "groupCount": 0,
                     "brightness": 30,
                     "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12783,
-                    "description": "Stake 04_01"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12798,
-                    "description": "Stake 04_02"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12813,
-                    "description": "Stake 04_03"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12828,
-                    "description": "Stake 04_04"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12843,
-                    "description": "Stake 04_05"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12858,
-                    "description": "Stake 04_06"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12873,
-                    "description": "Stake 04_07"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12888,
-                    "description": "Stake 04_08"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12903,
-                    "description": "Stake 04_09"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12918,
-                    "description": "Stake 04_10"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12933,
-                    "description": "Stake 05_01"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12948,
-                    "description": "Stake 05_02"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12963,
-                    "description": "Stake 05_03"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12978,
-                    "description": "Stake 05_04"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 12993,
-                    "description": "Stake 05_05"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 13008,
-                    "description": "Stake 05_06"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 13023,
-                    "description": "Stake 05_07"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 13038,
-                    "description": "Stake 05_08"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 13053,
-                    "description": "Stake 05_09"
-                  },
-                  {
-                    "gamma": "1.0",
-                    "zigZag": 0,
-                    "endNulls": 0,
-                    "nullNodes": 0,
-                    "reverse": 0,
-                    "groupCount": 0,
-                    "brightness": 30,
-                    "colorOrder": "RGB",
-                    "pixelCount": 5,
-                    "startChannel": 13068,
-                    "description": "Stake 05_10"
+                    "pixelCount": 150,
+                    "startChannel": 5985,
+                    "description": "MegaTree-str-7"
                   }
                 ],
                 "portNumber": 6
@@ -825,11 +174,11 @@
                     "nullNodes": 0,
                     "reverse": 0,
                     "groupCount": 0,
-                    "brightness": 100,
+                    "brightness": 30,
                     "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
+                    "pixelCount": 150,
+                    "startChannel": 6435,
+                    "description": "MegaTree-str-8"
                   }
                 ],
                 "portNumber": 7
@@ -843,11 +192,11 @@
                     "nullNodes": 0,
                     "reverse": 0,
                     "groupCount": 0,
-                    "brightness": 100,
+                    "brightness": 30,
                     "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
+                    "pixelCount": 150,
+                    "startChannel": 6885,
+                    "description": "MegaTree-str-9"
                   }
                 ],
                 "portNumber": 8
@@ -861,11 +210,11 @@
                     "nullNodes": 0,
                     "reverse": 0,
                     "groupCount": 0,
-                    "brightness": 100,
+                    "brightness": 30,
                     "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
+                    "pixelCount": 150,
+                    "startChannel": 7335,
+                    "description": "MegaTree-str-10"
                   }
                 ],
                 "portNumber": 9
@@ -879,11 +228,11 @@
                     "nullNodes": 0,
                     "reverse": 0,
                     "groupCount": 0,
-                    "brightness": 100,
+                    "brightness": 30,
                     "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
+                    "pixelCount": 150,
+                    "startChannel": 7785,
+                    "description": "MegaTree-str-11"
                   }
                 ],
                 "portNumber": 10
@@ -897,11 +246,11 @@
                     "nullNodes": 0,
                     "reverse": 0,
                     "groupCount": 0,
-                    "brightness": 100,
+                    "brightness": 30,
                     "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
+                    "pixelCount": 150,
+                    "startChannel": 8235,
+                    "description": "MegaTree-str-12"
                   }
                 ],
                 "portNumber": 11
@@ -915,11 +264,11 @@
                     "nullNodes": 0,
                     "reverse": 0,
                     "groupCount": 0,
-                    "brightness": 100,
+                    "brightness": 30,
                     "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
+                    "pixelCount": 150,
+                    "startChannel": 8685,
+                    "description": "MegaTree-str-13"
                   }
                 ],
                 "portNumber": 12
@@ -933,11 +282,258 @@
                     "nullNodes": 0,
                     "reverse": 0,
                     "groupCount": 0,
-                    "brightness": 100,
+                    "brightness": 30,
                     "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
+                    "pixelCount": 5,
+                    "startChannel": 9135,
+                    "description": "Stake 08_01"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9150,
+                    "description": "Stake 08_02"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9165,
+                    "description": "Stake 08_03"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9180,
+                    "description": "Stake 08_04"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9195,
+                    "description": "Stake 08_05"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9210,
+                    "description": "Stake 08_06"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9225,
+                    "description": "Stake 08_07"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9240,
+                    "description": "Stake 08_08"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9255,
+                    "description": "Stake 08_09"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9270,
+                    "description": "Stake 08_10"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9285,
+                    "description": "Stake 09_01"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9300,
+                    "description": "Stake 09_02"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9315,
+                    "description": "Stake 09_03"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9330,
+                    "description": "Stake 09_04"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9345,
+                    "description": "Stake 09_05"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9360,
+                    "description": "Stake 09_06"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9375,
+                    "description": "Stake 09_07"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9390,
+                    "description": "Stake 09_08"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9405,
+                    "description": "Stake 09_09"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9420,
+                    "description": "Stake 09_10"
                   }
                 ],
                 "portNumber": 13
@@ -951,11 +547,128 @@
                     "nullNodes": 0,
                     "reverse": 0,
                     "groupCount": 0,
-                    "brightness": 100,
+                    "brightness": 30,
                     "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
+                    "pixelCount": 5,
+                    "startChannel": 9435,
+                    "description": "Stake 10_01"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9450,
+                    "description": "Stake 10_02"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9465,
+                    "description": "Stake 10_03"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9480,
+                    "description": "Stake 10_04"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9495,
+                    "description": "Stake 10_05"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9510,
+                    "description": "Stake 10_06"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9525,
+                    "description": "Stake 10_07"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9540,
+                    "description": "Stake 10_08"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9555,
+                    "description": "Stake 10_09"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 5,
+                    "startChannel": 9570,
+                    "description": "Stake 10_10"
                   }
                 ],
                 "portNumber": 14
@@ -969,11 +682,11 @@
                     "nullNodes": 0,
                     "reverse": 0,
                     "groupCount": 0,
-                    "brightness": 100,
+                    "brightness": 30,
                     "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
+                    "pixelCount": 270,
+                    "startChannel": 9585,
+                    "description": "Star"
                   }
                 ],
                 "portNumber": 15
@@ -1051,14 +764,230 @@
                 "portNumber": 19
               },
               {
-                "expansionType": -1,
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
                 "portNumber": 20
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
+                "portNumber": 21
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
+                "portNumber": 22
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
+                "portNumber": 23
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 50,
+                    "startChannel": 10395,
+                    "description": "Great Room 01"
+                  }
+                ],
+                "portNumber": 24
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 50,
+                    "startChannel": 10545,
+                    "description": "Great Room 02"
+                  }
+                ],
+                "portNumber": 25
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 30,
+                    "colorOrder": "RGB",
+                    "pixelCount": 50,
+                    "startChannel": 10695,
+                    "description": "Door Entry"
+                  }
+                ],
+                "portNumber": 26
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
+                "portNumber": 27
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
+                "portNumber": 28
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
+                "portNumber": 29
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
+                "portNumber": 30
+              },
+              {
+                "virtualStrings": [
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 0,
+                    "description": ""
+                  }
+                ],
+                "portNumber": 31
+              },
+              {
+                "expansionType": -1,
+                "portNumber": 32
               }
             ],
-            "outputCount": 7,
+            "outputCount": 27,
             "type": "BBB48String",
             "pinoutVersion": "1.x",
-            "subType": "K8-B",
+            "subType": "K16A-B",
             "startChannel": 1,
             "channelCount": -1,
             "enabled": 1
@@ -1074,17 +1003,27 @@
         "channelOutputs": [
           {
             "enabled": 0,
-            "type": "DMX-Open",
-            "startChannel": 1,
             "channelCount": 512,
-            "device": "ttyS1"
+            "device": "ttyS1",
+            "type": "DMX-Open",
+            "startChannel": 1
           },
           {
             "enabled": 0,
-            "type": "DMX-Open",
-            "startChannel": 1,
             "channelCount": 512,
-            "device": "ttyS2"
+            "device": "ttyS2",
+            "type": "DMX-Open",
+            "startChannel": 1
+          },
+          {
+            "description": "",
+            "startChannel": 3208,
+            "renardspeed": 57600,
+            "device": "ttyS1",
+            "enabled": 1,
+            "channelCount": 21,
+            "type": "Renard",
+            "renardparm": true
           }
         ]
       }
@@ -1095,572 +1034,353 @@
       {
         "StartCorner": "BL",
         "StrandsPerString": 1,
-        "StringCount": 1,
+        "StringCount": 10,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 10846,
-        "ChannelCount": 222,
-        "Name": "Arch1"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11068,
-        "ChannelCount": 222,
-        "Name": "Arch2"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11290,
-        "ChannelCount": 222,
-        "Name": "Arch3"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11512,
-        "ChannelCount": 222,
-        "Name": "Arch4"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12334,
-        "ChannelCount": 15,
-        "Name": "Stake_01_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12349,
-        "ChannelCount": 15,
-        "Name": "Stake_01_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12364,
-        "ChannelCount": 15,
-        "Name": "Stake_01_03"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12379,
-        "ChannelCount": 15,
-        "Name": "Stake_01_04"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12394,
-        "ChannelCount": 15,
-        "Name": "Stake_01_05"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12409,
-        "ChannelCount": 15,
-        "Name": "Stake_01_06"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12424,
-        "ChannelCount": 15,
-        "Name": "Stake_01_07"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12439,
-        "ChannelCount": 15,
-        "Name": "Stake_01_08"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12454,
-        "ChannelCount": 15,
-        "Name": "Stake_01_09"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12469,
-        "ChannelCount": 15,
-        "Name": "Stake_01_10"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12484,
-        "ChannelCount": 15,
-        "Name": "Stake_02_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12499,
-        "ChannelCount": 15,
-        "Name": "Stake_02_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12514,
-        "ChannelCount": 15,
-        "Name": "Stake_02_03"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12529,
-        "ChannelCount": 15,
-        "Name": "Stake_02_04"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12544,
-        "ChannelCount": 15,
-        "Name": "Stake_02_05"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12559,
-        "ChannelCount": 15,
-        "Name": "Stake_02_06"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12574,
-        "ChannelCount": 15,
-        "Name": "Stake_02_07"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12589,
-        "ChannelCount": 15,
-        "Name": "Stake_02_08"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12604,
-        "ChannelCount": 15,
-        "Name": "Stake_02_09"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12619,
-        "ChannelCount": 15,
-        "Name": "Stake_02_10"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12634,
-        "ChannelCount": 15,
-        "Name": "Stake_03_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12649,
-        "ChannelCount": 15,
-        "Name": "Stake_03_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12664,
-        "ChannelCount": 15,
-        "Name": "Stake_03_03"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12679,
-        "ChannelCount": 15,
-        "Name": "Stake_03_04"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12694,
-        "ChannelCount": 15,
-        "Name": "Stake_03_05"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12709,
-        "ChannelCount": 15,
-        "Name": "Stake_03_06"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12724,
-        "ChannelCount": 15,
-        "Name": "Stake_03_07"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12739,
-        "ChannelCount": 15,
-        "Name": "Stake_03_08"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12754,
-        "ChannelCount": 15,
-        "Name": "Stake_03_09"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12769,
-        "ChannelCount": 15,
-        "Name": "Stake_03_10"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12784,
-        "ChannelCount": 15,
-        "Name": "Stake_04_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12799,
-        "ChannelCount": 15,
-        "Name": "Stake_04_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12814,
-        "ChannelCount": 15,
-        "Name": "Stake_04_03"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12829,
-        "ChannelCount": 15,
-        "Name": "Stake_04_04"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12844,
-        "ChannelCount": 15,
-        "Name": "Stake_04_05"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12859,
-        "ChannelCount": 15,
-        "Name": "Stake_04_06"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12874,
-        "ChannelCount": 15,
-        "Name": "Stake_04_07"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12889,
-        "ChannelCount": 15,
-        "Name": "Stake_04_08"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12904,
-        "ChannelCount": 15,
-        "Name": "Stake_04_09"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12919,
-        "ChannelCount": 15,
-        "Name": "Stake_04_10"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12934,
-        "ChannelCount": 15,
-        "Name": "Stake_05_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12949,
-        "ChannelCount": 15,
-        "Name": "Stake_05_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12964,
-        "ChannelCount": 15,
-        "Name": "Stake_05_03"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12979,
-        "ChannelCount": 15,
-        "Name": "Stake_05_04"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12994,
-        "ChannelCount": 15,
-        "Name": "Stake_05_05"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 13009,
-        "ChannelCount": 15,
-        "Name": "Stake_05_06"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 13024,
-        "ChannelCount": 15,
-        "Name": "Stake_05_07"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 13039,
-        "ChannelCount": 15,
-        "Name": "Stake_05_08"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 13054,
-        "ChannelCount": 15,
-        "Name": "Stake_05_09"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 13069,
-        "ChannelCount": 15,
-        "Name": "Stake_05_10"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11884,
-        "ChannelCount": 300,
-        "Name": "Tree_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11734,
+        "StartChannel": 10696,
         "ChannelCount": 150,
-        "Name": "Tree_Small_01"
+        "Name": "Door_Entry"
+      },
+      {
+        "StartCorner": "BR",
+        "StrandsPerString": 1,
+        "StringCount": 10,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 10396,
+        "ChannelCount": 150,
+        "Name": "Great_Room_01"
+      },
+      {
+        "StartCorner": "BR",
+        "StrandsPerString": 1,
+        "StringCount": 10,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 10546,
+        "ChannelCount": 150,
+        "Name": "Great_Room_02"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 2,
+        "StringCount": 13,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 3286,
+        "ChannelCount": 5850,
+        "Name": "MegaTree"
       },
       {
         "StartCorner": "BL",
         "StrandsPerString": 1,
         "StringCount": 1,
-        "Orientation": "vertical",
+        "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 12184,
-        "ChannelCount": 150,
-        "Name": "Tree_Small_02"
+        "StartChannel": 9136,
+        "ChannelCount": 15,
+        "Name": "Stake_08_01"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9151,
+        "ChannelCount": 15,
+        "Name": "Stake_08_02"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9166,
+        "ChannelCount": 15,
+        "Name": "Stake_08_03"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9181,
+        "ChannelCount": 15,
+        "Name": "Stake_08_04"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9196,
+        "ChannelCount": 15,
+        "Name": "Stake_08_05"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9211,
+        "ChannelCount": 15,
+        "Name": "Stake_08_06"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9226,
+        "ChannelCount": 15,
+        "Name": "Stake_08_07"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9241,
+        "ChannelCount": 15,
+        "Name": "Stake_08_08"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9256,
+        "ChannelCount": 15,
+        "Name": "Stake_08_09"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9271,
+        "ChannelCount": 15,
+        "Name": "Stake_08_10"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9286,
+        "ChannelCount": 15,
+        "Name": "Stake_09_01"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9301,
+        "ChannelCount": 15,
+        "Name": "Stake_09_02"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9316,
+        "ChannelCount": 15,
+        "Name": "Stake_09_03"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9331,
+        "ChannelCount": 15,
+        "Name": "Stake_09_04"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9346,
+        "ChannelCount": 15,
+        "Name": "Stake_09_05"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9361,
+        "ChannelCount": 15,
+        "Name": "Stake_09_06"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9376,
+        "ChannelCount": 15,
+        "Name": "Stake_09_07"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9391,
+        "ChannelCount": 15,
+        "Name": "Stake_09_08"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9406,
+        "ChannelCount": 15,
+        "Name": "Stake_09_09"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9421,
+        "ChannelCount": 15,
+        "Name": "Stake_09_10"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9436,
+        "ChannelCount": 15,
+        "Name": "Stake_10_01"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9451,
+        "ChannelCount": 15,
+        "Name": "Stake_10_02"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9466,
+        "ChannelCount": 15,
+        "Name": "Stake_10_03"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9481,
+        "ChannelCount": 15,
+        "Name": "Stake_10_04"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9496,
+        "ChannelCount": 15,
+        "Name": "Stake_10_05"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9511,
+        "ChannelCount": 15,
+        "Name": "Stake_10_06"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9526,
+        "ChannelCount": 15,
+        "Name": "Stake_10_07"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9541,
+        "ChannelCount": 15,
+        "Name": "Stake_10_08"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9556,
+        "ChannelCount": 15,
+        "Name": "Stake_10_09"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9571,
+        "ChannelCount": 15,
+        "Name": "Stake_10_10"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "data": ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,36,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35,,37,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,101,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,34,,,,38,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,102,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33,,,156,,,39,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,99,,,,103,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,155,,157,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32,,,,,,,,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,98,,,201,,,104,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,31,,,,154,,,,158,,,,41,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,200,,202,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,97,,,,,,,,105,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,153,,,236,,,159,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,42,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,96,,,,199,,,,203,,,,106,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,235,,237,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;22,,,23,,,,24,,,,25,,,26,,,,27,,,,28,,,29,,,,152,,,,,,,,160,,,,43,,,44,,,,45,,,,46,,,47,,,,48,,,,49,,,50;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,198,,,261,,,204,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,21,89,,,,90,,,,91,,,92,,,,93,,,,94,,,95,,,,,,,,,,,,,,107,,,108,,,,109,,,,110,,,111,,,,112,,,,113,51,,,;,,,,,,,,,146,,,,147,,,148,,,,149,,,,150,,,151,,,,234,,,,238,,,,161,,,162,,,,163,,,,164,,,165,,,,166,,,,,,,,,;,,,,,,20,88,,,,,,,,,,,,,,,,,,,,,,,,,260,,262,,,,,,,,,,,,,,,,,,,,,,,,,114,52,,,,,,;,,,,,,,,,,,,145,,193,,,,194,,,195,,,,196,,,,197,,,,,,,,205,,,,206,,,,207,,,208,,,,209,,167,,,,,,,,,,,,;,,,,,,,,,,87,,,,,,,,,230,,,231,,,,232,,,,233,,,,,,239,,,,240,,,,241,,,242,,,,,,,,,115,,,,,,,,,,;,,,,,,,,,19,,,,,,,,192,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,210,,,,,,,,53,,,,,,,,,;,,,,,,,,,,,,,86,,144,,,,,,,229,257,,,,258,,,,259,,,,263,,,,264,,,,265,243,,,,,,,168,,116,,,,,,,,,,,,,;,,,,,,,,,,,18,,,,,,,,,191,,,,,,,,,,,,,,,,,,,,,,,,,,211,,,,,,,,,54,,,,,,,,,,,;,,,,,,,,,,,,,,,,85,,143,,,,,,,,256,,,,,,,,,,,,,,266,,,,,,,,169,,117,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,17,,,,,,,,,190,,228,,,,,,,,,,,,,,,,244,,212,,,,,,,,,55,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,84,,142,,,,,,,,255,,,,,,,,267,,,,,,,,170,,118,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,16,,,,,,,,,189,,227,,,,,,,,,,245,,213,,,,,,,,,56,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,141,,,,,,,,,,,,,,,,,,171,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,15,,83,,,,,,,,,,,251,,,,,,,,,,,119,,57,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,226,,254,,,,,,,,,,268,,246,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,140,,188,,,,,252,,,221,,,270,,,,,214,,172,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,82,,,,,,,,,,,,,,,,,,,,,,,,120,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,14,,,,,,,,253,,,222,,,181,,,250,,,269,,,,,,,,58,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,187,,225,,,,,,,,,,,,,,,,247,,215,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,81,,139,,,,,223,,,182,,,131,,,220,,,249,,,,,173,,121,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,13,,,,,,,,,,,,,,,71,,,,,,,,,,,,,,,59,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,224,,,183,,,132,,,,,,180,,,219,,,248,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,138,186,,,,,,,,,,,1,,,,,,,,,,,216,174,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,12,,80,,,,,184,,,133,,,72,,,,,,130,,,179,,,218,,,,,122,,60,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,185,,,134,,,73,,,2,,,,,,70,,,129,,,178,,,217,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,79,137,,,,,,,,,,,,,,,,,,,,,,,,,,,,175,123,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,11,,,,,135,,,74,,,3,,,,,,,,,,,,69,,,128,,,177,,,,,61,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,136,,,75,,,4,,,,,,,,,,,,,,,,,,68,,,127,,,176,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,10,78,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,124,62,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,76,,,5,,,,,,,,,,,,,,,,,,,,,,,,67,,,126,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,77,,,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,66,,,125,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,63,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,65,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,64,,,,,,,,,,,,",
+        "Orientation": "custom",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 9586,
+        "ChannelCount": 810,
+        "Name": "Star"
       }
     ]
   },
@@ -1683,33 +1403,35 @@
     "system_settings": [
       {
         "storageDevice": "mmcblk0p1",
-        "LastBlock": "62325760",
+        "LastBlock": "62697472",
         "rebootFlag": "0",
         "AudioOutput": "0",
         "volume": "70",
         "AudioCard0Type": "unknown",
-        "AudioMixerDevice": "Master",
-        "AudioCardType": "Dummy",
-        "HostName": "PeaceStakes",
+        "AudioMixerDevice": "PCM",
+        "AudioCardType": "davinci-mcasp.0-pcm5102a-hifi",
+        "HostName": "Megatree",
         "restartFlag": "0",
-        "LEDDisplayType": "7",
-        "piRTC": "4",
-        "showAllOptions": "0",
         "initialSetup": "1",
-        "TimeZone": "America/New_York",
+        "statsPublish": "Enabled",
         "Locale": "USA",
+        "TimeZone": "America/New_York",
+        "Longitude": "-71.256",
+        "Latitude": "42.5511",
         "EnableTethering": "2",
         "TetherSSID": "FPP",
         "TetherPSK": "Christmas",
-        "statsPublish": "Enabled",
-        "Latitude": "42.5511",
-        "Longitude": "-71.256",
-        "temperatureInF": "1",
-        "backgroundColor": "da92e1",
+        "LEDDisplayType": "7",
+        "piRTC": "4",
+        "showAllOptions": "0",
         "uiLevel": "1",
+        "temperatureInF": "1",
+        "backgroundColor": "0000FF",
         "fppMode": "remote",
         "syncStatsLiveUpdate": "1",
-        "DisableFakeNetworkBridges": "1"
+        "ScheduleSeconds": "0",
+        "DisableFakeNetworkBridges": "1",
+        "wifiDrivers": "External"
       }
     ],
     "commandPresets": [
@@ -1726,9 +1448,22 @@
       "America/New_York"
     ]
   },
+  "plugins": {
+    "fpp-vastfmt": {
+      "plugin.fpp-vastfmt": [
+        [
+          "Connection = \"I2C\"",
+          "ResetPin = \"2\"",
+          ""
+        ]
+      ]
+    }
+  },
   "network": {
     "wired_network": [
       [
+        "INTERFACE=eth0",
+        "PROTO=dhcp",
         ""
       ]
     ],
@@ -1739,6 +1474,8 @@
     ],
     "dns": [
       [
+        "DNS1=\"\"",
+        "DNS2=\"\"",
         ""
       ]
     ]

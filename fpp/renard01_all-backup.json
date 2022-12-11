@@ -36,7 +36,7 @@
                     "brightness": 30,
                     "colorOrder": "RGB",
                     "pixelCount": 5,
-                    "startChannel": 11943,
+                    "startChannel": 13118,
                     "description": "Stake 06_01"
                   },
                   {
@@ -49,7 +49,7 @@
                     "brightness": 30,
                     "colorOrder": "RGB",
                     "pixelCount": 5,
-                    "startChannel": 11958,
+                    "startChannel": 13133,
                     "description": "Stake 06_02"
                   },
                   {
@@ -62,7 +62,7 @@
                     "brightness": 30,
                     "colorOrder": "RGB",
                     "pixelCount": 5,
-                    "startChannel": 11973,
+                    "startChannel": 13148,
                     "description": "Stake 06_03"
                   },
                   {
@@ -75,7 +75,7 @@
                     "brightness": 30,
                     "colorOrder": "RGB",
                     "pixelCount": 5,
-                    "startChannel": 11988,
+                    "startChannel": 13163,
                     "description": "Stake 06_04"
                   },
                   {
@@ -88,7 +88,7 @@
                     "brightness": 30,
                     "colorOrder": "RGB",
                     "pixelCount": 5,
-                    "startChannel": 12003,
+                    "startChannel": 13178,
                     "description": "Stake 06_05"
                   },
                   {
@@ -101,7 +101,7 @@
                     "brightness": 30,
                     "colorOrder": "RGB",
                     "pixelCount": 5,
-                    "startChannel": 12018,
+                    "startChannel": 13193,
                     "description": "Stake 06_06"
                   },
                   {
@@ -114,7 +114,7 @@
                     "brightness": 30,
                     "colorOrder": "RGB",
                     "pixelCount": 5,
-                    "startChannel": 12033,
+                    "startChannel": 13208,
                     "description": "Stake 06_07"
                   },
                   {
@@ -127,7 +127,7 @@
                     "brightness": 30,
                     "colorOrder": "RGB",
                     "pixelCount": 5,
-                    "startChannel": 12048,
+                    "startChannel": 13223,
                     "description": "Stake 06_08"
                   },
                   {
@@ -140,7 +140,7 @@
                     "brightness": 30,
                     "colorOrder": "RGB",
                     "pixelCount": 5,
-                    "startChannel": 12063,
+                    "startChannel": 13238,
                     "description": "Stake 06_09"
                   },
                   {
@@ -153,7 +153,7 @@
                     "brightness": 30,
                     "colorOrder": "RGB",
                     "pixelCount": 5,
-                    "startChannel": 12078,
+                    "startChannel": 13253,
                     "description": "Stake 06_10"
                   }
                 ],
@@ -171,14 +171,27 @@
                     "brightness": 100,
                     "colorOrder": "RGB",
                     "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
+                    "startChannel": 13268,
+                    "description": "AC Cherry Wrap"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 13269,
+                    "description": "AC Tree"
                   }
                 ],
                 "portNumber": 1
               }
             ],
-            "outputCount": 1,
+            "outputCount": 2,
             "type": "RPIWS281X",
             "pinoutVersion": "1.x",
             "subType": "PiHat",
@@ -197,10 +210,10 @@
         "channelOutputs": [
           {
             "enabled": 1,
-            "channelCount": 48,
+            "channelCount": 35,
             "device": "ttyAMA0",
             "type": "Renard",
-            "startChannel": 11896,
+            "startChannel": 13084,
             "renardspeed": 57600,
             "description": "",
             "renardparm": "8N1"
@@ -212,257 +225,326 @@
   "model-overlays": {
     "models": [
       {
-        "Name": "AC_Bush_08",
-        "StartChannel": 11904,
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13114,
         "ChannelCount": 1,
+        "Name": "AC_Angel"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13108,
+        "ChannelCount": 1,
+        "Name": "AC_Candy_01_Top_Aud_Lt"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13117,
+        "ChannelCount": 1,
+        "Name": "AC_Candy_02_Top_Aud_Rt"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13109,
+        "ChannelCount": 1,
+        "Name": "AC_Candy_03_Middle_Aud_Lt"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13111,
+        "ChannelCount": 1,
+        "Name": "AC_Candy_04_Middle_Aud_Rt"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13110,
+        "ChannelCount": 1,
+        "Name": "AC_Candy_05_Bottom_Aud_Lt"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13113,
+        "ChannelCount": 1,
+        "Name": "AC_Candy_06_Bottom_Aud_Rt"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
         "Orientation": "vertical",
-        "StartCorner": "BL",
-        "StringCount": 1,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13269,
+        "ChannelCount": 1,
+        "Name": "AC_Cherry_Wrap"
       },
       {
-        "Name": "AC_Candy_01",
-        "StartChannel": 11932,
-        "ChannelCount": 1,
-        "Orientation": "horizontal",
         "StartCorner": "BL",
-        "StringCount": 1,
         "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
-      },
-      {
-        "Name": "AC_Candy_02",
-        "StartChannel": 11938,
-        "ChannelCount": 1,
-        "Orientation": "horizontal",
-        "StartCorner": "BL",
         "StringCount": 1,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
-      },
-      {
-        "Name": "AC_Candy_03",
-        "StartChannel": 11933,
-        "ChannelCount": 1,
-        "Orientation": "horizontal",
-        "StartCorner": "BL",
-        "StringCount": 1,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
-      },
-      {
-        "Name": "AC_Candy_04",
-        "StartChannel": 11936,
-        "ChannelCount": 1,
-        "Orientation": "horizontal",
-        "StartCorner": "BL",
-        "StringCount": 1,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
-      },
-      {
-        "Name": "AC_Candy_05",
-        "StartChannel": 11934,
-        "ChannelCount": 1,
-        "Orientation": "horizontal",
-        "StartCorner": "BL",
-        "StringCount": 1,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
-      },
-      {
-        "Name": "AC_Candy_06",
-        "StartChannel": 11935,
-        "ChannelCount": 1,
-        "Orientation": "horizontal",
-        "StartCorner": "BL",
-        "StringCount": 1,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
-      },
-      {
-        "Name": "AC_Cherry_Icicles",
-        "StartChannel": 11927,
-        "ChannelCount": 1,
         "Orientation": "vertical",
-        "StartCorner": "BL",
-        "StringCount": 1,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13116,
+        "ChannelCount": 1,
+        "Name": "AC_Holly_Aud._Lt."
       },
       {
-        "Name": "AC_Cherry_Wrap",
-        "StartChannel": 11927,
-        "ChannelCount": 1,
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
         "Orientation": "vertical",
-        "StartCorner": "BL",
-        "StringCount": 1,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13106,
+        "ChannelCount": 1,
+        "Name": "AC_Holly_Aud._Rt."
       },
       {
-        "Name": "AC_Holly_01",
-        "StartChannel": 11925,
-        "ChannelCount": 1,
-        "Orientation": "vertical",
         "StartCorner": "BL",
-        "StringCount": 1,
         "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
-      },
-      {
-        "Name": "AC_Holly_02",
-        "StartChannel": 11921,
-        "ChannelCount": 1,
-        "Orientation": "vertical",
-        "StartCorner": "BL",
         "StringCount": 1,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
-      },
-      {
-        "Name": "AC_Icicles_01",
-        "StartChannel": 11931,
-        "ChannelCount": 1,
         "Orientation": "horizontal",
-        "StartCorner": "BL",
-        "StringCount": 1,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13095,
+        "ChannelCount": 1,
+        "Name": "AC_Icicles_House"
       },
       {
-        "Name": "AC_Icicles_02",
-        "StartChannel": 11902,
-        "ChannelCount": 1,
-        "Orientation": "horizontal",
         "StartCorner": "BL",
-        "StringCount": 1,
         "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
-      },
-      {
-        "Name": "AC_North_Pole_Sign",
-        "StartChannel": 11939,
-        "ChannelCount": 1,
-        "Orientation": "horizontal",
-        "StartCorner": "BL",
-        "StringCount": 1,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
-      },
-      {
-        "Name": "AC_Package_Blue_01",
-        "StartChannel": 11899,
-        "ChannelCount": 1,
-        "Orientation": "horizontal",
-        "StartCorner": "BL",
         "StringCount": 10,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13093,
+        "ChannelCount": 1,
+        "Name": "AC_Package_Blue_01"
       },
       {
-        "Name": "AC_Package_Blue_02",
-        "StartChannel": 11906,
-        "ChannelCount": 1,
-        "Orientation": "horizontal",
         "StartCorner": "BL",
+        "StrandsPerString": 1,
         "StringCount": 10,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13096,
+        "ChannelCount": 1,
+        "Name": "AC_Package_Blue_02"
       },
       {
-        "Name": "AC_Package_Green_01",
-        "StartChannel": 11898,
-        "ChannelCount": 1,
-        "Orientation": "horizontal",
         "StartCorner": "BL",
+        "StrandsPerString": 1,
         "StringCount": 10,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13100,
+        "ChannelCount": 1,
+        "Name": "AC_Package_Green_01"
       },
       {
-        "Name": "AC_Package_Green_02",
-        "StartChannel": 11901,
-        "ChannelCount": 1,
-        "Orientation": "horizontal",
         "StartCorner": "BL",
+        "StrandsPerString": 1,
         "StringCount": 10,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13099,
+        "ChannelCount": 1,
+        "Name": "AC_Package_Green_02"
       },
       {
-        "Name": "AC_Package_Red_01",
-        "StartChannel": 11897,
-        "ChannelCount": 1,
-        "Orientation": "horizontal",
         "StartCorner": "BL",
+        "StrandsPerString": 1,
         "StringCount": 10,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13090,
+        "ChannelCount": 1,
+        "Name": "AC_Package_Red_01"
       },
       {
-        "Name": "AC_Package_Red_02",
-        "StartChannel": 11900,
-        "ChannelCount": 1,
-        "Orientation": "horizontal",
         "StartCorner": "BL",
+        "StrandsPerString": 1,
         "StringCount": 10,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13097,
+        "ChannelCount": 1,
+        "Name": "AC_Package_Red_02"
       },
       {
-        "Name": "AC_Rope_Lights",
-        "StartChannel": 11940,
-        "ChannelCount": 1,
-        "Orientation": "horizontal",
         "StartCorner": "BL",
+        "StrandsPerString": 1,
         "StringCount": 1,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
-      },
-      {
-        "Name": "AC_Santa",
-        "StartChannel": 11896,
-        "ChannelCount": 1,
         "Orientation": "horizontal",
-        "StartCorner": "BL",
-        "StringCount": 1,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13118,
+        "ChannelCount": 1,
+        "Name": "AC_Rope_Lights"
       },
       {
-        "Name": "AC_Tree",
-        "StartChannel": 11908,
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13084,
         "ChannelCount": 1,
+        "Name": "AC_Santa"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
         "Orientation": "vertical",
-        "StartCorner": "BL",
-        "StringCount": 1,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13270,
+        "ChannelCount": 1,
+        "Name": "AC_Tree"
       },
       {
-        "Name": "AC_Wrap_01",
-        "StartChannel": 11943,
-        "ChannelCount": 1,
-        "Orientation": "vertical",
         "StartCorner": "BL",
-        "StringCount": 1,
         "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13112,
+        "ChannelCount": 1,
+        "Name": "AC_Wrap_01"
       },
       {
-        "Name": "AC_Wrap_02",
-        "StartChannel": 11926,
-        "ChannelCount": 1,
-        "Orientation": "vertical",
         "StartCorner": "BL",
-        "StringCount": 1,
         "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13091,
+        "ChannelCount": 1,
+        "Name": "AC_Wrap_02"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 13119,
+        "ChannelCount": 15,
+        "Name": "Stake_06_01"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 13134,
+        "ChannelCount": 15,
+        "Name": "Stake_06_02"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 13149,
+        "ChannelCount": 15,
+        "Name": "Stake_06_03"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 13164,
+        "ChannelCount": 15,
+        "Name": "Stake_06_04"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 13179,
+        "ChannelCount": 15,
+        "Name": "Stake_06_05"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 13194,
+        "ChannelCount": 15,
+        "Name": "Stake_06_06"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 13209,
+        "ChannelCount": 15,
+        "Name": "Stake_06_07"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 13224,
+        "ChannelCount": 15,
+        "Name": "Stake_06_08"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 13239,
+        "ChannelCount": 15,
+        "Name": "Stake_06_09"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 13254,
+        "ChannelCount": 15,
+        "Name": "Stake_06_10"
       }
-    ],
-    "autoCreate": true
+    ]
   },
   "misc_configs": {
     "configs": [
@@ -504,7 +586,10 @@
         "TetherPSK": "Christmas",
         "backgroundColor": "FFB4B4",
         "temperatureInF": "1",
-        "fppMode": "remote"
+        "fppMode": "remote",
+        "syncStatsLiveUpdate": "1",
+        "uiLevel": "1",
+        "DisableFakeNetworkBridges": "1"
       }
     ],
     "commandPresets": [

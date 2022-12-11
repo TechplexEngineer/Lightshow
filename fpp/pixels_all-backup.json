@@ -189,7 +189,7 @@
                     "nullNodes": 0,
                     "reverse": 0,
                     "groupCount": 0,
-                    "brightness": 100,
+                    "brightness": 30,
                     "colorOrder": "RGB",
                     "pixelCount": 50,
                     "startChannel": 693,
@@ -207,11 +207,24 @@
                     "nullNodes": 0,
                     "reverse": 0,
                     "groupCount": 0,
-                    "brightness": 100,
+                    "brightness": 15,
                     "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
+                    "pixelCount": 61,
+                    "startChannel": 843,
+                    "description": "Spinner 01"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 15,
+                    "colorOrder": "RGB",
+                    "pixelCount": 61,
+                    "startChannel": 1026,
+                    "description": "Spinner 02"
                   }
                 ],
                 "portNumber": 3
@@ -228,7 +241,7 @@
                     "brightness": 30,
                     "colorOrder": "RGB",
                     "pixelCount": 148,
-                    "startChannel": 843,
+                    "startChannel": 1209,
                     "description": "Office"
                   }
                 ],
@@ -246,7 +259,7 @@
                     "brightness": 30,
                     "colorOrder": "RGB",
                     "pixelCount": 50,
-                    "startChannel": 1287,
+                    "startChannel": 1653,
                     "description": "South West 01"
                   },
                   {
@@ -259,7 +272,7 @@
                     "brightness": 30,
                     "colorOrder": "RGB",
                     "pixelCount": 50,
-                    "startChannel": 1437,
+                    "startChannel": 1803,
                     "description": "South West 02"
                   }
                 ],
@@ -277,7 +290,7 @@
                     "brightness": 30,
                     "colorOrder": "RGB",
                     "pixelCount": 50,
-                    "startChannel": 1587,
+                    "startChannel": 1953,
                     "description": "Master 01"
                   }
                 ],
@@ -312,9 +325,22 @@
                     "groupCount": 0,
                     "brightness": 100,
                     "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
+                    "pixelCount": 1,
+                    "startChannel": 2103,
+                    "description": "Flood 01 Aud. Lt."
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 1,
+                    "startChannel": 2106,
+                    "description": "Flood 02"
                   }
                 ],
                 "portNumber": 8
@@ -330,9 +356,22 @@
                     "groupCount": 0,
                     "brightness": 100,
                     "colorOrder": "RGB",
-                    "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
+                    "pixelCount": 1,
+                    "startChannel": 2109,
+                    "description": "Flood 04 Aud. Rt."
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 1,
+                    "startChannel": 2112,
+                    "description": "Flood 03"
                   }
                 ],
                 "portNumber": 9
@@ -378,27 +417,27 @@
                   {
                     "gamma": "1.0",
                     "zigZag": 0,
-                    "endNulls": 0,
+                    "endNulls": 2,
                     "nullNodes": 0,
                     "reverse": 0,
                     "groupCount": 0,
                     "brightness": 10,
                     "colorOrder": "RGB",
                     "pixelCount": 48,
-                    "startChannel": 1737,
+                    "startChannel": 2115,
                     "description": "Mini Cane 01"
                   },
                   {
                     "gamma": "1.0",
                     "zigZag": 0,
-                    "endNulls": 0,
+                    "endNulls": 2,
                     "nullNodes": 0,
                     "reverse": 0,
                     "groupCount": 0,
                     "brightness": 10,
                     "colorOrder": "RGB",
                     "pixelCount": 48,
-                    "startChannel": 1881,
+                    "startChannel": 2259,
                     "description": "Mini Cane 02"
                   }
                 ],
@@ -409,14 +448,14 @@
                   {
                     "gamma": "1.0",
                     "zigZag": 0,
-                    "endNulls": 0,
+                    "endNulls": 1,
                     "nullNodes": 0,
                     "reverse": 0,
                     "groupCount": 0,
                     "brightness": 10,
                     "colorOrder": "RGB",
                     "pixelCount": 99,
-                    "startChannel": 2025,
+                    "startChannel": 2403,
                     "description": "Large Cane 01"
                   }
                 ],
@@ -427,27 +466,27 @@
                   {
                     "gamma": "1.0",
                     "zigZag": 0,
-                    "endNulls": 0,
+                    "endNulls": 2,
                     "nullNodes": 0,
                     "reverse": 0,
                     "groupCount": 0,
                     "brightness": 10,
                     "colorOrder": "RGB",
                     "pixelCount": 48,
-                    "startChannel": 2322,
+                    "startChannel": 2700,
                     "description": "Mini Cane 03"
                   },
                   {
                     "gamma": "1.0",
                     "zigZag": 0,
-                    "endNulls": 0,
+                    "endNulls": 2,
                     "nullNodes": 0,
                     "reverse": 0,
                     "groupCount": 0,
                     "brightness": 10,
                     "colorOrder": "RGB",
                     "pixelCount": 48,
-                    "startChannel": 2466,
+                    "startChannel": 2844,
                     "description": "Mini Cane 04"
                   }
                 ],
@@ -458,14 +497,14 @@
                   {
                     "gamma": "1.0",
                     "zigZag": 0,
-                    "endNulls": 0,
+                    "endNulls": 1,
                     "nullNodes": 0,
                     "reverse": 0,
                     "groupCount": 0,
                     "brightness": 10,
                     "colorOrder": "RGB",
                     "pixelCount": 99,
-                    "startChannel": 2610,
+                    "startChannel": 2988,
                     "description": "Large Cane 02"
                   }
                 ],
@@ -856,479 +895,6 @@
       {
         "StartCorner": "BL",
         "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11940,
-        "ChannelCount": 1,
-        "Name": "AC_Angel"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 12100,
-        "ChannelCount": 1,
-        "Name": "AC_Bush_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 12099,
-        "ChannelCount": 1,
-        "Name": "AC_Bush_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 12096,
-        "ChannelCount": 1,
-        "Name": "AC_Bush_03"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 12094,
-        "ChannelCount": 1,
-        "Name": "AC_Bush_04"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 12102,
-        "ChannelCount": 1,
-        "Name": "AC_Bush_05"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 12104,
-        "ChannelCount": 1,
-        "Name": "AC_Bush_06"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 12105,
-        "ChannelCount": 1,
-        "Name": "AC_Bush_07"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11904,
-        "ChannelCount": 1,
-        "Name": "AC_Bush_08"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11932,
-        "ChannelCount": 1,
-        "Name": "AC_Candy_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11938,
-        "ChannelCount": 1,
-        "Name": "AC_Candy_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11933,
-        "ChannelCount": 1,
-        "Name": "AC_Candy_03"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11936,
-        "ChannelCount": 1,
-        "Name": "AC_Candy_04"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11934,
-        "ChannelCount": 1,
-        "Name": "AC_Candy_05"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11935,
-        "ChannelCount": 1,
-        "Name": "AC_Candy_06"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11927,
-        "ChannelCount": 1,
-        "Name": "AC_Cherry_Icicles"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11927,
-        "ChannelCount": 1,
-        "Name": "AC_Cherry_Wrap"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 12116,
-        "ChannelCount": 1,
-        "Name": "AC_Helo_Canes_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11906,
-        "ChannelCount": 1,
-        "Name": "AC_Helo_Canes_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11905,
-        "ChannelCount": 1,
-        "Name": "AC_Helo_Canes_03"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11909,
-        "ChannelCount": 1,
-        "Name": "AC_Helo_Canes_04"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11925,
-        "ChannelCount": 1,
-        "Name": "AC_Holly_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11921,
-        "ChannelCount": 1,
-        "Name": "AC_Holly_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11931,
-        "ChannelCount": 1,
-        "Name": "AC_Icicles_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11902,
-        "ChannelCount": 1,
-        "Name": "AC_Icicles_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 12097,
-        "ChannelCount": 1,
-        "Name": "AC_Mailbox"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11939,
-        "ChannelCount": 1,
-        "Name": "AC_North_Pole_Sign"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 10,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11899,
-        "ChannelCount": 1,
-        "Name": "AC_Package_Blue_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 10,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11906,
-        "ChannelCount": 1,
-        "Name": "AC_Package_Blue_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 10,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11898,
-        "ChannelCount": 1,
-        "Name": "AC_Package_Green_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 10,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11901,
-        "ChannelCount": 1,
-        "Name": "AC_Package_Green_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 10,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11897,
-        "ChannelCount": 1,
-        "Name": "AC_Package_Red_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 10,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11900,
-        "ChannelCount": 1,
-        "Name": "AC_Package_Red_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 12103,
-        "ChannelCount": 1,
-        "Name": "AC_Parking_Space"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11940,
-        "ChannelCount": 1,
-        "Name": "AC_Rope_Lights"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11896,
-        "ChannelCount": 1,
-        "Name": "AC_Santa"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "data": ",,,,1;,1,,,;,,,,;,,,,;,,1,,",
-        "Orientation": "custom",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 12108,
-        "ChannelCount": 1,
-        "Name": "AC_Snow_Flakes_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "data": ",,,,1;,1,,,;,,,,;,,,,;,,1,,",
-        "Orientation": "custom",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 12112,
-        "ChannelCount": 1,
-        "Name": "AC_Snow_Flakes_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11908,
-        "ChannelCount": 1,
-        "Name": "AC_Tree"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11943,
-        "ChannelCount": 1,
-        "Name": "AC_Wrap_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 1,
-        "StartChannel": 11926,
-        "ChannelCount": 1,
-        "Name": "AC_Wrap_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 9658,
-        "ChannelCount": 222,
-        "Name": "Arch1"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 9880,
-        "ChannelCount": 222,
-        "Name": "Arch2"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 10102,
-        "ChannelCount": 222,
-        "Name": "Arch3"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 10324,
-        "ChannelCount": 222,
-        "Name": "Arch4"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "data": "166,,165,,,136,,135,,,106,,105,,,76,,75,,,46,,45,,,16,,15;167,,164,,,137,,134,,,107,,104,,,77,,74,,,47,,44,,,17,,14;168,,163,,,138,,133,,,108,,103,,,78,,73,,,48,,43,,,18,,13;169,,162,,,139,,132,,,109,,102,,,79,,72,,,49,,42,,,19,,12;170,,161,,,140,,131,,,110,,101,,,80,,71,,,50,,41,,,20,,11;171,,160,,,141,,130,,,111,,100,,,81,,70,,,51,,40,,,21,,10;172,,159,,,142,,129,,,112,,99,,,82,,69,,,52,,39,,,22,,9;173,,158,,,143,,128,,,113,,98,,,83,,68,,,53,,38,,,23,,8;174,,157,,,144,,127,,,114,,97,,,84,,67,,,54,,37,,,24,,7;175,,156,,,145,,126,,,115,,96,,,85,,66,,,55,,36,,,25,,6;176,,155,,,146,,125,,,116,,95,,,86,,65,,,56,,35,,,26,,5;177,,154,,,147,,124,,,117,,94,,,87,,64,,,57,,34,,,27,,4;178,,153,,,148,,123,,,118,,93,,,88,,63,,,58,,33,,,28,,3;179,,152,,,149,,122,,,119,,92,,,89,,62,,,59,,32,,,29,,2;180,,151,,,150,,121,,,120,,91,,,90,,61,,,60,,31,,,30,,1",
-        "Orientation": "custom",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 4,
-        "ChannelCount": 540,
-        "Name": "Characters"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 10,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 9508,
-        "ChannelCount": 150,
-        "Name": "Door_Entry"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
         "StringCount": 10,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
@@ -1337,24 +903,44 @@
         "Name": "Door_Office"
       },
       {
-        "StartCorner": "BR",
+        "StartCorner": "BL",
         "StrandsPerString": 1,
-        "StringCount": 10,
+        "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 9208,
-        "ChannelCount": 150,
-        "Name": "Great_Room_01"
+        "StartChannel": 2104,
+        "ChannelCount": 3,
+        "Name": "Flood_01_Aud._Lt."
       },
       {
-        "StartCorner": "BR",
+        "StartCorner": "BL",
         "StrandsPerString": 1,
-        "StringCount": 10,
+        "StringCount": 1,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 9358,
-        "ChannelCount": 150,
-        "Name": "Great_Room_02"
+        "StartChannel": 2107,
+        "ChannelCount": 3,
+        "Name": "Flood_02"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 2113,
+        "ChannelCount": 3,
+        "Name": "Flood_03"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 3,
+        "StartChannel": 2110,
+        "ChannelCount": 3,
+        "Name": "Flood_04_Aud._Rt."
       },
       {
         "StartCorner": "BL",
@@ -1363,7 +949,7 @@
         "data": ",,,,,,,,51,,,50,,,,,,,,,;,,,,,54,,,,,,,,47,,,,,,,;,,,55,,,53,,52,,49,,48,,,,46,,,,;,,,,,56,,,,,,,,,45,,,,,,;,58,,,,,,73,,74,75,,76,,,,,,43,,;,,,57,,,72,,,,,,,77,,,44,,,,;59,,60,,,71,,,,,,,,,78,,,42,,41,;,,,,70,,,,,,,,,,,79,,,,,;62,,61,,69,,,,,,,,,,,,80,,39,,40;,,,,,,,,,,,,,,,,,,,,;63,,64,,68,,,,,,,,,,,,81,,38,,37;65,,,,67,,,,,,,,,,,,,,,,;,,66,,,,,,,,,,,,,,82,,35,,36;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,83,,34,,33;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,84,,31,,32;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,85,,30,,29;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,86,,27,,28;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,87,,26,,25;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,88,,23,,24;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,89,,22,,21;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,90,,19,,20;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,91,,18,,17;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,92,,15,,16;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,93,,14,,13;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,94,,11,,12;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,95,,10,,9;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,96,,7,,8;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,97,,6,,5;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,98,,3,,4;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,99,,2,,1",
         "Orientation": "custom",
         "ChannelCountPerNode": 3,
-        "StartChannel": 2026,
+        "StartChannel": 2404,
         "ChannelCount": 297,
         "Name": "Large_Cane_01"
       },
@@ -1374,7 +960,7 @@
         "data": ",,,,,,,,51,,,50,,,,,,,,,;,,,,,54,,,,,,,,47,,,,,,,;,,,55,,,53,,52,,49,,48,,,,46,,,,;,,,,,56,,,,,,,,,45,,,,,,;,58,,,,,,73,,74,75,,76,,,,,,43,,;,,,57,,,72,,,,,,,77,,,44,,,,;59,,60,,,71,,,,,,,,,78,,,42,,41,;,,,,70,,,,,,,,,,,79,,,,,;62,,61,,69,,,,,,,,,,,,80,,39,,40;,,,,,,,,,,,,,,,,,,,,;63,,64,,68,,,,,,,,,,,,81,,38,,37;65,,,,67,,,,,,,,,,,,,,,,;,,66,,,,,,,,,,,,,,82,,35,,36;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,83,,34,,33;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,84,,31,,32;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,85,,30,,29;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,86,,27,,28;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,87,,26,,25;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,88,,23,,24;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,89,,22,,21;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,90,,19,,20;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,91,,18,,17;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,92,,15,,16;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,93,,14,,13;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,94,,11,,12;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,95,,10,,9;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,96,,7,,8;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,97,,6,,5;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,98,,3,,4;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,99,,2,,1",
         "Orientation": "custom",
         "ChannelCountPerNode": 3,
-        "StartChannel": 2611,
+        "StartChannel": 2989,
         "ChannelCount": 297,
         "Name": "Large_Cane_02"
       },
@@ -1384,29 +970,9 @@
         "StringCount": 11,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 1588,
+        "StartChannel": 1954,
         "ChannelCount": 150,
         "Name": "Master_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 32,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12117,
-        "ChannelCount": 12288,
-        "Name": "Matrix"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 2,
-        "StringCount": 13,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 2908,
-        "ChannelCount": 5850,
-        "Name": "MegaTree"
       },
       {
         "StartCorner": "BL",
@@ -1415,7 +981,7 @@
         "data": ",,,,,,,,,25,,,,,,24,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,28,,,,,,,,,,,,,,,,21,,,,,;,,,,,,,,,,26,,,,23,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,22,,,,,,,;,,,,,,27,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,36,,,37,,,,,,,,,,20,;,29,,,,,,,,35,,,,,,,38,,,,,,,,,;,,,,30,,,,,,,,,,,,,,,,,19,,,,;,,,,,,,34,,,,,,,,,,,39,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;31,,,,,,,33,,,,,,,,,,,40,,,,18,,,17;,,,32,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,41,,,15,,,16;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,42,,,14,,,13;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,43,,,11,,,12;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,44,,,10,,,9;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,45,,,7,,,8;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,46,,,6,,,5;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,47,,,3,,,4;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,48,,,2,,,1",
         "Orientation": "custom",
         "ChannelCountPerNode": 3,
-        "StartChannel": 1738,
+        "StartChannel": 2116,
         "ChannelCount": 144,
         "Name": "Mini_Cane_01"
       },
@@ -1426,7 +992,7 @@
         "data": ",,,,,,,,,25,,,,,,24,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,28,,,,,,,,,,,,,,,,21,,,,,;,,,,,,,,,,26,,,,23,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,22,,,,,,,;,,,,,,27,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,36,,,37,,,,,,,,,,20,;,29,,,,,,,,35,,,,,,,38,,,,,,,,,;,,,,30,,,,,,,,,,,,,,,,,19,,,,;,,,,,,,34,,,,,,,,,,,39,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;31,,,,,,,33,,,,,,,,,,,40,,,,18,,,17;,,,32,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,41,,,15,,,16;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,42,,,14,,,13;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,43,,,11,,,12;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,44,,,10,,,9;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,45,,,7,,,8;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,46,,,6,,,5;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,47,,,3,,,4;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,48,,,2,,,1",
         "Orientation": "custom",
         "ChannelCountPerNode": 3,
-        "StartChannel": 1882,
+        "StartChannel": 2260,
         "ChannelCount": 144,
         "Name": "Mini_Cane_02"
       },
@@ -1437,7 +1003,7 @@
         "data": ",,,,,,,,,25,,,,,,24,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,28,,,,,,,,,,,,,,,,21,,,,,;,,,,,,,,,,26,,,,23,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,22,,,,,,,;,,,,,,27,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,36,,,37,,,,,,,,,,20,;,29,,,,,,,,35,,,,,,,38,,,,,,,,,;,,,,30,,,,,,,,,,,,,,,,,19,,,,;,,,,,,,34,,,,,,,,,,,39,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;31,,,,,,,33,,,,,,,,,,,40,,,,18,,,17;,,,32,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,41,,,15,,,16;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,42,,,14,,,13;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,43,,,11,,,12;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,44,,,10,,,9;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,45,,,7,,,8;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,46,,,6,,,5;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,47,,,3,,,4;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,48,,,2,,,1",
         "Orientation": "custom",
         "ChannelCountPerNode": 3,
-        "StartChannel": 2323,
+        "StartChannel": 2701,
         "ChannelCount": 144,
         "Name": "Mini_Cane_03"
       },
@@ -1448,7 +1014,7 @@
         "data": ",,,,,,,,,25,,,,,,24,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,28,,,,,,,,,,,,,,,,21,,,,,;,,,,,,,,,,26,,,,23,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,22,,,,,,,;,,,,,,27,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,36,,,37,,,,,,,,,,20,;,29,,,,,,,,35,,,,,,,38,,,,,,,,,;,,,,30,,,,,,,,,,,,,,,,,19,,,,;,,,,,,,34,,,,,,,,,,,39,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;31,,,,,,,33,,,,,,,,,,,40,,,,18,,,17;,,,32,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,41,,,15,,,16;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,42,,,14,,,13;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,43,,,11,,,12;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,44,,,10,,,9;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,45,,,7,,,8;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,46,,,6,,,5;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,47,,,3,,,4;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,48,,,2,,,1",
         "Orientation": "custom",
         "ChannelCountPerNode": 3,
-        "StartChannel": 2467,
+        "StartChannel": 2845,
         "ChannelCount": 144,
         "Name": "Mini_Cane_04"
       },
@@ -1459,7 +1025,7 @@
         "data": "107,106,105,104,103,102,101,100,69,68,67,66,65,64,63,62,61,60,59,58,57,56,55,54,23,22,21,20,19,18,17,16;108,,,,,,,99,70,,,,,,,,,,,,,,,53,24,,,,,,,15;109,,,,,,,98,71,,,,,,,,,,,,,,,52,25,,,,,,,14;110,,,,,,,97,72,,,,,,,,,,,,,,,51,26,,,,,,,13;111,,,,,,,96,73,,,,,,,,,,,,,,,50,27,,,,,,,12;112,,,,,,,95,74,,,,,,,,,,,,,,,49,28,,,,,,,11;113,,,,,,,94,75,,,,,,,,,,,,,,,48,29,,,,,,,10;114,,,,,,,93,76,,,,,,,,,,,,,,,47,30,,,,,,,9;115,,,,,,,92,77,,,,,,,,,,,,,,,46,31,,,,,,,8;116,,,,,,,91,78,,,,,,,,,,,,,,,45,32,,,,,,,7;117,,,,,,,90,79,,,,,,,,,,,,,,,44,33,,,,,,,6;118,,,,,,,89,80,,,,,,,,,,,,,,,43,34,,,,,,,5;119,,,,,,,88,81,,,,,,,,,,,,,,,42,35,,,,,,,4;120,,,,,,,87,82,,,,,,,,,,,,,,,41,36,,,,,,,3;121,,,,,,,86,83,,,,,,,,,,,,,,,40,37,,,,,,,2;122,123,124,125,126,127,128,85,84,129,130,131,132,133,134,135,136,137,138,139,140,141,142,39,38,143,144,145,146,147,148,1",
         "Orientation": "custom",
         "ChannelCountPerNode": 3,
-        "StartChannel": 844,
+        "StartChannel": 1210,
         "ChannelCount": 444,
         "Name": "Office"
       },
@@ -1469,7 +1035,7 @@
         "StringCount": 10,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 1288,
+        "StartChannel": 1654,
         "ChannelCount": 150,
         "Name": "South_West_01"
       },
@@ -1479,7 +1045,7 @@
         "StringCount": 10,
         "Orientation": "horizontal",
         "ChannelCountPerNode": 3,
-        "StartChannel": 1438,
+        "StartChannel": 1804,
         "ChannelCount": 150,
         "Name": "South_West_02"
       },
@@ -1487,601 +1053,23 @@
         "StartCorner": "BL",
         "StrandsPerString": 1,
         "StringCount": 1,
-        "Orientation": "horizontal",
+        "data": ",,,,,,,,,,,,,,,,,,,,,,5,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,58,,,,,,,,,,,,6,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,57,,,,,,,,,,,,,,,,,,,,,,7,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,56,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,59,,,,,,,,,,,,,,,,8,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15,,,;,,,55,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,60,,,,,,,,,,9,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,53,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,54,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16,;,,,,,,,,,,,,52,,,,,,,61,,,2,,,,,,,,,12,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,51,,,,,,,,,,11,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;47,,,,,48,,,,,,49,,,,,50,,,,,,1,,,,,20,,,,,,19,,,,,18,,,,,,17;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,41,,,,,,,,,,21,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,40,,,,,,30,,,,,,,,,,,,,,,,,,,;46,,,,,,,,,,,,42,,,,,,,,,,31,,,,,,,,,22,,,,,,,,,,,,24,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,43,,,,,,,,,,,,,,,,,,,,,,,,,,,,23,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,39,,,,,,,,,,,29,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,45,,,,,,,,,,,,,,,,,,,32,,,,,,,,,,,,,,,,,,,25,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,38,,,,,,,,,,,,,,,,28,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,44,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,33,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,37,,,,,,,,,,,,,,,,,,,,,,27,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,36,,,,,,,,,,,,34,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,35,,,,,,,,,,,,,,,,,,,,,,",
+        "Orientation": "custom",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11146,
-        "ChannelCount": 15,
-        "Name": "Stake_01_01"
+        "StartChannel": 844,
+        "ChannelCount": 183,
+        "Name": "Spinner_01"
       },
       {
         "StartCorner": "BL",
         "StrandsPerString": 1,
         "StringCount": 1,
-        "Orientation": "horizontal",
+        "data": ",,,,,,,,,,,,,,,,,,,,,,5,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,58,,,,,,,,,,,,6,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,57,,,,,,,,,,,,,,,,,,,,,,7,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,56,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,59,,,,,,,,,,,,,,,,8,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15,,,;,,,55,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,60,,,,,,,,,,9,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,53,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,54,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16,;,,,,,,,,,,,,52,,,,,,,61,,,2,,,,,,,,,12,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,51,,,,,,,,,,11,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;47,,,,,48,,,,,,49,,,,,50,,,,,,1,,,,,20,,,,,,19,,,,,18,,,,,,17;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,41,,,,,,,,,,21,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,40,,,,,,30,,,,,,,,,,,,,,,,,,,;46,,,,,,,,,,,,42,,,,,,,,,,31,,,,,,,,,22,,,,,,,,,,,,24,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,43,,,,,,,,,,,,,,,,,,,,,,,,,,,,23,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,39,,,,,,,,,,,29,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,45,,,,,,,,,,,,,,,,,,,32,,,,,,,,,,,,,,,,,,,25,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,38,,,,,,,,,,,,,,,,28,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,44,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,33,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,37,,,,,,,,,,,,,,,,,,,,,,27,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,36,,,,,,,,,,,,34,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,35,,,,,,,,,,,,,,,,,,,,,,",
+        "Orientation": "custom",
         "ChannelCountPerNode": 3,
-        "StartChannel": 11161,
-        "ChannelCount": 15,
-        "Name": "Stake_01_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11176,
-        "ChannelCount": 15,
-        "Name": "Stake_01_03"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11191,
-        "ChannelCount": 15,
-        "Name": "Stake_01_04"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11206,
-        "ChannelCount": 15,
-        "Name": "Stake_01_05"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11221,
-        "ChannelCount": 15,
-        "Name": "Stake_01_06"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11236,
-        "ChannelCount": 15,
-        "Name": "Stake_01_07"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11251,
-        "ChannelCount": 15,
-        "Name": "Stake_01_08"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11266,
-        "ChannelCount": 15,
-        "Name": "Stake_01_09"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11281,
-        "ChannelCount": 15,
-        "Name": "Stake_01_10"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11296,
-        "ChannelCount": 15,
-        "Name": "Stake_02_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11311,
-        "ChannelCount": 15,
-        "Name": "Stake_02_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11326,
-        "ChannelCount": 15,
-        "Name": "Stake_02_03"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11341,
-        "ChannelCount": 15,
-        "Name": "Stake_02_04"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11356,
-        "ChannelCount": 15,
-        "Name": "Stake_02_05"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11371,
-        "ChannelCount": 15,
-        "Name": "Stake_02_06"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11386,
-        "ChannelCount": 15,
-        "Name": "Stake_02_07"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11401,
-        "ChannelCount": 15,
-        "Name": "Stake_02_08"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11416,
-        "ChannelCount": 15,
-        "Name": "Stake_02_09"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11431,
-        "ChannelCount": 15,
-        "Name": "Stake_02_10"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11446,
-        "ChannelCount": 15,
-        "Name": "Stake_03_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11461,
-        "ChannelCount": 15,
-        "Name": "Stake_03_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11476,
-        "ChannelCount": 15,
-        "Name": "Stake_03_03"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11491,
-        "ChannelCount": 15,
-        "Name": "Stake_03_04"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11506,
-        "ChannelCount": 15,
-        "Name": "Stake_03_05"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11521,
-        "ChannelCount": 15,
-        "Name": "Stake_03_06"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11536,
-        "ChannelCount": 15,
-        "Name": "Stake_03_07"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11551,
-        "ChannelCount": 15,
-        "Name": "Stake_03_08"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11566,
-        "ChannelCount": 15,
-        "Name": "Stake_03_09"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11581,
-        "ChannelCount": 15,
-        "Name": "Stake_03_10"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11596,
-        "ChannelCount": 15,
-        "Name": "Stake_04_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11611,
-        "ChannelCount": 15,
-        "Name": "Stake_04_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11626,
-        "ChannelCount": 15,
-        "Name": "Stake_04_03"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11641,
-        "ChannelCount": 15,
-        "Name": "Stake_04_04"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11656,
-        "ChannelCount": 15,
-        "Name": "Stake_04_05"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11671,
-        "ChannelCount": 15,
-        "Name": "Stake_04_06"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11686,
-        "ChannelCount": 15,
-        "Name": "Stake_04_07"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11701,
-        "ChannelCount": 15,
-        "Name": "Stake_04_08"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11716,
-        "ChannelCount": 15,
-        "Name": "Stake_04_09"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11731,
-        "ChannelCount": 15,
-        "Name": "Stake_04_10"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11746,
-        "ChannelCount": 15,
-        "Name": "Stake_05_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11761,
-        "ChannelCount": 15,
-        "Name": "Stake_05_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11776,
-        "ChannelCount": 15,
-        "Name": "Stake_05_03"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11791,
-        "ChannelCount": 15,
-        "Name": "Stake_05_04"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11806,
-        "ChannelCount": 15,
-        "Name": "Stake_05_05"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11821,
-        "ChannelCount": 15,
-        "Name": "Stake_05_06"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11836,
-        "ChannelCount": 15,
-        "Name": "Stake_05_07"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11851,
-        "ChannelCount": 15,
-        "Name": "Stake_05_08"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11866,
-        "ChannelCount": 15,
-        "Name": "Stake_05_09"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11881,
-        "ChannelCount": 15,
-        "Name": "Stake_05_10"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11944,
-        "ChannelCount": 15,
-        "Name": "Stake_06_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11959,
-        "ChannelCount": 15,
-        "Name": "Stake_06_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11974,
-        "ChannelCount": 15,
-        "Name": "Stake_06_03"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 11989,
-        "ChannelCount": 15,
-        "Name": "Stake_06_04"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12004,
-        "ChannelCount": 15,
-        "Name": "Stake_06_05"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12019,
-        "ChannelCount": 15,
-        "Name": "Stake_06_06"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12034,
-        "ChannelCount": 15,
-        "Name": "Stake_06_07"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12049,
-        "ChannelCount": 15,
-        "Name": "Stake_06_08"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12064,
-        "ChannelCount": 15,
-        "Name": "Stake_06_09"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 12079,
-        "ChannelCount": 15,
-        "Name": "Stake_06_10"
+        "StartChannel": 1027,
+        "ChannelCount": 183,
+        "Name": "Spinner_02"
       },
       {
         "StartCorner": "BL",
@@ -2184,334 +1172,14 @@
         "Name": "Stake_07_10"
       },
       {
+        "StringCount": 13,
+        "StrandsPerString": 2,
         "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 8758,
-        "ChannelCount": 15,
-        "Name": "Stake_08_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 8773,
-        "ChannelCount": 15,
-        "Name": "Stake_08_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 8788,
-        "ChannelCount": 15,
-        "Name": "Stake_08_03"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 8803,
-        "ChannelCount": 15,
-        "Name": "Stake_08_04"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 8818,
-        "ChannelCount": 15,
-        "Name": "Stake_08_05"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 8833,
-        "ChannelCount": 15,
-        "Name": "Stake_08_06"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 8848,
-        "ChannelCount": 15,
-        "Name": "Stake_08_07"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 8863,
-        "ChannelCount": 15,
-        "Name": "Stake_08_08"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 8878,
-        "ChannelCount": 15,
-        "Name": "Stake_08_09"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 8893,
-        "ChannelCount": 15,
-        "Name": "Stake_08_10"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 8908,
-        "ChannelCount": 15,
-        "Name": "Stake_09_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 8923,
-        "ChannelCount": 15,
-        "Name": "Stake_09_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 8938,
-        "ChannelCount": 15,
-        "Name": "Stake_09_03"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 8953,
-        "ChannelCount": 15,
-        "Name": "Stake_09_04"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 8968,
-        "ChannelCount": 15,
-        "Name": "Stake_09_05"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 8983,
-        "ChannelCount": 15,
-        "Name": "Stake_09_06"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 8998,
-        "ChannelCount": 15,
-        "Name": "Stake_09_07"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 9013,
-        "ChannelCount": 15,
-        "Name": "Stake_09_08"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 9028,
-        "ChannelCount": 15,
-        "Name": "Stake_09_09"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 9043,
-        "ChannelCount": 15,
-        "Name": "Stake_09_10"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 9058,
-        "ChannelCount": 15,
-        "Name": "Stake_10_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 9073,
-        "ChannelCount": 15,
-        "Name": "Stake_10_02"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 9088,
-        "ChannelCount": 15,
-        "Name": "Stake_10_03"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 9103,
-        "ChannelCount": 15,
-        "Name": "Stake_10_04"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 9118,
-        "ChannelCount": 15,
-        "Name": "Stake_10_05"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 9133,
-        "ChannelCount": 15,
-        "Name": "Stake_10_06"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 9148,
-        "ChannelCount": 15,
-        "Name": "Stake_10_07"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 9163,
-        "ChannelCount": 15,
-        "Name": "Stake_10_08"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 9178,
-        "ChannelCount": 15,
-        "Name": "Stake_10_09"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "horizontal",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 9193,
-        "ChannelCount": 15,
-        "Name": "Stake_10_10"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
+        "StartChannel": 2908,
         "Orientation": "vertical",
+        "Name": "MegaTree",
         "ChannelCountPerNode": 3,
-        "StartChannel": 10696,
-        "ChannelCount": 300,
-        "Name": "Tree_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 10546,
-        "ChannelCount": 150,
-        "Name": "Tree_Small_01"
-      },
-      {
-        "StartCorner": "BL",
-        "StrandsPerString": 1,
-        "StringCount": 1,
-        "Orientation": "vertical",
-        "ChannelCountPerNode": 3,
-        "StartChannel": 10996,
-        "ChannelCount": 150,
-        "Name": "Tree_Small_02"
+        "ChannelCount": 5850
       }
     ]
   },
@@ -2554,7 +1222,8 @@
         "showAllOptions": "0",
         "backgroundColor": "41B76A",
         "temperatureInF": "1",
-        "fppMode": "remote"
+        "fppMode": "remote",
+        "syncStatsLiveUpdate": "1"
       }
     ],
     "commandPresets": [

@@ -54,14 +54,79 @@
                     "brightness": 100,
                     "colorOrder": "RGB",
                     "pixelCount": 0,
-                    "startChannel": 0,
-                    "description": ""
+                    "startChannel": 13288,
+                    "description": "AC Bush 08 Ernie"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 13289,
+                    "description": "AC Helo Canes 02"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 13290,
+                    "description": "AC Helo Canes 03"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 13291,
+                    "description": "AC Helo Canes 04"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 13292,
+                    "description": "AC North Pole Sign"
+                  },
+                  {
+                    "gamma": "1.0",
+                    "zigZag": 0,
+                    "endNulls": 0,
+                    "nullNodes": 0,
+                    "reverse": 0,
+                    "groupCount": 0,
+                    "brightness": 100,
+                    "colorOrder": "RGB",
+                    "pixelCount": 0,
+                    "startChannel": 13293,
+                    "description": "AC Snow Flakes 02"
                   }
                 ],
                 "portNumber": 1
               }
             ],
-            "outputCount": 0,
+            "outputCount": 2,
             "type": "RPIWS281X",
             "pinoutVersion": "1.x",
             "subType": "PiHat",
@@ -82,10 +147,10 @@
             "renardparm": "8N1",
             "description": "",
             "renardspeed": 57600,
-            "startChannel": 12094,
+            "startChannel": 13271,
             "type": "Renard",
             "device": "ttyAMA0",
-            "channelCount": 23,
+            "channelCount": 18,
             "enabled": 1
           }
         ]
@@ -95,129 +160,198 @@
   "model-overlays": {
     "models": [
       {
-        "Name": "AC_Bush_01",
-        "StartChannel": 12100,
-        "ChannelCount": 1,
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
         "Orientation": "vertical",
-        "StartCorner": "BL",
-        "StringCount": 1,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
-      },
-      {
-        "Name": "AC_Bush_02",
-        "StartChannel": 12099,
-        "ChannelCount": 1,
-        "Orientation": "vertical",
-        "StartCorner": "BL",
-        "StringCount": 1,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
-      },
-      {
-        "Name": "AC_Bush_03",
-        "StartChannel": 12096,
-        "ChannelCount": 1,
-        "Orientation": "vertical",
-        "StartCorner": "BL",
-        "StringCount": 1,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
-      },
-      {
-        "Name": "AC_Bush_04",
-        "StartChannel": 12094,
-        "ChannelCount": 1,
-        "Orientation": "vertical",
-        "StartCorner": "BL",
-        "StringCount": 1,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
-      },
-      {
-        "Name": "AC_Bush_05",
-        "StartChannel": 12102,
-        "ChannelCount": 1,
-        "Orientation": "vertical",
-        "StartCorner": "BL",
-        "StringCount": 1,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
-      },
-      {
-        "Name": "AC_Bush_06",
-        "StartChannel": 12104,
-        "ChannelCount": 1,
-        "Orientation": "vertical",
-        "StartCorner": "BL",
-        "StringCount": 1,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
-      },
-      {
-        "Name": "AC_Bush_07",
-        "StartChannel": 12105,
-        "ChannelCount": 1,
-        "Orientation": "vertical",
-        "StartCorner": "BL",
-        "StringCount": 1,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
-      },
-      {
-        "Name": "AC_Helo_Canes_01",
-        "StartChannel": 12116,
-        "ChannelCount": 1,
-        "Orientation": "horizontal",
-        "StartCorner": "BL",
-        "StringCount": 1,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
-      },
-      {
-        "Name": "AC_Mailbox",
-        "StartChannel": 12097,
-        "ChannelCount": 1,
-        "Orientation": "horizontal",
-        "StartCorner": "BL",
-        "StringCount": 1,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
-      },
-      {
-        "Name": "AC_Parking_Space",
-        "StartChannel": 12103,
-        "ChannelCount": 1,
-        "Orientation": "horizontal",
-        "StartCorner": "BL",
-        "StringCount": 1,
-        "StrandsPerString": 1,
-        "ChannelCountPerNode": 1
-      },
-      {
-        "Name": "AC_Snow_Flakes_01",
-        "StartChannel": 12108,
-        "ChannelCount": 1,
-        "Orientation": "custom",
-        "StartCorner": "BL",
-        "StringCount": 1,
-        "StrandsPerString": 1,
         "ChannelCountPerNode": 1,
-        "data": ",,,,1;,1,,,;,,,,;,,,,;,,1,,"
+        "StartChannel": 13279,
+        "ChannelCount": 1,
+        "Name": "AC_Bush_01_Aud_Lt"
       },
       {
-        "Name": "AC_Snow_Flakes_02",
-        "StartChannel": 12112,
-        "ChannelCount": 1,
-        "Orientation": "custom",
         "StartCorner": "BL",
-        "StringCount": 1,
         "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
         "ChannelCountPerNode": 1,
-        "data": ",,,,1;,1,,,;,,,,;,,,,;,,1,,"
+        "StartChannel": 13277,
+        "ChannelCount": 1,
+        "Name": "AC_Bush_02"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13276,
+        "ChannelCount": 1,
+        "Name": "AC_Bush_03"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13274,
+        "ChannelCount": 1,
+        "Name": "AC_Bush_04"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13273,
+        "ChannelCount": 1,
+        "Name": "AC_Bush_05_Aud_Rt"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13281,
+        "ChannelCount": 1,
+        "Name": "AC_Bush_06_Joe_Back"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13280,
+        "ChannelCount": 1,
+        "Name": "AC_Bush_07_Joe_Front"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13289,
+        "ChannelCount": 1,
+        "Name": "AC_Bush_08_Ernie"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "vertical",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13287,
+        "ChannelCount": 1,
+        "Name": "AC_Cherry_Icicles"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13285,
+        "ChannelCount": 1,
+        "Name": "AC_Helo_Canes_01"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13290,
+        "ChannelCount": 1,
+        "Name": "AC_Helo_Canes_02"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13291,
+        "ChannelCount": 1,
+        "Name": "AC_Helo_Canes_03"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13292,
+        "ChannelCount": 1,
+        "Name": "AC_Helo_Canes_04"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13288,
+        "ChannelCount": 1,
+        "Name": "AC_Icicles_Porch"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13282,
+        "ChannelCount": 1,
+        "Name": "AC_Mailbox"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13293,
+        "ChannelCount": 1,
+        "Name": "AC_North_Pole_Sign"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "Orientation": "horizontal",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13271,
+        "ChannelCount": 1,
+        "Name": "AC_Parking_Space"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "data": ",,,,1;,1,,,;,,,,;,,,,;,,1,,",
+        "Orientation": "custom",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13283,
+        "ChannelCount": 1,
+        "Name": "AC_Snow_Flakes_01"
+      },
+      {
+        "StartCorner": "BL",
+        "StrandsPerString": 1,
+        "StringCount": 1,
+        "data": ",,,,1;,1,,,;,,,,;,,,,;,,1,,",
+        "Orientation": "custom",
+        "ChannelCountPerNode": 1,
+        "StartChannel": 13294,
+        "ChannelCount": 1,
+        "Name": "AC_Snow_Flakes_02"
       }
-    ],
-    "autoCreate": true
+    ]
   },
   "misc_configs": {
     "configs": [
@@ -260,7 +394,10 @@
         "TetherPSK": "Christmas",
         "backgroundColor": "FF7E7E",
         "temperatureInF": "1",
-        "fppMode": "remote"
+        "fppMode": "remote",
+        "syncStatsLiveUpdate": "1",
+        "uiLevel": "1",
+        "DisableFakeNetworkBridges": "1"
       }
     ],
     "commandPresets": [
