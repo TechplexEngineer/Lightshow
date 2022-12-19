@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Networks computer="BlakeByte" GlobalFPPProxy="" GlobalForceLocalIP="">
   <suppressframes frames="20"/>
-  <Controller Id="1" Name="Master" Description="" Type="Ethernet" Vendor="FPP" Model="" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="master" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
-    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="master" BaudRate="1" NetworkType="DDP" MaxChannels="3"/>
-  </Controller>
+  <Controller Id="1" Name="Master" Description="" Type="Ethernet" Vendor="FPP" Model="FPP Player Only" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="master" Protocol="Player Only" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP=""/>
   <Controller Id="2" Name="Espixel02" Description="" Type="Ethernet" Vendor="ESPixelStick" Model="ESPixelStick-4.x" Variant="ESP8266" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="1" SuppressDuplicates="0" IP="espixel02" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
     <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="espixel02" BaudRate="2" NetworkType="DDP" MaxChannels="540"/>
   </Controller>
@@ -17,7 +15,7 @@
     <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="peacestakes" BaudRate="5" NetworkType="DDP" MaxChannels="2238"/>
   </Controller>
   <Controller Id="6" Name="Renard01" Description="" Type="Ethernet" Vendor="FPP" Model="Pi Hat" Variant="2 Output RPIWS281X" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="renard01" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
-    <network ChannelsPerPacket="1440" KeepChannelNumbers="0" ComPort="renard01" BaudRate="6" NetworkType="DDP" MaxChannels="187"/>
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="renard01" BaudRate="6" NetworkType="DDP" MaxChannels="190"/>
   </Controller>
   <Controller Id="7" Name="Renard02" Description="" Type="Ethernet" Vendor="FPP" Model="Pi Hat" Variant="2 Output RPIWS281X" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="renard02" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
     <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="renard02" BaudRate="7" NetworkType="DDP" MaxChannels="24"/>
@@ -25,8 +23,11 @@
   <Controller Id="9" Name="matrix" Description="" Type="Ethernet" Vendor="FPP" Model="LED Panels" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="0" AutoUpload="1" SuppressDuplicates="0" IP="matrix" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
     <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="matrix" BaudRate="9" NetworkType="DDP" MaxChannels="12288"/>
   </Controller>
-  <Controller Id="10" Name="Characters" Description="" Type="Ethernet" Vendor="ESPixelStick" Model="ESPixelStick-4.x" Variant="ESP8266" AutoSize="1" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="1" SuppressDuplicates="0" IP="espixel-01" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
+  <Controller Id="10" Name="ToyStory" Description="" Type="Ethernet" Vendor="ESPixelStick" Model="ESPixelStick-4.x" Variant="ESP8266" AutoSize="1" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="1" SuppressDuplicates="0" IP="espixel-01" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
     <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="espixel-01" BaudRate="10" NetworkType="DDP" MaxChannels="1"/>
+  </Controller>
+  <Controller Id="11" Name="Characters" Description="" Type="Ethernet" Vendor="FPP" Model="Pi4 Virtual Matrix" Variant="" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="1" IP="192.168.1.197" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="192.168.1.197" BaudRate="11" NetworkType="DDP" MaxChannels="540000"/>
   </Controller>
   <testpreset name="props">
     <channelr start="349" end="510"/>
