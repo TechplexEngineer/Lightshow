@@ -2532,9 +2532,9 @@
     <scaleImage value="0"/>
     <renderCacheDir value="/home/techplex/projects/pers/Lightshow/sequences"/>
     <fseqDir value="/home/techplex/projects/pers/Lightshow/sequences/fseq"/>
+    <defaultSeqView value=""/>
     <previewWidth value="1280"/>
     <previewHeight value="960"/>
-    <defaultSeqView value=""/>
   </settings>
   <colors>
     <EffectDefault Red="192" Green="192" Blue="192"/>
