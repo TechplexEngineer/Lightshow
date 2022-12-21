@@ -13,7 +13,7 @@
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
     <mediaFile>/home/techplex/projects/pers/Lightshow/sequences/Music/Wizards_In_Winter_-_Trans-Siberian_Orchestra.m4a</mediaFile>
-    <sequenceDuration>187.940</sequenceDuration>
+    <sequenceDuration>182.25</sequenceDuration>
     <imageDir/>
   </head>
   <nextid>1</nextid>
@@ -276,7 +276,7 @@
     </Element>
     <Element type="model" name="Windows">
       <EffectLayer>
-        <Effect ref="32" name="Off" selected="1" startTime="0" endTime="183200" palette="0"/>
+        <Effect ref="32" name="Off" selected="1" startTime="0" endTime="182250" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="AC Holly">
