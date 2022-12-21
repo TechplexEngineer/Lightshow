@@ -48,10 +48,10 @@
       </subModel>
     </model>
     <model DisplayAs="Single Line" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" PixelSize="100" Antialias="3" BlackTransparency="50" SuperStringColour0="#ff0000" CustomColor="#f0f0f0" StringType="RGB Nodes" Controller="Pixels" name="Flood 04 Aud. Rt." WorldPosX="1027.5238" WorldPosY="19.8320" WorldPosZ="385.9512" X2="0.489258" Y2="0.000000" Z2="0.384369" versionNumber="5" StartChannel="!Pixels:1567">
-      <ControllerConnection Port="10" Protocol="ws2811"/>
+      <ControllerConnection Protocol="ws2811" Port="11"/>
     </model>
     <model DisplayAs="Single Line" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" PixelSize="100" Antialias="3" BlackTransparency="50" SuperStringColour0="#ff0000" CustomColor="#f0f0f0" StringType="RGB Nodes" Controller="Pixels" name="Flood 03" ModelChain="&gt;Flood 04 Aud. Rt." WorldPosX="801.1696" WorldPosY="17.8378" WorldPosZ="303.3263" X2="0.622162" Y2="0.000000" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:1570">
-      <ControllerConnection Port="10" Protocol="ws2811"/>
+      <ControllerConnection Port="11" Protocol="ws2811"/>
     </model>
     <model DisplayAs="Single Line" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" PixelSize="100" Antialias="3" BlackTransparency="50" SuperStringColour0="#ff0000" CustomColor="#f0f0f0" StringType="RGB Nodes" Controller="Pixels" name="Flood 02" ModelChain="&gt;Flood 01 Aud. Lt." WorldPosX="649.5925" WorldPosY="26.8880" WorldPosZ="324.3187" X2="0.622162" Y2="0.000000" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:1564">
       <ControllerConnection Port="9" Protocol="ws2811"/>
