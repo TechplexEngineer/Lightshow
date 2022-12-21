@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2022.19</version>
+    <version>2022.24</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -106,7 +106,6 @@
     <Effect>E_CHECKBOX_Fan_Blend_Edges=1,E_CHECKBOX_Fan_Reverse=0,E_NOTEBOOK_Fan=Position,E_SLIDER_Fan_Accel=0,E_SLIDER_Fan_Blade_Angle=90,E_SLIDER_Fan_Blade_Width=100,E_SLIDER_Fan_CenterX=50,E_SLIDER_Fan_CenterY=50,E_SLIDER_Fan_Duration=80,E_SLIDER_Fan_Element_Width=100,E_SLIDER_Fan_End_Radius=500,E_SLIDER_Fan_Num_Blades=3,E_SLIDER_Fan_Num_Elements=1,E_SLIDER_Fan_Revolutions=216,E_SLIDER_Fan_Start_Angle=0,E_SLIDER_Fan_Start_Radius=1</Effect>
     <Effect>E_CHOICE_Garlands_Direction=Up,E_SLIDER_Garlands_Spacing=10,E_SLIDER_Garlands_Type=0,E_TEXTCTRL_Garlands_Cycles=1.0</Effect>
     <Effect>E_CHECKBOX_Ripple3D=0,E_CHOICE_Ripple_Movement=Explode,E_CHOICE_Ripple_Object_To_Draw=Circle,E_SLIDER_Ripple_Thickness=41,E_SLIDER_Ripple_XC=0,E_SLIDER_Ripple_YC=0,E_TEXTCTRL_Ripple_Cycles=1.0</Effect>
-    <Effect>B_CHOICE_BufferTransform=Rotate 180,E_CHOICE_Tendril_Movement=Horizontal Zig Zag,E_TEXTCTRL_Tendril_Dampening=10,E_TEXTCTRL_Tendril_Friction=10,E_TEXTCTRL_Tendril_Length=45,E_TEXTCTRL_Tendril_Speed=10,E_TEXTCTRL_Tendril_Tension=20,E_TEXTCTRL_Tendril_Thickness=1,E_TEXTCTRL_Tendril_Trails=1,E_TEXTCTRL_Tendril_TuneMovement=6,E_TEXTCTRL_Tendril_XOffset=0,E_TEXTCTRL_Tendril_YOffset=0</Effect>
     <Effect>E_CHECKBOX_Meteors_UseMusic=0,E_CHOICE_Meteors_Effect=Down,E_CHOICE_Meteors_Type=Palette,E_SLIDER_Meteors_Count=31,E_SLIDER_Meteors_Length=25,E_SLIDER_Meteors_Speed=18,E_SLIDER_Meteors_Swirl_Intensity=0</Effect>
     <Effect>E_CHECKBOX_Fire_GrowWithMusic=0,E_CHOICE_Fire_Location=Bottom,E_SLIDER_Fire_Height=50,E_SLIDER_Fire_HueShift=0,E_TEXTCTRL_Fire_GrowthCycles=0.0</Effect>
     <Effect>E_SLIDER_Life_Count=50,E_SLIDER_Life_Seed=0,E_SLIDER_Life_Speed=10</Effect>
@@ -116,6 +115,7 @@
     <Effect>E_CHOICE_Plasma_Color=Normal,E_SLIDER_Plasma_Line_Density=1,E_SLIDER_Plasma_Speed=84,E_SLIDER_Plasma_Style=5</Effect>
     <Effect>E_TEXTCTRL_Eff_On_End=25,E_TEXTCTRL_Eff_On_Start=25</Effect>
     <Effect>E_CHOICE_Garlands_Direction=Up then Down,E_SLIDER_Garlands_Spacing=10,E_SLIDER_Garlands_Type=0,E_TEXTCTRL_Garlands_Cycles=1.0</Effect>
+    <Effect>B_CHOICE_BufferTransform=Rotate 180,E_CHOICE_Tendril_Movement=Horizontal Zig Zag,E_TEXTCTRL_Tendril_Dampening=10,E_TEXTCTRL_Tendril_Friction=10,E_TEXTCTRL_Tendril_Length=45,E_TEXTCTRL_Tendril_Speed=10,E_TEXTCTRL_Tendril_Tension=20,E_TEXTCTRL_Tendril_Thickness=1,E_TEXTCTRL_Tendril_Trails=1,E_TEXTCTRL_Tendril_TuneMovement=6,E_TEXTCTRL_Tendril_XOffset=0,E_TEXTCTRL_Tendril_YOffset=0</Effect>
     <Effect>E_CHECKBOX_Spirals_3D=0,E_CHECKBOX_Spirals_Blend=0,E_CHECKBOX_Spirals_Grow=0,E_CHECKBOX_Spirals_Shrink=0,E_SLIDER_Spirals_Count=1,E_SLIDER_Spirals_Rotation=209,E_SLIDER_Spirals_Thickness=13,E_TEXTCTRL_Spirals_Movement=1.0</Effect>
     <Effect>B_CHOICE_BufferStyle=Per Model Single Line,E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Bounce from Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=40,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.7</Effect>
     <Effect>E_CHECKBOX_Mirror_Wave=0,E_CHOICE_Fill_Colors=Palette,E_CHOICE_Wave_Direction=Left to Right,E_CHOICE_Wave_Type=Sine,E_SLIDER_Number_Waves=1950,E_SLIDER_Thickness_Percentage=9,E_SLIDER_Wave_Height=50,E_SLIDER_Wave_YOffset=0,E_TEXTCTRL_Wave_Speed=10</Effect>
@@ -401,23 +401,23 @@
         <Effect ref="54" name="Garlands" id="33" startTime="144900" endTime="146900" palette="16"/>
         <Effect ref="4" name="On" id="34" startTime="154350" endTime="155000" palette="1"/>
         <Effect ref="55" name="Ripple" id="35" startTime="166450" endTime="167450" palette="17"/>
-        <Effect ref="56" name="Tendril" id="36" startTime="167450" endTime="169650" palette="0"/>
-        <Effect ref="57" name="Meteors" id="37" startTime="169650" endTime="170600" palette="18"/>
-        <Effect ref="58" name="Fire" id="38" startTime="170600" endTime="172200" palette="19"/>
-        <Effect ref="59" name="Life" id="39" startTime="172200" endTime="174500" palette="4"/>
+        <Effect ref="56" name="Meteors" id="37" startTime="169650" endTime="170600" palette="18"/>
+        <Effect ref="57" name="Fire" id="38" startTime="170600" endTime="172200" palette="19"/>
+        <Effect ref="58" name="Life" id="39" startTime="172200" endTime="174500" palette="4"/>
         <Effect ref="16" name="Spirals" id="40" startTime="174500" endTime="177300" palette="4"/>
-        <Effect ref="60" name="Butterfly" id="41" startTime="184000" endTime="187900" palette="20"/>
+        <Effect ref="59" name="Butterfly" id="41" startTime="184000" endTime="187900" palette="20"/>
         <Effect ref="25" name="VU Meter" id="42" startTime="187900" endTime="189500" palette="1"/>
-        <Effect ref="61" name="Fan" id="43" startTime="192050" endTime="193000" palette="21"/>
-        <Effect ref="62" name="Meteors" id="44" startTime="193000" endTime="195150" palette="1"/>
-        <Effect ref="63" name="Plasma" id="45" startTime="195150" endTime="196500" palette="22"/>
+        <Effect ref="60" name="Fan" id="43" startTime="192050" endTime="193000" palette="21"/>
+        <Effect ref="61" name="Meteors" id="44" startTime="193000" endTime="195150" palette="1"/>
+        <Effect ref="62" name="Plasma" id="45" startTime="195150" endTime="196500" palette="22"/>
         <Effect ref="54" name="Garlands" id="46" startTime="197950" endTime="200600" palette="5"/>
         <Effect ref="33" name="Butterfly" id="47" startTime="200600" endTime="202250" palette="1"/>
       </EffectLayer>
       <EffectLayer>
         <Effect ref="33" name="Butterfly" startTime="103650" endTime="106950" palette="5"/>
-        <Effect ref="64" name="On" id="1" startTime="108750" endTime="110350" palette="0"/>
-        <Effect ref="65" name="Garlands" id="2" startTime="125150" endTime="128450" palette="5"/>
+        <Effect ref="63" name="On" id="1" startTime="108750" endTime="110350" palette="0"/>
+        <Effect ref="64" name="Garlands" id="2" startTime="125150" endTime="128450" palette="5"/>
+        <Effect ref="65" name="Tendril" selected="1" id="3" startTime="166450" endTime="169650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Arches Groups">
@@ -820,7 +820,7 @@
     </Element>
     <Element type="model" name="Candy Canes">
       <EffectLayer>
-        <Effect ref="110" name="Pinwheel" selected="1" startTime="120950" endTime="122950" palette="3"/>
+        <Effect ref="110" name="Pinwheel" startTime="120950" endTime="122950" palette="3"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Gumdrops">
