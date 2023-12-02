@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xrgb>
   <models>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Transparency="0" parm1="1" LayoutGroup="Default" parm3="1" PixelSize="12" Antialias="1" parm2="3" name="RBL789" Controller="Pixels" ModelChain="&gt;RBL456" WorldPosX="297.9212" WorldPosY="93.1074" WorldPosZ="0.0000" X2="35.020905" Y2="0.000000" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:3061">
+      <ControllerConnection Port="19" Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Transparency="0" parm1="1" LayoutGroup="Default" parm3="1" PixelSize="12" Antialias="1" parm2="3" name="RBL456" Controller="Pixels" ModelChain="&gt;RBL123" WorldPosX="192.0094" WorldPosY="92.5961" WorldPosZ="0.0000" X2="52.190491" Y2="0.000000" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:3052">
+      <ControllerConnection Port="19" Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Transparency="0" parm1="1" LayoutGroup="Default" Controller="Pixels" parm3="1" PixelSize="12" Antialias="1" parm2="3" name="RBL123" WorldPosX="126.9663" WorldPosY="92.6027" WorldPosZ="0.0000" X2="52.190491" Y2="0.000000" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:3043">
+      <ControllerConnection Protocol="ws2811" Port="19" groupCount="9"/>
+    </model>
     <model DisplayAs="Poly Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" name="Roof Bottom Outline" parm2="170" Controller="Roof" WorldPosX="302.9127" WorldPosY="233.6457" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="7" PointData="53.641174,-21.262283,-100.314514,53.484558,-34.112183,-74.679939,75.424469,-33.624954,-76.655945,75.562469,-55.382278,-36.129185,54.198578,-54.712952,-36.469467,54.043518,-101.455215,55.389320,518.748291,-101.197937,57.681973" cPointData="" versionNumber="5" StartChannel="!Roof:2401">
       <ControllerConnection Protocol="ws2811" Port="4" brightness="30"/>
       <subModel name="Vertical" layout="horizontal" type="ranges" bufferstyle="Default" line0="1-48">
@@ -86,7 +95,7 @@
     <model DisplayAs="Single Line" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" PixelSize="100" Antialias="3" BlackTransparency="50" SuperStringColour0="#ff0000" CustomColor="#f0f0f0" name="Flood 01 Aud. Lt." StringType="RGB Nodes" Controller="Pixels" WorldPosX="500.8503" WorldPosY="23.0952" WorldPosZ="324.3187" X2="0.622162" Y2="0.000000" Z2="0.000000" versionNumber="5" StartChannel="!Pixels:1561">
       <ControllerConnection Protocol="ws2811" Port="9"/>
     </model>
-    <model DisplayAs="Custom" StartSide="B" Dir="L" parm3="1" LayoutGroup="Default" CustomModel=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,36,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35,,37,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,101,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,34,,,,38,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,102,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33,,,156,,,39,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,99,,,,103,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,155,,157,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32,,,,,,,,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,98,,,201,,,104,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,31,,,,154,,,,158,,,,41,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,200,,202,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,97,,,,,,,,105,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,153,,,236,,,159,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,42,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,96,,,,199,,,,203,,,,106,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,235,,237,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;22,,,23,,,,24,,,,25,,,26,,,,27,,,,28,,,29,,,,152,,,,,,,,160,,,,43,,,44,,,,45,,,,46,,,47,,,,48,,,,49,,,50;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,198,,,261,,,204,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,21,89,,,,90,,,,91,,,92,,,,93,,,,94,,,95,,,,,,,,,,,,,,107,,,108,,,,109,,,,110,,,111,,,,112,,,,113,51,,,;,,,,,,,,,146,,,,147,,,148,,,,149,,,,150,,,151,,,,234,,,,238,,,,161,,,162,,,,163,,,,164,,,165,,,,166,,,,,,,,,;,,,,,,20,88,,,,,,,,,,,,,,,,,,,,,,,,,260,,262,,,,,,,,,,,,,,,,,,,,,,,,,114,52,,,,,,;,,,,,,,,,,,,145,,193,,,,194,,,195,,,,196,,,,197,,,,,,,,205,,,,206,,,,207,,,208,,,,209,,167,,,,,,,,,,,,;,,,,,,,,,,87,,,,,,,,,230,,,231,,,,232,,,,233,,,,,,239,,,,240,,,,241,,,242,,,,,,,,,115,,,,,,,,,,;,,,,,,,,,19,,,,,,,,192,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,210,,,,,,,,53,,,,,,,,,;,,,,,,,,,,,,,86,,144,,,,,,,229,257,,,,258,,,,259,,,,263,,,,264,,,,265,243,,,,,,,168,,116,,,,,,,,,,,,,;,,,,,,,,,,,18,,,,,,,,,191,,,,,,,,,,,,,,,,,,,,,,,,,,211,,,,,,,,,54,,,,,,,,,,,;,,,,,,,,,,,,,,,,85,,143,,,,,,,,256,,,,,,,,,,,,,,266,,,,,,,,169,,117,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,17,,,,,,,,,190,,228,,,,,,,,,,,,,,,,244,,212,,,,,,,,,55,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,84,,142,,,,,,,,255,,,,,,,,267,,,,,,,,170,,118,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,16,,,,,,,,,189,,227,,,,,,,,,,245,,213,,,,,,,,,56,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,141,,,,,,,,,,,,,,,,,,171,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,15,,83,,,,,,,,,,,251,,,,,,,,,,,119,,57,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,226,,254,,,,,,,,,,268,,246,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,140,,188,,,,,252,,,221,,,270,,,,,214,,172,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,82,,,,,,,,,,,,,,,,,,,,,,,,120,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,14,,,,,,,,253,,,222,,,181,,,250,,,269,,,,,,,,58,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,187,,225,,,,,,,,,,,,,,,,247,,215,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,81,,139,,,,,223,,,182,,,131,,,220,,,249,,,,,173,,121,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,13,,,,,,,,,,,,,,,71,,,,,,,,,,,,,,,59,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,224,,,183,,,132,,,,,,180,,,219,,,248,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,138,186,,,,,,,,,,,1,,,,,,,,,,,216,174,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,12,,80,,,,,184,,,133,,,72,,,,,,130,,,179,,,218,,,,,122,,60,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,185,,,134,,,73,,,2,,,,,,70,,,129,,,178,,,217,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,79,137,,,,,,,,,,,,,,,,,,,,,,,,,,,,175,123,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,11,,,,,135,,,74,,,3,,,,,,,,,,,,69,,,128,,,177,,,,,61,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,136,,,75,,,4,,,,,,,,,,,,,,,,,,68,,,127,,,176,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,10,78,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,124,62,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,76,,,5,,,,,,,,,,,,,,,,,,,,,,,,67,,,126,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,77,,,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,66,,,125,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,63,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,65,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,64,,,,,,,,,,,," parm1="67" parm2="64" Depth="1" StringType="RGB Nodes" PixelSize="2" Transparency="0" ModelBrightness="" Antialias="1" StrandNames="" NodeNames="" PixelCount="270" PixelType="12mm bullet" PixelSpacing="" name="Star" Controller="MegaTree" WorldPosX="-33.4010" WorldPosY="217.7944" WorldPosZ="224.9644" ScaleX="0.5318" ScaleY="0.5572" ScaleZ="7.0201" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!MegaTree:5851">
+    <model DisplayAs="Custom" StartSide="B" Dir="L" parm3="1" LayoutGroup="Default" CustomModel=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,36,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35,,37,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,101,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,34,,,,38,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,102,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33,,,156,,,39,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,99,,,,103,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,155,,157,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32,,,,,,,,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,98,,,201,,,104,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,31,,,,154,,,,158,,,,41,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,200,,202,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,97,,,,,,,,105,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,153,,,236,,,159,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,42,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,96,,,,199,,,,203,,,,106,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,235,,237,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;22,,,23,,,,24,,,,25,,,26,,,,27,,,,28,,,29,,,,152,,,,,,,,160,,,,43,,,44,,,,45,,,,46,,,47,,,,48,,,,49,,,50;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,198,,,261,,,204,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,21,89,,,,90,,,,91,,,92,,,,93,,,,94,,,95,,,,,,,,,,,,,,107,,,108,,,,109,,,,110,,,111,,,,112,,,,113,51,,,;,,,,,,,,,146,,,,147,,,148,,,,149,,,,150,,,151,,,,234,,,,238,,,,161,,,162,,,,163,,,,164,,,165,,,,166,,,,,,,,,;,,,,,,20,88,,,,,,,,,,,,,,,,,,,,,,,,,260,,262,,,,,,,,,,,,,,,,,,,,,,,,,114,52,,,,,,;,,,,,,,,,,,,145,,193,,,,194,,,195,,,,196,,,,197,,,,,,,,205,,,,206,,,,207,,,208,,,,209,,167,,,,,,,,,,,,;,,,,,,,,,,87,,,,,,,,,230,,,231,,,,232,,,,233,,,,,,239,,,,240,,,,241,,,242,,,,,,,,,115,,,,,,,,,,;,,,,,,,,,19,,,,,,,,192,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,210,,,,,,,,53,,,,,,,,,;,,,,,,,,,,,,,86,,144,,,,,,,229,257,,,,258,,,,259,,,,263,,,,264,,,,265,243,,,,,,,168,,116,,,,,,,,,,,,,;,,,,,,,,,,,18,,,,,,,,,191,,,,,,,,,,,,,,,,,,,,,,,,,,211,,,,,,,,,54,,,,,,,,,,,;,,,,,,,,,,,,,,,,85,,143,,,,,,,,256,,,,,,,,,,,,,,266,,,,,,,,169,,117,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,17,,,,,,,,,190,,228,,,,,,,,,,,,,,,,244,,212,,,,,,,,,55,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,84,,142,,,,,,,,255,,,,,,,,267,,,,,,,,170,,118,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,16,,,,,,,,,189,,227,,,,,,,,,,245,,213,,,,,,,,,56,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,141,,,,,,,,,,,,,,,,,,171,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,15,,83,,,,,,,,,,,251,,,,,,,,,,,119,,57,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,226,,254,,,,,,,,,,268,,246,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,140,,188,,,,,252,,,221,,,270,,,,,214,,172,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,82,,,,,,,,,,,,,,,,,,,,,,,,120,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,14,,,,,,,,253,,,222,,,181,,,250,,,269,,,,,,,,58,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,187,,225,,,,,,,,,,,,,,,,247,,215,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,81,,139,,,,,223,,,182,,,131,,,220,,,249,,,,,173,,121,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,13,,,,,,,,,,,,,,,71,,,,,,,,,,,,,,,59,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,224,,,183,,,132,,,,,,180,,,219,,,248,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,138,186,,,,,,,,,,,1,,,,,,,,,,,216,174,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,12,,80,,,,,184,,,133,,,72,,,,,,130,,,179,,,218,,,,,122,,60,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,185,,,134,,,73,,,2,,,,,,70,,,129,,,178,,,217,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,79,137,,,,,,,,,,,,,,,,,,,,,,,,,,,,175,123,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,11,,,,,135,,,74,,,3,,,,,,,,,,,,69,,,128,,,177,,,,,61,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,136,,,75,,,4,,,,,,,,,,,,,,,,,,68,,,127,,,176,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,10,78,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,124,62,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,76,,,5,,,,,,,,,,,,,,,,,,,,,,,,67,,,126,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,77,,,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,66,,,125,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,63,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,65,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,64,,,,,,,,,,,," parm1="67" parm2="64" Depth="1" StringType="RGB Nodes" PixelSize="2" Transparency="0" ModelBrightness="" Antialias="1" StrandNames="" NodeNames="" PixelCount="270" PixelType="12mm bullet" PixelSpacing="" name="Star" Controller="MegaTree" WorldPosX="-33.4010" WorldPosY="217.7944" WorldPosZ="224.9644" ScaleX="0.5318" ScaleY="0.5572" ScaleZ="7.0201" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!MegaTree:6301">
       <ControllerConnection Protocol="ws2811" Port="16" brightness="30"/>
       <subModel name="1" layout="horizontal" type="ranges" line0="1-70">
         <ControllerConnection/>
@@ -236,7 +245,7 @@
     <model DisplayAs="Custom" StartSide="B" Dir="L" parm3="1" LayoutGroup="Default" CustomModel=",,,,,,,,51,,,50,,,,,,,,,;,,,,,54,,,,,,,,47,,,,,,,;,,,55,,,53,,52,,49,,48,,,,46,,,,;,,,,,56,,,,,,,,,45,,,,,,;,58,,,,,,73,,74,75,,76,,,,,,43,,;,,,57,,,72,,,,,,,77,,,44,,,,;59,,60,,,71,,,,,,,,,78,,,42,,41,;,,,,70,,,,,,,,,,,79,,,,,;62,,61,,69,,,,,,,,,,,,80,,39,,40;,,,,,,,,,,,,,,,,,,,,;63,,64,,68,,,,,,,,,,,,81,,38,,37;65,,,,67,,,,,,,,,,,,,,,,;,,66,,,,,,,,,,,,,,82,,35,,36;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,83,,34,,33;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,84,,31,,32;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,85,,30,,29;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,86,,27,,28;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,87,,26,,25;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,88,,23,,24;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,89,,22,,21;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,90,,19,,20;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,91,,18,,17;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,92,,15,,16;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,93,,14,,13;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,94,,11,,12;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,95,,10,,9;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,96,,7,,8;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,97,,6,,5;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,98,,3,,4;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,99,,2,,1" parm1="21" parm2="47" Depth="1" StringType="RGB Nodes" PixelSize="2" Transparency="0" ModelBrightness="" Antialias="1" StrandNames="" NodeNames="" PixelCount="99" PixelType="12mm bullet" PixelSpacing="" name="Large Cane 01" Controller="Pixels" WorldPosX="450.0000" WorldPosY="24.0000" WorldPosZ="144.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="0.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Pixels:1861">
       <ControllerConnection Protocol="ws2811" Port="14" brightness="10" endNullNodes="1"/>
     </model>
-    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" LayoutGroup="Default" name="MegaTree" TreePerspective="0.000000" TreeBottomTopRatio="10.000000" Controller="MegaTree" DisplayAs="Tree 360" parm2="200" TreeRotation="9.700000" parm1="9" parm3="1" WorldPosX="-33.5872" WorldPosY="104.4673" WorldPosZ="222.1430" ScaleX="0.2799" ScaleY="0.3119" ScaleZ="0.2799" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!MegaTree:1">
+    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" LayoutGroup="Default" name="MegaTree" TreePerspective="0.000000" TreeBottomTopRatio="10.000000" Controller="MegaTree" DisplayAs="Tree 360" TreeRotation="9.700000" parm3="1" parm2="150" parm1="13" WorldPosX="-33.5872" WorldPosY="104.4673" WorldPosZ="222.1430" ScaleX="0.3736" ScaleY="0.4161" ScaleZ="0.3736" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!MegaTree:1">
       <ControllerConnection Protocol="ws2811" Port="1" brightness="30"/>
     </model>
     <model DisplayAs="Single Line" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" PixelSize="100" Antialias="3" BlackTransparency="50" name="AC Mailbox" CustomColor="#f0f0f0" StringType="Single Color Intensity" Controller="Renard02" WorldPosX="90.5628" WorldPosY="25.0341" WorldPosZ="688.9131" X2="0.622162" Y2="0.000000" Z2="0.000000" versionNumber="5" StartChannel="!Renard02:12">
@@ -1529,7 +1538,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_01" Controller="MegaTree" WorldPosX="39.6046" WorldPosY="0.0000" WorldPosZ="218.6346" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5401">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_01" Controller="MegaTree" WorldPosX="39.6046" WorldPosY="0.0000" WorldPosZ="218.6346" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5851">
       <ControllerConnection Protocol="ws2811" brightness="30" Port="14"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="39.6046" WorldPosY="0.0000" WorldPosZ="218.6346" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="8758">
         <ControllerConnection/>
@@ -1547,7 +1556,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_02" Controller="MegaTree" ModelChain="&gt;Stake 08_01" WorldPosX="47.2554" WorldPosY="0.0000" WorldPosZ="271.8105" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5416">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_02" Controller="MegaTree" ModelChain="&gt;Stake 08_01" WorldPosX="47.2554" WorldPosY="0.0000" WorldPosZ="271.8105" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5866">
       <ControllerConnection brightness="30" Port="14" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="480.0000" WorldPosY="0.0000" WorldPosZ="270" X2="0.000000" Y2="36" Z2="0.000000" versionNumber="5">
         <ControllerConnection/>
@@ -1565,7 +1574,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_03" Controller="MegaTree" ModelChain="&gt;Stake 08_02" WorldPosX="10.5385" WorldPosY="0.0000" WorldPosZ="301.6031" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5431">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_03" Controller="MegaTree" ModelChain="&gt;Stake 08_02" WorldPosX="10.5385" WorldPosY="0.0000" WorldPosZ="301.6031" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5881">
       <ControllerConnection brightness="30" Port="14" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="10.5385" WorldPosY="0.0000" WorldPosZ="301.6031" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="8788">
         <ControllerConnection/>
@@ -1583,7 +1592,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_04" Controller="MegaTree" ModelChain="&gt;Stake 08_03" WorldPosX="47.2142" WorldPosY="0.0000" WorldPosZ="332.5143" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5446">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_04" Controller="MegaTree" ModelChain="&gt;Stake 08_03" WorldPosX="47.2142" WorldPosY="0.0000" WorldPosZ="332.5143" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5896">
       <ControllerConnection brightness="30" Port="14" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="47.2142" WorldPosY="0.0000" WorldPosZ="332.5143" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="8803">
         <ControllerConnection/>
@@ -1601,7 +1610,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_05" Controller="MegaTree" ModelChain="&gt;Stake 08_04" WorldPosX="69.1923" WorldPosY="0.0000" WorldPosZ="378.0865" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5461">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_05" Controller="MegaTree" ModelChain="&gt;Stake 08_04" WorldPosX="69.1923" WorldPosY="0.0000" WorldPosZ="378.0865" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5911">
       <ControllerConnection brightness="30" Port="14" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="69.1923" WorldPosY="0.0000" WorldPosZ="378.0865" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="8818">
         <ControllerConnection/>
@@ -1619,7 +1628,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_06" Controller="MegaTree" ModelChain="&gt;Stake 08_05" WorldPosX="34.8623" WorldPosY="0.0000" WorldPosZ="418.3363" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5476">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_06" Controller="MegaTree" ModelChain="&gt;Stake 08_05" WorldPosX="34.8623" WorldPosY="0.0000" WorldPosZ="418.3363" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5926">
       <ControllerConnection brightness="30" Port="14" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="34.8623" WorldPosY="0.0000" WorldPosZ="418.3363" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="8833">
         <ControllerConnection/>
@@ -1637,7 +1646,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_07" Controller="MegaTree" ModelChain="&gt;Stake 08_06" WorldPosX="66.8027" WorldPosY="0.0000" WorldPosZ="467.0112" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5491">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_07" Controller="MegaTree" ModelChain="&gt;Stake 08_06" WorldPosX="66.8027" WorldPosY="0.0000" WorldPosZ="467.0112" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5941">
       <ControllerConnection brightness="30" Port="14" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="66.8027" WorldPosY="0.0000" WorldPosZ="467.0112" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="8848">
         <ControllerConnection/>
@@ -1655,7 +1664,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_08" Controller="MegaTree" ModelChain="&gt;Stake 08_07" WorldPosX="114.5157" WorldPosY="0.0000" WorldPosZ="497.2346" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5506">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_08" Controller="MegaTree" ModelChain="&gt;Stake 08_07" WorldPosX="114.5157" WorldPosY="0.0000" WorldPosZ="497.2346" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5956">
       <ControllerConnection brightness="30" Port="14" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="114.5157" WorldPosY="0.0000" WorldPosZ="497.2346" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="8863">
         <ControllerConnection/>
@@ -1673,7 +1682,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_09" Controller="MegaTree" ModelChain="&gt;Stake 08_08" WorldPosX="127.1452" WorldPosY="0.0000" WorldPosZ="550.9009" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5521">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_09" Controller="MegaTree" ModelChain="&gt;Stake 08_08" WorldPosX="127.1452" WorldPosY="0.0000" WorldPosZ="550.9009" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5971">
       <ControllerConnection brightness="30" Port="14" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="127.1452" WorldPosY="0.0000" WorldPosZ="550.9009" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="8878">
         <ControllerConnection/>
@@ -1691,7 +1700,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_10" Controller="MegaTree" ModelChain="&gt;Stake 08_09" WorldPosX="48.3875" WorldPosY="0.0000" WorldPosZ="545.5016" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5536">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 08_10" Controller="MegaTree" ModelChain="&gt;Stake 08_09" WorldPosX="48.3875" WorldPosY="0.0000" WorldPosZ="545.5016" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5986">
       <ControllerConnection brightness="30" Port="14" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="48.3875" WorldPosY="0.0000" WorldPosZ="545.5016" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="8893">
         <ControllerConnection/>
@@ -1709,7 +1718,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_01" Controller="MegaTree" ModelChain="&gt;Stake 08_10" WorldPosX="1.1896" WorldPosY="0.0000" WorldPosZ="571.4401" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5551">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_01" Controller="MegaTree" ModelChain="&gt;Stake 08_10" WorldPosX="1.1896" WorldPosY="0.0000" WorldPosZ="571.4401" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:6001">
       <ControllerConnection brightness="30" Port="14" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="1.1896" WorldPosY="0.0000" WorldPosZ="571.4401" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="8908">
         <ControllerConnection/>
@@ -1727,7 +1736,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_02" Controller="MegaTree" ModelChain="&gt;Stake 09_01" WorldPosX="-70.5286" WorldPosY="0.0000" WorldPosZ="582.9203" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5566">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_02" Controller="MegaTree" ModelChain="&gt;Stake 09_01" WorldPosX="-70.5286" WorldPosY="0.0000" WorldPosZ="582.9203" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:6016">
       <ControllerConnection brightness="30" Port="14" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="480.0000" WorldPosY="0.0000" WorldPosZ="260" X2="0.000000" Y2="36" Z2="0.000000" versionNumber="5">
         <ControllerConnection/>
@@ -1745,7 +1754,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_03" Controller="MegaTree" ModelChain="&gt;Stake 09_02" WorldPosX="-106.5157" WorldPosY="0.0000" WorldPosZ="553.7883" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5581">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_03" Controller="MegaTree" ModelChain="&gt;Stake 09_02" WorldPosX="-106.5157" WorldPosY="0.0000" WorldPosZ="553.7883" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:6031">
       <ControllerConnection brightness="30" Port="14" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="-106.5157" WorldPosY="0.0000" WorldPosZ="553.7883" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="8938">
         <ControllerConnection/>
@@ -1763,7 +1772,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_04" Controller="MegaTree" ModelChain="&gt;Stake 09_03" WorldPosX="-67.2043" WorldPosY="0.0000" WorldPosZ="514.8286" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5596">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_04" Controller="MegaTree" ModelChain="&gt;Stake 09_03" WorldPosX="-67.2043" WorldPosY="0.0000" WorldPosZ="514.8286" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:6046">
       <ControllerConnection brightness="30" Port="14" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="-67.2043" WorldPosY="0.0000" WorldPosZ="514.8286" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="8953">
         <ControllerConnection/>
@@ -1781,7 +1790,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_05" Controller="MegaTree" ModelChain="&gt;Stake 09_04" WorldPosX="-107.6863" WorldPosY="0.0000" WorldPosZ="457.0945" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5611">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_05" Controller="MegaTree" ModelChain="&gt;Stake 09_04" WorldPosX="-107.6863" WorldPosY="0.0000" WorldPosZ="457.0945" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:6061">
       <ControllerConnection brightness="30" Port="14" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="-107.6863" WorldPosY="0.0000" WorldPosZ="457.0945" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="8968">
         <ControllerConnection/>
@@ -1799,7 +1808,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_06" Controller="MegaTree" ModelChain="&gt;Stake 09_05" WorldPosX="-65.5589" WorldPosY="0.0000" WorldPosZ="416.0211" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5626">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_06" Controller="MegaTree" ModelChain="&gt;Stake 09_05" WorldPosX="-65.5589" WorldPosY="0.0000" WorldPosZ="416.0211" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:6076">
       <ControllerConnection brightness="30" Port="14" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="-65.5589" WorldPosY="0.0000" WorldPosZ="416.0211" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="8983">
         <ControllerConnection/>
@@ -1817,7 +1826,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_07" Controller="MegaTree" ModelChain="&gt;Stake 09_06" WorldPosX="-8.6076" WorldPosY="0.0000" WorldPosZ="468.5871" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5641">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_07" Controller="MegaTree" ModelChain="&gt;Stake 09_06" WorldPosX="-8.6076" WorldPosY="0.0000" WorldPosZ="468.5871" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:6091">
       <ControllerConnection brightness="30" Port="14" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="-8.6076" WorldPosY="0.0000" WorldPosZ="468.5871" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="8998">
         <ControllerConnection/>
@@ -1835,7 +1844,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_08" Controller="MegaTree" ModelChain="&gt;Stake 09_07" WorldPosX="-18.6504" WorldPosY="0.0000" WorldPosZ="372.9849" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5656">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_08" Controller="MegaTree" ModelChain="&gt;Stake 09_07" WorldPosX="-18.6504" WorldPosY="0.0000" WorldPosZ="372.9849" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:6106">
       <ControllerConnection brightness="30" Port="14" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="-18.6504" WorldPosY="0.0000" WorldPosZ="372.9849" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="9013">
         <ControllerConnection/>
@@ -1853,7 +1862,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_09" Controller="MegaTree" ModelChain="&gt;Stake 09_08" WorldPosX="-63.4493" WorldPosY="0.0000" WorldPosZ="319.6875" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5671">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_09" Controller="MegaTree" ModelChain="&gt;Stake 09_08" WorldPosX="-63.4493" WorldPosY="0.0000" WorldPosZ="319.6875" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:6121">
       <ControllerConnection brightness="30" Port="14" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="-63.4493" WorldPosY="0.0000" WorldPosZ="319.6875" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="9028">
         <ControllerConnection/>
@@ -1871,7 +1880,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_10" Controller="MegaTree" ModelChain="&gt;Stake 09_09" WorldPosX="-119.3963" WorldPosY="0.0000" WorldPosZ="287.9911" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5686">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 09_10" Controller="MegaTree" ModelChain="&gt;Stake 09_09" WorldPosX="-119.3963" WorldPosY="0.0000" WorldPosZ="287.9911" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:6136">
       <ControllerConnection brightness="30" Port="14" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="-119.3963" WorldPosY="0.0000" WorldPosZ="287.9911" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="9043">
         <ControllerConnection/>
@@ -1889,7 +1898,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_01" Controller="MegaTree" WorldPosX="-152.7723" WorldPosY="0.0000" WorldPosZ="250.0000" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5701">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_01" Controller="MegaTree" WorldPosX="-152.7723" WorldPosY="0.0000" WorldPosZ="250.0000" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:6151">
       <ControllerConnection Protocol="ws2811" brightness="30" Port="15"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="-152.7723" WorldPosY="0.0000" WorldPosZ="250.0000" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="9058">
         <ControllerConnection/>
@@ -1907,7 +1916,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_02" Controller="MegaTree" ModelChain="&gt;Stake 10_01" WorldPosX="-178.0032" WorldPosY="0.0000" WorldPosZ="321.1818" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5716">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_02" Controller="MegaTree" ModelChain="&gt;Stake 10_01" WorldPosX="-178.0032" WorldPosY="0.0000" WorldPosZ="321.1818" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:6166">
       <ControllerConnection brightness="30" Port="15" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="480.0000" WorldPosY="0.0000" WorldPosZ="250" X2="0.000000" Y2="36" Z2="0.000000" versionNumber="5">
         <ControllerConnection/>
@@ -1925,7 +1934,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_03" Controller="MegaTree" ModelChain="&gt;Stake 10_02" WorldPosX="-114.6233" WorldPosY="0.0000" WorldPosZ="364.4572" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5731">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_03" Controller="MegaTree" ModelChain="&gt;Stake 10_02" WorldPosX="-114.6233" WorldPosY="0.0000" WorldPosZ="364.4572" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:6181">
       <ControllerConnection brightness="30" Port="15" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="-114.6233" WorldPosY="0.0000" WorldPosZ="364.4572" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="9088">
         <ControllerConnection/>
@@ -1943,7 +1952,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_04" Controller="MegaTree" ModelChain="&gt;Stake 10_03" WorldPosX="-178.4720" WorldPosY="0.0000" WorldPosZ="400.3487" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5746">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_04" Controller="MegaTree" ModelChain="&gt;Stake 10_03" WorldPosX="-178.4720" WorldPosY="0.0000" WorldPosZ="400.3487" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:6196">
       <ControllerConnection brightness="30" Port="15" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="-178.4720" WorldPosY="0.0000" WorldPosZ="400.3487" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="9103">
         <ControllerConnection/>
@@ -1961,7 +1970,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_05" Controller="MegaTree" ModelChain="&gt;Stake 10_04" WorldPosX="-243.1535" WorldPosY="0.0000" WorldPosZ="374.7866" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5761">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_05" Controller="MegaTree" ModelChain="&gt;Stake 10_04" WorldPosX="-243.1535" WorldPosY="0.0000" WorldPosZ="374.7866" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:6211">
       <ControllerConnection brightness="30" Port="15" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="-243.1535" WorldPosY="0.0000" WorldPosZ="374.7866" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="9118">
         <ControllerConnection/>
@@ -1979,7 +1988,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_06" Controller="MegaTree" ModelChain="&gt;Stake 10_05" WorldPosX="-256.0501" WorldPosY="0.0000" WorldPosZ="310.5521" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5776">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_06" Controller="MegaTree" ModelChain="&gt;Stake 10_05" WorldPosX="-256.0501" WorldPosY="0.0000" WorldPosZ="310.5521" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:6226">
       <ControllerConnection brightness="30" Port="15" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="-256.0501" WorldPosY="0.0000" WorldPosZ="310.5521" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="9133">
         <ControllerConnection/>
@@ -1997,7 +2006,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_07" Controller="MegaTree" ModelChain="&gt;Stake 10_06" WorldPosX="-215.7991" WorldPosY="0.0000" WorldPosZ="255.1653" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5791">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_07" Controller="MegaTree" ModelChain="&gt;Stake 10_06" WorldPosX="-215.7991" WorldPosY="0.0000" WorldPosZ="255.1653" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:6241">
       <ControllerConnection brightness="30" Port="15" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="-215.7991" WorldPosY="0.0000" WorldPosZ="255.1653" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="9148">
         <ControllerConnection/>
@@ -2015,7 +2024,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_08" Controller="MegaTree" ModelChain="&gt;Stake 10_07" WorldPosX="-270.3254" WorldPosY="0.0000" WorldPosZ="222.7464" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5806">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_08" Controller="MegaTree" ModelChain="&gt;Stake 10_07" WorldPosX="-270.3254" WorldPosY="0.0000" WorldPosZ="222.7464" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:6256">
       <ControllerConnection brightness="30" Port="15" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="-270.3254" WorldPosY="0.0000" WorldPosZ="222.7464" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="9163">
         <ControllerConnection/>
@@ -2033,7 +2042,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_09" Controller="MegaTree" ModelChain="&gt;Stake 10_08" WorldPosX="-197.2951" WorldPosY="0.0000" WorldPosZ="204.4886" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5821">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_09" Controller="MegaTree" ModelChain="&gt;Stake 10_08" WorldPosX="-197.2951" WorldPosY="0.0000" WorldPosZ="204.4886" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:6271">
       <ControllerConnection brightness="30" Port="15" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="-197.2951" WorldPosY="0.0000" WorldPosZ="204.4886" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="9178">
         <ControllerConnection/>
@@ -2051,7 +2060,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_10" Controller="MegaTree" ModelChain="&gt;Stake 10_09" WorldPosX="-252.6843" WorldPosY="0.0000" WorldPosZ="167.4052" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:5836">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="5" name="Stake 10_10" Controller="MegaTree" ModelChain="&gt;Stake 10_09" WorldPosX="-252.6843" WorldPosY="0.0000" WorldPosZ="167.4052" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="!MegaTree:6286">
       <ControllerConnection brightness="30" Port="15" Protocol="ws2811"/>
       <subModel name="1 - Bottom" layout="horizontal" type="ranges" line0="1" WorldPosX="-252.6843" WorldPosY="0.0000" WorldPosZ="167.4052" X2="0.000000" Y2="36.000000" Z2="0.000000" versionNumber="5" StartChannel="9193">
         <ControllerConnection/>
@@ -2252,7 +2261,7 @@
     <model DisplayAs="Poly Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="200" name="AC Rope Lights" TagColour="white" CustomColor="#fa0000" StringType="Single Color Intensity" Controller="Renard01" WorldPosX="343.1693" WorldPosY="47.4697" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="7" PointData="0.000000,22.530300,0.000000,-48.362518,22.530300,0.000000,-49.102051,77.530304,0.000000,-93.169312,77.530304,0.000000,-93.169312,22.530300,0.000000,-333.169312,22.530300,0.000000,-333.169312,22.530300,-250.000000" cPointData="" versionNumber="5" StartChannel="!Renard01:38">
       <ControllerConnection Port="1" Protocol="Renard" channel="38"/>
     </model>
-    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" TagColour="white" CustomColor="#e0e0e0" parm2="20" parm1="10" parm3="0" name="Door Entry" StringType="RGB Nodes" Controller="Pixels" WorldPosX="309.8319" WorldPosY="78.1546" WorldPosZ="-47.0863" ScaleX="2.8095" ScaleY="3.7828" ScaleZ="0.0909" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Pixels:3043">
+    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" TagColour="white" CustomColor="#e0e0e0" parm2="20" parm1="10" parm3="0" name="Door Entry" StringType="RGB Nodes" Controller="Pixels" WorldPosX="309.8319" WorldPosY="78.1546" WorldPosZ="-47.0863" ScaleX="2.8095" ScaleY="3.7828" ScaleZ="0.0909" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Pixels:3070">
       <ControllerConnection Protocol="ws2811" brightness="30" Port="20"/>
     </model>
     <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" TagColour="white" CustomColor="#e0e0e0" name="Door Office" parm1="10" parm2="20" parm3="0" Controller="Pixels" StringType="RGB Nodes" WorldPosX="516.2922" WorldPosY="74.9567" WorldPosZ="48.5941" ScaleX="3.0373" ScaleY="4.0546" ScaleZ="0.0903" RotateX="0.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Pixels:151">
@@ -2467,16 +2476,24 @@
     <effect name="VU Talking" settings="CopyFormat1&#x9;0&#x9;1&#x9;1&#x9;0&#x9;1&#x9;PASTE_BY_CELL&#xA;VU Meter&#x9;E_CHOICE_VUMeter_Type=On,E_SLIDER_VUMeter_Gain=83,E_TEXTCTRL_VUMeter_Gain=83&#x9;C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette4=1&#x9;7100&#x9;9200&#x9;7&#x9;-1000&#x9;1&#x9;1&#x9;0&#x9;100&#xA;" version="0006" xLightsVersion="2020.48.1"/>
   </effects>
   <views>
-    <view name="Miser Bros" models="All Pixels,Pixels Left,Pixels Right,House and Windows"/>
+    <view name="Miser Bros" models="AC Candy Canes,AC Holly,Icicles,AC Rope Lights,ALL Props,All Pixels,Door Office,Trees,Windows"/>
     <view name="All AC In Order" models=""/>
-    <view name="XATW" models="All Pixels,XATW House Face,XATW Outlines,Windows,Arches,Trees Small,Stakes,Megatree,Tree 01,AC Side Yard,AC Santas Village,Matrix"/>
-    <view name="Main" models="ALL Props,AC Side Yard,All Pixels,Arches Groups,Stakes Groups,Stakes OddEven,Matrix,MegaTree"/>
+    <view name="XATW" models="All Pixels,XATW House Face,XATW Outlines,Windows,Arches,Trees Small,Megatree,Tree 01,AC Santas Village,AC Candy Canes,AC Holly,Icicles,AC Rope Lights,MegaTree,Spinner 01,Spinner 02,Star"/>
+    <view name="Main" models="ALL Props,All Pixels,MegaTree"/>
     <view name="2020 Intro Talking" models="Office,Door Office"/>
     <view name="Tune To" models=""/>
-    <view name="XATW 2022" models="All Pixels,XATW House Face,XATW Outlines,Candy Canes,Trees Small,Flood Lights,Verticals,Horizontals,Arches,Megatree,Spinners,Star,Windows,Stakes,AC Side Yard,AC Santas Village,Matrix"/>
-    <view name="Candy Cane Lane" models="All Pixels,XATW House Face,XATW Outlines,Candy Canes,Trees Small,Flood Lights,Verticals,Horizontals,Arches,Megatree,Spinners,Star,Windows,Stakes,AC Side Yard,AC Santas Village,Matrix,Icicles"/>
+    <view name="XATW 2022" models="All Pixels,XATW House Face,XATW Outlines,Candy Canes,Trees Small,Flood Lights,Verticals,Horizontals,Arches,Megatree,Spinners,Star,Windows,AC Santas Village"/>
+    <view name="Candy Cane Lane" models="All Pixels,XATW House Face,XATW Outlines,Candy Canes,Trees Small,Flood Lights,Arches,Megatree,Spinners,Star,Windows,Icicles,AC Candy Canes,Arch1,Arch2,Arch3,Arch4,MegaTree,Tree 01,Tree Small 01,Tree Small 02,Trees"/>
     <view name="Spooky Scary Skeletons" models="All Pixels,ALL Props,Arches,Windows,Trees,Spinners,Icicles,Verticals,Horizontals,XATW House Face,XATW Outlines"/>
     <view name="Ghost Busters" models="All Pixels,All Pixels - No Icicle Lights,XATW House Face,XATW Outlines,Arches,Spinners,Icicles"/>
+    <view name="12 Pains" models="AC Candy Canes,AC Holly,AC Mailbox,AC Parking Space,AC Rope Lights,ALL Props,All Pixels,Arches,Arches Left,Arches RIght,Candy Canes,Door Office,Great Room 01,Great Room 02,Icicles,Megatree,Office,South West 01,South West 02,Trees,Windows"/>
+    <view name="Carol of the Bells - Trans-Siberian Orchestra" models="AC Candy Canes,AC Holly,AC Rope Lights,AC Wrap 01,All Pixels,Arches,Door Office,Great Room 01,Great Room 02,Icicles,Master 01,Megatree,Office Outside,Office,South West 01,South West 02,Spinners,Star,Trees,Windows,AC Wrap 02,MegaTree"/>
+    <view name="Into the Unknown XATW" models="All Pixels,XATW House Face,XATW Outlines,Windows,Arches,Trees Small,Megatree,Tree 01,AC Santas Village,AC Candy Canes,AC Holly,Icicles,AC Rope Lights,MegaTree,Spinner 01,Spinner 02,Star"/>
+    <view name="Toy Story Intro" models="Arches,Tree 01,Great Room 02,Great Room 01,Master 01,South West 01,South West 02,Office,Arch1,Arch2,Arch3,Arch4,Arches Left,Arches RIght,All Pixels,Trees,MegaTree,Tree Small 01,Tree Small 02,Candy Canes,Gumdrops,Star,AC Candy Canes,AC Holly,AC Angel,AC Rope Lights,Door Office,Characters,Everything"/>
+    <view name="Wizards In Winter - Trans-Siberian Orchestra" models="All Pixels,Windows,AC Holly,Icicles,Great Room 01,Great Room 02,Office,Office Outside,AC Candy Canes,Door Office,South West 01,South West 02,Master 01,AC Rope Lights,Arches,Megatree,Trees,Star"/>
+    <view name="You Make It Feel Like Christmas - Gwen Stefani" models="ALL Props,XATW House Face,XATW Outlines,Arches,Gumdrops,Candy Canes,Trees,Stakes,MegaTree,All Pixels,Windows,Tree 01,Trees Small,AC All,Megatree,Star"/>
+    <view name="Preshow" models="AC Angel,AC Bush 01 Aud Lt,AC Bush 02,AC Bush 03,AC Bush 04,AC Bush 05 Aud Rt,AC Bush 06 Joe Back,AC Bush 07 Joe Front,AC Bush 08 Ernie,AC Bushes All,AC Candy 01 Top Aud Lt,AC Candy 02 Top Aud Rt,AC Candy 03 Middle Aud Lt,AC Candy 04 Middle Aud Rt,AC Candy 05 Bottom Aud Lt,AC Candy 06 Bottom Aud Rt,AC Candy Canes,AC Cherry,AC Cherry Icicles,AC Cherry Wrap,AC Helo Canes 01,AC Helo Canes 02,AC Helo Canes 03,AC Helo Canes 04,AC Holly,AC North Pole Sign,AC Packages,AC Rope Lights,AC Santa,AC Tree,AC Wraps,All Pixels,Arches,Trees,Windows"/>
+    <view name="Show Intro" models="AC Angel,AC Bushes All,AC Candy Canes,AC Cherry,AC Helo Canes,AC Holly,Icicles,AC North Pole Sign,AC Packages,AC Rope Lights,AC Santa,AC Snow Flakes,AC Tree,AC Wraps,Door Entry,Door Office,Office"/>
   </views>
   <palettes/>
   <modelGroups>
@@ -2494,7 +2511,7 @@
     <modelGroup selected="0" name="Stakes (5) Top" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="     Stake 01_01/5 - Top,Stake 01_02/5 - Top,Stake 01_03/5 - Top,Stake 01_04/5 - Top,Stake 01_05/5 - Top,Stake 01_06/5 - Top,Stake 01_07/5 - Top,Stake 01_08/5 - Top,Stake 01_09/5 - Top,Stake 01_10/5 - Top,Stake 02_01/5 - Top,Stake 02_02/5 - Top,Stake 02_03/5 - Top,Stake 02_04/5 - Top,Stake 02_05/5 - Top,Stake 02_06/5 - Top,Stake 02_07/5 - Top,Stake 02_08/5 - Top,Stake 02_09/5 - Top,Stake 02_10/5 - Top,Stake 03_01/5 - Top,Stake 03_02/5 - Top,Stake 03_03/5 - Top,Stake 03_04/5 - Top,Stake 03_05/5 - Top,Stake 03_06/5 - Top,Stake 03_07/5 - Top,Stake 03_08/5 - Top,Stake 03_09/5 - Top,Stake 03_10/5 - Top,Stake 04_01/5 - Top,Stake 04_02/5 - Top,Stake 04_03/5 - Top,Stake 04_04/5 - Top,Stake 04_05/5 - Top,Stake 04_06/5 - Top,Stake 04_07/5 - Top,Stake 04_08/5 - Top,Stake 04_09/5 - Top,Stake 04_10/5 - Top,Stake 05_01/5 - Top,Stake 05_02/5 - Top,Stake 05_03/5 - Top,Stake 05_04/5 - Top,Stake 05_05/5 - Top,Stake 05_06/5 - Top,Stake 05_07/5 - Top,Stake 05_08/5 - Top,Stake 05_09/5 - Top,Stake 05_10/5 - Top,Stake 06_01/5 - Top,Stake 06_02/5 - Top,Stake 06_03/5 - Top,Stake 06_04/5 - Top,Stake 06_05/5 - Top,Stake 06_06/5 - Top,Stake 06_07/5 - Top,Stake 06_08/5 - Top,Stake 06_09/5 - Top,Stake 06_10/5 - Top,Stake 07_01/5 - Top,Stake 07_02/5 - Top,Stake 07_03/5 - Top,Stake 07_04/5 - Top,Stake 07_05/5 - Top,Stake 07_06/5 - Top,Stake 07_07/5 - Top,Stake 07_08/5 - Top,Stake 07_09/5 - Top,Stake 07_10/5 - Top,Stake 08_01/5 - Top,Stake 08_02/5 - Top,Stake 08_03/5 - Top,Stake 08_04/5 - Top,Stake 08_05/5 - Top,Stake 08_06/5 - Top,Stake 08_07/5 - Top,Stake 08_08/5 - Top,Stake 08_09/5 - Top,Stake 08_10/5 - Top,Stake 09_01/5 - Top,Stake 09_02/5 - Top,Stake 09_03/5 - Top,Stake 09_04/5 - Top,Stake 09_05/5 - Top,Stake 09_06/5 - Top,Stake 09_07/5 - Top,Stake 09_08/5 - Top,Stake 09_09/5 - Top,Stake 09_10/5 - Top,Stake 10_01/5 - Top,Stake 10_02/5 - Top,Stake 10_03/5 - Top,Stake 10_04/5 - Top,Stake 10_05/5 - Top,Stake 10_06/5 - Top,Stake 10_07/5 - Top,Stake 10_08/5 - Top,Stake 10_09/5 - Top,Stake 10_10/5 - Top"/>
     <modelGroup selected="0" name="Stakes - Odd" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stakes (1) Bottom,Stakes (3),Stakes (5) Top"/>
     <modelGroup selected="0" name="Stakes - Even" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stakes (2),Stakes (4)"/>
-    <modelGroup selected="0" LayoutGroup="Default" name="All Pixels" models="Arches,Windows,Stakes,Trees,Candy Canes,Gumdrops,Megatree,Flood Lights,Icicles,Roof" GridSize="400" XCentreOffset="0" YCentreOffset="0" DefaultCamera="2D" layout="minimalGrid" TagColour="black"/>
+    <modelGroup selected="0" LayoutGroup="Default" name="All Pixels" models="Arches,Windows,RBL,Stakes,Trees,Candy Canes,Gumdrops,Megatree,Flood Lights,Icicles,Roof" GridSize="400" XCentreOffset="0" YCentreOffset="0" DefaultCamera="2D" layout="minimalGrid" TagColour="black"/>
     <modelGroup selected="0" name="Windows" LayoutGroup="Default" models="Great Room 01,Great Room 02,Office/Office 01,Office/Office 02,Office/Office 03,South West 01,South West 02,Master 01" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
     <modelGroup selected="0" name="Arches Left" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Arch1,Arch2"/>
     <modelGroup selected="0" name="Arches RIght" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Arch3,Arch4"/>
@@ -2525,8 +2542,8 @@
     <modelGroup selected="0" name="Stakes OddEven" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Stakes - Even,Stakes - Odd"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="AC All,All Pixels" name="ALL Props"/>
     <modelGroup selected="0" name="AC Side Yard" LayoutGroup="Default" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" models="AC Bush 01 Aud Lt,AC Bush 02,AC Bush 03,AC Bush 04,AC Bush 05 Aud Rt,AC Bush 06 Joe Back,AC Bush 07 Joe Front,AC Helo Canes 01,AC Helo Canes 02,AC Helo Canes 03,AC Helo Canes 04,AC North Pole Sign,AC Snow Flakes 01,AC Snow Flakes 02,AC Rope Lights,AC Cherry"/>
-    <modelGroup selected="0" name="XATW House Face" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Windows"/>
-    <modelGroup selected="0" name="XATW Outlines" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Office/Vertical,Office/Horizontal,Great Room 01/Vertical,Great Room 01/Horizontal,Great Room 02/Vertical,Great Room 02/Horizontal,Master 01/Vertical,Master 01/Horizontal,South West 01/Vertical,South West 01/Horizontal,South West 02/Horizontal,South West 02/Vertical"/>
+    <modelGroup selected="0" name="XATW House Face" LayoutGroup="Default" models="Windows,Roof,Doors" GridSize="400" XCentreOffset="0" YCentreOffset="0" DefaultCamera="2D" layout="minimalGrid" TagColour="black"/>
+    <modelGroup selected="0" name="XATW Outlines" LayoutGroup="Default" models="Office/Vertical,Office/Horizontal,Great Room 01/Vertical,Great Room 01/Horizontal,Great Room 02/Vertical,Great Room 02/Horizontal,Master 01/Vertical,Master 01/Horizontal,South West 01/Vertical,South West 01/Horizontal,South West 02/Horizontal,South West 02/Vertical,Roof,Doors" GridSize="400" XCentreOffset="0" YCentreOffset="0" DefaultCamera="2D" layout="minimalGrid" TagColour="black"/>
     <modelGroup selected="0" name="AC Santas Village" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="AC Package Blue 01,AC Package Blue 02,AC Package Green 01,AC Package Green 02,AC Package Red 01,AC Package Red 02,AC Santa,AC Tree"/>
     <modelGroup selected="0" name="Candy Canes" LayoutGroup="Default" models="Candy Canes Left,Candy Canes Right" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
     <modelGroup selected="0" name="Candy Canes Left" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Large Cane 01,Mini Cane 01,Mini Cane 02"/>
@@ -2539,6 +2556,8 @@
     <modelGroup selected="0" name="Flood Lights" LayoutGroup="Default" models="Flood 01 Aud. Lt.,Flood 02,Flood 03,Flood 04 Aud. Rt." GridSize="400" XCentreOffset="0" YCentreOffset="0" DefaultCamera="2D" layout="minimalGrid" TagColour="black"/>
     <modelGroup selected="0" name="Roof" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Roof Addition Outline,Roof Bottom Outline,Roof Top Outline"/>
     <modelGroup selected="0" LayoutGroup="Default" name="All Pixels - No Icicle Lights" models="Arches,Windows,Stakes,Trees,Candy Canes,Gumdrops,Megatree,Flood Lights,Roof" GridSize="400" XCentreOffset="0" YCentreOffset="0" DefaultCamera="2D" layout="minimalGrid" TagColour="black"/>
+    <modelGroup selected="0" name="RBL" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="RBL123,RBL456,RBL789"/>
+    <modelGroup selected="0" name="Doors" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Door Entry,Door Office"/>
   </modelGroups>
   <layoutGroups>
     <layoutGroup name="Windows" PaneWidth="1280" PaneHeight="960" PosX="99" PosY="50"/>
