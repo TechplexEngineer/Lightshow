@@ -12,8 +12,8 @@
     <comment></comment>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
-    <mediaFile>/Users/techplex/projects/lightshow/sequences/Music/2020 Preshow.mp3</mediaFile>
-    <sequenceDuration>60.000</sequenceDuration>
+    <mediaFile>/home/techplex/projects/pers/Lightshow/sequences/Music/Preshow.mp3</mediaFile>
+    <sequenceDuration>60.995</sequenceDuration>
     <imageDir/>
   </head>
   <nextid>1</nextid>
@@ -100,6 +100,12 @@
     <Element collapsed="0" type="model" name="Windows" visible="1"/>
     <Element collapsed="0" type="timing" name="500ms Metronome" visible="1" views="Main" active="1"/>
     <Element collapsed="0" type="timing" name="1000ms Metronome" visible="1" views="Main" active="0"/>
+    <Element collapsed="0" type="model" name="AC Helo Canes" visible="1"/>
+    <Element collapsed="0" type="model" name="Icicles" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Snow Flakes" visible="1"/>
+    <Element collapsed="0" type="model" name="Door Entry" visible="1"/>
+    <Element collapsed="0" type="model" name="Door Office" visible="1"/>
+    <Element collapsed="0" type="model" name="Office" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="model" name="AC Angel">
@@ -590,6 +596,24 @@
       <EffectLayer/>
     </Element>
     <Element type="timing" name="1000ms Metronome" fixed="1000">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Helo Canes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Icicles">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Snow Flakes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Door Entry">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Door Office">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Office">
       <EffectLayer/>
     </Element>
   </ElementEffects>

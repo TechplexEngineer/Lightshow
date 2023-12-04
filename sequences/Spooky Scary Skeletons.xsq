@@ -12,8 +12,8 @@
     <comment></comment>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
-    <mediaFile>/home/techplex/projects/pers/Lightshow/sequences/Music/Spooky Scary Skeletons.ogg</mediaFile>
-    <sequenceDuration>60.853</sequenceDuration>
+    <mediaFile>/home/techplex/projects/pers/Lightshow/sequences/Music/Spooky Scary Skeletons -  Andrew Gold.mp3</mediaFile>
+    <sequenceDuration>61.212</sequenceDuration>
     <imageDir/>
   </head>
   <nextid>1</nextid>
@@ -115,6 +115,14 @@
     <Element collapsed="0" type="model" name="Star" visible="1"/>
     <Element collapsed="0" type="model" name="Stakes" visible="1"/>
     <Element collapsed="0" type="model" name="AC Santas Village" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Candy Canes" visible="1"/>
+    <Element collapsed="0" type="model" name="Arch1" visible="1"/>
+    <Element collapsed="0" type="model" name="Arch2" visible="1"/>
+    <Element collapsed="0" type="model" name="Arch3" visible="1"/>
+    <Element collapsed="0" type="model" name="Arch4" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree 01" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree Small 01" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree Small 02" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="New Timing">
@@ -798,7 +806,7 @@
         <Effect ref="34" name="SingleStrand" startTime="7100" endTime="22050" palette="17"/>
         <Effect ref="35" name="Meteors" id="1" startTime="22300" endTime="27950" palette="18"/>
         <Effect ref="36" name="SingleStrand" id="2" startTime="29600" endTime="36500" palette="17"/>
-        <Effect ref="32" name="Fire" selected="1" id="3" startTime="45300" endTime="59250" palette="11"/>
+        <Effect ref="32" name="Fire" id="3" startTime="45300" endTime="59250" palette="11"/>
       </EffectLayer>
       <EffectLayer>
         <Effect ref="24" name="VU Meter" startTime="7300" endTime="22000" palette="19"/>
@@ -864,6 +872,30 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="AC Santas Village">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Candy Canes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Arch1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Arch2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Arch3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Arch4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree Small 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree Small 02">
       <EffectLayer/>
     </Element>
   </ElementEffects>
