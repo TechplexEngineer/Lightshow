@@ -790,7 +790,7 @@
         <Effect label="E" startTime="77800" endTime="78000"></Effect>
         <Effect label="etc" startTime="78000" endTime="78050"></Effect>
         <Effect label="O" startTime="78050" endTime="78250"></Effect>
-        <Effect label="MBP" selected="1" startTime="78250" endTime="78300"></Effect>
+        <Effect label="MBP" startTime="78250" endTime="78300"></Effect>
         <Effect label="AI" startTime="78300" endTime="78350"></Effect>
         <Effect label="FV" startTime="78350" endTime="78450"></Effect>
         <Effect label="O" startTime="78450" endTime="78500"></Effect>
