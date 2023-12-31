@@ -54,7 +54,7 @@
     <Effect>E_SLIDER_Life_Count=50,E_SLIDER_Life_Seed=0,E_SLIDER_Life_Speed=10</Effect>
     <Effect>E_CHOICE_Garlands_Direction=Up,E_SLIDER_Garlands_Spacing=53,E_SLIDER_Garlands_Type=0,E_TEXTCTRL_Garlands_Cycles=5.8</Effect>
     <Effect>E_CHOICE_Plasma_Color=Normal,E_SLIDER_Plasma_Line_Density=3,E_SLIDER_Plasma_Speed=63,E_SLIDER_Plasma_Style=2</Effect>
-    <Effect>B_CHOICE_BufferStyle=Single Line,E_CHECKBOX_Ripple3D=0,E_CHOICE_Ripple_Movement=Explode,E_CHOICE_Ripple_Object_To_Draw=Circle,E_SLIDER_Ripple_Thickness=3,E_SLIDER_Ripple_XC=0,E_SLIDER_Ripple_YC=0,E_TEXTCTRL_Ripple_Cycles=1.0</Effect>
+    <Effect>B_CHOICE_BufferStyle=Single Line,E_CHECKBOX_Ripple3D=0,E_CHOICE_Ripple_Movement=Explode,E_CHOICE_Ripple_Object_To_Draw=Circle,E_FILEPICKERCTRL_Ripple_SVG=,E_SLIDER_Ripple_Thickness=3,E_SLIDER_Ripple_XC=0,E_SLIDER_Ripple_YC=0,E_TEXTCTRL_Ripple_Cycles=1.0</Effect>
     <Effect>B_CHOICE_BufferStyle=Per Model Per Preview,E_CHECKBOX_Meteors_UseMusic=0,E_CHOICE_Meteors_Effect=Icicles,E_CHOICE_Meteors_Type=Rainbow,E_SLIDER_Meteors_Count=7,E_SLIDER_Meteors_Length=25,E_SLIDER_Meteors_Speed=10,E_SLIDER_Meteors_Swirl_Intensity=0</Effect>
     <Effect>B_CHOICE_BufferStyle=Per Model Per Preview,E_CHECKBOX_Meteors_UseMusic=0,E_CHOICE_Meteors_Effect=Down,E_CHOICE_Meteors_Type=Palette,E_SLIDER_Meteors_Count=21,E_SLIDER_Meteors_Length=25,E_SLIDER_Meteors_Speed=3,E_SLIDER_Meteors_Swirl_Intensity=0</Effect>
     <Effect>E_CHECKBOX_Curtain_Repeat=0,E_CHOICE_Curtain_Edge=left,E_CHOICE_Curtain_Effect=close,E_SLIDER_Curtain_Swag=0,E_TEXTCTRL_Curtain_Speed=2.9,T_TEXTCTRL_Fadeout=1.00</Effect>

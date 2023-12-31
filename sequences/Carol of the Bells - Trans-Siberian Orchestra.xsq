@@ -250,7 +250,7 @@
   <ElementEffects>
     <Element type="model" name="All Pixels">
       <EffectLayer>
-        <Effect ref="0" name="Shockwave" selected="1" startTime="32600" endTime="34200" palette="0"/>
+        <Effect ref="0" name="Shockwave" startTime="32600" endTime="34200" palette="0"/>
         <Effect ref="1" name="Shockwave" id="1" startTime="75150" endTime="76250" palette="1"/>
         <Effect ref="2" name="Pinwheel" id="2" startTime="90700" endTime="117650" palette="2"/>
         <Effect ref="3" name="Shockwave" id="3" startTime="156250" endTime="158250" palette="3"/>

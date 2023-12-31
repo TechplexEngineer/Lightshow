@@ -12,7 +12,7 @@
     <comment></comment>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
-    <mediaFile>/Users/techplex/projects/lightshow/sequences/Music/2020 Show Intro.mp3</mediaFile>
+    <mediaFile>/home/techplex/projects/pers/Lightshow/sequences/Music/Show Intro.mp3</mediaFile>
     <sequenceDuration>37.224</sequenceDuration>
     <imageDir/>
   </head>
@@ -31,7 +31,7 @@
     <Effect>E_TEXTCTRL_Eff_On_End=100,E_TEXTCTRL_Eff_On_Start=0</Effect>
     <Effect></Effect>
     <Effect>E_CHECKBOX_On_Shimmer=1,E_TEXTCTRL_Eff_On_End=0,E_TEXTCTRL_Eff_On_Start=100</Effect>
-    <Effect>E_CHOICE_VUMeter_Type=On,E_SLIDER_VUMeter_Gain=83,E_TEXTCTRL_VUMeter_Gain=83</Effect>
+    <Effect>E_CHOICE_VUMeter_Type=On,E_FILEPICKERCTRL_SVGFile=,E_SLIDER_VUMeter_Gain=83,E_TEXTCTRL_VUMeter_Gain=83</Effect>
   </EffectDB>
   <DataLayers>
     <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
