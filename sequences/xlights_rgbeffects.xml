@@ -2498,6 +2498,7 @@
     <view name="Preshow" models="AC Angel,AC Bush 01 Aud Lt,AC Bush 02,AC Bush 03,AC Bush 04,AC Bush 05 Aud Rt,AC Bush 06 Joe Back,AC Bush 07 Joe Front,AC Bush 08 Ernie,AC Bushes All,AC Candy 01 Top Aud Lt,AC Candy 02 Top Aud Rt,AC Candy 03 Middle Aud Lt,AC Candy 04 Middle Aud Rt,AC Candy 05 Bottom Aud Lt,AC Candy 06 Bottom Aud Rt,AC Candy Canes,AC Cherry,AC Cherry Icicles,AC Cherry Wrap,AC Helo Canes 01,AC Helo Canes 02,AC Helo Canes 03,AC Helo Canes 04,AC Holly,AC North Pole Sign,AC Packages,AC Rope Lights,AC Santa,AC Tree,AC Wraps,All Pixels,Arches,Trees,Windows"/>
     <view name="Show Intro" models="AC Angel,AC Bushes All,AC Candy Canes,AC Cherry,AC Helo Canes,AC Holly,Icicles,AC North Pole Sign,AC Packages,AC Rope Lights,AC Santa,AC Snow Flakes,AC Tree,AC Wraps,Door Entry,Door Office,Office"/>
     <view name="XATW 2023 - Kid on Christmas" models="XATW Outlines,Candy Canes,Trees,Flood Lights,Horizontals,Verticals,Spinners,Icicles,Star,Stakes,Megatree,MegaTree,Arches"/>
+    <view name="National Lampoons" models="ALL Props,All Pixels,XATW House Face,XATW Outlines,Arches,Spinners,Icicles,Candy Canes,Trees Small,Verticals,Horizontals,Megatree,Windows,Trees,Stakes,RBL,AC Wraps,Roof,Stakes Groups,Stakes OddEven"/>
   </views>
   <palettes/>
   <modelGroups>

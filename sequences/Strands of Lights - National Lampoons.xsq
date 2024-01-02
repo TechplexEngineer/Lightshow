@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2023.17</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>/home/techplex/projects/pers/Lightshow/sequences/Music/Strands of Lights - National Lampoons.mp3</mediaFile>
+    <sequenceDuration>45.030</sequenceDuration>
+    <imageDir/>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FFA500,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#AC09AC,C_BUTTON_Palette8=#FFA500,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FFA500,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FFA500,C_CHECKBOX_Palette5=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#AC09AC,C_BUTTON_Palette8=#FFA500,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FFA500,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#AC09AC,C_BUTTON_Palette8=#FFA500,C_CHECKBOX_Palette3=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#AC09AC,C_BUTTON_Palette8=#FFA500,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#AC09AC,C_BUTTON_Palette8=#FFA500,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#AC09AC,C_BUTTON_Palette8=#FFA500,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FFA500,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHECKBOX_Curtain_Repeat=0,E_CHOICE_Curtain_Edge=right,E_CHOICE_Curtain_Effect=close,E_SLIDER_Curtain_Swag=3,E_TEXTCTRL_Curtain_Speed=1.0</Effect>
+    <Effect>E_CHECKBOX_Curtain_Repeat=0,E_CHOICE_Curtain_Edge=center,E_CHOICE_Curtain_Effect=close then open,E_SLIDER_Curtain_Swag=3,E_TEXTCTRL_Curtain_Speed=1.0</Effect>
+    <Effect>E_CHECKBOX_Fire_GrowWithMusic=1,E_CHOICE_Fire_Location=Bottom,E_VALUECURVE_Fire_HueShift=Active=TRUE|Id=ID_VALUECURVE_Fire_HueShift|Type=Ramp|Min=0.00|Max=100.00|P2=100.00|RV=TRUE|,T_TEXTCTRL_Fadein=0.50</Effect>
+    <Effect>E_CHECKBOX_Twinkle_ReRandom=0,E_CHECKBOX_Twinkle_Strobe=0,E_CHOICE_Twinkle_Style=New Render Method,E_SLIDER_Twinkle_Count=3,E_SLIDER_Twinkle_Steps=24,T_TEXTCTRL_Fadein=1.50</Effect>
+    <Effect>E_CHECKBOX_Spirals_3D=0,E_CHECKBOX_Spirals_Blend=0,E_CHECKBOX_Spirals_Grow=0,E_CHECKBOX_Spirals_Shrink=0,E_SLIDER_Spirals_Count=2,E_SLIDER_Spirals_Rotation=127,E_SLIDER_Spirals_Thickness=25,E_TEXTCTRL_Spirals_Movement=0.2,T_TEXTCTRL_Fadein=0.25,T_TEXTCTRL_Fadeout=0.75</Effect>
+    <Effect>E_CHECKBOX_Meteors_UseMusic=1,E_CHOICE_Meteors_Effect=Up,E_CHOICE_Meteors_Type=Palette,E_SLIDER_Meteors_Count=10,E_SLIDER_Meteors_Length=25,E_SLIDER_Meteors_Speed=10,E_SLIDER_Meteors_Swirl_Intensity=0,E_SLIDER_Meteors_WamupFrames=0</Effect>
+    <Effect>E_CHECKBOX_Curtain_Repeat=0,E_CHOICE_Curtain_Edge=top,E_CHOICE_Curtain_Effect=close,E_SLIDER_Curtain_Swag=3,E_TEXTCTRL_Curtain_Speed=1.0</Effect>
+    <Effect>E_CHOICE_Butterfly_Colors=Rainbow,E_CHOICE_Butterfly_Direction=Normal,E_SLIDER_Butterfly_Chunks=1,E_SLIDER_Butterfly_Skip=2,E_SLIDER_Butterfly_Speed=10,E_SLIDER_Butterfly_Style=1,T_TEXTCTRL_Fadeout=0.50</Effect>
+    <Effect>B_CHOICE_BufferStyle=Single Line,E_CHECKBOX_Marquee_PixelOffsets=0,E_CHECKBOX_Marquee_Reverse=0,E_CHECKBOX_Marquee_WrapX=0,E_CHECKBOX_Marquee_WrapY=0,E_NOTEBOOK_Marquee=Settings,E_SLIDER_MarqueeXC=0,E_SLIDER_MarqueeYC=0,E_SLIDER_Marquee_Band_Size=4,E_SLIDER_Marquee_ScaleX=100,E_SLIDER_Marquee_ScaleY=100,E_SLIDER_Marquee_Skip_Size=3,E_SLIDER_Marquee_Stagger=0,E_SLIDER_Marquee_Start=0,E_SLIDER_Marquee_Thickness=20,E_VALUECURVE_Marquee_Speed=Active=TRUE|Id=ID_VALUECURVE_Marquee_Speed|Type=Ramp|Min=0.00|Max=50.00|P2=10.00|RV=TRUE|,T_TEXTCTRL_Fadeout=0.50</Effect>
+    <Effect>E_CHECKBOX_ForkedLightning=0,E_CHOICE_Lightning_Direction=Up,E_SLIDER_Lightning_BOTX=0,E_SLIDER_Lightning_TopX=0,E_SLIDER_Lightning_TopY=0,E_SLIDER_Lightning_WIDTH=1,E_SLIDER_Number_Bolts=10,E_SLIDER_Number_Segments=5</Effect>
+    <Effect>E_CHECKBOX_Pinwheel_Rotation=1,E_CHOICE_Pinwheel_3D=3D Inverted,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=201,E_SLIDER_Pinwheel_Arms=9,E_SLIDER_Pinwheel_Offset=255,E_SLIDER_Pinwheel_Speed=5,E_SLIDER_Pinwheel_Thickness=94,E_SLIDER_Pinwheel_Twist=215,T_TEXTCTRL_Fadeout=1.50</Effect>
+    <Effect>E_CHOICE_Butterfly_Colors=Rainbow,E_CHOICE_Butterfly_Direction=Normal,E_SLIDER_Butterfly_Chunks=1,E_SLIDER_Butterfly_Skip=2,E_SLIDER_Butterfly_Speed=10,E_SLIDER_Butterfly_Style=1,T_TEXTCTRL_Fadeout=0.75</Effect>
+    <Effect></Effect>
+    <Effect>E_TEXTCTRL_Eff_On_Start=2</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_End=0</Effect>
+    <Effect>B_CHOICE_BufferStyle=Single Line,E_CHECKBOX_Marquee_PixelOffsets=0,E_CHECKBOX_Marquee_Reverse=0,E_CHECKBOX_Marquee_WrapX=0,E_CHECKBOX_Marquee_WrapY=0,E_NOTEBOOK_Marquee=Settings,E_SLIDER_MarqueeXC=0,E_SLIDER_MarqueeYC=0,E_SLIDER_Marquee_Band_Size=1,E_SLIDER_Marquee_ScaleX=100,E_SLIDER_Marquee_ScaleY=100,E_SLIDER_Marquee_Skip_Size=8,E_SLIDER_Marquee_Speed=3,E_SLIDER_Marquee_Stagger=0,E_SLIDER_Marquee_Start=0,E_SLIDER_Marquee_Thickness=1,T_TEXTCTRL_Fadeout=0.50</Effect>
+    <Effect>E_CHECKBOX_Mirror_Wave=0,E_CHOICE_Fill_Colors=Palette,E_CHOICE_Wave_Direction=Left to Right,E_CHOICE_Wave_Type=Sine,E_SLIDER_Number_Waves=900,E_SLIDER_Thickness_Percentage=68,E_SLIDER_Wave_Height=100,E_SLIDER_Wave_YOffset=0,E_TEXTCTRL_Wave_Speed=8.29</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="21974" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,Miser Bros,All AC In Order,XATW,Main,2020 Intro Talking,Tune To,XATW 2022,Candy Cane Lane,Spooky Scary Skeletons,Ghost Busters,12 Pains,Into the Unknown XATW,Toy Story Intro,Wizards In Winter - Trans-Siberian Orchestra,You Make It Feel Like Christmas - Gwen Stefani,Preshow,Show Intro,XATW 2023 - Kid on Christmas,National Lampoons" active="1"/>
+    <Element collapsed="0" type="model" name="ALL Props" visible="1"/>
+    <Element collapsed="0" type="model" name="All Pixels" visible="1"/>
+    <Element collapsed="0" type="model" name="MegaTree" visible="1"/>
+    <Element collapsed="0" type="model" name="Office" visible="1"/>
+    <Element collapsed="0" type="model" name="Door Office" visible="1"/>
+    <Element collapsed="0" type="model" name="All Pixels - No Icicle Lights" visible="1"/>
+    <Element collapsed="0" type="model" name="XATW House Face" visible="1"/>
+    <Element collapsed="0" type="model" name="XATW Outlines" visible="1"/>
+    <Element collapsed="0" type="model" name="Arches" visible="1"/>
+    <Element collapsed="0" type="model" name="Spinners" visible="1"/>
+    <Element collapsed="0" type="model" name="Icicles" visible="1"/>
+    <Element collapsed="0" type="model" name="Candy Canes" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees Small" visible="1"/>
+    <Element collapsed="0" type="model" name="Flood Lights" visible="1"/>
+    <Element collapsed="0" type="model" name="Verticals" visible="1"/>
+    <Element collapsed="0" type="model" name="Horizontals" visible="1"/>
+    <Element collapsed="0" type="model" name="Megatree" visible="1"/>
+    <Element collapsed="0" type="model" name="Star" visible="1"/>
+    <Element collapsed="0" type="model" name="Windows" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Santas Village" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Angel" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Bushes All" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Candy Canes" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Cherry" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Helo Canes" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Holly" visible="1"/>
+    <Element collapsed="0" type="model" name="AC North Pole Sign" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Packages" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Rope Lights" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Santa" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Snow Flakes" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Tree" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Wraps" visible="1"/>
+    <Element collapsed="0" type="model" name="Door Entry" visible="1"/>
+    <Element collapsed="0" type="model" name="Great Room 01" visible="1"/>
+    <Element collapsed="0" type="model" name="Great Room 02" visible="1"/>
+    <Element collapsed="0" type="model" name="Office Outside" visible="1"/>
+    <Element collapsed="0" type="model" name="South West 01" visible="1"/>
+    <Element collapsed="0" type="model" name="South West 02" visible="1"/>
+    <Element collapsed="0" type="model" name="Master 01" visible="1"/>
+    <Element collapsed="0" type="model" name="RBL" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof" visible="1"/>
+    <Element collapsed="0" type="model" name="Stake 01_01" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 01_02" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 01_03" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 01_04" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 01_05" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 01_06" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 01_07" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 01_08" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 01_09" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 01_10" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 02_01" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 02_02" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 02_03" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 02_04" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 02_05" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 02_06" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 02_07" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 02_08" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 02_09" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 02_10" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 03_01" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 03_02" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 03_03" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 03_04" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 03_05" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 03_06" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 03_07" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 03_08" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 03_09" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 03_10" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 04_01" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 04_02" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 04_03" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 04_04" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 04_05" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 04_06" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 04_07" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 04_08" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 04_09" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 04_10" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 05_01" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 05_02" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 05_03" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 05_04" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 05_05" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 05_06" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 05_07" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 05_08" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 05_09" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 05_10" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 06_01" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 06_02" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 06_03" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 06_04" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 06_05" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 06_06" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 06_07" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 06_08" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 06_09" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 06_10" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 07_01" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 07_02" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 07_03" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 07_04" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 07_05" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 07_06" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 07_07" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 07_08" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 07_09" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 07_10" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 08_01" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 08_02" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 08_03" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 08_04" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 08_05" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 08_06" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 08_07" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 08_08" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 08_09" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 08_10" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 09_01" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 09_02" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 09_03" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 09_04" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 09_05" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 09_06" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 09_07" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 09_08" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 09_09" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 09_10" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 10_01" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 10_02" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 10_03" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 10_04" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 10_05" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 10_06" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 10_07" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 10_08" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 10_09" visible="0"/>
+    <Element collapsed="0" type="model" name="Stake 10_10" visible="0"/>
+    <Element collapsed="0" type="model" name="Stakes Groups" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes OddEven" visible="1"/>
+    <Element collapsed="0" type="model" name="Stakes (1) Bottom" visible="0"/>
+    <Element collapsed="0" type="model" name="Stakes (2)" visible="0"/>
+    <Element collapsed="0" type="model" name="Stakes (3)" visible="0"/>
+    <Element collapsed="0" type="model" name="Stakes (4)" visible="0"/>
+    <Element collapsed="0" type="model" name="Stakes (5) Top" visible="0"/>
+    <Element collapsed="0" type="model" name="Stakes - Even" visible="0"/>
+    <Element collapsed="0" type="model" name="Stakes - Odd" visible="0"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer>
+        <Effect label="250 strands of lights" startTime="0" endTime="2400"></Effect>
+        <Effect label="one hundred individual bulbs per strand" startTime="2400" endTime="4800"></Effect>
+        <Effect label="for a grand total of 25000" startTime="4800" endTime="7050"></Effect>
+        <Effect label="imported italian twinkle lights" startTime="7050" endTime="8950"></Effect>
+        <Effect label="I dedicate this house" startTime="8950" endTime="10600"></Effect>
+        <Effect label="to the griswold family christmas" startTime="10600" endTime="12400"></Effect>
+        <Effect label="Drumroll Please" startTime="12400" endTime="13400"></Effect>
+        <Effect label="" startTime="13400" endTime="22700"></Effect>
+        <Effect label="" startTime="22700" endTime="25000"></Effect>
+        <Effect label="" startTime="25000" endTime="34750"></Effect>
+        <Effect label="" startTime="34750" endTime="37250"></Effect>
+        <Effect label="" startTime="37250" endTime="39500"></Effect>
+        <Effect label="" startTime="39500" endTime="40700"></Effect>
+        <Effect label="" startTime="40700" endTime="41950"></Effect>
+        <Effect label="" startTime="41950" endTime="45000"></Effect>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="ALL Props">
+      <EffectLayer>
+        <Effect ref="0" name="Curtain" startTime="0" endTime="2400" palette="0"/>
+        <Effect ref="1" name="Curtain" id="1" startTime="41950" endTime="45000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="All Pixels">
+      <EffectLayer>
+        <Effect ref="2" name="Fire" startTime="13100" endTime="25000" palette="2"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="3" name="Twinkle" startTime="6000" endTime="9600" palette="3"/>
+        <Effect ref="4" name="Spirals" id="1" startTime="12250" endTime="14000" palette="2"/>
+        <Effect ref="5" name="Meteors" id="3" startTime="25000" endTime="41950" palette="4"/>
+      </EffectLayer>
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="MegaTree">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Office">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Door Office">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="All Pixels - No Icicle Lights">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="XATW House Face">
+      <EffectLayer>
+        <Effect ref="6" name="Curtain" startTime="9050" endTime="10900" palette="5"/>
+        <Effect ref="7" name="Butterfly" id="1" startTime="10900" endTime="12400" palette="5"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="XATW Outlines">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Arches">
+      <EffectLayer>
+        <Effect ref="8" name="Marquee" startTime="2400" endTime="6000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Spinners">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Icicles">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Candy Canes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees Small">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Flood Lights">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Verticals">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Horizontals">
+      <EffectLayer>
+        <Effect ref="8" name="Marquee" startTime="2400" endTime="6000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Megatree">
+      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="9" name="Lightning" startTime="34750" endTime="36950" palette="6"/>
+        <Effect ref="9" name="Lightning" id="1" startTime="37250" endTime="39230" palette="7"/>
+        <Effect ref="9" name="Lightning" id="2" startTime="39500" endTime="40556" palette="8"/>
+        <Effect ref="9" name="Lightning" id="3" startTime="40700" endTime="41800" palette="4"/>
+        <Effect ref="10" name="Pinwheel" id="4" startTime="41950" endTime="45000" palette="9"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="11" name="Butterfly" startTime="41950" endTime="45000" palette="9"/>
+      </EffectLayer>
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Star">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Windows">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Santas Village">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes">
+      <EffectLayer/>
+      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="12" name="Off" startTime="25000" endTime="34750" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC Angel">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Bushes All">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Candy Canes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Cherry">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Helo Canes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Holly">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC North Pole Sign">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Packages">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Rope Lights">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Santa">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Snow Flakes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Tree">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Wraps">
+      <EffectLayer>
+        <Effect ref="13" name="On" startTime="5500" endTime="8950" palette="0"/>
+        <Effect ref="14" name="On" id="1" startTime="22700" endTime="25000" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Door Entry">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Great Room 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Great Room 02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Office Outside">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="South West 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="South West 02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Master 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="RBL">
+      <EffectLayer>
+        <Effect ref="15" name="Marquee" startTime="2400" endTime="6000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Roof">
+      <EffectLayer>
+        <Effect ref="14" name="On" startTime="22700" endTime="25000" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Stake 01_01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 01_02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 01_03">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 01_04">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 01_05">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 01_06">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 01_07">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 01_08">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 01_09">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 01_10">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 02_01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 02_02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 02_03">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 02_04">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 02_05">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 02_06">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 02_07">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 02_08">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 02_09">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 02_10">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 03_01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 03_02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 03_03">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 03_04">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 03_05">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 03_06">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 03_07">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 03_08">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 03_09">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 03_10">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 04_01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 04_02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 04_03">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 04_04">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 04_05">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 04_06">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 04_07">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 04_08">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 04_09">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 04_10">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 05_01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 05_02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 05_03">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 05_04">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 05_05">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 05_06">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 05_07">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 05_08">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 05_09">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 05_10">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 06_01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 06_02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 06_03">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 06_04">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 06_05">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 06_06">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 06_07">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 06_08">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 06_09">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 06_10">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 07_01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 07_02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 07_03">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 07_04">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 07_05">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 07_06">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 07_07">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 07_08">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 07_09">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 07_10">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 08_01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 08_02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 08_03">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 08_04">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 08_05">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 08_06">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 08_07">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 08_08">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 08_09">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 08_10">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 09_01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 09_02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 09_03">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 09_04">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 09_05">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 09_06">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 09_07">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 09_08">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 09_09">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 09_10">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 10_01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 10_02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 10_03">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 10_04">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 10_05">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 10_06">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 10_07">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 10_08">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 10_09">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stake 10_10">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes Groups">
+      <EffectLayer>
+        <Effect ref="16" name="Wave" selected="1" startTime="25000" endTime="34750" palette="10"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Stakes OddEven">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes (1) Bottom">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes (2)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes (3)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes (4)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes (5) Top">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes - Even">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Stakes - Odd">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>19</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
