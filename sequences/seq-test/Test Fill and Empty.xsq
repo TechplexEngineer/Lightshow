@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2024.17.1</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile/>
+    <sequenceDuration>20</sequenceDuration>
+    <imageDir/>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette8=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHECKBOX_Curtain_Repeat=0,E_CHOICE_Curtain_Edge=top,E_CHOICE_Curtain_Effect=close then open,E_SLIDER_Curtain_Swag=0,E_TEXTCTRL_Curtain_Speed=1.3</Effect>
+    <Effect>E_CHECKBOX_Curtain_Repeat=0,E_CHOICE_Curtain_Edge=right,E_CHOICE_Curtain_Effect=close then open,E_SLIDER_Curtain_Swag=0,E_TEXTCTRL_Curtain_Speed=1.3</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="16" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,Miser Bros,All AC In Order,XATW,Main,2020 Intro Talking,Tune To,XATW 2022,Candy Cane Lane,Spooky Scary Skeletons,Ghost Busters,12 Pains,Into the Unknown XATW,Toy Story Intro,Wizards In Winter - Trans-Siberian Orchestra,You Make It Feel Like Christmas - Gwen Stefani,Preshow,Show Intro,XATW 2023 - Kid on Christmas,National Lampoons" active="1"/>
+    <Element collapsed="0" type="model" name="ALL Props" visible="1"/>
+    <Element collapsed="0" type="model" name="All Pixels" visible="1"/>
+    <Element collapsed="0" type="model" name="MegaTree" visible="1"/>
+    <Element collapsed="0" type="model" name="XATW Outlines" visible="1"/>
+    <Element collapsed="0" type="model" name="Windows" visible="1"/>
+    <Element collapsed="0" type="model" name="Arches" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees Small" visible="1"/>
+    <Element collapsed="0" type="model" name="Megatree" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree 01" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Santas Village" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Candy Canes" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Holly" visible="1"/>
+    <Element collapsed="0" type="model" name="Icicles" visible="1"/>
+    <Element collapsed="0" type="model" name="AC Rope Lights" visible="1"/>
+    <Element collapsed="0" type="model" name="Spinner 01" visible="1"/>
+    <Element collapsed="0" type="model" name="Spinner 02" visible="1"/>
+    <Element collapsed="0" type="model" name="Star" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="ALL Props">
+      <EffectLayer>
+        <Effect ref="0" name="Curtain" startTime="0" endTime="10000" palette="0"/>
+        <Effect ref="1" name="Curtain" id="1" startTime="10000" endTime="20000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="All Pixels">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="MegaTree">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="XATW Outlines">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Windows">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Arches">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees Small">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Megatree">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Santas Village">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Candy Canes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Holly">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Icicles">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC Rope Lights">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Spinner 01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Spinner 02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Star">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>4</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
