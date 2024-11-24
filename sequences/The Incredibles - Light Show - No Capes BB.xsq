@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2023.17</version>
+    <version>2024.17.1</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -22,22 +22,24 @@
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
-    <Effect>B_CHOICE_BufferTransform=Rotate CW 90,E_CHECKBOX_Faces_SuppressShimmer=1,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Edna Mode -90,E_CHOICE_Faces_TimingTrack=Edna</Effect>
-    <Effect>E_CHECKBOX_Faces_SuppressShimmer=1,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Bob Blue -90,E_CHOICE_Faces_TimingTrack=Bob</Effect>
+    <Effect>B_CHOICE_BufferTransform=Rotate CW 90,E_CHECKBOX_Faces_SuppressShimmer=1,E_CHOICE_Faces_EyeBlinkFrequency=Normal,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Edna Mode -90,E_CHOICE_Faces_TimingTrack=Edna</Effect>
+    <Effect>B_CHOICE_BufferTransform=Rotate CW 90,E_CHECKBOX_Faces_SuppressShimmer=1,E_CHOICE_Faces_EyeBlinkFrequency=Normal,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Bob -90,E_CHOICE_Faces_TimingTrack=Bob</Effect>
   </EffectDB>
   <DataLayers>
     <DataLayer lor_params="24" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
   </DataLayers>
   <DisplayElements>
     <Element collapsed="0" type="timing" name="Guard" visible="1" views="" active="0"/>
-    <Element collapsed="0" type="timing" name="Edna" visible="1" views="Master View,Miser Bros,All AC In Order,XATW,Main,2020 Intro Talking,Tune To,XATW 2022,Candy Cane Lane" active="0"/>
-    <Element collapsed="0" type="timing" name="Bob" visible="1" views="" active="1"/>
+    <Element collapsed="0" type="timing" name="Edna" visible="1" views="Master View,Miser Bros,All AC In Order,XATW,Main,2020 Intro Talking,Tune To,XATW 2022,Candy Cane Lane" active="1"/>
+    <Element collapsed="0" type="timing" name="Bob" visible="1" views="" active="0"/>
+    <Element collapsed="0" type="timing" name="Break" visible="1" views="" active="0"/>
     <Element collapsed="0" type="model" name="ALL Props" visible="1"/>
     <Element collapsed="0" type="model" name="AC All" visible="1"/>
     <Element collapsed="0" type="model" name="All Pixels" visible="1"/>
     <Element collapsed="0" type="model" name="Character Matrix 1" visible="1"/>
     <Element collapsed="0" type="model" name="Character Matrix 2" visible="1"/>
     <Element collapsed="0" type="model" name="Matrix" visible="1"/>
+    <Element collapsed="0" type="model" name="MegaMatrix1" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="Guard">
@@ -1603,6 +1605,11 @@
         <Effect label="E" startTime="155400" endTime="155650"></Effect>
       </EffectLayer>
     </Element>
+    <Element type="timing" name="Break">
+      <EffectLayer>
+        <Effect label="" startTime="0" endTime="37500"></Effect>
+      </EffectLayer>
+    </Element>
     <Element type="model" name="ALL Props">
       <EffectLayer/>
     </Element>
@@ -1613,17 +1620,22 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Character Matrix 1">
-      <EffectLayer>
-        <Effect ref="0" name="Faces" startTime="0" endTime="157700" palette="0"/>
-      </EffectLayer>
+      <EffectLayer/>
     </Element>
     <Element type="model" name="Character Matrix 2">
-      <EffectLayer>
-        <Effect ref="1" name="Faces" startTime="0" endTime="157700" palette="0"/>
-      </EffectLayer>
+      <EffectLayer/>
     </Element>
     <Element type="model" name="Matrix">
       <EffectLayer/>
+    </Element>
+    <Element type="model" name="MegaMatrix1">
+      <EffectLayer/>
+      <SubModelEffectLayer name="Left Half">
+        <Effect ref="0" name="Faces" startTime="0" endTime="157700" palette="0"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Right Half">
+        <Effect ref="1" name="Faces" startTime="0" endTime="157700" palette="0"/>
+      </SubModelEffectLayer>
     </Element>
   </ElementEffects>
   <lastView>0</lastView>
